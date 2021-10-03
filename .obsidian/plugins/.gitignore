@@ -1,0 +1,5 @@
+# First everything from subdirectories
+/*/*
+
+# Then unignore data.json files
+!/*/data.json
