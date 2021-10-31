@@ -2,8 +2,10 @@
   "file-explorer",
   "global-search",
   "switcher",
-  "page-preview",
+  "daily-notes",
   "command-palette",
+  "slash-command",
   "open-with-default-app",
+  "workspaces",
   "file-recovery"
 ]
