@@ -1,5 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "readableLineLength": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Assets/Images"
 }
