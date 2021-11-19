@@ -94,5 +94,13 @@
       ],
       "key": "S"
     }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
   ]
 }
