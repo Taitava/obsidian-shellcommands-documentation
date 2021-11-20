@@ -9,9 +9,10 @@ This plugin is aimed for people who **want to**:
 - Create commands for automatic creation, modification and/or deletion of files and folders in the vault.
 - Use certain content related information as part of their commands, e.g. the *name*, *title* or *tags* of the currently open file, or currently selected text, or text present in the clipboard. (These are called [[Variables - general principles|{{variables}}]]).
 
-... and people who **know how**:
-- To use some basic shell commands in a terminal.
-- To identify commands that are safe to execute. Or rather: do not use a command whose meaning is not completely recognized.
+... and people who **know**:
+- How to use some basic shell commands in a terminal.
+- How to identify commands that are safe to execute. Or rather: do not use a command whose meaning is not completely recognized.
+- Approximately that there are different *shells* (e.g. Bash, Dash, Zsh, CMD, PowerShell 5 and PowerShell Core). You don't need to know all of them, but at least get to know [[How to know which shell is used|what is your own shell]].
 
 ## Basic usage
 
