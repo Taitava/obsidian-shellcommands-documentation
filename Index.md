@@ -37,6 +37,9 @@ You will probably not need to look at these features in the beginning. These mig
 ## Installation
 See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
 
+## Improving the documentation
+If you have suggestions on how to improve this documentation, or if you have spotted clear errors in it, you can [create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas). All feedback and ideas are greatly appreciated! 🙂
+
 ## Screenshots in the documentation
 The documentation is partly illustrated with screenshots. The screenshots may look different than how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, and a different operating system.
 
