@@ -1,3 +1,6 @@
+---
+aliases: [variable]
+---
 # Variables - general principles
 In each shell command, you can use `{{variables}}` to submit data to your commands. You can for example pass the currently open file's path to a command that echoes the current date to the end of that file: `echo {{date:YYYY-MM-DD}} >> {{file_path:absolute}}`.
 
@@ -12,7 +15,7 @@ When a variable returns a value, all *special characters* in the value are escap
 
 Due to escaping, it's recommended that you do not surround `{{variables}}` in double/single quotes (`"`/`'`). Escaped variable values do not need quotes around them. Having quotes around them can make `\` escaping characters accidentally visible in your command's output, if your shell is Bash or similar.
 
-If your shell is CMD (the Windows legacy shell), **unfortunately no escaping is done**. This is because I do not know if there is a way to escape special characters in CMD. Please contact me in GitHub if you know how to do it.
+If your shell is CMD (the Windows legacy shell), **unfortunately no escaping is done**. This is because I do not know if there is a way to escape special characters in CMD. [Please contact me in GitHub if you know how to do it](https://github.com/Taitava/obsidian-shellcommands/discussions/106).
 
 For information about what *special characters* are in this context, and what *escaping character* is used to make them safe, please read more about [[Escaping special characters in variable values]]. That same page also tells you how you can prevent the escaping completely in some rare situations, but first you need to read and understand why it's **not** a good idea to prevent escaping. The `!` character is explained there.
 
