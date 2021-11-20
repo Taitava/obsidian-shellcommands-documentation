@@ -4,6 +4,9 @@
 
 _(The above description can also be seen in the plugin's settings.)_
 
+## No hash `#` prefix
+Note that the returned tags are **not** prefixed with a hash `#`. If you want to have them prefixed with a hash `#`, use `#` as the *separator* and also include it before the variable, like this: `#{{tags:, #}}`. If you have tags `#tag1`, `#tag2` and `#tag3`, this would give you: `#tag1, #tag2, #tag3`.
+
 ## Special characters in *separator* are escaped
 Starting from SC `0.7.x`, special characters in variable values are escaped (= prefixed with either `\` or `` ` ``). Escaping concerns everything a variable outputs, even the *separator*. So, if you want to use a separator that can e.g. split your tags to be separate parameters to a command, using e.g. a space as a separator will end up the space being escaped.
 
