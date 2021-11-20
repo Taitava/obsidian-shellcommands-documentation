@@ -3,7 +3,7 @@
 ## Windows, Linux & Macintosh
 Insert a link with file title and workspace name to clipboard. You can have workspaces named by e.g. book names that you read.
 1. Shell command: `echo \[\[{{title}}\|{{title}}" -> "{{workspace}}\]\]`
-2. [[Output channels|Set *Output channel* to *Clipboard*]].
+2. [[Output channels#How to select output channels for a shell command|Set *Output channel* to *Clipboard*]].
 
 This example works on all operating systems.
 
