@@ -36,3 +36,16 @@ You will probably not need to look at these features in the beginning. These mig
 
 ## Installation
 See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
+
+## Screenshots in the documentation
+The documentation is partly illustrated with screenshots. The screenshots may look different than how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, and a different operating system.
+
+The screenshots are taken in the following environment:
+- Theme: [Red graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
+- Color mode: Light (with dark contrast side panes, provided by *Red graphite*)
+- Operating system: Windows
+
+Also, some screenshots may be from older versions of SC, in case no significant changes have occurred, or if screenshots have been forgotten to update. You can see from which version of SC a particular screenshot has been taken from, by looking at which folder it resides in (e.g. `Assets/Images/0.7.0`).
+
+![[Settings-main-shell-commands-tab.png]]
+(An example screenshot from the main settings view of SC version `0.7.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and Macintosh. Also the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on Macintosh, which would have `Cmd` instead of `Ctrl`.)
