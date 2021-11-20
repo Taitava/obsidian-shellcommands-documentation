@@ -1,0 +1,7 @@
+/*
+Fixes "dangling links" panel's text color on dark background when using "Red Graphite" theme. Should not cause any troubles if using other themes.
+*/
+div#dangling-links
+{
+	color: var(--text-nav);
+}
