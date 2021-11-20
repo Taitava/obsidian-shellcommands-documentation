@@ -17,12 +17,14 @@ If your shell is CMD (the Windows legacy shell), **unfortunately no escaping is 
 For information about what *special characters* are in this context, and what *escaping character* is used to make them safe, please read more about [[Escaping special characters in variable values]]. That same page also tells you how you can prevent the escaping completely in some rare situations, but first you need to read and understand why it's **not** a good idea to prevent escaping. The `!` character is explained there.
 
 ## Arguments for variables
-Some variables accept arguments that are used to control how the variable works. Arguments are separated from the variable name by a colon `:`, e.g. [[date]] variable `{{date:YYYY}}` gives the current year. Read more about [arguments for variables].
+Some variables accept arguments that are used to control how the variable works. Arguments are separated from the variable name by a colon `:`, e.g. [[date]] variable `{{date:YYYY}}` gives the current year. ^arguments1
+
+Read more about [[arguments for variables]].
 
 ## Using a variable's value as a command
 In theory, a variable value can also be used as a command name, too. E.g. `{{clipboard}} "Hi!"` would execute whatever command happens to be in the clipboard, and pass the text *Hi!* to it as an argument. But that's quite rare and can be unsafe, because there's no way to restrict what the command can be.
 
-The point f this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
+The point of this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
 
 # All variables
 - [[clipboard]]
