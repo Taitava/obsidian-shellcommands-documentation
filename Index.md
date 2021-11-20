@@ -7,7 +7,7 @@ The plugin's development can be followed in [Taitava/obsidian-shellcommands GitH
 This plugin is aimed for people who **want to**:
 - Launch external applications - with a possibility to make them use Obsidian vault's files and folders.
 - Create commands for automatic creation, modification and/or deletion of files and folders in the vault.
-- Use certain content related information as part of their commands, e.g. the *name*, *title* or *tags* of the currently open file, or currently selected text, or text present in the clipboard. (These are called [[Variables|{{variables}}]]).
+- Use certain content related information as part of their commands, e.g. the *name*, *title* or *tags* of the currently open file, or currently selected text, or text present in the clipboard. (These are called [[Variables - general principles|{{variables}}]]).
 
 ... and people who **know how**:
 - To use some basic shell commands in a terminal.
