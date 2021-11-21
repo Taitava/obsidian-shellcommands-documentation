@@ -6,6 +6,7 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Assets/Images/0.7.0",
   "spellcheckDictionary": [
-    "customisable"
+    "customisable",
+    "programmatically"
   ]
 }
