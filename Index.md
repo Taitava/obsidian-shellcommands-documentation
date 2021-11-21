@@ -31,9 +31,8 @@ You will probably not need to look at these features in the beginning. These mig
 - [[Ignoring errors]]
 
 ### Operating systems and shells
-- [[Choosing a shell to execute commands in]]
-- [[Shells]]
 - [[Operating system specific versions of shell commands]]
+- [[Shells]]
 
 ## Installation
 See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
