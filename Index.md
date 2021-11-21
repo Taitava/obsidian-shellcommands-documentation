@@ -14,6 +14,9 @@ This plugin is aimed for people who **want to**:
 - How to identify commands that are safe to execute. Or rather: do not use a command whose meaning is not completely recognized.
 - Approximately that there are different *shells* (e.g. Bash, Dash, Zsh, CMD, PowerShell 5 and PowerShell Core). You don't need to know all of them, but at least get to know [[Shells|what is your own shell]].
 
+## Installation
+See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
+
 ## Basic usage
 
 ### First things first
@@ -33,9 +36,6 @@ You will probably not need to look at these features in the beginning. These mig
 ### Operating systems and shells
 - [[Operating system specific versions of shell commands]]
 - [[Shells]]
-
-## Installation
-See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
 
 ## Improving the documentation
 If you have suggestions on how to improve this documentation, or if you have spotted clear errors in it, you can [create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas). All feedback and ideas are greatly appreciated! 🙂
