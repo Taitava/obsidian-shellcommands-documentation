@@ -3,3 +3,6 @@
 
 # Then unignore data.json files
 !/*/data.json
+
+# But ignore 'Dangling links' settings file, because it changes very often and is not actually important.
+obsidian-dangling-links/data.json
