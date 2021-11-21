@@ -28,7 +28,7 @@ All of these *special characters* - when occurring in an output of a [[Variables
 - `\\` or ``` `` ```: will become a literal `\` or `` ` `` that will not escape the next character.
 
 ## Escaping depends on the shell
-The escape character that SC will use - `\` or `` ` `` - is dependent on the current shell that is used. [[How to know which shell is used]]?
+The escape character that SC will use - `\` or `` ` `` - is dependent on the current shell that is used. [[Shells#How to know which shell is used|How to know which shell is used]]?
 
 - For [[Bash]], [[Dash]] and [[Zsh]], the escape character is `\`. If you are on Mac/Linux, you are probably using one of these shells.
 - For [[PowerShell 5]] and [[PowerShell Core]], the escape character is `` ` ``. If you are on Windows, it's recommended that you [[Choosing a shell to execute commands in|set SC to use PowerShell 5 or Core to be your default shell]] in order to enable special character escaping and make variables more safer to use.

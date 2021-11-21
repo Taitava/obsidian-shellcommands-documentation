@@ -11,7 +11,7 @@ In each shell command, you can use `{{variables}}` to submit data to your comman
 
 ## Escaping special characters in variable values
 
-When a variable returns a value, all *special characters* in the value are escaped by prefixing them with an *escaping character*, e.g. `>` becomes either `\>` or `` `> ``, depending on [[How to know which shell is used|your shell]]. This is done to prevent the special characters from doing unexpected things. I'm not an expert in shells or command safety, and this feature may have leaks and bugs. I cannot guarantee the escaping to be 100% secure.
+When a variable returns a value, all *special characters* in the value are escaped by prefixing them with an *escaping character*, e.g. `>` becomes either `\>` or `` `> ``, depending on [[Shells#How to know which shell is used|your shell]]. This is done to prevent the special characters from doing unexpected things. I'm not an expert in shells or command safety, and this feature may have leaks and bugs. I cannot guarantee the escaping to be 100% secure.
 
 Due to escaping, it's recommended that you do not surround `{{variables}}` in double/single quotes (`"`/`'`). Escaped variable values do not need quotes around them. Having quotes around them can make `\` escaping characters accidentally visible in your command's output, if your shell is Bash or similar.
 

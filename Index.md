@@ -12,7 +12,7 @@ This plugin is aimed for people who **want to**:
 ... and people who **know**:
 - How to use some basic shell commands in a terminal.
 - How to identify commands that are safe to execute. Or rather: do not use a command whose meaning is not completely recognized.
-- Approximately that there are different *shells* (e.g. Bash, Dash, Zsh, CMD, PowerShell 5 and PowerShell Core). You don't need to know all of them, but at least get to know [[How to know which shell is used|what is your own shell]].
+- Approximately that there are different *shells* (e.g. Bash, Dash, Zsh, CMD, PowerShell 5 and PowerShell Core). You don't need to know all of them, but at least get to know [[Shells|what is your own shell]].
 
 ## Basic usage
 
@@ -32,7 +32,7 @@ You will probably not need to look at these features in the beginning. These mig
 
 ### Operating systems and shells
 - [[Choosing a shell to execute commands in]]
-- [[How to know which shell is used]]
+- [[Shells]]
 - [[Operating system specific versions of shell commands]]
 
 ## Installation

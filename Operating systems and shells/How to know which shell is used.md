@@ -1,1 +1,0 @@
-#TODO: Write instructions with screenshots that show in the settings how to access the default shells settings. There *Use system default ()* option shows the current system's default shell.
