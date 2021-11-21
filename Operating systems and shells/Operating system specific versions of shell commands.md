@@ -1,5 +1,3 @@
-#TODO write about how to use the feature.
-
 # Operating system specific versions of shell commands
 Probably most users use their Obsidian vaults on a single operating system, be it Windows, Linux or Macintosh. For those, the feature of _operating system specific versions of shell commands_ is not needed.
 
