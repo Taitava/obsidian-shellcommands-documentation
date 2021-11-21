@@ -1,5 +1,6 @@
 [
   "table-editor-obsidian",
   "obsidian-shellcommands",
-  "obsidian-dangling-links"
+  "obsidian-dangling-links",
+  "obsidian-reveal-active-file"
 ]
