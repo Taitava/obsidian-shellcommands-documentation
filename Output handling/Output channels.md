@@ -39,7 +39,7 @@ Simply hides the output, doing nothing with it. This is the default for all comm
  ![[Settings-main-output-tab.png]]
  
   ### Status bar
- Outputs text to the bottom of the Obsidian window. The last line of the output is visible permanently. If the output contains multiple lines, you can hover the status bar with mouse to see all of the outputted lines.
+ Outputs text to the bottom of the Obsidian window. The last line of the output is visible permanently. If the output contains multiple lines, you can hover the status bar with mouse to see all the outputted lines.
  
  **Good for:** Output that is wanted to be easily visible for a longer time, and that usually needs just one line.
  

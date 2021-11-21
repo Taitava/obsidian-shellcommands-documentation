@@ -31,7 +31,7 @@ All of these *special characters* - when occurring in an output of a [[Variables
 The escape character that SC will use - `\` or `` ` `` - is dependent on the current shell that is used. [[Shells#How to know which shell is used|How to know which shell is used]]?
 
 - For [[Bash]], [[Dash]] and [[Zsh]], the escape character is `\`. If you are on Mac/Linux, you are probably using one of these shells.
-- For [[PowerShell 5]] and [[PowerShell Core]], the escape character is `` ` ``. If you are on Windows, it's recommended that you [[Shells#How to know which shell is used|set SC to use PowerShell 5 or Core to be your default shell]] in order to enable special character escaping and make variables more safer to use.
+- For [[PowerShell 5]] and [[PowerShell Core]], the escape character is `` ` ``. If you are on Windows, it's recommended that you [[Shells#How to know which shell is used|set SC to use PowerShell 5 or Core to be your default shell]] in order to enable special character escaping and make variables safer to use.
 - **For Windows' [[CMD]], there is no escaping done**, because I don't know if there is a way to escape characters in CMD. [This might be improved later](https://github.com/Taitava/obsidian-shellcommands/discussions/106).
 
 Most of the time, the escape characters works quite similarly. However, on [[Bash]] and the like, you should not have escaped characters wrapped in double quotes `"`  or single quotes `'`, because that will leave the escaping character `\` visible in the final result. On [[PowerShell]], however, this does not seem to happen.

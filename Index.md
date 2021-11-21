@@ -1,5 +1,5 @@
 # Shell commands - Documentation
-*Shell commands* is a community plugin for [Obsidian.md Markdown editor](https://obsidian.md). It's purpose is to make it possible to execute system commands from within Obsidian (the same commands that you can execute in a [terminal](https://en.wikipedia.org/wiki/Terminal_emulator)).
+*Shell commands* is a community plugin for [Obsidian.md Markdown editor](https://obsidian.md). Its purpose is to make it possible to execute system commands from within Obsidian (the same commands that you can execute in a [terminal](https://en.wikipedia.org/wiki/Terminal_emulator)).
 
 The plugin's development can be followed in [Taitava/obsidian-shellcommands GitHub repository](https://en.wikipedia.org/wiki/Terminal_emulator).
 
@@ -41,7 +41,7 @@ See [installation instructions in the plugin's GitHub repository](https://github
 If you have suggestions on how to improve this documentation, or if you have spotted clear errors in it, you can [create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas). All feedback and ideas are greatly appreciated! 🙂
 
 ## Screenshots in the documentation
-The documentation is partly illustrated with screenshots. The screenshots may look different than how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, and a different operating system.
+The documentation is partly illustrated with screenshots. The screenshots may look different from how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, and a different operating system.
 
 The screenshots are taken in the following environment:
 - Theme: [Red graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
@@ -51,4 +51,4 @@ The screenshots are taken in the following environment:
 Also, some screenshots may be from older versions of SC, in case no significant changes have occurred, or if screenshots have been forgotten to update. You can see from which version of SC a particular screenshot has been taken from, by looking at which folder it resides in (e.g. `Assets/Images/0.7.0`).
 
 ![[Settings-main-shell-commands-tab.png]]
-(An example screenshot from the main settings view of SC version `0.7.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and Macintosh. Also the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on Macintosh, which would have `Cmd` instead of `Ctrl`.)
+(An example screenshot from the main settings view of SC version `0.7.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and Macintosh. Also, the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on Macintosh, which would have `Cmd` instead of `Ctrl`.)

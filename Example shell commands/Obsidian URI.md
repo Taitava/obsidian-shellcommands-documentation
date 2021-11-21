@@ -11,4 +11,4 @@
 #TODO
 
 # Author
-*) Thank you [FelipeRearden](https://github.com/FelipeRearden) for these ideas! 🙂
+\*) Thank you [FelipeRearden](https://github.com/FelipeRearden) for these ideas! 🙂
