@@ -19,7 +19,8 @@ See [installation instructions in the plugin's GitHub repository](https://github
 
 ## Basic usage
 
-### First things first
+### Defining your shell commands
+- #TODO: Add instructions about basic command set up.
 - [[Example shell commands]]: Sources of ideas for what you can achieve with this plugin. Modify and make them fit your particular needs.
 - [[Output channels]]: Where to put possible text outputted by your commands: in a notification balloon, status bar, in the currently open file, in the clipboard, or just ignore.
 
