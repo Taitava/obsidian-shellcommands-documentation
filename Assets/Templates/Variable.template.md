@@ -1,4 +1,4 @@
-# Variable: `{{{{title}}}}`
+# Variable: `{{title}}`
 
 > Description
 

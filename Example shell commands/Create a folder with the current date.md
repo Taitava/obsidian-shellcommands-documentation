@@ -4,6 +4,6 @@
  - Make a monthly folder: `mkdir {{date:YYYY-MM}}`.
  - Make a daily folder: `mkdir {{date:YYYY-MM-DD}}`.
 
-For information about what kind of date options are available, see [[date|{{date}}]].
+For information about what kind of date options are available, see [[{{date}}]].
 
 These examples work on all operating systems.
