@@ -4,7 +4,6 @@
 # Upgrading
 Upgrades can be installed easily from within Obsidian - [[#How to upgrade|see instructions]].
 
-
 ## Easy to predict change types from version numbers
 The *Shell commands* plugin uses [Semantic Versioning](https://semver.org) when developing new releases. Shortly, it means that given a version number *major.minor.patch*:
 - The *major* version number is increased when backwards incompatible changes are made\**, that will probably require a user to modify their shell commands or other settings to make them work like they did before.
@@ -20,6 +19,6 @@ The *Shell commands* plugin uses [Semantic Versioning](https://semver.org) when 
 3. If an upgrade is available, you should see an *Update* button next to *Shell commands*:
   ![[Settings-community-plugins-update-shell-commands.png]]
 4. Click the button and Obsidian will do the rest.
- 
- ### Automatic backups of settings after an upgrade
- The *Shell commands* plugin creates a backup file of its setting after each upgrade from version `0.7.0` onward. To learn more, see [[Settings backups#Automatic backups after SC version upgrades]].
+
+### Automatic backups of settings after an upgrade
+The *Shell commands* plugin creates a backup file of its setting after each upgrade from version `0.7.0` onward. To learn more, see [[Settings backups#Automatic backups after SC version upgrades]].
