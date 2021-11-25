@@ -12,5 +12,6 @@
   "slash-command",
   "open-with-default-app",
   "workspaces",
-  "file-recovery"
+  "file-recovery",
+  "publish"
 ]
