@@ -1,5 +1,4 @@
 #TODO:
-- data.json backups - the automatic backup + mention that a user should take their own backups.
 - How to downgrade if problems occur.
 
 # Upgrading
@@ -22,3 +21,5 @@ The *Shell commands* plugin uses [Semantic Versioning](https://semver.org) when 
   ![[Settings-community-plugins-update-shell-commands.png]]
 4. Click the button and Obsidian will do the rest.
  
+ ### Automatic backups of settings after an upgrade
+ The *Shell commands* plugin creates a backup file of its setting after each upgrade from version `0.7.0` onward. To learn more, see [[Settings backups#Automatic backups after SC version upgrades]].
