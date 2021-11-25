@@ -1,9 +1,8 @@
 {
-  "working_directory": "",
-  "preview_variables_in_command_palette": true,
+  "settings_version": "0.7.0",
+  "debug": false,
   "shell_commands": {
     "0": {
-      "shell_command": "git-gui",
       "alias": "Git GUI (No need to test)",
       "confirm_execution": false,
       "ignore_error_codes": [
@@ -13,10 +12,13 @@
         "stdout": "ignore",
         "stderr": "notification"
       },
-      "output_channel_order": "stdout-first"
+      "output_channel_order": "stdout-first",
+      "platform_specific_commands": {
+        "default": "git-gui"
+      },
+      "shells": {}
     },
     "1": {
-      "shell_command": "start \"\" \"%PROGRAMFILES%\\Git\\bin\\sh.exe\" --login",
       "alias": "Git Bash (No need to test)",
       "ignore_error_codes": [],
       "confirm_execution": false,
@@ -24,10 +26,13 @@
         "stdout": "ignore",
         "stderr": "notification"
       },
-      "output_channel_order": "stdout-first"
+      "output_channel_order": "stdout-first",
+      "platform_specific_commands": {
+        "default": "start \"\" \"%PROGRAMFILES%\\Git\\bin\\sh.exe\" --login"
+      },
+      "shells": {}
     },
     "21": {
-      "shell_command": "cd \"{{vault_path}}\" && xfce4-terminal",
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -35,10 +40,13 @@
         "stdout": "ignore",
         "stderr": "notification"
       },
-      "output_channel_order": "stdout-first"
+      "output_channel_order": "stdout-first",
+      "platform_specific_commands": {
+        "default": "cd \"{{vault_path}}\" && xfce4-terminal"
+      },
+      "shells": {}
     },
     "22": {
-      "shell_command": "git pull",
       "alias": "Git pull (No need to test)",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -46,10 +54,13 @@
         "stdout": "notification",
         "stderr": "notification"
       },
-      "output_channel_order": "stdout-first"
+      "output_channel_order": "stdout-first",
+      "platform_specific_commands": {
+        "default": "git pull"
+      },
+      "shells": {}
     },
     "27": {
-      "shell_command": "cd \"{{vault_path}}/.obsidian/plugins/obsidian-shellcommands\" && xfce4-terminal",
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -57,10 +68,17 @@
         "stdout": "ignore",
         "stderr": "notification"
       },
-      "output_channel_order": "stdout-first"
+      "output_channel_order": "stdout-first",
+      "platform_specific_commands": {
+        "default": "cd \"{{vault_path}}/.obsidian/plugins/obsidian-shellcommands\" && xfce4-terminal"
+      },
+      "shells": {}
     }
   },
+  "preview_variables_in_command_palette": true,
+  "working_directory": "",
+  "default_shells": {},
   "error_message_duration": 20,
   "notification_message_duration": 10,
-  "commands": []
+  "output_channel_clipboard_also_outputs_to_notification": true
 }
