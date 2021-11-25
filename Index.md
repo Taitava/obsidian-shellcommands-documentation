@@ -22,9 +22,10 @@ See [installation instructions in the plugin's GitHub repository](https://github
 ## Basic usage
 
 ### Defining your shell commands
-- #TODO: Add instructions about basic command set up.
+- [[How to define shell commands]]: Start from this.
 - [[Example shell commands]]: Sources of ideas for what you can achieve with this plugin. Modify and make them fit your particular needs.
 - [[Output channels]]: Where to put possible text outputted by your commands: in a notification balloon, status bar, in the currently open file, in the clipboard, or just ignore.
+- [[Working directory]]: Defining in which folder your shell commands will operate.
 
 ### Variables
 - [[Variables - general principles]]: How to pass vault related information to your commands.
