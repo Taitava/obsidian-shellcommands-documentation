@@ -23,39 +23,8 @@ All output channels are available to both `stdout` and `stderr`.
   ![[Settings-modal-output.png]]
 
 ## All output channels
-### Ignore
-Simply hides the output, doing nothing with it. This is the default for all commands' `stdout` output, because for many commands, the normal output is not so important. E.g. when creating a folder, launching an application or modifying a file - in these cases, the lack of error messages is usually enough to tell that the command executed successfully.
- 
- ### Notification/Error balloon
- 
- A temporary message balloon that pops up in the top right corner of the Obsidian window. This is the default for all commands' `stderr` output.
- 
- ![[Output-notification-and-error-balloons.png]]
- You can identify an *error balloon* by the brackets `[` `]` preceding the output message. The brackets indicate the exit code (aka error number) that the shell command returned at the end, e.g. *0* in the image above. A *notification balloon* does not have the brackets nor an exit code.
- 
- **Good for**: Short output that can be discarded after a short period of time. Suits for  a small amount of multi line output, too.
- 
- You can customize for how long *notification balloons* and *error balloons* are visible in the plugin's settings panel (in *Output* tab):
- ![[Settings-main-output-tab.png]]
- 
-  ### Status bar
- Outputs text to the bottom of the Obsidian window. The last line of the output is visible permanently. If the output contains multiple lines, you can hover the status bar with mouse to see all the outputted lines.
- 
- **Good for:** Output that is wanted to be easily visible for a longer time, and that usually needs just one line.
- 
- The text is visible until another shell command execution outputs text to the status bar, replacing the old text. **Note that if the new execution produces empty text output, the old text will not be removed**, because empty text is considered to be "no output at all", so it's not processed. This might change in the future.
- 
- ![[Output-status-bar.png]]
- 
- The position and available space of the status bar output element depends on how many other things have inserted content in the status bar (e.g. other plugins). The *Shell commands* plugin will never replace or remove other content in the status bar.
- 
- ### Current file: top/bottom/caret position
- Output will be inserted to the file that is currently open and active in Obsidian. If no file is active (e.g. you have Graph view active instead of a file), the output will be shown in a message balloon.
- 
- If *caret position* is used, then the output can replace text if you have something selected. 
- 
- ### Clipboard
-Output will be copied to the clipboard as text.
-
-In addition, the output will be shown in a notification balloon, so that you can see what was copied to the clipboard. This can be disabled in the plugin's settings panel (in *Output* tab):
-![[Settings-main-output-tab.png]]
+- [[Output channel - Ignore|Ignore]]
+- [[Output channel - Status bar]]
+- [[Output channel - Notification balloon|Notification/Error balloon]]
+- [[Output channel - Current file]]
+- [[Output channel - Clipboard]]

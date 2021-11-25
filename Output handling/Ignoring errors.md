@@ -3,7 +3,7 @@ By default, the *Shell commands* plugin displays all error messages produced by 
 
 ## Ignore all error messages produced by a shell command
 1. Read a guide about [[Output channels#How to select output channels for a shell command|how to select output channels for a shell command]].
-2. Set the output channel of `stderr` to [[Output channels#Ignore|Ignore]].
+2. Set the output channel of `stderr` to [[Output channel - Ignore|Ignore]].
 
 **Note** that while this method is easy and simple to use, it might not be the best solution. If you encounter a regular error message that you want to suppress, this will do it, but it will also hide more infrequent error messages, that would be important to be seen. Consider using the below method instead, if possible.
 
