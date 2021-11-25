@@ -15,3 +15,7 @@ aliases:
  
  You can customize for how long *notification balloons* and *error balloons* are visible in the plugin's settings panel (in *Output* tab):
  ![[Settings-main-output-tab.png]]
+
+## History
+- [0.5.1 - 2021-10-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#051---2021-10-09): Error balloon: Fixed exit code being sometimes null. ([#67](https://github.com/Taitava/obsidian-shellcommands/issues/67)).
+- [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The output channel was created. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).

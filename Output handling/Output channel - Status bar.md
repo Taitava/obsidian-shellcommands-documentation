@@ -12,3 +12,6 @@ The text is visible until another shell command execution outputs text to the st
 ![[Output-status-bar.png]]
  
 The position and available space of the status bar output element depends on how many other things have inserted content in the status bar (e.g. other plugins). The *Shell commands* plugin will never replace or remove other content in the status bar.
+
+## History
+- [0.6.0 - 2021-10-12](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#060---2021-10-12): The output channel was created. ([#68](https://github.com/Taitava/obsidian-shellcommands/issues/68)).
