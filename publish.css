@@ -1,0 +1,4 @@
+/* Do not show the file name at the top of the page. */
+div.page-header {
+	display: none;
+}
