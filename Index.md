@@ -17,7 +17,7 @@ This plugin is aimed for people who **want to**:
 ## Installation
 See [installation instructions in the plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands#installation--usage).
 
-[[Upgrading|Upgrading instructions]]
+[[Upgrading (and downgrading)|Upgrading instructions - and dowgrading, if necessary]]
 
 ## Basic usage
 

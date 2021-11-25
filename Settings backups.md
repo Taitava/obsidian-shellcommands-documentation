@@ -18,10 +18,10 @@ These backups are meant to help you in case the migrating process has a bug that
 **As these backups happen infrequently, it's recommended that you take regular manual backups, too.**
 
 ### Restoring settings from a backup after a problematic SC upgrade
-If an upgrade caused problems to your SC settings, you should first [[downgrade]] the plugin to a previous version that you knew worked correctly, before trying to restore a backup settings file. Otherwise you'll end up running the problematic upgrade migration again.
+If an upgrade caused problems to your SC settings, you should first [[Upgrading (and downgrading)#Downgrading the plugin|downgrade]] the plugin to a previous version that you knew worked correctly, before trying to restore a backup settings file. Otherwise you'll end up running the problematic upgrade migration again.
 
 To restore a backup settings file, do:
-1. Quit Obsidian and [[downgrade]] the plugin.
+1. Quit Obsidian and [[Upgrading (and downgrading)#Downgrading the plugin|downgrade]] the plugin.
 2. Go to `.obsidian/plugins/obsidian-shellcommands` folder.
 3. Rename `data.json` settings file to something like `problematic-data.json` or something else.
 4. Pick a backup file that's named like `data-backup-version-x.x.x-before-upgrading-to-y.y.y.json`, and rename it to `data.json`.
