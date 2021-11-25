@@ -14,7 +14,7 @@ Sometimes you might need to add  an empty argument `""` to the `start` command t
 `start` may sometimes yell error messages even though the application launches correctly. For example, `start git-gui` gives an error code *259* and an error message *Command failed: git-gui*. If something like this happens to you, you can [[Ignoring errors|ignore specific error codes, or all errors altogether]].
 
 ## Linux
-#TODO
+Open the current file in a text editor: `gedit {{file_path:absolute}}`.
 
 ## Macintosh
-#TODO 
+Open the current file in a text editor: `open -a TextEdit {{file_path:absolute}}`.
