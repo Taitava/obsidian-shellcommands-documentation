@@ -28,4 +28,4 @@ To restore a backup settings file, do:
 6. Launch Obsidian again and check that everything works.
 
 # History
-[0.7.0 #TODO add date and fix link](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070): Started making automatic backup of the settings file after upgrades. ([#83](https://github.com/Taitava/obsidian-shellcommands/issues/83)).
+[0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Started making automatic backup of the settings file after upgrades. ([#83](https://github.com/Taitava/obsidian-shellcommands/issues/83)).
