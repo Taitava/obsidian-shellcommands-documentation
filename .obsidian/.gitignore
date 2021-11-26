@@ -6,6 +6,3 @@
 
 # Let different users select their own appearance settings and css theme.
 /appearance.json
-
-# Exclude Publish settings file - at least until I'll know if it's safe to share it: https://forum.obsidian.md/t/obsidian-publish-can-i-share-obsidian-publish-json/27657
-/publish.json
