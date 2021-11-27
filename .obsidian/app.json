@@ -12,6 +12,8 @@
     "json",
     "autocomplete",
     "kraaden",
-    "autocompletion"
+    "autocompletion",
+    "dropdown",
+    "whitespace"
   ]
 }
