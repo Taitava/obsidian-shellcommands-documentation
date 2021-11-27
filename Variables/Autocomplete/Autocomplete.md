@@ -85,5 +85,10 @@ The *Shell commands* plugin provides a list of variables for autocompletion, but
 7. Save the file and launch Obsidian again.
 8. You should now be able to see your custom suggestions in the autocompletion menu.
 
+## Example lists for autocompletion
+The following pages contain ready made lists of commands for different shells and operating systems. You can include any of them (or many of them) in your `autocomplete.yaml` file. The lists contain (short) instructions for the commands, too, so this is a really good way to learn new shell commands!
+
+- [[Custom - Windows CMD commands|Windows CMD commands]]
+
 # History
 - [0.8.0 - #TODO: Add date](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Autocompletion was added. Uses [kraaden/autocomplete](https://github.com/kraaden/autocomplete) version 6.1.2. ([#33](https://github.com/Taitava/obsidian-shellcommands/issues/33)).
