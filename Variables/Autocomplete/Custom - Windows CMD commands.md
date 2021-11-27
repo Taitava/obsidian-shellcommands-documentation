@@ -102,5 +102,7 @@ You don't need to do this, but in case you want to know, here's how the list was
 1. I ran the following command in a CMD terminal on my Windows 10 machine: `help >> autocomplete.yaml`.
 2. I added `: ` in between commands and help texts.
 3. I indented the file and added `CMD commands:` line at the top.
-4. 
+
 I haven't added, modified, or removed anything from the command names or help texts.
+
+The list was generated on 2021-11-27. 
