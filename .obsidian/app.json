@@ -15,6 +15,7 @@
     "autocompletion",
     "dropdown",
     "whitespace",
-    "PowerShell"
+    "PowerShell",
+    "ignoration"
   ]
 }
