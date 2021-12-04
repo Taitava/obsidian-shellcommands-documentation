@@ -16,6 +16,7 @@
     "dropdown",
     "whitespace",
     "PowerShell",
-    "ignoration"
+    "ignoration",
+    "StackOverflow"
   ]
 }
