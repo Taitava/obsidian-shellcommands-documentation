@@ -42,7 +42,10 @@ You will probably not need to look at these features in the beginning. These mig
 - [[Shells]]
 
 ## Improving the documentation
-If you have suggestions on how to improve this documentation, or if you have spotted clear errors in it, you can [create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas). All feedback and ideas are greatly appreciated! 🙂
+- For ideas on how to improve the documentation: [Create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
+- For clear errors in the documentation (that are simple to fix): Change it yourself and [create a pull request in the documentation's GitHub repository](https://github.com/Taitava/obsidian-shellcommands-documentation/pulls). If you are unsure how to work with Git and how to make PRs, it's also okay to just create a new discussion.
+
+All feedback and ideas are greatly appreciated! 🙂
 
 ## Screenshots in the documentation
 The documentation is partly illustrated with screenshots. The screenshots may look different from how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, a different version of Obsidian, and a different operating system.
