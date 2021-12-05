@@ -4,7 +4,7 @@ aliases:
 ---
 # Autocomplete custom suggestions: Ubuntu Bash commands
 ## How it will look like
-#TODO: Add image
+![[Autocomplete-Custom-Ubuntu-Bash-commands.png]]
 
 ## The list
 Put the following content to your `autocomplete.yaml` file. [[Autocomplete#Create a custom autocompletion file|See instructions]].
