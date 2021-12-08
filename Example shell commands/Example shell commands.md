@@ -5,5 +5,6 @@
 - [[Launch external applications]]
 - [[Obsidian URI]]
 - [[Open a website]]
+- [[Open the current file in vscode and jump to the current position]]
 
 These are just examples, and this plugin **does not** define them for you automatically. They are listed only to give you ideas of what kind of commands you could configure yourself.
