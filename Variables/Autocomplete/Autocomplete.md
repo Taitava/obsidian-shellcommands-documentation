@@ -93,4 +93,4 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
-- [0.8.0 - #TODO: Add date](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Autocompletion was added. Uses [kraaden/autocomplete](https://github.com/kraaden/autocomplete) ([a development version](https://github.com/kraaden/autocomplete/commit/1590fe09d347f7b6cb1466add5d8e5652bf9d1fb) after 6.1.2, adding support for regenerating the list also when a user presses left/right keys). ([#33](https://github.com/Taitava/obsidian-shellcommands/issues/33)).
+- [0.8.0 - 2021-12-10](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#080---2021-12-10): Autocompletion was added. Uses [kraaden/autocomplete](https://github.com/kraaden/autocomplete) ([a development version](https://github.com/kraaden/autocomplete/commit/1590fe09d347f7b6cb1466add5d8e5652bf9d1fb) after 6.1.2, adding support for regenerating the list also when a user presses left/right keys). ([#33](https://github.com/Taitava/obsidian-shellcommands/issues/33)).
