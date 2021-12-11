@@ -43,3 +43,4 @@ The point of this example is more to inform you, that if you don't pay special a
 - [[{{title}}]]
 - [[{{vault_path}}]]
 - [[{{workspace}}]]
+- [[{{yaml_value}}]]
