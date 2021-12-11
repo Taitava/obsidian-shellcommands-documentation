@@ -33,6 +33,7 @@ The point of this example is more to inform you, that if you don't pay special a
 - [[{{caret_position}}]]
 - [[{{clipboard}}]]
 - [[{{date}}]]
+- [[{{file_extension}}]]
 - [[{{file_name}}]]
 - [[{{file_path}}]]
 - [[{{folder_name}}]]
