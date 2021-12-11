@@ -17,6 +17,7 @@
     "whitespace",
     "PowerShell",
     "ignoration",
-    "StackOverflow"
+    "StackOverflow",
+    "linebreak"
   ]
 }
