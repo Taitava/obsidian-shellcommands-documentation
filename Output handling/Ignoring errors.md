@@ -21,6 +21,6 @@ An exit code (aka error code) is used to identify error situations programmatica
 	![[Output-error-balloon.png]]
 	
 ## History
-- [0.8.0 - #TODO: Add date](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md): Changed error code ignoration so that also error code 0 can be ignored. ([#107](https://github.com/Taitava/obsidian-shellcommands/issues/107)).
+- [0.8.0 - 2021-12-10](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#080---2021-12-10): Changed error code ignoration so that also error code 0 can be ignored. ([#107](https://github.com/Taitava/obsidian-shellcommands/issues/107)).
 - [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): Added support for ignoring all error output regardless of error codes. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).
 - [0.4.0 - 2021-09-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#040---2021-09-26): Added support for ignoring error codes that are greater than or equal to 1. ([#36](https://github.com/Taitava/obsidian-shellcommands/issues/36)).
