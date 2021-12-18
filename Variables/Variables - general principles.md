@@ -38,7 +38,6 @@ The point of this example is more to inform you, that if you don't pay special a
 - [[{{file_path}}]]
 - [[{{folder_name}}]]
 - [[{{folder_path}}]]
-- [[{{newline}}]]
 - [[{{selection}}]]
 - [[{{tags}}]]
 - [[{{title}}]]
