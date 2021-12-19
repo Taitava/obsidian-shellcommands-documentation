@@ -7,11 +7,12 @@ Outputs text to the bottom of the Obsidian window. The last line of the output i
  
 **Good for:** Output that is wanted to be easily visible for a longer time, and that usually needs just one line.
  
-The text is visible until another shell command execution outputs text to the status bar, replacing the old text. **Note that if the new execution produces empty text output, the old text will not be removed**, because empty text is considered to be "no output at all", so it's not processed. This might change in the future.
+The text is visible until another shell command execution outputs text to the status bar, replacing the old text. If the new execution produces empty text output, possible old text will be removed, and the status bar may disappear, if no other plugins provide content to it.
  
 ![[Output-status-bar.png]]
  
 The position and available space of the status bar output element depends on how many other things have inserted content in the status bar (e.g. other plugins). The *Shell commands* plugin will never replace or remove other content in the status bar.
 
 ## History
+- #TODO: Add date [0.9.0](): If output is empty, the status bar content is now cleared. In earlier versions, old status bar content was not changed if new output was empty.
 - [0.6.0 - 2021-10-12](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#060---2021-10-12): The output channel was created. ([#68](https://github.com/Taitava/obsidian-shellcommands/issues/68)).

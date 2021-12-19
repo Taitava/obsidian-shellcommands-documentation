@@ -30,8 +30,10 @@ In theory, a variable value can also be used as a command name, too. E.g. `{{cli
 The point of this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
 
 # All variables
+- [[{{caret_position}}]]
 - [[{{clipboard}}]]
 - [[{{date}}]]
+- [[{{file_extension}}]]
 - [[{{file_name}}]]
 - [[{{file_path}}]]
 - [[{{folder_name}}]]
@@ -41,3 +43,4 @@ The point of this example is more to inform you, that if you don't pay special a
 - [[{{title}}]]
 - [[{{vault_path}}]]
 - [[{{workspace}}]]
+- [[{{yaml_value}}]]
