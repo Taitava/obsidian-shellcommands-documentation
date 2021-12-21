@@ -1,6 +1,7 @@
 ## Executed when
 - User switches between panes, including panes that are not files, e.g. Graph view.
 - Another file is opened in the current pane.
+- Go back/go forward functions are used to open previous/next notes in the current pane.
 
 
 ## Based on
