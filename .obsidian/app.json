@@ -19,5 +19,7 @@
     "ignoration",
     "StackOverflow",
     "linebreak"
-  ]
+  ],
+  "legacyEditor": false,
+  "livePreview": true
 }
