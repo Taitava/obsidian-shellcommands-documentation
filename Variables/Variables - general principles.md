@@ -29,7 +29,7 @@ In theory, a variable value can also be used as a command name, too. E.g. `{{cli
 
 The point of this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
 
-# All variables
+# Normal variables
 - [[{{caret_position}}]]
 - [[{{clipboard}}]]
 - [[{{date}}]]
@@ -44,3 +44,16 @@ The point of this example is more to inform you, that if you don't pay special a
 - [[{{vault_path}}]]
 - [[{{workspace}}]]
 - [[{{yaml_value}}]]
+
+# Event variables
+These variables are only available when a shell command is executed by a specific event that supports the variables.
+
+| Variable                     | Available during events        |
+| ---------------------------- | ------------------------------ |
+| [[{{event_file_extension}}]] | [[File menu]]                  |
+| [[{{event_file_name}}]]      | [[File menu]]                  |
+| [[{{event_file_path}}]]      | [[File menu]]                  |
+| [[{{event_folder_name}}]]    | [[File menu]], [[Folder menu]] |
+| [[{{event_folder_path}}]]    | [[File menu]], [[Folder menu]] |
+| [[{{event_title}}]]          | [[File menu]]                  |
+| [[{{event_tags}}]]           | [[File menu]]                  |
