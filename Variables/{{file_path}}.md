@@ -4,6 +4,9 @@
 
 _(The above description can also be seen in the plugin's settings.)_
 
+## Availability
+> <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
+
 ## History
 - [0.4.1 - 2021-09-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#041---2021-09-29):
 	- `{{file_path:absolute}}`: Fixed missing leading `/` or `\` slash.
