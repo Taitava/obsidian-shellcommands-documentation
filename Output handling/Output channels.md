@@ -28,3 +28,4 @@ All output channels are available to both `stdout` and `stderr`.
 - [[Output channel - Notification balloon|Notification/Error balloon]]
 - [[Output channel - Current file]]
 - [[Output channel - Clipboard]]
+- [[Output channel - Modal]]
