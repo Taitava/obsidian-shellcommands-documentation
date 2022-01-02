@@ -7,7 +7,7 @@ When a user opens a file context menu in the side navigation pane, all shell com
 
 A menu item's name is the same as a shell command's [[alias]]. If no alias is set for the shell command, the actual command text will be used in the menu.
 
-Shell command menu items do not currently show any icons, but [an ability to define an icon might be added latter](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
+Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
 ## Variables
 In addition to [[Variables - general principles#^normal-variables|normal variables]], the following variables are available during this event:
