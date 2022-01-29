@@ -7,5 +7,8 @@ _(The above description can also be seen in the plugin's settings.)_
 ## Availability
 > <strong>Only available</strong> when a note pane is open, not in graph view, nor when viewing non-text files.
 
+## See also
+- [[{{selection}}]]
+
 ## History
 - [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/119)).

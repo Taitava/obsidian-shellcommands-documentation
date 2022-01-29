@@ -60,5 +60,8 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 ## Availability
 > <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
 
+## See also
+- [[{{event_yaml_value}}]]
+
 ## History
 - [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/#120)).
