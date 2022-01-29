@@ -2,6 +2,7 @@
 - [[Copy a link to current file to the clipboard]]
 - [[Create a file with content from the clipboard]]
 - [[Create a folder with the current date]]
+- [[Display a clock]]
 - [[Display file size and modification time on status bar]]
 - [[Launch external applications]]
 - [[Obsidian URI]]

@@ -8,6 +8,9 @@
 ## Variables
 This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
 
+## Examples
+- [[Display a clock]]
+
 ## Based on
 This feature utilizes [JavaScript's `window.setInterval()` method](https://developer.mozilla.org/en-US/docs/Web/API/setInterval).
 
