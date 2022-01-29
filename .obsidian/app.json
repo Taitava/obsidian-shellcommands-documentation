@@ -21,5 +21,12 @@
     "linebreak"
   ],
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-GB-oxendict",
+    "en-US"
+  ]
 }
