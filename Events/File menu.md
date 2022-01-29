@@ -26,8 +26,7 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
 - [[{{event_yaml_value}}]]
 
 **Tip:** These are similar variables as the normal variables that do not have the `event_` prefix, but they access a different file/folder:
- - The normal variables access a file that is currently open in editor, while
- - the `event_` prefixed variables refer to a file in a navigation menu.
+ - The normal variables access a file that is currently open in editor, while the `event_` prefixed variables refer to a file in a navigation menu.
  - This allows you to utilize two different files in a single shell command, e.g. merge two files' contents together, or open an external [file comparison application](https://en.wikipedia.org/wiki/File_comparison) to see differences/similarities between two files.
 
 **Note:** Accessing these variables outside of an event that supports them will trigger an error message and prevent executing the shell command.
