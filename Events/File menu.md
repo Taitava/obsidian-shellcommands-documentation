@@ -31,6 +31,9 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
 
 **Note:** Accessing these variables outside of an event that supports them will trigger an error message and prevent executing the shell command.
 
+## Examples
+- [[]] #TODO: Add an example.
+
 ## Based on
 The Obsidian event that powers this feature is [`file-menu` on `workspace` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3595). The same is used in the [[Folder menu]] event, although the menus have different contents.
 

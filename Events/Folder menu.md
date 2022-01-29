@@ -19,6 +19,9 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
  - The normal variables access a folder that is the parent of a file currently open in editor, while the `event_` prefixed variables refer to a folder in a navigation menu.
  - This allows you to utilize two different folders in a single shell command.
 
+## Examples
+- [[]] #TODO: Add an example.
+
 ## Based on
 The Obsidian event that powers this feature is [`file-menu` on `workspace` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3595). The same is used in the [[File menu]] event, although the menus have different contents.
 

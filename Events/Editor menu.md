@@ -12,6 +12,9 @@ Shell command menu items do not currently show any icons, but [an ability to def
 ## Variables
 This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
 
+## Examples
+- [[]] #TODO: Add an example.
+
 ## Based on
 The Obsidian event that powers this feature is [`editor-menu` on `workspace` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3601).
 
