@@ -14,5 +14,5 @@ The text is visible until another shell command execution outputs text to the st
 The position and available space of the status bar output element depends on how many other things have inserted content in the status bar (e.g. other plugins). The *Shell commands* plugin will never replace or remove other content in the status bar.
 
 ## History
-- #TODO: Add date [0.9.0](): If output is empty, the status bar content is now cleared. In earlier versions, old status bar content was not changed if new output was empty.
+- [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): If output is empty, the status bar content is now cleared. In earlier versions, old status bar content was not changed if new output was empty. ([#124](https://github.com/Taitava/obsidian-shellcommands/issues/124))
 - [0.6.0 - 2021-10-12](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#060---2021-10-12): The output channel was created. ([#68](https://github.com/Taitava/obsidian-shellcommands/issues/68)).
