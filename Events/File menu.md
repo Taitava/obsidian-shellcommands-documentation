@@ -1,11 +1,15 @@
 # Event: File menu
 
 ## Executed when
-When a user opens a file context menu in the side navigation pane, all shell commands that have enabled this event, will be shown in the menu. A shell command is executed when a user clicks the shell command in the context menu.
+1. When a user opens a file context menu in the side navigation pane, all shell commands that have enabled this event, will be shown in the menu. A shell command is executed when a user clicks the shell command in the context menu.
 
 ![[Event-file-menu.png]]
 
 A menu item's name is the same as a shell command's [[alias]]. If no alias is set for the shell command, the actual command text will be used in the menu.
+
+2. When a user right clicks a link in the editor, all shell commands that have enabled this event, will be shown in the link's menu. This works exactly the same way as in the file navigation menu:
+
+![[Event-file-menu-on-a-link.png]]
 
 Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
