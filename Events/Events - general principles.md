@@ -25,5 +25,10 @@ You can also access the event documentation pages via question mark icons in the
 - [[File menu]]
 - [[Folder menu]]
 
+## See which events are currently enabled
+If you have forgotten which events you have enabled and for which shell commands, open up the settings modal and click the *Events* tab. You'll see a simple list of events and shell commands that use them:
+
+![[Settings-main-events-tab.png]]
+
 # History
 - #TODO: Add date. [0.10.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): First events became supported. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
