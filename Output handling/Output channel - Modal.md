@@ -3,6 +3,7 @@ aliases:
  - 
 ---
 # Output channel: Modal
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 This channel creates a modal window that displays output from a shell command.
 - Output can be manually redirected (=applied) to [[Output channels|other output channels]], even to multiple channels at once. Output can be discarded just by closing the modal.
 - Output can be manually edited before the redirection, to do cleanup etc. The field is resizable.

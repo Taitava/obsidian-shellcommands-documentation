@@ -1,4 +1,5 @@
 # Variable: `{{event_file_path:relative}}` or `{{event_file_path:absolute}}`
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 > Gives path to the selected file, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
 

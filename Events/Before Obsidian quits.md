@@ -1,4 +1,5 @@
 # Event: Before Obsidian quits
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 ## Executed when
 - User has commanded Obsidian to quit or restart. Execution is not guaranteed, as Obsidian might close even before the shell command execution. Even more likely is that there is no time to do output handling. There's no way for a shell command to make Obsidian wait or cancel from quitting.

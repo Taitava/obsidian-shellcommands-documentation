@@ -1,4 +1,5 @@
 # Events - general principles
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 An obvious feature of the *Shell commands* plugin is the ability to execute shell commands from Obsidian's command palette, and via hotkeys. In addition to this, shell commands can also be executed automatically under certain circumstances - by using events.
 

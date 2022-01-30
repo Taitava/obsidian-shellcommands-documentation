@@ -1,4 +1,5 @@
 # Variable: `{{event_title}}`
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 > Gives the current file name without a file extension. If you need it with the extension, use {{event_file_name}} instead.
 

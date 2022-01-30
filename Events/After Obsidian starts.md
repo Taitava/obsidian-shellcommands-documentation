@@ -1,4 +1,5 @@
 # Event: After Obsidian starts
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 ## Executed when
 - Obsidian has started (or restarted) and loaded a layout, i.e. when everything should be ready.
 - The *Shell commands* plugin is re-enabled.

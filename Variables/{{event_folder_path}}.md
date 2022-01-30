@@ -1,4 +1,5 @@
 # Variable: `{{event_folder_path:relative}}` or `{{event_folder_path:absolute}}`
+==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 > [[File menu]]: Gives path to the selected file's parent folder. [[Folder menu]]: Gives path to the selected folder. The path is either absolute from the root of the file system, or relative from the root of the Obsidian vault.
 
