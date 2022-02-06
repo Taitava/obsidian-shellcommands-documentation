@@ -1,5 +1,4 @@
 # Event: After switching the active pane
-==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 ## Executed when
 - User switches between panes, including panes that are not files, e.g. Graph view.
@@ -18,4 +17,4 @@ The Obsidian event that powers this feature is [`active-leaf-change` on `workspa
 - `active-leaf-change` (at least on Obsidian `0.12.19`) has a tendency to trigger the event also right after Obsidian starts (= that's also counted as a pane becoming active). The *Shell commands* plugin notices this and prevents triggering this *After switching the active pane* event during start-up. If you want to execute your shell command also during start-up, enable the [[After Obsidian starts]] event, too.
 
 ## History
-- #TODO: Add date. [0.10.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The event was created. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
+- [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The event was created. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).

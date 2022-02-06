@@ -1,5 +1,4 @@
 # Example: Display a clock
-==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
 
 This example uses [[Events - general principles|events]] to keep an up-to-date information about the current time on the status bar. The time is updated every second.
 

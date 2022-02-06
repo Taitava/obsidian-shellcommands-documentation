@@ -1,5 +1,5 @@
 # Example: Watch cat videos on YouTube after closing Obsidian
-==This feature is currently only available in [0.10.0 BETA TEST](https://github.com/Taitava/obsidian-shellcommands/discussions/138)! #TODO: Remove this text when the beta is over.==
+
 A long day behind and you need some relaxation after finally being able to stop working? This example will cheer you up by presenting a simple shell command that serves you lovely cat videos every time you close Obsidian. 😸👍
 
 1. [[How to define shell commands|Create a new shell command]]. You will find a shell command you can use on your particular operating system below.
