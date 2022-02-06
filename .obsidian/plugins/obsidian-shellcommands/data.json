@@ -10,7 +10,7 @@
   "output_channel_clipboard_also_outputs_to_notification": true,
   "shell_commands": {
     "0": {
-      "alias": "Git GUI (No need to test)",
+      "alias": "Git GUI",
       "confirm_execution": false,
       "ignore_error_codes": [
         259
@@ -25,10 +25,10 @@
       },
       "shells": {},
       "events": {},
-      "command_palette_availability": "enabled"
+      "command_palette_availability": "unlisted"
     },
     "1": {
-      "alias": "Git Bash (No need to test)",
+      "alias": "Git Bash",
       "ignore_error_codes": [],
       "confirm_execution": false,
       "output_channels": {
@@ -41,7 +41,7 @@
       },
       "shells": {},
       "events": {},
-      "command_palette_availability": "enabled"
+      "command_palette_availability": "unlisted"
     },
     "21": {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -60,7 +60,7 @@
       "command_palette_availability": "enabled"
     },
     "22": {
-      "alias": "Git pull (No need to test)",
+      "alias": "Git pull",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
@@ -73,7 +73,7 @@
       },
       "shells": {},
       "events": {},
-      "command_palette_availability": "enabled"
+      "command_palette_availability": "unlisted"
     },
     "27": {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
