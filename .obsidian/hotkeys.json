@@ -102,5 +102,13 @@
       ],
       "key": "\\"
     }
+  ],
+  "obsidian-shellcommands:shell-command-28": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
   ]
 }

@@ -90,6 +90,22 @@
       "shells": {},
       "events": {},
       "command_palette_availability": "enabled"
+    },
+    "28": {
+      "platform_specific_commands": {
+        "default": "git status --short --branch"
+      },
+      "shells": {},
+      "alias": "Git status",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "modal"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "unlisted"
     }
   }
 }
