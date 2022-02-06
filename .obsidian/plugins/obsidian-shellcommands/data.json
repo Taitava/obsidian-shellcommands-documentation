@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.8.0",
+  "settings_version": "0.10.0",
   "debug": false,
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
@@ -23,7 +23,9 @@
       "platform_specific_commands": {
         "default": "git-gui"
       },
-      "shells": {}
+      "shells": {},
+      "events": {},
+      "command_palette_availability": "enabled"
     },
     "1": {
       "alias": "Git Bash (No need to test)",
@@ -37,7 +39,9 @@
       "platform_specific_commands": {
         "default": "start \"\" \"%PROGRAMFILES%\\Git\\bin\\sh.exe\" --login"
       },
-      "shells": {}
+      "shells": {},
+      "events": {},
+      "command_palette_availability": "enabled"
     },
     "21": {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -51,7 +55,9 @@
       "platform_specific_commands": {
         "default": "cd \"{{vault_path}}\" && xfce4-terminal"
       },
-      "shells": {}
+      "shells": {},
+      "events": {},
+      "command_palette_availability": "enabled"
     },
     "22": {
       "alias": "Git pull (No need to test)",
@@ -65,7 +71,9 @@
       "platform_specific_commands": {
         "default": "git pull"
       },
-      "shells": {}
+      "shells": {},
+      "events": {},
+      "command_palette_availability": "enabled"
     },
     "27": {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -79,7 +87,9 @@
       "platform_specific_commands": {
         "default": "cd \"{{vault_path}}/.obsidian/plugins/obsidian-shellcommands\" && xfce4-terminal"
       },
-      "shells": {}
+      "shells": {},
+      "events": {},
+      "command_palette_availability": "enabled"
     }
   }
 }
