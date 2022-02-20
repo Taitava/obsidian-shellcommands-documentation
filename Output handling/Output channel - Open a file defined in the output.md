@@ -17,7 +17,7 @@ This output channel expects that the output of a shell command is a file name or
 The output can also define where the caret should be positioned in the editor.
 - E.g. `SomeFile.md:5` defines to place the caret on line 5.
 - E.g. `SomeFile.md:5:6` defines to place the caret on line 5 and column 6.
-- Negative indexes are not supported at the moment. Maybe in the future they could be used to refer to placing the caret at or near the end of the file. #TODO: Create an issue in GitHub and add a link.
+- Negative indexes are also supported. E.g. `SomeFile.md:-1:-1` places the caret at the last column on the last line of the file.
 
 ## Open in a new pane
 By default, the file will be opened in the currently active pane as long as it's not *pinned*. If the pane is *pinned* (= "locked"), then Obsidian will decide another pane where the file will be opened, which may be another already existing pane, or a completely new pane.
