@@ -20,6 +20,20 @@ The output can also define where the caret should be positioned in the editor.
 - Negative indexes are also supported. E.g. `SomeFile.md:-1:-1` places the caret at the last column on the last line of the file.
 - Caret positioning is delayed to happen **500 milliseconds after** opening the file. This makes a small, noticeable pause, but it helps to ensure correct editor scrolling in situations where a file might render slowly after opening: e.g. images and embedded blocks of content may change the height of the content just after opening a file. That's why scrolling to the desired place is delayed. The delay cannot be adjusted at the moment, but a setting for this might be added later.
 
+# Select text
+In addition to defining caret position, you can also define ranges of text to be selected.
+- E.g. `SomeFile.md:5:1:10:-1` selects text between the first character of line 5, and last character of line 10.
+- E.g. `SomeFile.md:5:1:10:-1:20:1:25:-1` creates two selections, with the first one being the same as above, and the second selection being from the beginning of line 20 till the end of line 25.
+- The amount of selections is not limited.
+
+### A summary for the amount of numeric parts in the output
+- No numeric parts: caret positioning will not be done, Obsidian or other plugins may freely decide the position.
+- 1 part: Defines a line for the caret. No selection. The caret will be placed at the beginning of the line.
+- 2 parts: Defines a line and column for the caret. No selection.
+- 3 parts: Not allowed.
+- 4 parts: Defines a selection between two positions.
+- More than four parts: Defines multiple selections, but the amount of parts must be dividable into groups of four. 
+
 ## Open in a new pane
 By default, the file will be opened in the currently active pane as long as it's not *pinned*. If the pane is *pinned* (= "locked"), then Obsidian will decide another pane where the file will be opened, which may be another already existing pane, or a completely new pane.
 
