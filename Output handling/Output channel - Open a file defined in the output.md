@@ -18,6 +18,7 @@ The output can also define where the caret should be positioned in the editor.
 - E.g. `SomeFile.md:5` defines to place the caret on line 5.
 - E.g. `SomeFile.md:5:6` defines to place the caret on line 5 and column 6.
 - Negative indexes are also supported. E.g. `SomeFile.md:-1:-1` places the caret at the last column on the last line of the file.
+- Caret positioning is delayed to happen **500 milliseconds after** opening the file. This makes a small, noticeable pause, but it helps to ensure correct editor scrolling in situations where a file might render slowly after opening: e.g. images and embedded blocks of content may change the height of the content just after opening a file. That's why scrolling to the desired place is delayed. The delay cannot be adjusted at the moment, but a setting for this might be added later.
 
 ## Open in a new pane
 By default, the file will be opened in the currently active pane as long as it's not *pinned*. If the pane is *pinned* (= "locked"), then Obsidian will decide another pane where the file will be opened, which may be another already existing pane, or a completely new pane.
