@@ -54,5 +54,11 @@ The order of the features in the output is **almost** freely decidable, only the
 - E.g. `MyNote.md:5:6:new-pane:can-create-file` works as well as `MyNote.md:can-create-file:new-pane:5:6`.
 - All numeric parts are considered to mean a caret position.
 
+## Absolute paths on Windows
+As Windows uses the colon `:` in absolute file paths (e.g. `C:\...`), and colon is also used by this output channel to separate different parts of output from each other, the output channel tries to be clever to notice when a colon `:` is used as a file path component and when as a part delimiter.
+- E.g. `C:\path\to\Obsidian\vault\MyNote.md:new-pane` is correctly interpreted so that `C` and `\path\to\Obsidian\vault\MyNote.md` combined together do form an **absolute path**, and so they should be considered as a single part rather than two parts.
+- E.g. `MyNote.md:new-pane` is correctly interpreted so that `MyNote.md` and `new-pane` are different parts.
+- This inspection happens only on Windows systems, not on other platforms.
+
 ## History
 - #TODO: Add a date. [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
