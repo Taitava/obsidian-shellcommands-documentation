@@ -29,4 +29,4 @@ All output channels are available to both `stdout` and `stderr`.
 - [[Output channel - Current file]]
 - [[Output channel - Clipboard]]
 - [[Output channel - Ask after execution]]
-- [[Output channel - Open a file defined in the output]]
+- [[Output channel - Open a file]]
