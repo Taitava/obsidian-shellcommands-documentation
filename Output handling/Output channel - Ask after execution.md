@@ -2,7 +2,7 @@
 aliases:
  - 
 ---
-# Output channel: Modal
+# Output channel: Ask after execution
 This channel creates a modal window that displays output from a shell command.
 - Output can be manually redirected (=applied) to [[Output channels|other output channels]], even to multiple channels at once. Output can be discarded just by closing the modal.
 - Output can be manually edited before the redirection, to do cleanup etc. The field is resizable.
