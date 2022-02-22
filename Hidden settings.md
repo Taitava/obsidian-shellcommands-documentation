@@ -12,7 +12,7 @@ There are a couple of settings that do not have a visible field in the settings 
 - `debug`: Can be `true` or `false`. If true, the following features are enabled:
 	- The *Shell commands* plugin will log debugging information into a console, which you can open up by pressing `Ctrl`/`Cmd` + `Shift` + `I`. This is good in case if you encounter some kind of crash or bug and want to report it. You can then report these debug loggins.
 	- A special variable named `{{passthrough:argument}}` becomes available. Although I said *special*, it's not actually so special: It just returns the same text that it received as `argument`. It's used for testing escaping special characters in variable values, and it doesn't probably have any benefit to be used in real world situations. It might also be modified or removed in future versions without prior notice.
-- `obsidian_command_palette_prefix`: A `string`. Defines a text that will be inserted in Obsidian's *command palette* before each shell command's [[alias]] or the actual command text.
+- `obsidian_command_palette_prefix`: A `string`. Defines a text that will be inserted in Obsidian's *command palette* before each shell command's [[alias]] or the actual command text. ==This feature is only available in a [0.11.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/166). #TODO: Remove this annotation when the final version is released.== 
 
 # History
 - #TODO: Add a date [0.11.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): `obsidian_command_palette_prefix` was created. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).

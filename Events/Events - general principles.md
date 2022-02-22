@@ -28,7 +28,7 @@ You can also access the event documentation pages via question mark icons in the
 ## See which events are currently enabled
 If you have forgotten which events you have enabled and for which shell commands, open up the settings modal and click the *Events* tab. You'll see a simple list of events and shell commands that use them.
 
-Here you can also quickly disable all events, if needed, by switching *Enable events* off. Or otherwise, if you wonder why your events are not doing anything, remember to check that the toggle is turned on. It's on by default.
+Here you can also quickly disable all events, if needed, by switching *Enable events* off. Or otherwise, if you wonder why your events are not doing anything, remember to check that the toggle is turned on. It's on by default. ==This feature is only available in a [0.11.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/166). #TODO: Remove this annotation when the final version is released.== 
 
 ![[Settings-main-events-tab.png]]
 

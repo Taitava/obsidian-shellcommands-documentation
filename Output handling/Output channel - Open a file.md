@@ -3,6 +3,7 @@ aliases:
  - "Open a file"
  - "Open file"
 ---
+ ==This feature is only available in a [0.11.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/166). #TODO: Remove this annotation when the final version is released.== 
 # Output channel: Open a file
 This output channel expects that the output of a shell command is a file name or path in the Obsidian vault. The file will be opened in Obsidian.
 

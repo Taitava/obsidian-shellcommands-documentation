@@ -6,7 +6,7 @@ aliases:
 This channel creates a modal window that displays output from a shell command.
 - Output can be manually redirected (=applied) to [[Output channels|other output channels]], even to multiple channels at once. Output can be discarded just by closing the modal.
 - Output can be manually edited before the redirection, to do cleanup etc. The field is resizable.
-- If you select text before clicking any of the redirection buttons, you can only use the selected part of the output text.
+- If you select text before clicking any of the redirection buttons, you can only use the selected part of the output text. ==This feature is only available in a [0.11.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/166). #TODO: Remove this annotation when the final version is released.== 
 - If both `stdout` and `stderr` streams are channeled to the modal, it will display two output fields and two redirection control rows.
 - If output is empty, no modal is shown.
 - Displays the executed shell command's [[exit code]]. It's usually zero if the command succeeded.
