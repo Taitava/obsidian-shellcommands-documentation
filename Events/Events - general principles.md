@@ -26,9 +26,14 @@ You can also access the event documentation pages via question mark icons in the
 - [[Folder menu]]
 
 ## See which events are currently enabled
-If you have forgotten which events you have enabled and for which shell commands, open up the settings modal and click the *Events* tab. You'll see a simple list of events and shell commands that use them:
+If you have forgotten which events you have enabled and for which shell commands, open up the settings modal and click the *Events* tab. You'll see a simple list of events and shell commands that use them.
+
+Here you can also quickly disable all events, if needed, by switching *Enable events* off. Or otherwise, if you wonder why your events are not doing anything, remember to check that the toggle is turned on. It's on by default.
 
 ![[Settings-main-events-tab.png]]
 
 # History
+- #TODO: Add a date [0.11.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+	- All events can now be disabled using a single toggle setting. ([#163](https://github.com/Taitava/obsidian-shellcommands/issues/163)).
+	- Fixed a bug: Ghost shell commands were executed by events even after removal ([#165](https://github.com/Taitava/obsidian-shellcommands/issues/165))
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): First events became supported. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
