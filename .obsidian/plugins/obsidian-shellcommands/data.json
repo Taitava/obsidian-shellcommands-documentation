@@ -106,6 +106,29 @@
       "output_channel_order": "stdout-first",
       "events": {},
       "command_palette_availability": "unlisted"
+    },
+    "29": {
+      "platform_specific_commands": {
+        "default": "",
+        "win32": "C:\\Program` Files\\GIMP` 2\\bin\\gimp-2.10.exe {{event_file_path:absolute}}"
+      },
+      "shells": {
+        "win32": "pwsh.exe"
+      },
+      "alias": "Open {{!event_file_name}} in GIMP",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {
+        "file-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled"
     }
   }
 }
