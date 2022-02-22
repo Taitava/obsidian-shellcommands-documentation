@@ -41,6 +41,9 @@ You will probably not need to look at these features in the beginning. These mig
 - [[Operating system specific versions of shell commands]]
 - [[Shells]]
 
+### Hidden settings
+- [[Hidden settings|There are some minor settings that do not have a visible field in the settings user interface]]
+
 ## Improving the documentation
 - For ideas on how to improve the documentation: [Create a new discussion in the *Shell commands* plugin's GitHub repository's *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
 - For clear errors in the documentation (that are simple to fix): Change it yourself and [create a pull request in the documentation's GitHub repository](https://github.com/Taitava/obsidian-shellcommands-documentation/pulls). If you are unsure how to work with Git and how to make PRs, it's also okay to just create a new discussion.
