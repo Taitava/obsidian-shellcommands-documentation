@@ -1,6 +1,7 @@
 {
-  "settings_version": "0.10.0",
+  "settings_version": "0.11.0",
   "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
   "working_directory": "",
@@ -8,6 +9,7 @@
   "error_message_duration": 20,
   "notification_message_duration": 10,
   "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
   "shell_commands": {
     "0": {
       "alias": "Git GUI",
