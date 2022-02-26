@@ -3,7 +3,7 @@ aliases:
  - "Open a file"
  - "Open file"
 ---
- ==This feature is only available in a [0.11.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/166). #TODO: Remove this annotation when the final version is released.== 
+
 # Output channel: Open a file
 This output channel expects that the output of a shell command is a file name or path in the Obsidian vault. The file will be opened in Obsidian.
 
@@ -69,4 +69,4 @@ As Windows uses the colon `:` in absolute file paths (e.g. `C:\...`), and colon 
 - This inspection happens only on Windows systems, not on other platforms.
 
 ## History
-- #TODO: Add a date. [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
+- [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
