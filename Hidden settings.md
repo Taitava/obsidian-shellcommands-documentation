@@ -17,4 +17,5 @@ There are a couple of settings that do not have a visible field in the settings 
 
 # History
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): `obsidian_command_palette_prefix` was created. ([#164](https://github.com/Taitava/obsidian-shellcommands/issues/164)).
+- [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `settings_version` was created. ([#90](https://github.com/Taitava/obsidian-shellcommands/issues/90)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was created. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
