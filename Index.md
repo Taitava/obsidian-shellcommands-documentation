@@ -1,7 +1,7 @@
 # Shell commands - Documentation
 *Shell commands* is a community plugin for [Obsidian.md Markdown editor](https://obsidian.md). Its purpose is to make it possible to execute system commands from within Obsidian (the same commands that you can execute in a [terminal](https://en.wikipedia.org/wiki/Terminal_emulator)).
 
-The plugin's development can be followed in [Taitava/obsidian-shellcommands GitHub repository](https://en.wikipedia.org/wiki/Terminal_emulator).
+The plugin's development can be followed in [Taitava/obsidian-shellcommands GitHub repository](https://github.com/Taitava/obsidian-shellcommands).
 
 ## Who is this plugin for, and the expected skill level
 This plugin is aimed for people who **want to**:
