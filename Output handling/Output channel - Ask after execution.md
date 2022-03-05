@@ -16,5 +16,8 @@ This channel creates a modal window that displays output from a shell command.
 ![[Output-modal.png]]
 
 ## History
+- [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed wrapping glitches: ([#172](https://github.com/Taitava/obsidian-shellcommands/issues/172))
+	- Long shell commands were not wrapped to multiple lines.
+	- When the window is narrow, redirection buttons were not wrapped to multiple lines. This fix also made the buttons wider, but smaller in height.
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): If some text is selected, only the selected text will be used instead of the whole text. ([#158](https://github.com/Taitava/obsidian-shellcommands/issues/158)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The output channel was created. ([#134](https://github.com/Taitava/obsidian-shellcommands/issues/134)).
