@@ -13,6 +13,8 @@ A menu item's name is the same as a shell command's [[alias]]. If no alias is se
 
 Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
+3. Also works in search: When a search result is right clicked, all shell commands that have enabled this event, will be shown in the context menu related to that search result. #TODO: Add a screenshot.
+
 ## Variables
 In addition to [[Variables - general principles#^normal-variables|normal variables]], the following variables are available during this event:
 
