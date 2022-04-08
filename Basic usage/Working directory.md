@@ -4,7 +4,7 @@ A *working directory* is a folder where your shell commands are executed in. Thi
 
 ## Changing the working directory for all shell commands
 1. Open up the plugin's settings panel, and open the *Environments* tab:
-	![[Settings-main-operating-systems-and-shells-tab.png]]
+	![[Settings-main-environments-tab.png]]
 2. You'll see the *Working directory* text field. When it's empty, it shows the default directory that will be used as a *working directory*.
 
 The following values are possible:

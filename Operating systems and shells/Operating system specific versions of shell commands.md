@@ -9,11 +9,11 @@ But if you happen to have a vault that you synchronize between computers that ha
 
 ## Instructions
 1. Head over to the plugin's settings, and look for a shell command that you would like to customize to have different versions for different operating systems. In this example, I'm going to use a command aliased *Terminal in test suite folder*, which is supposed to open either [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) or [Xfce terminal on Linux](https://docs.xfce.org/apps/terminal/start):
-	![[Settings-main-click-operating-systems-and-shells.png]]
+	![[Settings-main-click-environments-icon.png]]
 2. Notice that in the picture above, the shell command field is empty. It's possible to leave this field empty, if operating system specific command fields are filled (that'll be done soon). This field is called an *operating system **agnostic** shell command* field, meaning that this field can contain a shell command that will be executed if there is **no** explicit shell command defined **for the current** operating system.
 3. Click the *Shell selection, Operating system specific shell commands* icon button.
 4. An *extra options modal* will pop up, showing shell command fields for all the three supported operating systems:
-	![[Settings-modal-operating-systems-and-shells.png]]
+	![[Settings-modal-environments.png]]
 5. In the picture above, there are different shell commands specified for Linux and Windows. Macintosh does not have a command, because I haven't planned to execute this particular command on Macintosh. If I execute it on Macintosh, SC would show an error *The shell command is empty*, because like was shown in the step *2*, also the operating system agnostic shell command field is empty.
 6. When a shell command is executed, the *Shell commands* plugin will automatically pick a correct shell command version based on the current operating system.
 
