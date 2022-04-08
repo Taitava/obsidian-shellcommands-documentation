@@ -37,6 +37,10 @@ You will probably not need to look at these features in the beginning. These mig
 ### Output
 - [[Ignoring errors]]
 
+### Preactions
+Actions that are performed before executing a shell command, i.e. preparations.
+- Prompts: Ask values from a user
+
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
 - [[Shells]]
