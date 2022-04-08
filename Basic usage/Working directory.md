@@ -3,7 +3,7 @@
 A *working directory* is a folder where your shell commands are executed in. This means, that all shell commands that *read*, *create*, *modify*, *move*, *delete* or otherwise access *files* or *folders*, will perform these actions in the *working directory*. By default, the *working directory* is your vault's root directory, but you can change it.
 
 ## Changing the working directory for all shell commands
-1. Open up the plugin's settings panel, and open the *Operating systems \& shells* tab:
+1. Open up the plugin's settings panel, and open the *Environments* tab:
 	![[Settings-main-operating-systems-and-shells-tab.png]]
 2. You'll see the *Working directory* text field. When it's empty, it shows the default directory that will be used as a *working directory*.
 

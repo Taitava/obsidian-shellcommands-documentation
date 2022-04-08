@@ -16,7 +16,7 @@ This might yield the following error message if you switch to a panel that does 
 ![[Settings-modal-Output-stdout-status-bar.png]]
 
 ## Windows
-On Windows, it's easier to use `PowerShell` to get file size and modification times, rather than `CMD`. Go to the *Operating systems & shells* tab in your shell command's extra options modal and switch *Windows shell* to either *PowerShell Core* or *PowerShell 5*, depenging on which you have installed.
+On Windows, it's easier to use `PowerShell` to get file size and modification times, rather than `CMD`. Go to the *Environments* tab in your shell command's extra options modal and switch *Windows shell* to either *PowerShell Core* or *PowerShell 5*, depenging on which you have installed.
 
 Here's the PowerShell command:
 

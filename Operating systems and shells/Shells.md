@@ -20,7 +20,7 @@ At the moment, the *Shell commands* plugin only supports a limited set of shells
 - [[Zsh]]
 
 ## How to know which shell is used
-1. Open up the plugin's settings pane and click the *Operating systems \& shells* tab.
+1. Open up the plugin's settings pane and click the *Environments* tab.
 ![[Settings-main-operating-systems-and-shells-default-shell.png]]
 2. Look at *default shell* drop-down menu next to the operating system you are currently using. It shows you the name of the shell that is currently used.
 	If *Use system default ()* is selected, then the shell name is indicated in the parenthesis.

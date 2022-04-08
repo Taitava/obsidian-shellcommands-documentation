@@ -37,7 +37,7 @@ You will probably not need to look at these features in the beginning. These mig
 ### Output
 - [[Ignoring errors]]
 
-### Operating systems and shells
+### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
 - [[Shells]]
 
