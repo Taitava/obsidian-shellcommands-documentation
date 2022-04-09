@@ -35,7 +35,7 @@ The former is the simplest, if you already have a shell command where you'd like
 
 ## Create a prompt from a shell command's settings modal ^create-prompt-from-shell-command
 1. When you have [[How to define shell commands|created a shell command]] and are looking at it [[How to define shell commands#^shell-command-controls|in the settings]], click the *Preactions* icon to open up an *extra options modal*:
-	![[Settings-main-click-preactions.png]]
+	![[Settings-main-click-preactions-icon.png]]
 2. In the modal, select *Create a new prompt*:
 	![[Settings-modal-preactions.png]]
 3. Another modal with a new prompt's settings opens up. Continue reading from [[#^configuring-prompt-settings|Configuring a prompt's settings]].
