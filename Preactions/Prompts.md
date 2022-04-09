@@ -58,7 +58,10 @@ Fill in the following information:
 	- *Field label*: A question or other label.
 	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will used in the *Target variable* field, e.g. `{{_my_variable}}`.
 	- *Description*: More detailed instructions on how to fill this field.
-	- *Target variable*: You need to select a [[Custom variables|custom variable]] where the prompt will store the inputted value. Custom variables are `{{variables}}` that you can create your self in the settings, and here the dropdown menu also offers you an option to *Create a new custom variable*. By selecting that, you will be asked a name for a new custom variable. Custom variables always start with `{{_` and end with `}}`, e.g. `{{_my_variable}}`. You can then insert the custom variable's name into your shell command to access the inputted value there.
+	- *Target variable*: You need to select a [[Custom variables|custom variable]] where the prompt will store the inputted value.
+		- Custom variables are `{{variables}}` that you can create yourself in the settings, and here the dropdown menu also offers you an option to *Create a new custom variable*. By selecting that, you will be asked a name for a new custom variable. Custom variables always start with `{{_` and end with `}}`, e.g. `{{_my_variable}}`.
+		- You can insert the custom variable's name into your shell command to access the inputted value there.
+		- You cannot use a custom variable as a target if it's already used in another field in the **same** prompt. However, if you have multiple prompts, you may use the same custom variable as a field's target variable in different prompts.
 	- *Is required*: If this is on, a user cannot accidentally submit the prompt and execute a shell command if the field is left empty.
 - *Execute button text*: Make the button that executes a shell command to show more specifically, what will be done. Examples: *Create the file*, *Open the application*, *Delete the file*, *Do the custom search in the vault*.
 
