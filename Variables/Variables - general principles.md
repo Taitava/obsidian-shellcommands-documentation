@@ -29,6 +29,14 @@ In theory, a variable value can also be used as a command name, too. E.g. `{{cli
 
 The point of this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
 
+## Default values for variables ^default-values
+Not all variables are always available. For example, [[{{file_name}}]] variable cannot be accessed, if the currently active pane does not contain a file. If [[{{file_name}}]] is tried to be used in such a situation, the *Shell commands* plugin will show the following error message: *{{file_name}}: No file is active at the moment. Open a file or click a pane that has a file open.* The shell command's execution is then cancelled.
+
+- In situations like that, variables can have *default values* that will be used if the normal value is unavailable, and the execution can be continued.
+- Another situation might be, that execution should be cancelled when a variable is unavailable, but no visible error messages are wanted. This might be desirable when executing shell commands via [[Events - general principles|Events]], but the execution is only wanted when the needed variables are available.
+
+Read more about [[Default values|how to define default values for variables]].
+
 # Normal variables ^normal-variables
 - [[{{caret_position}}]]
 - [[{{clipboard}}]]

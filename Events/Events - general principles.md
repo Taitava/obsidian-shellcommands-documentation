@@ -1,3 +1,8 @@
+---
+aliases:
+  - Events
+---
+
 # Events - general principles
 
 An obvious feature of the *Shell commands* plugin is the ability to execute shell commands from Obsidian's command palette, and via hotkeys. In addition to this, shell commands can also be executed automatically under certain circumstances - by using events.
