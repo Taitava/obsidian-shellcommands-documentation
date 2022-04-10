@@ -15,7 +15,14 @@ This channel creates a modal window that displays output from a shell command.
 
 ![[Output-modal.png]]
 
+## Hotkeys
+- Each redirection button has a keyboard hotkey: `Ctrl`/`Cmd` + a letter. 
+- Hitting `Ctrl`/`Cmd` + `Shift` + a letter closes the modal in addition to redirecting.
+- `Ctrl`/`Cmd` + clicking a button does the same, redirects output and closes the modal.
+- Hover over each redirection button with mouse to see its hotkey letter.
+
 ## History
+- #TODO: Add a date [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Added hotkeys for redirecting the output. Also, `Ctrl`/`Cmd` + clicking a button closes the modal. ([#145](https://github.com/Taitava/obsidian-shellcommands/issues/145)).
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed wrapping glitches: ([#172](https://github.com/Taitava/obsidian-shellcommands/issues/172))
 	- Long shell commands were not wrapped to multiple lines.
 	- When the window is narrow, redirection buttons were not wrapped to multiple lines. This fix also made the buttons wider, but smaller in height.
