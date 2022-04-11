@@ -65,3 +65,11 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_folder_path}}]]    | [[File menu]], [[Folder menu]] |
 | [[{{event_title}}]]          | [[File menu]]                  |
 | [[{{event_tags}}]]           | [[File menu]]                  |
+
+# Custom variables ^custom-variables
+Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
+- [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
+- [Planned: Execute shell commands via Obsidian URI](https://github.com/Taitava/obsidian-shellcommands/discussions/195)
+- Anything else? [Throw me ideas 😉](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
+
+Read more about [[custom variables]].

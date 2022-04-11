@@ -41,6 +41,9 @@ You will probably not need to look at these features in the beginning. These mig
 Actions that are performed before executing a shell command, i.e. preparations.
 - Prompts: Ask values from a user
 
+### Variables
+- [[Custom variables]]
+
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
 - [[Shells]]
