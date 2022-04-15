@@ -1,4 +1,5 @@
 # Prompts
+ ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
 Prompts are a customisable way to ask a user to input a value - or multiple values - when a shell command is about to be executed.
 
 Some examples on what can be asked:
