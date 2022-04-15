@@ -43,6 +43,7 @@ Actions that are performed before executing a shell command, i.e. preparations.
 
 ### Variables
 - [[Custom variables]]
+- [[Default values|Default values for variables]]
 
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
