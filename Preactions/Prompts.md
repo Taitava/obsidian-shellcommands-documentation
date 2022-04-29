@@ -50,7 +50,7 @@ The former is the simplest, if you already have a shell command where you'd like
 After you finish setting up the prompt, you'll need to go to some shell command's settings to and select the prompt you created in order to enable opening it when the shell command executes. Follow the instructions in [[#Create a prompt from a shell command's settings modal create-prompt-from-shell-command]] to see how to pick a prompt for a shell command.
 
 ## Configuring a prompt's settings ^configuring-prompt-settings
-![[Settings-prompt-new-prompt.png]]
+![[Settings-prompt-new-prompt.png]] ^prompt-settings-screenshot
 
 Fill in the following information:
 - *Prompt title*
@@ -81,6 +81,38 @@ This prompt cannot execute any shell commands, because it's just a preview. **Ho
 After a custom variable is assigned with a value (by a prompt, or in some later version by other means), it stores its value even after the shell command is executed. You can use the same custom variable in another shell command, even if that shell command does not open up a prompt, and so the two shell commands can share the same custom value.
 
 You can also [[Custom variables|display the current custom variable values in a side pane]]. Custom variable values are lost when Obsidian quits or the *Shell commands* plugin is reloaded.
+
+# Styling prompts with CSS
+Prompts are something that you create yourself, so you should also be able to customise how they look and feel, if you want. This is completely optional, and the default layout for prompts is tried to be designed in a way that suits most typical use cases.
+
+> [!INFO] CSS
+> CSS (*Cascading style sheets*) is a web technology used to define layouts for websites and applications. It's a wide, wide thing to explain here, and requires a lot of learning and effort to master well, but you can try to learn some simple things. [Here's one CSS tutorial for beginners](https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/).
+> 
+> The Obsidian community has a lot of kind members who help each other to come up with small (and not so small) CSS snippets that can accomplish certain features, such as changing the position or width/height of an element, or changing colors. If you have specific CSS questions related to prompts, feel free to ask them in the [*Q & A* discussion category of the *Shell commands* plugin's GitHub repository](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/q-a).
+
+Prompts offer you two simple CSS classes that you can build your customisations on. If you feel that you'd need something more from the CSS API, just ask in the GitHub discussion linked above, and I'll see if I can do some improvements to support custom CSS better!
+
+Create a file in `.obsidian/snippets` folder. Name the file for example `prompts.css`. Add one (or both) of the following two CSS snippets as content to the file and enable the snippet in Obsidian's appearance settings. [More help on creating CSS snippet files](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets).
+
+> [!EXAMPLE] Example: CSS for all prompts
+> ```css
+> div.SC-prompt-modal {
+> 	background-color: red;
+> }
+> ```
+> This CSS snippet changes the background color of all prompts to red. It's not so nice looking, but it works as a good starting point for your own customisations.
+> 
+> (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
+
+> [!EXAMPLE] Example: CSS for a specific prompt
+> ```css
+> div.SC-prompt-modal-w3ocyqvjxb {
+> 	font-weight: bold;
+> }
+> ```
+> This CSS snippet makes text bold in a prompt whose **id** is *w3ocyqvjxb*. It doesn't change anything in any other prompt. Each prompt has a unique id, and you need to check your prompt's id from it's settings. [[#^prompt-settings-screenshot|See the bottom of the prompt settings screenshot above]].
+> 
+> (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
 # History
 - #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The support for prompts was implemented. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
