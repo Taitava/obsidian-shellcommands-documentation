@@ -31,6 +31,13 @@ See [installation instructions in the plugin's GitHub repository](https://github
 - [[Variables - general principles]]: How to pass vault related information to your commands.
 - [[Escaping special characters in variable values]]: Using variables safely.
 
+### Execution
+There are a few different ways to execute your shell commands:
+- All shell commands can be executed via [Obsidian's command palette](https://help.obsidian.md/Plugins/Command+palette) (unless they are [[Events - general principles#^exlude-from-command-palette|excluded]]).
+- You can assign keyboard hotkeys to shell commands. #TODO: Add instructions.
+- [[Shell commands URI]] can be used to create custom links that execute your shell commands - both inside Obsidian notes, and externally from other applications.
+- [[Events - general principles|Events]] can execute your shell commands automatically when certain things happen, e.g. when Obsidian starts or quits.
+
 ## Advanced features
 You will probably not need to look at these features in the beginning. These might come in handy in some use-cases, though.
 
