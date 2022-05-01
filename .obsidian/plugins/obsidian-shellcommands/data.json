@@ -131,6 +131,66 @@
         }
       },
       "command_palette_availability": "disabled"
+    },
+    "30": {
+      "platform_specific_commands": {
+        "default": "echo {{event_file_name}}"
+      },
+      "shells": {},
+      "alias": "Copy {{event_file_name}} to clipboard",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "clipboard",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {
+        "file-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled"
+    },
+    "31": {
+      "platform_specific_commands": {
+        "default": "echo {{event_title}}"
+      },
+      "shells": {},
+      "alias": "Copy {{event_title}} to clipboard",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "clipboard",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {
+        "file-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled"
+    },
+    "32": {
+      "platform_specific_commands": {
+        "default": "echo {{event_folder_name}}"
+      },
+      "shells": {},
+      "alias": "Copy {{event_folder_name}} to clipboard",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "clipboard",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {
+        "folder-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled"
     }
   }
 }
