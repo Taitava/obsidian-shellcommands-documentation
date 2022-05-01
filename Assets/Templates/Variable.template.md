@@ -4,13 +4,13 @@
 
 _(The above description can also be seen in the plugin's settings.)_
 
-## Availability
+# Availability
 %% Use either this: %%
 This variable is always available.
 %% Or this: %%
 > <strong>Only available</strong> ...
 
-## See also
+# See also
 - [[{{}}]]
 
 # History
