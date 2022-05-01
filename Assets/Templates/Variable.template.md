@@ -1,14 +1,14 @@
 # Variable: `{{title}}`
-
+> [!Quote] Description for {{title}} from the *Shell commands* plugin's settings
 > Description
-
-_(The above description can also be seen in the plugin's settings.)_
 
 # Availability
 %% Use either this: %%
-This variable is always available.
+> [!Success] This variable is always available.
+
 %% Or this: %%
-> <strong>Only available</strong> ...
+> [!Warning] Only available:
+> #TODO: Add conditions here
 
 # See also
 - [[{{}}]]
