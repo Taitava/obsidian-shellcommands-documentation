@@ -13,5 +13,5 @@ This variable is always available.
 ## See also
 - [[{{}}]]
 
-## History
-- [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was created. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).
+# History
+- #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).
