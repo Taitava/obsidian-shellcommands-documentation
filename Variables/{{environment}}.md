@@ -12,10 +12,12 @@ This variable can be used to read any environment variable in the state it was w
 > - [Windows environment variables](https://en.wikipedia.org/wiki/Environment_variable#Windows)
 
 ## Retrieve the value of `PATH`
-The actual reason for this variable to exist is that it can be used when [[Additions to the PATH environment variable#An easier way to add directories to PATH|adding new directories to the `PATH` environment variable]]. If `{{environment:PATH}}` is present in a *PATH additions* setting, it's then possible to decide whether to add directories before or after the current content of `PATH`. Using the variable there is optional: if it's not present, all additions are added **after** the current content.
+The actual reason for this variable to exist is that it can be used when [[Additions to the PATH environment variable#An easier way to add directories to PATH|adding new directories to the `PATH` environment variable]]. If `{{!environment:PATH}}` is present in a *PATH additions* setting, it's then possible to decide whether to add directories before or after the current content of `PATH`. Using the variable there is optional: if it's not present, all additions are added **after** the current content.
 
 > [!Important]
 > `{{environment}}` always gives the value the environment variable had *when Obsidian was started*. If you use `{{environment:PATH}}`, pay attention to the fact that it doesn't contain any of the [[Additions to the PATH environment variable#An easier way to add directories to PATH|additions you have possibly made to `PATH` in the settings]].
+
+![[Additions to the PATH environment variable#^no-escaping]]
 
 ## Case sensitivity or insensitivity
 - If you are using Linux or macOS, the environment variable names are case-sensitive. Usually they should be written with ALL CAPITAL LETTERS.

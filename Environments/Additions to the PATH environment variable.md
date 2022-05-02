@@ -63,19 +63,19 @@ The `PATH` environment variable always contains some default directories. By def
 > More information on the insertion order: http://www.troubleshooters.com/linux/prepostpath.htm
 
 #### Inserting directories to the beginning of `PATH`
-If you really need to insert directories *before* the default directories in `PATH`, you can use the [[{{environment}}|{{environment:PATH}}]] variable to denote where you want the **default content of `PATH`** to appear.
+If you really need to insert directories *before* the default directories in `PATH`, you can use the [[{{environment}}|{{!environment:PATH}}]] variable to denote where you want the **default content of `PATH`** to appear.
 
 > [!Example]
 > ```
 > /an/additional/directory
-> {{environment:PATH}}
+> {{!environment:PATH}}
 > ```
 > This appends `/an/additional/directory` to the beginning of `PATH`.
 
 > [!Example]
 > ```
 > /an/additional/directory
-> {{environment:PATH}}
+> {{!environment:PATH}}
 > /another/additional/directory
 > ```
 > This appends `/an/additional/directory` to the beginning of `PATH` and `/another/additional/directory` to the end of it.
@@ -130,7 +130,14 @@ The following discussions were had before the ability to define additions to `PA
 
 ## Use variables in `PATH` additions
 
-In addition to the [[{{environment}}]] variable, all other [[Variables - general principles|{{variables}}]] can also be used in the _PATH additions_ settings. I just haven't come up with a use case where it would be beneficial. 
+In addition to the [[{{environment}}|{{!environment}}]] variable, all other [[Variables - general principles|{{!variables}}]] can also be used in the _PATH additions_ settings. I just haven't come up with a use case where it would be beneficial.
+
+> [!Important] Use `{{!` instead of `{{`
+> When using `{{variables}}` in the *PATH additions* settings, an exclamation mark `!` needs to be used in the curly brackets (e.g. `{{!environment:PATH}}` instead of `{{environment:PATH}}`). The exclamation mark `!` tells the *Shell commands* plugin **not to escape special characters** in the variable's value. Otherwise, special characters, such as slashes `/`, backslashes `\`, colons `:` and semicolons `;` will be escaped, so they'll become: `\/`, `\\`, `\:` and `\;` (in Bash/Dash/Zsh, i.e. Linux/macOS) or `` `/ ``, `` `\ ``, `` `: `` and `` `; `` (in PowerShell, i.e. Windows), just to list a few examples.
+> 
+> **This is an exception to the recommendation that most of the time special characters should be escaped.** The content of `PATH` should not be escaped. [[Escaping special characters in variable values|Read more about escaping special characters]].
+> 
+> ^no-escaping
 
 # History
 - #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The ability to define PATH additions was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/204)).

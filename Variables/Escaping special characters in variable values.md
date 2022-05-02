@@ -39,8 +39,10 @@ Most of the time, the escape characters works quite similarly. However, on [[Bas
 ## Prevent escaping - but only after a deep consideration
 I am not able to think about all the possibility use cases of this plugin. In theory, there might some situation, where there simply is no way to get things working if escaping is enabled - however, those cases should be very rare. If you are new to this plugin or new the shell commands in general, I highly recommend you to not think about preventing escaping as the first possible solution to whatever problem you might be facing - rather, it should be your last solution. Try to tweak your shell command in some other ways first, and [consider asking for help](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/q-a), and only after that, if nothing else helps, you can use `!`, e.g. `{{!file_name}}`, to prevent escaping.
 
-An exception: Currently, preventing escaping might be temporarily needed with the `{{tags}}` variable. For more on that, please read: [[{{tags}}#Special characters in separator are escaped]].
+> [!Info] Exceptions
+> - Currently, preventing escaping might be temporarily needed with the `{{tags}}` variable. [[{{tags}}#Special characters in separator are escaped|More information]].
+> - Escaping should be prevented when using {{variables}} in the *PATH additions* settings. [[Additions to the PATH environment variable#^no-escaping|More information]].
 
 # History
-- [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis.. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
+- [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Escaping special characters in variable values started. ([#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)).
