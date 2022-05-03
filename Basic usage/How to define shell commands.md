@@ -12,6 +12,16 @@
 4. Type a shell command to the *Enter your command* text field. You can use [[Example shell commands|some example shell commands]].
 5. Settings are immediately saved when changes are made.
 
+> [!Tip] Multiline shell commands
+> - You can hit the enter key in all shell command fields to make them grow in height.
+> - Shells interpret each line as their own command, just like in script files, so a line following another is not concatenated to the previous line. Example:
+> 	```bash
+> 	cd MyFolder
+> 	mkdir NewSubFolder
+> 	```
+> 	Each line forms a new command, but they are executed during the same process, i.e. in one go.
+> - By default, shell command fields' maximum height is not limited, but you can use the [[Hidden settings#^max-visible-lines-in-shell-command-fields|`max_visible_lines_in_shell_command_fields` hidden setting]] to limit it. It won't restrict adding more lines to a shell command, it just makes the field to have a scroll bar instead of stretching infinitely.
+
 ## Main controls for shell commands ^shell-command-controls
 ![[Settings-main-new-shell-command.png]]
 In addition to the actual shell command text field, there are some other controls in the picture above:
