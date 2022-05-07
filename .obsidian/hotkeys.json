@@ -110,5 +110,13 @@
       ],
       "key": "S"
     }
+  ],
+  "obsidian-shellcommands:shell-command-30": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
   ]
 }

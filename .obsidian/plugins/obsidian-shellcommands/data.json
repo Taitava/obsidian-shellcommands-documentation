@@ -145,8 +145,77 @@
       "command_palette_availability": "disabled",
       "preactions": [],
       "variable_default_values": {}
+    },
+    "30": {
+      "platform_specific_commands": {
+        "default": "python Assets/Scripts/replace-todo-dates.py {{file_path:absolute}} {{_version}} {{_release_date}}",
+        "win32": "python Assets/Scripts/replace-todo-dates.py \"{{file_path:absolute}}\" \"{{_version}}\" \"{{_release_date}}\""
+      },
+      "shells": {},
+      "alias": "Replace TODO with a date",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "modal"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "4huy5mwqf8"
+        }
+      ],
+      "variable_default_values": {
+        "euxjrqgpyh": {
+          "type": "value",
+          "value": "0..0"
+        },
+        "fx1gavqiys": {
+          "type": "value",
+          "value": "{{date:YYYY-MM-DD}}"
+        }
+      }
     }
   },
-  "prompts": [],
-  "custom_variables": []
+  "prompts": [
+    {
+      "id": "4huy5mwqf8",
+      "title": "Version and release date",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "Version",
+          "description": "",
+          "default_value": "{{_version}}",
+          "target_variable_id": "euxjrqgpyh",
+          "required": true
+        },
+        {
+          "label": "Release date",
+          "description": "",
+          "default_value": "{{_release_date}}",
+          "target_variable_id": "fx1gavqiys",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Execute"
+    }
+  ],
+  "custom_variables": [
+    {
+      "id": "euxjrqgpyh",
+      "name": "version",
+      "description": "Used in replace-todo-dates.py"
+    },
+    {
+      "id": "fx1gavqiys",
+      "name": "release_date",
+      "description": "Used in replace-todo-dates.py"
+    }
+  ]
 }
