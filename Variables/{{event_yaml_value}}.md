@@ -11,5 +11,5 @@ _(The above description can also be seen in the plugin's settings.)_
 - [[{{yaml_value}}]]
 
 ## History
-- #TODO: Add a date [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022--): Fixed a crash when the argument was empty. The bug appeared in version `0.10.0` when the variable was created. ([#181](https://github.com/Taitava/obsidian-shellcommands/issues/181)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Fixed a crash when the argument was empty. The bug appeared in version `0.10.0` when the variable was created. ([#181](https://github.com/Taitava/obsidian-shellcommands/issues/181)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The variable was created. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).

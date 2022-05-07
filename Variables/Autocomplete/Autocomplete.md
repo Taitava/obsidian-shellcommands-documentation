@@ -93,7 +93,7 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
-- #TODO: Add a date. [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Autocompletion was added to:
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Autocompletion was added to:
 	- Shell command *Alias* field ([#182](https://github.com/Taitava/obsidian-shellcommands/issues/182)).
 	- Different fields in [[Prompts|Prompt]] settings ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
 - [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): Fix: Autocomplete suggests variables when typing right after a closing }} pair ([#129](https://github.com/Taitava/obsidian-shellcommands/issues/129)).

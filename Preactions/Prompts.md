@@ -114,4 +114,4 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
 # History
-- #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The support for prompts was implemented. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was born. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
