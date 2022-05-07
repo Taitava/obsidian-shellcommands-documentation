@@ -16,7 +16,6 @@ This channel creates a modal window that displays output from a shell command.
 ![[Output-modal.png]]
 
 ## Hotkeys
- ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
 - Each redirection button has a keyboard hotkey: `Ctrl`/`Cmd` + a letter. 
 - Hitting `Ctrl`/`Cmd` + `Shift` + a letter closes the modal in addition to redirecting.
 - `Ctrl`/`Cmd` + clicking a button does the same, redirects output and closes the modal.
