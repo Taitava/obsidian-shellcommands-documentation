@@ -30,7 +30,6 @@ In theory, a variable value can also be used as a command name, too. E.g. `{{cli
 The point of this example is more to inform you, that if you don't pay special attention to how you use variables, you can accidentally create shell commands that do something else than what you mean. Misplacing a variable in a wrong location can lead to bad things. **This plugin is not the safest one on the Obsidian's community plugins list.** It comes with risks, especially when variables are used.
 
 ## Default values for variables ^default-values
- ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
 Not all variables are always available. For example, [[{{file_name}}]] variable cannot be accessed, if the currently active pane does not contain a file. If [[{{file_name}}]] is tried to be used in such a situation, the *Shell commands* plugin will show the following error message: *{{file_name}}: No file is active at the moment. Open a file or click a pane that has a file open.* The shell command's execution is then cancelled.
 
 - In situations like that, variables can have *default values* that will be used if the normal value is unavailable, and the execution can be continued.
@@ -68,8 +67,6 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_tags}}]]           | [[File menu]]                  |
 
 # Custom variables ^custom-variables
- ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
-
 Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
 - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
 - [Planned: Execute shell commands via Obsidian URI](https://github.com/Taitava/obsidian-shellcommands/discussions/195)

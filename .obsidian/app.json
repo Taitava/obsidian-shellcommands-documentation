@@ -28,5 +28,8 @@
     "en-GB",
     "en-GB-oxendict",
     "en-US"
+  ],
+  "userIgnoreFilters": [
+    "Assets/Templates/"
   ]
 }

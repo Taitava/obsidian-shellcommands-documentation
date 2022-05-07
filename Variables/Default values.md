@@ -1,6 +1,4 @@
 # Default values for variables
- ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
- 
 From [[Variables - general principles#^default-values|Variables - general principles]]:
 > Not all variables are always available. For example, [[{{file_name}}]] variable cannot be accessed, if the currently active pane does not contain a file. If [[{{file_name}}]] is tried to be used in such a situation, the *Shell commands* plugin will show the following error message: *{{file_name}}: No file is active at the moment. Open a file or click a pane that has a file open.* The shell command's execution is then cancelled.
 > 
@@ -44,4 +42,4 @@ While this design decision might feel a bit complicated to understand at first, 
 Before a custom variable gets a value (for now, in SC version `0.12.0`, the only way for a custom variable to get a value is via [[Prompts]]), the variable is unassigned, and trying to use it would lead to an error message showing up. You can use the same default value features described on this page to handle the situations when a custom variable is unassigned.
 
 # History
-- #TODO: Add a date [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The ability to define default values and ignore errors silently was born. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The ability to define default values and ignore errors silently was born. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).

@@ -1,6 +1,4 @@
 # Custom variables
- ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
- 
 Quote from [[Variables - general principles#^custom-variables|Variables - general principles]]:
 > Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
 > - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
@@ -62,4 +60,4 @@ To see what values your custom variables currently contain, you may open a *Cust
 The side pane can currently only be used to read values. It doesn't provide any other functions.
 
 # History
-- #TODO: Add a date [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The support for custom variables was born. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was born. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).

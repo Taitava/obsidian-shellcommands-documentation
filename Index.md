@@ -46,10 +46,9 @@ You will probably not need to look at these features in the beginning. These mig
 
 ### Preactions
 Actions that are performed before executing a shell command, i.e. preparations.
-- [[Prompts]]: Ask values from a user  ==This feature is only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
+- [[Prompts]]: Ask values from a user.
 
 ### Variables
-- ==These two features are only available in a [0.12.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/201). #TODO: Remove this annotation when the final version is released.== 
 - [[Custom variables]]
 - [[Default values|Default values for variables]]
 
