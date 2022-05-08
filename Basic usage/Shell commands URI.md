@@ -13,6 +13,9 @@ You can find the id by opening up the shell command's settings modal and going t
 Looking for the shell command id and writing the URI manually can be cumbersome. To do it easier, you can open up the plugin's main settings view, locate the shell command you want to create a URI for, and click the *Copy this shell command's URI to the clipboard* icon:
 ![[Settings-main-click-copy-URI-icon.png]]
 
+> [!Tip] Copy a full link element
+> You can hold the `Ctrl` / `Cmd` key down while clicking the icon to copy a full markdown link, containing the shell command's [[alias]] text as the link's label.
+
 ## Pass values to your shell command via the URI using [[Custom variables|custom variables]]
 What makes the Shell command URI really powerful is its ability to customise shell commands by passing values to [[Custom variables|custom variables]]. For example, if you have a large PDF file that has tens or hundreds of pages, and you want to refer to different pages of that PDF document from multiple notes in your Obsidian vault, you can create a single shell command that opens up the PDF file. Each link that you create for executing the shell command can define a different page which to open up, to make it easier to refer to the correct part of the big PDF that is relevant for the clicked link.
 
