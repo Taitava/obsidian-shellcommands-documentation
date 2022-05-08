@@ -6,7 +6,7 @@
 - Go back/go forward functions are used to open previous/next notes in the current pane.
 
 ## Variables
-This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
+This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 
 ## Examples
 - [[Display file size and modification time on status bar]]

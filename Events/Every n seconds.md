@@ -6,7 +6,7 @@
 ![[Event-every-n-seconds.png]]
 
 ## Variables
-This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
+This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 
 ## Examples
 - [[Display a clock]]

@@ -9,6 +9,10 @@ In each shell command, you can use `{{variables}}` to submit data to your comman
 - If you need to use `{{`, `}}`, `:` or `!` to do other things not related to variables, you can use them quite freely, but make sure that you do not accidentally concatenate them with text that forms an existing variable's name. E.g. you can use a literal text `{{variable}}` and you'll have just `{{variable}}`, because there is **no** variable named *variable*. You can also use a literal text `{{date}}` because the [[{{date}}]] variable expects an argument with it, and does not parse without. But you cannot have a literal `{{date:}}`, because that would trigger parsing the [[{{date}}]] variable, resulting in an empty text, because the given argument (*format*) is empty.
 - Variables are predefined by SC, you cannot define your own variables. If you have an idea for a new variable, you can [suggest it in the *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
 
+> [!Info] All variables
+> The list of all built-in variables has been moved on 2022-05-08 to a new page: [[All variables]]
+
+
 ## Escaping special characters in variable values
 
 When a variable returns a value, all *special characters* in the value are escaped by prefixing them with an *escaping character*, e.g. `>` becomes either `\>` or `` `> ``, depending on [[Shells#How to know which shell is used|your shell]]. This is done to prevent the special characters from doing unexpected things. I'm not an expert in shells or command safety, and this feature may have leaks and bugs. I cannot guarantee the escaping to be 100% secure.
@@ -36,35 +40,6 @@ Not all variables are always available. For example, [[{{file_name}}]] variable 
 - Another situation might be, that execution should be cancelled when a variable is unavailable, but no visible error messages are wanted. This might be desirable when executing shell commands via [[Events - general principles|Events]], but the execution is only wanted when the needed variables are available.
 
 Read more about [[Default values|how to define default values for variables]].
-
-# Normal variables ^normal-variables
-- [[{{caret_position}}]]
-- [[{{clipboard}}]]
-- [[{{date}}]]
-- [[{{file_extension}}]]
-- [[{{file_name}}]]
-- [[{{file_path}}]]
-- [[{{folder_name}}]]
-- [[{{folder_path}}]]
-- [[{{selection}}]]
-- [[{{tags}}]]
-- [[{{title}}]]
-- [[{{vault_path}}]]
-- [[{{workspace}}]]
-- [[{{yaml_value}}]]
-
-# Event variables
-These variables are only available when a shell command is executed by a specific event that supports the variables.
-
-| Variable                     | Available during events        |
-| ---------------------------- | ------------------------------ |
-| [[{{event_file_extension}}]] | [[File menu]]                  |
-| [[{{event_file_name}}]]      | [[File menu]]                  |
-| [[{{event_file_path}}]]      | [[File menu]]                  |
-| [[{{event_folder_name}}]]    | [[File menu]], [[Folder menu]] |
-| [[{{event_folder_path}}]]    | [[File menu]], [[Folder menu]] |
-| [[{{event_title}}]]          | [[File menu]]                  |
-| [[{{event_tags}}]]           | [[File menu]]                  |
 
 # Custom variables ^custom-variables
 Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:

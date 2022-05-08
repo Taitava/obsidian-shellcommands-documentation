@@ -10,7 +10,7 @@ A menu item's name is the same as a shell command's [[alias]]. If no alias is se
 Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
 ## Variables
-This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
+This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 
 ## Examples
 - [[]] #TODO: Add an example.

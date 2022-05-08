@@ -5,7 +5,7 @@
 - Executed even when another vault is still left open.
 
 ## Variables
-This event does not provide additional event specific variables, but all [[Variables - general principles#^normal-variables|normal variables]] are available.
+This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 
 ## Examples
 - [[Watch cat videos on YouTube after closing Obsidian]]
