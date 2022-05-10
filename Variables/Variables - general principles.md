@@ -9,6 +9,10 @@ In each shell command, you can use `{{variables}}` to submit data to your comman
 - If you need to use `{{`, `}}`, `:` or `!` to do other things not related to variables, you can use them quite freely, but make sure that you do not accidentally concatenate them with text that forms an existing variable's name. E.g. you can use a literal text `{{variable}}` and you'll have just `{{variable}}`, because there is **no** variable named *variable*. You can also use a literal text `{{date}}` because the [[{{date}}]] variable expects an argument with it, and does not parse without. But you cannot have a literal `{{date:}}`, because that would trigger parsing the [[{{date}}]] variable, resulting in an empty text, because the given argument (*format*) is empty.
 - Variables are predefined by SC, you cannot define your own variables. If you have an idea for a new variable, you can [suggest it in the *Ideas* discussion category](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
 
+> [!Info] All variables
+> The list of all built-in variables has been moved on 2022-05-08 to a new page: [[All variables]]
+
+
 ## Escaping special characters in variable values
 
 When a variable returns a value, all *special characters* in the value are escaped by prefixing them with an *escaping character*, e.g. `>` becomes either `\>` or `` `> ``, depending on [[Shells#How to know which shell is used|your shell]]. This is done to prevent the special characters from doing unexpected things. I'm not an expert in shells or command safety, and this feature may have leaks and bugs. I cannot guarantee the escaping to be 100% secure.
@@ -37,35 +41,6 @@ Not all variables are always available. For example, [[{{file_name}}]] variable 
 
 Read more about [[Default values|how to define default values for variables]].
 
-# Normal variables ^normal-variables
-- [[{{caret_position}}]]
-- [[{{clipboard}}]]
-- [[{{date}}]]
-- [[{{file_extension}}]]
-- [[{{file_name}}]]
-- [[{{file_path}}]]
-- [[{{folder_name}}]]
-- [[{{folder_path}}]]
-- [[{{selection}}]]
-- [[{{tags}}]]
-- [[{{title}}]]
-- [[{{vault_path}}]]
-- [[{{workspace}}]]
-- [[{{yaml_value}}]]
-
-# Event variables
-These variables are only available when a shell command is executed by a specific event that supports the variables.
-
-| Variable                     | Available during events        |
-| ---------------------------- | ------------------------------ |
-| [[{{event_file_extension}}]] | [[File menu]]                  |
-| [[{{event_file_name}}]]      | [[File menu]]                  |
-| [[{{event_file_path}}]]      | [[File menu]]                  |
-| [[{{event_folder_name}}]]    | [[File menu]], [[Folder menu]] |
-| [[{{event_folder_path}}]]    | [[File menu]], [[Folder menu]] |
-| [[{{event_title}}]]          | [[File menu]]                  |
-| [[{{event_tags}}]]           | [[File menu]]                  |
-
 # Custom variables ^custom-variables
 Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
 - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
@@ -73,3 +48,42 @@ Custom variables can be created to store values inputted by a user via [[prompts
 - Anything else? [Throw me ideas 😉](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
 
 Read more about [[custom variables]].
+
+# Passing `{{variable}}` values into external script files
+`{{Variables}}` are only known by the *Shell commands* plugin, not by any [[shells]]. The *Shell commands* plugin interprets the `{{variables}}`, meaning that it **translates** them into literal values before a shell command is passed to a shell for execution. This means, that **no shells are aware of the `{{variables}}`** that you use when you use the *Shell commands* plugin. The plugin can only translate `{{variables}}` that it sees, so, when executing external script files, the contents of those files are **not read** by the *Shell commands* plugin, and so no `{{variables}}` can work there.
+
+> [!Success] Bash example: No script file
+> A working shell command that creates a folder that gets its name from selected text and then creates an empty file in that folder:
+> ```bash
+> mkdir {{selection}} && cd {{selection}} && touch {{date:YYYY-MM-DD}}".md"
+> ```
+> This simple shell command works, because the *Shell commands* plugin can read its `{{variables}}` and substitute them with a real values.
+
+> [!Fail] Bash example: Incorrect script file
+> A  shell command that calls an external script file to create a folder and a file in it:
+> ```bash
+> /bin/bash create-folder.sh
+> ```
+> Content of `create-folder.sh` :
+> ```bash
+> mkdir {{selection}}
+> cd {{selection}}
+> touch {{date:YYYY-MM-DD}}".md"
+> ```
+> The script would see just a literal `{{selection}}` instead of the actually selected text, because the *Shell commands* plugin does not parse `{{variables}}` in any files referred in the executed shell command.
+
+> [!Success] Bash: Pass `{{variable}}` values into scripts correctly
+> The shell command calling the script file must contain all the variables the script needs, and pass their values to the script **as command line arguments**:
+> ```bash
+> /bin/bash create-folder.sh {{selection}} {{date:YYYY-MM-DD}}
+> ```
+> A space ` ` is used to separate different arguments from each other. Note that the `{{variable}}` values can contain spaces freely - the *Shell commands* plugin [[Escaping special characters in variable values|escapes]] any spaces in `{{variable}}` values, so they will not cause values to accidentally split into multiple arguments (exception: the escaping does not work when using CMD as a shell).
+>
+> Content of `create-folder.sh` :
+> ```bash
+> mkdir $1 # $1 is the first argument the script receives: {{selection}}
+> cd $1 # Re-use {{selection}} here.
+> touch $2".md" # $2 is the second argument the script receives: {{date:YYYY-MM-DD}}
+> ```
+
+#TODO: The examples above only work for Bash (and similar shells)! Create examples for PowerShell, too.

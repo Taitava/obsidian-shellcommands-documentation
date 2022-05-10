@@ -16,7 +16,7 @@ Shell command menu items do not currently show any icons, but [an ability to def
 3. Also works in search: When a search result is right clicked, all shell commands that have enabled this event, will be shown in the context menu related to that search result. #TODO: Add a screenshot.
 
 ## Variables
-In addition to [[Variables - general principles#^normal-variables|normal variables]], the following variables are available during this event:
+In addition to [[All variables#Normal variables|normal variables]], the following variables are available during this event:
 
 - [[{{event_file_extension}}]]
 - [[{{event_file_name}}]]
