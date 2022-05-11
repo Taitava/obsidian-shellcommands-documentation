@@ -1,9 +1,10 @@
 # Event: After switching the active pane
 
-## Executed when
-- User switches between panes, including panes that are not files, e.g. Graph view.
-- Another file is opened in the current pane.
-- Go back/go forward functions are used to open previous/next notes in the current pane.
+## Execution
+> [!Success] Executed when
+> - User switches between panes, including panes that are not files, e.g. Graph view.
+> - Another file is opened in the current pane.
+> - Go back/go forward functions are used to open previous/next notes in the current pane.
 
 ## Variables
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.

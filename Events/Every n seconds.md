@@ -1,9 +1,10 @@
 # Event: Every *n* seconds
 
-## Executed when
-- On a freely decidable frequency defined in seconds.
-
-![[Event-every-n-seconds.png]]
+## Execution
+> [!Success] Executed when
+> - On a freely decidable frequency defined in seconds.
+> 
+> ![[Event-every-n-seconds.png]]
 
 ## Variables
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.

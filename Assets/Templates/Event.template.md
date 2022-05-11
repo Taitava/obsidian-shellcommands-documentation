@@ -1,7 +1,11 @@
 # Event: {{title}}
 
-## Executed when
-- #TODO: Add event conditions.
+## Execution
+> [!Success] Executed when
+> - #TODO: Add event conditions.
+
+> [!Fail] Not executed when
+> - #TODO: Add event conditions OR remove this callout.
 
 ## Variables
 

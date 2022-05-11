@@ -1,8 +1,9 @@
 # Event: After Obsidian starts
 
-## Executed when
-- Obsidian has started (or restarted) and loaded a layout, i.e. when everything should be ready.
-- The *Shell commands* plugin is re-enabled.
+## Execution
+> [!Success] Executed when
+> - Obsidian has started (or restarted) and loaded a layout, i.e. when everything should be ready.
+> - The *Shell commands* plugin is re-enabled.
 
 ## Variables
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
