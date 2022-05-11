@@ -1,5 +1,5 @@
 # Variable: `{{title}}`
-> [!Quote] Description for {{title}} from the *Shell commands* plugin's settings
+> [!Quote] {{title}} described in the *Shell commands* plugin's settings
 > Description
 
 # Availability
