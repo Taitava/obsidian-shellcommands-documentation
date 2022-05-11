@@ -1,6 +1,6 @@
 # Variable: `{{event_title}}`
 
-> Gives the current file name without a file extension. If you need it with the extension, use {{event_file_name}} instead.
+> Gives the event related file name without a file extension. If you need it with the extension, use {{event_file_name}} instead.
 
 _(The above description can also be seen in the plugin's settings.)_
 

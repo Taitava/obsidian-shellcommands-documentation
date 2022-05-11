@@ -1,6 +1,6 @@
 # Variable: `{{event_tags}}`
 
-> Gives all tags defined in the selected note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
+> Gives all tags defined in the event related note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
 
 _(The above description can also be seen in the plugin's settings.)_
 

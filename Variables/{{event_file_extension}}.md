@@ -1,6 +1,6 @@
 # Variable: `{{event_file_extension:with-dot}}` or `{{event_file_extension:no-dot}}`
 
-> Gives the selected file name's ending. Use {{event_file_extension:with-dot}} to include a preceding dot. If the extension is empty, no dot is added. {{event_file_extension:no-dot}} never includes a dot.
+> Gives the event related file name's ending. Use {{event_file_extension:with-dot}} to include a preceding dot. If the extension is empty, no dot is added. {{event_file_extension:no-dot}} never includes a dot.
 
 _(The above description can also be seen in the plugin's settings.)_
 

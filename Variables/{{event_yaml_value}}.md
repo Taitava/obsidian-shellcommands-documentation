@@ -1,6 +1,6 @@
 # Variable: `{{event_yaml_value}}`
 
-> Reads a single value from the selected file's frontmatter. Takes a property name as an argument. You can access nested properties with dot notation: property1.property2
+> Reads a single value from the event related file's frontmatter. Takes a property name as an argument. You can access nested properties with dot notation: property1.property2
 
 _(The above description can also be seen in the plugin's settings.)_
 
