@@ -22,6 +22,8 @@ A couple of tips:
 
 # All events
 You can also access the event documentation pages via question mark icons in the event settings view.
+
+## Miscellaneous events
 - [[After Obsidian starts]]
 - [[After switching the active pane]]
 - [[Before Obsidian quits]]
@@ -29,6 +31,22 @@ You can also access the event documentation pages via question mark icons in the
 - [[Every n seconds]]
 - [[File menu]]
 - [[Folder menu]]
+
+## File and folder events
+- [[File content modified]]
+- [[File created]]
+- [[File deleted]]
+- [[File moved]]
+- [[File renamed]]
+- [[Folder created]]
+- [[Folder deleted]]
+- [[Folder moved]]
+- [[Folder renamed]]
+
+> [!Important] File/folder moves/renames done by external applications are seen as *deletions* and *creations*
+> - When a file/folder is moved from one folder to another **by an external application**, Obsidian notices it as two separate events: a [[File deleted|deletion]] and a [[File created|creation]]. This is true even when the moving is done completely inside the vault.
+> - The same happens also when a file/folder is renamed **by an external application**.
+> - [[File moved|Moves]] and [[File renamed|renames]] are **detected more precisely when they are done in Obsidian**. ^file-folder-events-detection
 
 ## See which events are currently enabled
 If you have forgotten which events you have enabled and for which shell commands, open up the settings modal and click the *Events* tab. You'll see a simple list of events and shell commands that use them.
