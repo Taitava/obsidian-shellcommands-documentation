@@ -7,7 +7,7 @@ aliases:
 
 An obvious feature of the *Shell commands* plugin is the ability to execute shell commands from Obsidian's command palette, and via hotkeys. In addition to this, shell commands can also be executed automatically under certain circumstances - by using events.
 
-For example, you can launch a set of applications [[After Obsidian starts|every time you open Obsidian]], so you will have all the needed tool programs open when you start your day by working on a project. And when you are done for the day, you can [[watch cat videos on YouTube after closing Obsidian]].
+For example, you can launch a set of applications [[Obsidian starts|every time you open Obsidian]], so you will have all the needed tool programs open when you start your day by working on a project. And when you are done for the day, you can [[watch cat videos on YouTube after closing Obsidian]].
 
 ## Enabling events
 When you have [[How to define shell commands|created a shell command]] and are looking at it [[How to define shell commands#^shell-command-controls|in the settings]], click the *Events* icon to open up an *extra options modal*:
@@ -24,13 +24,13 @@ A couple of tips:
 You can also access the event documentation pages via question mark icons in the event settings view.
 
 ## Miscellaneous events
-- [[After Obsidian starts]]
-- [[After switching the active pane]]
-- [[Before Obsidian quits]]
-- [[Editor menu]]
+- [[Obsidian starts]]
+- [[Obsidian quits]]
+- [[Switching the active pane]]
 - [[Every n seconds]]
 - [[File menu]]
 - [[Folder menu]]
+- [[Editor menu]]
 
 ## File and folder events
 - [[File content modified]]

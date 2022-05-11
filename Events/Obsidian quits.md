@@ -1,4 +1,4 @@
-# Event: Before Obsidian quits
+# Event: Obsidian quits
 
 ## Execution
 > [!Success] Executed when
@@ -15,4 +15,5 @@ This event does not provide additional event specific variables, but all [[All v
 The Obsidian event that powers this feature is [`quit` on `workspace` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3632).
 
 ## History
+- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The event's name was shortened from *Before Obsidian quits* to *Obsidian quits*. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The event was created. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).

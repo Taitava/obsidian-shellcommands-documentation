@@ -23,11 +23,11 @@ On Windows, the second shell command assumes you are using PowerShell instead of
 
 ## Common settings
 1. For the first shell command:
-	- Enable event [[Before Obsidian quits]]
+	- Enable event [[Obsidian quits]]
 	- (Optional) Define an alias: *Remember caret position*
 	- (Optional) [[Events - general principles#^exlude-from-command-palette|Exclude the shell command from Obsidian's command palette]].
 2. For the second shell command: 
-	- Enable event [[After Obsidian starts]]
+	- Enable event [[Obsidian starts]]
 	- Set `stdout` output channel to [[Output channel - Open a file|Open a file]]
 	- (Optional) Define an alias: *Restore caret position*
 	- (Optional) [[Events - general principles#^exlude-from-command-palette|Exclude the shell command from Obsidian's command palette]].
