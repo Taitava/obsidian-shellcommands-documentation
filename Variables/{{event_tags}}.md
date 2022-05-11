@@ -1,4 +1,4 @@
-# Variable: `{{event_tags}}`
+# Variable: `{{event_tags:separator}}`
 
 > Gives all tags defined in the event related note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
 

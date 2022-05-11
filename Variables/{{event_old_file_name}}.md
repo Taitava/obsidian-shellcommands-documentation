@@ -1,6 +1,6 @@
 # Variable: `{{event_old_file_name}}`
 > [!Quote] {{event_old_file_name}} described in the *Shell commands* plugin's settings
-> Gives the renamed/moved file's old name with a file extension. If you need it without the extension, use [[{{event_old_title}}]] instead.
+> Gives the renamed file's old name with a file extension. If you need it without the extension, use [[{{event_old_title}}]] instead.
 
 # Availability
 > [!Warning] Only available:

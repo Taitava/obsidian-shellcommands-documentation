@@ -1,7 +1,8 @@
 # Variable: `{{event_old_folder_path}}`
 > [!Quote] {{event_old_folder_path}} described in the *Shell commands* plugin's settings
 > File events: Gives the moved file's old parent folder's path.
-> Folder events: Gives the renamed/moved folder's old path. The path is either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
+> Folder events: Gives the renamed/moved folder's old path.
+> The path is either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
 
 # Availability
 > [!Warning] Only available:
