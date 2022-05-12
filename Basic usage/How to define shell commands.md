@@ -39,7 +39,7 @@ In addition to the actual shell command text field, there are some other control
 - #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
 	- Support for multiline shell commands was added ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 	- Icon button for adding/changing hotkeys was added ([#210](https://github.com/Taitava/obsidian-shellcommands/issues/210)).
-- #TODO: Add a date [0.12.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07):
 	- *Preactions* were added ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
 	- *Default values for variables* support was added ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): *Events* were added ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
