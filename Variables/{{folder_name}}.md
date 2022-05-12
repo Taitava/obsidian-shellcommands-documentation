@@ -1,8 +1,6 @@
 # Variable: `{{folder_name}}`
-
+> [!Quote] {{folder_name}} described in the *Shell commands* plugin's settings
 > Gives the current file's parent folder name. No ancestor folders are included.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.

@@ -1,8 +1,6 @@
 # Variable: `{{workspace}}`
-
+> [!Quote] {{workspace}} described in the *Shell commands* plugin's settings
 > Gives the current workspace's name.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> when the Workspaces core plugin is enabled.

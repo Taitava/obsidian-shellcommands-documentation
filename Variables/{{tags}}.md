@@ -1,8 +1,6 @@
 # Variable: `{{tags:separator}}`
-
+> [!Quote] {{tags}} described in the *Shell commands* plugin's settings
 > Gives all tags defined in the current note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## No hash `#` prefix
 Note that the returned tags are **not** prefixed with a hash `#`. If you want to have them prefixed with a hash `#`, use `#` as the *separator* and also include it before the variable, like this: `#{{tags:, #}}`. If you have tags `#tag1`, `#tag2` and `#tag3`, this would give you: `#tag1, #tag2, #tag3`.

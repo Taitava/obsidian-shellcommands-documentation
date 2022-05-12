@@ -1,8 +1,6 @@
 # Variable: `{{event_title}}`
-
+> [!Quote] {{event_title}} described in the *Shell commands* plugin's settings
 > Gives the event related file name without a file extension. If you need it with the extension, use {{event_file_name}} instead.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> in events: [[File menu]].

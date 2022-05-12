@@ -1,8 +1,6 @@
 # Variable: `{{event_yaml_value}}`
-
+> [!Quote] {{event_yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the event related file's frontmatter. Takes a property name as an argument. You can access nested properties with dot notation: property1.property2
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> in events: [[File menu]].

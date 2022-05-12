@@ -1,5 +1,5 @@
 # Variable: `{{environment}}`
-> [!Quote] Description for {{environment}} from the *Shell commands* plugin's settings
+> [!Quote] {{environment}} described in the *Shell commands* plugin's settings
 > Gives an environment variable's value. It's an original value received when Obsidian was started.
 
 This variable can be used to read any environment variable in the state it was when Obsidian was started.

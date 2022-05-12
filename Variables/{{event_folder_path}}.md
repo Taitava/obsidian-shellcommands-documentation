@@ -1,9 +1,7 @@
 # Variable: `{{event_folder_path:relative}}` or `{{event_folder_path:absolute}}`
-
+> [!Quote] {{event_folder_path}} described in the *Shell commands* plugin's settings
 > File events: Gives path to the event related file's parent folder.
 > Folder events: Gives path to the event related folder. The path is either absolute from the root of the file system, or relative from the root of the Obsidian vault.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> in events: [[File menu]], [[Folder menu]].

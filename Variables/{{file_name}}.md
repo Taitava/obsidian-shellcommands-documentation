@@ -1,8 +1,6 @@
 # Variable: `{{file_name}}`
-
+> [!Quote] {{file_name}} described in the *Shell commands* plugin's settings
 > Gives the current file name with a file extension. If you need it without the extension, use [[{{title}}|{{title}}]] instead.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.

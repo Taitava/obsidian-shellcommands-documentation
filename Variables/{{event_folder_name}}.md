@@ -1,9 +1,7 @@
 # Variable: `{{event_folder_name}}`
-
+> [!Quote] {{event_folder_name}} described in the *Shell commands* plugin's settings
 > File events: Gives the event related file's parent folder name.
 > Folder events: Gives the selected folder's name. No ancestor folders are included.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> in events: [[File menu]], [[Folder menu]].

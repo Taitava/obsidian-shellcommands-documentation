@@ -1,8 +1,6 @@
 # Variable: `{{file_path:relative}}` or `{{file_path:absolute}}`
-
+> [!Quote] {{file_path}} described in the *Shell commands* plugin's settings
 > Gives path to the current file, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Availability
 > <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.

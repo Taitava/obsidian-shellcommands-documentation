@@ -1,8 +1,6 @@
 # Variable: `{{yaml_value}}`
-
+> [!Quote] {{yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the current file's frontmatter. Give a property name as an argument. You can access nested properties with dot notation: property1.property2
-
-_(The above description can also be seen in the plugin's settings.)_
 
 ## Using dot notation to access nested properties
 

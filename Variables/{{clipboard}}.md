@@ -1,8 +1,7 @@
 # Variable: `{{clipboard}}`
-
+> [!Quote] {{clipboard}} described in the *Shell commands* plugin's settings
 > Gives the content you last copied to your clipboard.
 
-_(The above description can also be seen in the plugin's settings.)_
 
 The following things cannot be retrieved from the clipboard at the moment:
 - Image data
