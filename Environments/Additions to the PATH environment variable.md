@@ -85,6 +85,12 @@ If you really need to insert directories *before* the default directories in `PA
 > 
 > Only change the insertion order if you know what you are doing!
 
+> [!Info] Inserting directories to the beginning of `PATH` does not put them to the exact beginning
+> At least when using Windows PowerShell, the PowerShell's directory will always precede everything else in `PATH`:
+> > C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.3.0_x64__8wekyb3d8bbwe;
+> 
+> This seems to be inevitable. That being said, it should be enough that the additions go before **most** of the other directories.
+
 ## Problem: `PATH` doesn't contain all the directories that are available in terminal
 If you open up a [terminal emulator window](https://en.wikipedia.org/wiki/Terminal_emulator), you might be able to execute programs that are available in the terminal, but not in shell commands that you execute via Obsidian using the *Shell commands* plugin.
 
