@@ -20,7 +20,10 @@ If you type a few characters after `{{`, the list of suggested variables is filt
 	- Typing `other-prefix{text-after-a-single-curly-bracket` will search suggestions for the whole text, because a single curly bracket `{` does not trigger *variable search mode*. By default, this will show no suggestions, because the plugin's standard list of suggestions only contains `{{variables}}`; but in case you have created a [[#Create a custom autocompletion file|custom autocompletion file]], some suggestions might be shown.
 - To summarize: The following work as *search term boundaries*: a whitespace ` `, and a pair of curly brackets:`{{` / `}}`.
 
-The autocomplete feature is powered by [kraaden/autocomplete](https://github.com/kraaden/autocomplete).
+> [!Info]
+> The autocomplete feature is powered by a JavaScript library named [autocomplete](https://github.com/kraaden/autocomplete) by [kraaden](https://github.com/kraaden).
+>  - The version used is [`6.1.3` with my own customisation](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0).
+>  - The customisation: [Fix not being able to create newlines in textareas](https://github.com/Taitava/autocomplete/commit/f58b5533e5e84ecb38e92737e0fa66bb3d349c3e).
 
 # Turn it off in the settings
 Not everyone is a huge fan of suddenly popping up content-hiders and attention-beggars. I used to hate autocompletion menus maybe a bit over decade ago... But then I started loving them and will probably marry one someday :). But if it's not your cup of tea, here's how to get rid of it:
@@ -93,6 +96,7 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
+- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Updated the library version to a [custom built 6.1.3](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0) one in order to better support multiline fields. This fixes pressing enter in an autocomplete menu causing a line break being added in multiline fields, which happened in previous versions of SC (e.g. prompt description field). ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Autocompletion was added to:
 	- Shell command *Alias* field ([#182](https://github.com/Taitava/obsidian-shellcommands/issues/182)).
 	- Different fields in [[Prompts|Prompt]] settings ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
