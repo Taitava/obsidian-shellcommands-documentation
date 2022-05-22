@@ -7,7 +7,11 @@ Quote from [[Variables - general principles#^custom-variables|Variables - genera
 
 Custom variables are *"storage slots"* that can contain values. You will create all the custom variables you need, by default there is no custom variables, and not everybody will need them.
 
-Custom variables are needed, if you use [[prompts]] to ask values from a user when a shell command is about to be executed. When a user inputs values into a prompt's fields and then submits the prompt, the inputted values are stored into custom variables. Each prompt field has a designated custom variable (decided by you) that will get the value from the field. Your shell command can then use the custom variable in the same way as any other variable, to retrieve the inputted value.
+Custom variables are needed, if...
+ - ...you use [[prompts]] to ask values from a user when a shell command is about to be executed. When a user inputs values into a prompt's fields and then submits the prompt, the inputted values are stored into custom variables. Each prompt field has a designated custom variable (decided by you) that will get the value from the field.
+ - ...you use [[Shell commands URI]] to pass values to your shell commands
+
+Your shell commands can use custom variables the same way as any other variables, to retrieve the inputted/passed value.
 
 ## Value preservation
 - Custom variables hold their values even after the shell command using them is executed, so you can use them later in other shell commands, if needed.
