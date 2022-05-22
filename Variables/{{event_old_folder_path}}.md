@@ -1,4 +1,4 @@
-# Variable: `{{event_old_folder_path}}`
+# Variable: `{{event_old_folder_path:relative}}` or `{{event_old_folder_path:absolute}}`
 > [!Quote] {{event_old_folder_path}} described in the *Shell commands* plugin's settings
 > File events: Gives the moved file's old parent folder's path.
 > Folder events: Gives the renamed/moved folder's old path.
