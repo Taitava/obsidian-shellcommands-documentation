@@ -3,10 +3,6 @@
 > Gives the renamed file's old name without a file extension. If you need it with the extension, use [[{{event_old_file_name}}]] instead.
 
 # Availability
-%% Use either this: %%
-> [!Success] This variable is always available.
-
-%% Or this: %%
 > [!Warning] Only available:
 > In events: [[File renamed]]
 > Not in [[File moved]], because the file **name** does not change in that event.
