@@ -1,4 +1,5 @@
 # Variable: `{{environment}}`
+ ==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 > [!Quote] {{environment}} described in the *Shell commands* plugin's settings
 > Gives an environment variable's value. It's an original value received when Obsidian was started.
 

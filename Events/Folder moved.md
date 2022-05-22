@@ -1,5 +1,5 @@
 # Event: Folder moved
-
+==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 ## Execution
 > [!Success] Executed when
 > - A folder has been moved inside the Obsidian vault. The moving needs to be done by Obsidian, otherwise this event won't notice it (see below).

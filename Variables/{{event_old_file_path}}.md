@@ -1,5 +1,5 @@
 # Variable: `{{event_old_file_path:relative}}` or `{{event_old_file_path:absolute}}`
-
+==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 > [!Quote] {{event_old_file_path}} described in the *Shell commands* plugin's settings
 > Gives the renamed/moved file's old path, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
 

@@ -1,5 +1,5 @@
 # Event: File created
-
+==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 ## Execution
 > [!Success] Executed when
 > - A new file has been created in the Obsidian vault.

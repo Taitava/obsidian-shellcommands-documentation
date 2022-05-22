@@ -1,4 +1,5 @@
 # Variable: `{{event_old_folder_path:relative}}` or `{{event_old_folder_path:absolute}}`
+==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.==
 > [!Quote] {{event_old_folder_path}} described in the *Shell commands* plugin's settings
 > File events: Gives the moved file's old parent folder's path.
 > Folder events: Gives the renamed/moved folder's old path.

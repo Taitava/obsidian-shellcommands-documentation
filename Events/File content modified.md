@@ -1,5 +1,5 @@
 # Event: File content modified
-
+==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 ## Execution
 > [!Success] Executed when
 > - A file's content is edited. The file must reside in the Obsidian vault.
