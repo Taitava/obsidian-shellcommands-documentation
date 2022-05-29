@@ -13,6 +13,7 @@
 5. Settings are immediately saved when changes are made.
 
 > [!Tip] Multiline shell commands
+> -  ==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 > - You can hit the enter key in all shell command fields to make them grow in height.
 > - Shells interpret each line as their own command, just like in script files, so a line following another is not concatenated to the previous line. Example:
 > 	```bash
