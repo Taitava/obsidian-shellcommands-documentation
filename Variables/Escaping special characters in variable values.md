@@ -45,6 +45,7 @@ I am not able to think about all the possibility use cases of this plugin. In th
 > [!Info] Exceptions
 > - Currently, preventing escaping might be temporarily needed with the `{{tags}}` variable. [[{{tags}}#Special characters in separator are escaped|More information]].
 > - Escaping should be prevented when using {{variables}} in the *PATH additions* settings. [[Additions to the PATH environment variable#^no-escaping|More information]].
+> - If you use variables in shell command *alias* fields, you can safely disable escaping there, as *alias* texts are never executed in shells.
 
 # History
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
