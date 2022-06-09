@@ -1,6 +1,9 @@
 # Escaping special characters in variable values
 Shells have special meanings for certain characters. If the variables that you use in your commands, return special characters in their values, the special characters need to be *escaped* so that they will not perform any special, unexpected and possibly dangerous actions.
 
+> [!Tip] Escaping can be disabled
+> If you don't want variable values to be escaped, please see the section [[#Prevent escaping - but only after a deep consideration]].
+
 Some examples:
 - `mycommand "{{clipboard}}"`, with clipboard happening to contain a double quote `"` character. Your command might end up looking like this: `mycommand "Text pasted from clipboard that contains a " character."`.
 - `mycommand {{clipboard}}`, with clipboard happening to contain stuff like `some text > C:\path\to\some\important\file`. In this case, the command might end up accidentally overwriting some file without a conscious meaning from the user.
