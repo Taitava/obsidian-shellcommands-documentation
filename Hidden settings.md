@@ -9,16 +9,16 @@ There are a couple of settings that do not have a visible field in the settings 
 5. Close the text editor and then start Obsidian again.
 
 ## A list of hidden settings
-- `approve_modals_by_pressing_enter_key`: Can be `true` (default) or `false`. If `true`, any modals (such as deletion/execution confirmations) can be accepted and closed by pressing the `Enter` key. If you want to avoid accidental approving, set this to `false`. ==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
+- `approve_modals_by_pressing_enter_key`: Can be `true` (default) or `false`. If `true`, any modals (such as deletion/execution confirmations) can be accepted and closed by pressing the `Enter` key. If you want to avoid accidental approving, set this to `false`. 
 - `debug`: Can be `true` or `false`. If true, the following features are enabled:
 	- The *Shell commands* plugin will log debugging information into a console, which you can open up by pressing `Ctrl`/`Cmd` + `Shift` + `I`. This is good in case if you encounter some kind of crash or bug and want to report it. You can then report these debug loggins.
 	- A special variable named `{{passthrough:argument}}` becomes available. Although I said *special*, it's not actually so special: It just returns the same text that it received as `argument`. It's used for testing escaping special characters in variable values, and it doesn't probably have any benefit to be used in real world situations. It might also be modified or removed in future versions without prior notice.
-- `max_visible_lines_in_shell_command_fields`: Can be `false` or a number. If it's a number, limit the max height of all shell commands fields in settings. Useful if you want to prevent long scripts from taking up too much screen space. It won't restrict adding more lines to a shell command, it just makes the field to have a scroll bar instead of stretching infinitely. If it's `false` (default), don't limit at all. ==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.==  ^max-visible-lines-in-shell-command-fields
+- `max_visible_lines_in_shell_command_fields`: Can be `false` or a number. If it's a number, limit the max height of all shell commands fields in settings. Useful if you want to prevent long scripts from taking up too much screen space. It won't restrict adding more lines to a shell command, it just makes the field to have a scroll bar instead of stretching infinitely. If it's `false` (default), don't limit at all. ^max-visible-lines-in-shell-command-fields
 - `obsidian_command_palette_prefix`: A `string`. Defines a text that will be inserted in Obsidian's *command palette* before each shell command's [[alias]] or the actual command text.
 - `settings_version`: This is not really a setting, as **it should not be changed** manually! This value tells the *Shell commands* plugin what format was used to save the settings. Again, do not change this value yourself! 🙂
 
 # History
-- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- `max_visible_lines_in_shell_command_fields` was created. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 	- `approve_modals_by_pressing_enter_key` was created. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): `obsidian_command_palette_prefix` was created. ([#164](https://github.com/Taitava/obsidian-shellcommands/issues/164)).

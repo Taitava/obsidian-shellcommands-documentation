@@ -1,5 +1,4 @@
 # Additions to the `PATH` environment variable
-==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 > [!Info] What is `PATH`?
 > `PATH` is an [environment variable](https://en.wikipedia.org/wiki/Environment_variable) used in macOS, Linux and Windows (and some other operating systems) to specify directories where executable programs are located. Executable programs can be located also in other directories not specified in `PATH`, but then their execution requires to use either their full path (= directory + file name) or they need to be located in the current [[working directory]].
 > 
@@ -147,4 +146,4 @@ In addition to the [[{{environment}}|{{!environment}}]] variable, all other [[Va
 > ^no-escaping
 
 # History
-- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The ability to define PATH additions was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/204)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The ability to define PATH additions was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/204)).

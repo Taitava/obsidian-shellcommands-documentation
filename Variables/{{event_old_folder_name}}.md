@@ -1,5 +1,4 @@
 # Variable: `{{event_old_folder_name}}`
-==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
 > [!Quote] {{event_old_folder_name}} described in the *Shell commands* plugin's settings
 > File events: Gives the moved file's old parent folder's name.
 > Folder events: Gives the renamed folder's old name.
@@ -14,4 +13,4 @@
 - [[{{event_folder_name}}]]: Gives the folder's current (aka *new*) name that it has after renaming.
 
 # History
-- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).

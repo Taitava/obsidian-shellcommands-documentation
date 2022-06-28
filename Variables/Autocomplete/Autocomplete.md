@@ -96,7 +96,7 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
-- #TODO: Add a date [0.13.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Updated the library version to a [custom built 6.1.3](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0) one in order to better support multiline fields. This fixes pressing enter in an autocomplete menu causing a line break being added in multiline fields, which happened in previous versions of SC (e.g. prompt description field). ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Updated the library version to a [custom built 6.1.3](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0) one in order to better support multiline fields. This fixes pressing enter in an autocomplete menu causing a line break being added in multiline fields, which happened in previous versions of SC (e.g. prompt description field). ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 - [0.12.1 - 2022-05-16](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0121---2022-05-16): Fixed unintended console logging that started in `0.12.0`. ([#223](https://github.com/Taitava/obsidian-shellcommands/issues/223)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Autocompletion was added to:
 	- Shell command *Alias* field ([#182](https://github.com/Taitava/obsidian-shellcommands/issues/182)).
