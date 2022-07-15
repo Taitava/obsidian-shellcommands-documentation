@@ -38,6 +38,9 @@ There are a few different ways to execute your shell commands:
 - [[Shell commands URI]] can be used to create custom links that execute your shell commands - both inside Obsidian notes, and externally from other applications.
 - [[Events - general principles|Events]] can execute your shell commands automatically when certain things happen, e.g. when Obsidian starts or quits.
 
+### Problems
+- [[Problems]]: A compilation of issues that many users have reported.
+
 ## Advanced features
 You will probably not need to look at these features in the beginning. These might come in handy in some use-cases, though.
 
