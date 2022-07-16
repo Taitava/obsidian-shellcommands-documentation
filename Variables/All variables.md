@@ -20,7 +20,7 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 | [[{{yaml_value}}]]     | When a note pane is open and a YAML frontmatter is defined. |
 | [[{{workspace}}]]      | When the *Workspaces* core plugin is enabled.               |
 
-# Event variables
+## Event variables
 These variables are only available when a shell command is executed by a specific event that supports the variables.
 
 | Variable                      | Available during events                              |
