@@ -5,7 +5,9 @@
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
   "working_directory": "",
-  "default_shells": {},
+  "default_shells": {
+    "win32": "pwsh.exe"
+  },
   "environment_variable_path_augmentations": {},
   "error_message_duration": 20,
   "notification_message_duration": 10,
@@ -46,7 +48,9 @@
       "platform_specific_commands": {
         "default": "start \"\" \"%PROGRAMFILES%\\Git\\bin\\sh.exe\" --login"
       },
-      "shells": {},
+      "shells": {
+        "win32": "CMD.EXE"
+      },
       "events": {},
       "command_palette_availability": "unlisted",
       "preactions": [],
@@ -129,9 +133,7 @@
         "default": "",
         "win32": "C:\\Program` Files\\GIMP` 2\\bin\\gimp-2.10.exe {{event_file_path:absolute}}"
       },
-      "shells": {
-        "win32": "pwsh.exe"
-      },
+      "shells": {},
       "alias": "Open {{!event_file_name}} in GIMP",
       "confirm_execution": false,
       "ignore_error_codes": [],
