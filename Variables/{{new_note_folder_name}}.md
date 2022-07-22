@@ -16,4 +16,4 @@ This variable is handy e.g. when you execute shell commands that generate new fi
 - [[{{new_note_folder_path}}]]
 
 # History
-- #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
+- [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22): The variable was born. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
