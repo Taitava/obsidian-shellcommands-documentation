@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.13.0",
+  "settings_version": "0.14.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -34,7 +34,8 @@
       "events": {},
       "command_palette_availability": "unlisted",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "1": {
       "alias": "Git Bash",
@@ -54,7 +55,8 @@
       "events": {},
       "command_palette_availability": "unlisted",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "21": {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -72,7 +74,8 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "22": {
       "alias": "Git pull",
@@ -90,7 +93,8 @@
       "events": {},
       "command_palette_availability": "unlisted",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "27": {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -108,7 +112,8 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "28": {
       "platform_specific_commands": {
@@ -126,7 +131,8 @@
       "events": {},
       "command_palette_availability": "unlisted",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "29": {
       "platform_specific_commands": {
@@ -149,7 +155,8 @@
       },
       "command_palette_availability": "disabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "30": {
       "platform_specific_commands": {
@@ -183,7 +190,8 @@
           "type": "value",
           "value": "{{date:YYYY-MM-DD}}"
         }
-      }
+      },
+      "icon": null
     },
     "31": {
       "platform_specific_commands": {
@@ -205,7 +213,8 @@
       },
       "command_palette_availability": "disabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "32": {
       "platform_specific_commands": {
@@ -227,7 +236,8 @@
       },
       "command_palette_availability": "disabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "33": {
       "platform_specific_commands": {
@@ -249,7 +259,8 @@
       },
       "command_palette_availability": "disabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     },
     "34": {
       "platform_specific_commands": {
@@ -267,7 +278,8 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "icon": null
     }
   },
   "prompts": [
