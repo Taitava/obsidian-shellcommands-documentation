@@ -28,10 +28,10 @@ On Windows, the second shell command assumes you are using PowerShell instead of
 	- (Optional) [[Events - general principles#^exlude-from-command-palette|Exclude the shell command from Obsidian's command palette]].
 2. For the second shell command: 
 	- Enable event [[Obsidian starts]]
-	- Set `stdout` output channel to [[Output channel - Open a file|Open a file]]
+	- Set `stdout` output channel to [[Output channel - Open files|Open a file]]
 	- (Optional) Define an alias: *Restore caret position*
 	- (Optional) [[Events - general principles#^exlude-from-command-palette|Exclude the shell command from Obsidian's command palette]].
 
-The idea in the second shell command is to print out the current file's path together with the restored caret position numbers (line and column). Obsidian does open the last file during startup, but it does not remember the caret position. So we do not need to store the file name. The output channel [[Output channel - Open a file|Open a file]] handles placing the caret in the position we want. It also needs the file name, although it's the same file that is already open.
+The idea in the second shell command is to print out the current file's path together with the restored caret position numbers (line and column). Obsidian does open the last file during startup, but it does not remember the caret position. So we do not need to store the file name. The output channel [[Output channel - Open files|Open a file]] handles placing the caret in the position we want. It also needs the file name, although it's the same file that is already open.
 
 You can change the `caret_position.txt` file name freely in the commands. For example, you can "hide" the file by using e.g. this instead: `.obsidian/caret_position.txt`.

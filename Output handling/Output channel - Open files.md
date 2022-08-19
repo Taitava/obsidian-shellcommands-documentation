@@ -4,7 +4,7 @@ aliases:
  - "Open file"
 ---
 
-# Output channel: Open a file
+# Output channel: Open files
 This output channel expects that the output of a shell command is a file name or path in the Obsidian vault. The file will be opened in Obsidian.
 
 **This output channel is not available for `stderr`**, because error messages can be unpredictable.
