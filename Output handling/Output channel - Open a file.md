@@ -20,8 +20,9 @@ The output can also define where the caret should be positioned in the editor.
 - E.g. `SomeFile.md:5:6` defines to place the caret on line 5 and column 6.
 - Negative indexes are also supported. E.g. `SomeFile.md:-1:-1` places the caret at the last column on the last line of the file.
 - Caret positioning is delayed to happen **500 milliseconds after** opening the file. This makes a small, noticeable pause, but it helps to ensure correct editor scrolling in situations where a file might render slowly after opening: e.g. images and embedded blocks of content may change the height of the content just after opening a file. That's why scrolling to the desired place is delayed. The delay cannot be adjusted at the moment, but a setting for this might be added later.
+- If you open multiple files at once, an additional delay of **300 milliseconds** is used to delay opening sequential files. This is to allow Obsidian to better remember the selections / caret positions in a pane's recent files history.
 
-# Select text
+## Select text
 In addition to defining caret position, you can also define ranges of text to be selected.
 - E.g. `SomeFile.md:5:1:10:-1` selects text between the first character of line 5, and last character of line 10.
 - E.g. `SomeFile.md:5:1:10:-1:20:1:25:-1` creates two selections, with the first one being the same as above, and the second selection being from the beginning of line 20 till the end of line 25.
@@ -57,10 +58,19 @@ The order of the features in the output is **almost** freely decidable, only the
 
 You can use spaces between parts to produce more human-readable output in case you need to inspect your shell commands' output manually. E.g. `MyNote.md: 1 : 1 : new-pane` works the same way as `MyNote.md:1:1:new-pane`.
 
-## Restricted support for line-breaks
-At the moment, line-breaks are not supported in the output. This is to predict future-coming support for opening multiple files at once, at which point support for line-breaks will be added (each line will contain one file definition in the future). For now, if your output text is split with line-breaks, an error message will indicate you that using line-breaks is not yet supported. ( #TODO: Remove this information when multi-file support is implemented.)
+## Open multiple files
+You can separate multiple file paths using a newline character.
 
-However, the output can **start** and/or **end** with line-breaks already now, as those are stripped away from the beginning and end of the output content. This is to alleviate practical situations where e.g. `echo` command emits a trailing line-break.
+Example:
+```
+MyNote1.md:5:6:can-create-file
+MyNote2.md:can-create-file:new-pane:8:10:20:30
+MyNote3.md:new-pane
+```
+
+Usually, you'll want to use the `new-pane` feature when opening multiple files. Otherwise, each file will be opened to the same pane, making only the last file to stay open and visible. However, in some cases you might benefit from it: You could open a big list of files into a single pane, and use the *Go back* and *Go forward* actions in Obsidian to switch between the files.
+
+P.S. If the output **starts** and/or **ends** with line-breaks, then they are stripped away from the beginning and end of the output content. This is to alleviate practical situations where e.g. `echo` command emits a trailing line-break, which should not be interpreted as trying to define another file to be opened.
 
 ## Absolute paths on Windows
 As Windows uses the colon `:` in absolute file paths (e.g. `C:\...`), and colon is also used by this output channel to separate different parts of output from each other, the output channel tries to be clever to notice when a colon `:` is used as a file path component and when as a part delimiter.
