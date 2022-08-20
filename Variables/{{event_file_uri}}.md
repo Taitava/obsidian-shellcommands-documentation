@@ -12,4 +12,4 @@
 - [[{{file_uri}}]]
 
 # History
-- #TODO: Add a date [0.15.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
+- [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The variable was born. ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
