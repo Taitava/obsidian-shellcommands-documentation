@@ -12,4 +12,4 @@
 - [[{{file_uri}}]]
 
 # History
-- [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The variable was born. ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
+- [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The variable was born. Idea by [catfist](https://github.com/catfist). ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
