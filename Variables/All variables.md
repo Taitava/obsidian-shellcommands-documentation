@@ -39,8 +39,8 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_old_folder_name}}]] | [[File moved]], [[Folder moved]]                                                                                                                                                                                 |
 | [[{{event_old_folder_path}}]] | [[File moved]], [[Folder moved]], [[Folder renamed]]                                                                                                                                                             |
 | [[{{event_old_title}}]]       | [[File renamed]]                                                                                                                                                                                                 |
-| [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_tags}}]]            | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
+| [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 
 ## When a variable is not available
 Read about [[Default values|defining default values for variables]].
