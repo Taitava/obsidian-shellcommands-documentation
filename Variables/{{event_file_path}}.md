@@ -4,7 +4,7 @@
 
 ## Availability
 > [!Warning] Only available:
-> In events: [[File menu]].
+> In events: [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]].
 
 ## See also
 - [[{{file_path}}]]

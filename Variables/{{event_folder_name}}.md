@@ -5,7 +5,7 @@
 
 ## Availability
 > [!Warning] Only available:
-> In events: [[File menu]], [[Folder menu]].
+> In events: [[File menu]], [[Folder menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]].
 
 ## See also
 - [[{{folder_name}}]]
