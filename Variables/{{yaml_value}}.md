@@ -56,7 +56,8 @@ key_value_pair_list_does_not_have_a_length_property:
 The `length` property comes from the Obsidian API, it's not any kind of custom feature of the *Shell commands* plugin.
 
 ## Availability
-> <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
+> [!Warning] Only available:
+> When the active pane contains a file, not in graph view or other non-file view.
 
 ## See also
 - [[{{event_yaml_value}}]]

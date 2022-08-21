@@ -3,7 +3,8 @@
 > Gives the currently selected text.
 
 ## Availability
-> <strong>Only available</strong> in <em>Editing</em>/<em>Live preview</em> mode, <strong>not</strong> in <em>Reading</em> mode.
+> [!Warning] Only available:
+> In <em>Editing</em>/<em>Live preview</em> mode, <strong>not</strong> in <em>Reading</em> mode.
 
 ## See also
 - [[{{caret_position}}]]

@@ -3,7 +3,8 @@
 > Gives the line number and column position of the current caret position as 'line:column'. Get only the line number using {{caret_position:line}}, and only the column with {{caret_position:column}}. Line and column numbers are 1-indexed.
 
 ## Availability
-> <strong>Only available</strong> when a note pane is open, not in graph view, nor when viewing non-text files.
+> [!Warning] Only available:
+> When a note pane is open, not in graph view, nor when viewing non-text files.
 
 ## See also
 - [[{{selection}}]]

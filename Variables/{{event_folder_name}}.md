@@ -4,7 +4,8 @@
 > Folder events: Gives the selected folder's name. No ancestor folders are included.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]], [[Folder menu]].
+> [!Warning] Only available:
+> In events: [[File menu]], [[Folder menu]].
 
 ## See also
 - [[{{folder_name}}]]

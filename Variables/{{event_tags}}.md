@@ -3,7 +3,8 @@
 > Gives all tags defined in the event related note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]].
+> [!Warning] Only available:
+> In events: [[File menu]].
 
 ## See also
 - [[{{tags}}]]

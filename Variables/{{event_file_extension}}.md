@@ -3,7 +3,8 @@
 > Gives the event related file name's ending. Use {{event_file_extension:with-dot}} to include a preceding dot. If the extension is empty, no dot is added. {{event_file_extension:no-dot}} never includes a dot.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]].
+> [!Warning] Only available:
+> In events: [[File menu]].
 
 ## See also
 - [[{{file_extension}}]]

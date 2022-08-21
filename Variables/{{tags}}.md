@@ -23,7 +23,8 @@ If you wish to use special characters in the *separator*, currently the only way
 [A better solution for this *separator* problem is under planning on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/105).
 
 ## Availability
-> <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
+> [!Warning] Only available:
+> When the active pane contains a file, not in graph view or other non-file view.
 
 ## See also
 - [[{{event_tags}}]]

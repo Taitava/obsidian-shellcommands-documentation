@@ -3,7 +3,8 @@
 > Gives the event related file name with a file extension. If you need it without the extension, use {{event_title}} instead.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]].
+> [!Warning] Only available:
+> In events: [[File menu]].
 
 ## See also
 - [[{{event_title}}]]

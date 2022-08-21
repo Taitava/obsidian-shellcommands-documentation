@@ -3,7 +3,8 @@
 > Gives path to the current file's parent folder, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
 
 ## Availability
-> <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
+> [!Warning] Only available:
+> When the active pane contains a file, not in graph view or other non-file view.
 
 ## See also
 - [[{{event_folder_path}}]]

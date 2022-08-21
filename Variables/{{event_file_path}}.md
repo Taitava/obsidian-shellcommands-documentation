@@ -3,7 +3,8 @@
 > Gives path to the event related file, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]].
+> [!Warning] Only available:
+> In events: [[File menu]].
 
 ## See also
 - [[{{file_path}}]]

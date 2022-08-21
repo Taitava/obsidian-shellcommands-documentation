@@ -3,7 +3,8 @@
 > Gives the current file's parent folder name. No ancestor folders are included.
 
 ## Availability
-> <strong>Only available</strong> when the active pane contains a file, not in graph view or other non-file view.
+> [!Warning] Only available:
+> When the active pane contains a file, not in graph view or other non-file view.
 
 ## See also
 - [[{{event_folder_name}}]]

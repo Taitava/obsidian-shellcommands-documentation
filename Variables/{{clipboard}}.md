@@ -8,7 +8,7 @@ The following things cannot be retrieved from the clipboard at the moment:
 - Files (except maybe file paths can be retrieved on Macintosh and Linux)
 
 ## Availability
-This variable is always available.
+> [!Success] This variable is always available.
 
 ## History
 - [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.

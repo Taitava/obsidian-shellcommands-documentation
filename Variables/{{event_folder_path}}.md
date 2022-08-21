@@ -4,7 +4,8 @@
 > Folder events: Gives path to the event related folder. The path is either absolute from the root of the file system, or relative from the root of the Obsidian vault.
 
 ## Availability
-> <strong>Only available</strong> in events: [[File menu]], [[Folder menu]].
+> [!Warning] Only available:
+> In events: [[File menu]], [[Folder menu]].
 
 ## See also
 - [[{{folder_path}}]]
