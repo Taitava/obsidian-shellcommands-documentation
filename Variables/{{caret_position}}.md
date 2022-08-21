@@ -10,4 +10,4 @@
 - [[{{selection}}]]
 
 ## History
-- [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/119)).
+- [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#119](https://github.com/Taitava/obsidian-shellcommands/issues/119)).
