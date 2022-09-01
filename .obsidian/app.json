@@ -31,5 +31,8 @@
   ],
   "userIgnoreFilters": [
     "Assets/Templates/"
-  ]
+  ],
+  "accentColor": "",
+  "communityThemeSortOrder": "download",
+  "communityPluginSortOrder": "download"
 }

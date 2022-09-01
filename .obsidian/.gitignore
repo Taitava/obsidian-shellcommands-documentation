@@ -1,5 +1,6 @@
 # The workspace file changes so often that it should not be version controlled. Also, different users may have different preferences.
 /workspace
+/workspace.json
 
 # Do not store theme files in git, as those are downloaded with a few clicks.
 /themes
