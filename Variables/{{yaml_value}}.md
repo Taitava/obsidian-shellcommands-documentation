@@ -7,15 +7,15 @@
 Nested properties can be accessed with a dot `.` notation:
 ```YAML
 ---
-cssclass:  some-class
+cssclass: some-class
 book_details:
-author: "Me!"
-title: "My life"
-description: "A miserable story......"
-chapters:
-  first: "Birth"
-  second: "Childhood"
-  third: "Etc..."
+  author: "Me!"
+  title: "My life"
+  description: "A miserable story......"
+  chapters:
+    first: "Birth"
+    second: "Childhood"
+    third: "Etc..."
 ---
 ```
 The value of the first chapter can be retrieved with `{{yaml_value:book_details.chapters.first}}`. This gives *Birth*.
