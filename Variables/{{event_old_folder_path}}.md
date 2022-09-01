@@ -6,7 +6,7 @@
 
 # Availability
 > [!Warning] Only available:
-> In events. [[File moved]], [[Folder moved]], [[Folder renamed]]
+> In events: [[File moved]], [[Folder moved]], [[Folder renamed]]
 > Not in [[File renamed]], because the file **location** does not change in that event.
 
 # See also
