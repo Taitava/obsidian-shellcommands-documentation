@@ -46,6 +46,7 @@ You will probably not need to look at these features in the beginning. These mig
 
 ### Output
 - [[Ignoring errors]]
+- [[Output wrappers|Wrapping output with surrounding text]]
 
 ### Preactions
 Actions that are performed before executing a shell command, i.e. preparations.

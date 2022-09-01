@@ -46,9 +46,10 @@ These variables are only available when a shell command is executed by a specifi
 
 This list contains variables that are usually used somewhere else than in actual shell commands.
 
-| Variable                                                                                                                                                                                                   | Availability |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| [[{{environment}}]] | Usually used in [[Additions to the PATH environment variable#An easier way to add directories to PATH\|PATH additions]]. Available, if the passed environment variable name exists. |              |
+| Variable            | Availability                                                                                                                                                                        |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[{{environment}}]] | Usually used in [[Additions to the PATH environment variable#An easier way to add directories to PATH\|PATH additions]]. Available, if the passed environment variable name exists. |
+| [[{{output}}]]      | In [[Output wrappers\|output wrappers]], cannot be used as input for shell commands.                                                                                                |
 
 ## When a variable is not available
 Read about [[Default values|defining default values for variables]].
