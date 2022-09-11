@@ -15,7 +15,8 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 | [[{{folder_name}}]]          | When a file is open.                                        |
 | [[{{folder_path}}]]          | When a file is open.                                        |
 | [[{{new_note_folder_name}}]] | Always.                                                     |
-| [[{{new_note_folder_path}}]] | Always.                                                            |
+| [[{{new_note_folder_path}}]] | Always.                                                     |
+| [[{{note_content}}]]         | When a file is open.                                        |
 | [[{{selection}}]]            | When a note pane is open in *editing view*.                 |
 | [[{{tags}}]]                 | When a note pane is open.                                   |
 | [[{{title}}]]                | When a file is open.                                        |
@@ -34,6 +35,7 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_file_uri}}]]        | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_folder_name}}]]     | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |
 | [[{{event_folder_path}}]]     | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |
+| [[{{event_note_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_old_file_name}}]]   | [[File renamed]]                                                                                                                                                                                                 |
 | [[{{event_old_file_path}}]]   | [[File moved]], [[File renamed]]                                                                                                                                                                                 |
 | [[{{event_old_folder_name}}]] | [[File moved]], [[Folder moved]]                                                                                                                                                                                 |
