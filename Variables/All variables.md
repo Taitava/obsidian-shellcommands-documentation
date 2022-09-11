@@ -8,6 +8,7 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 | [[{{caret_position}}]]       | When a note pane is open.                                   |
 | [[{{clipboard}}]]            | Always.                                                     |
 | [[{{date}}]]                 | Always.                                                     |
+| [[{{file_content}}]]         | When a file is open.                                        |
 | [[{{file_extension}}]]       | When a file is open.                                        |
 | [[{{file_name}}]]            | When a file is open.                                        |
 | [[{{file_path}}]]            | When a file is open.                                        |
@@ -29,6 +30,7 @@ These variables are only available when a shell command is executed by a specifi
 
 | Variable                      | Available during events                                                                                                                                                                                          |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[{{event_file_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                                                                                                                                 |
 | [[{{event_file_extension}}]]  | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_file_name}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_file_path}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
