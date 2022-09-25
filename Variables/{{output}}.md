@@ -17,4 +17,4 @@ Shell command output, put into a code block:
 This variable can only be used for the *Content* field of [[Output wrappers|output wrappers]], and that field is the only place where the variable appears in [[Autocomplete|autocomplete menu]].
 
 # History
-- #TODO: Add a date [0.16.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).
+- [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was born. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).
