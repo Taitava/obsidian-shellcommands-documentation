@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.15.0",
+  "settings_version": "0.16.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -11,6 +11,7 @@
   "environment_variable_path_augmentations": {},
   "error_message_duration": 20,
   "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
   "output_channel_clipboard_also_outputs_to_notification": true,
   "enable_events": true,
   "approve_modals_by_pressing_enter_key": true,
@@ -36,7 +37,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "0"
+      "id": "0",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "alias": "Git Bash",
@@ -58,7 +63,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "1"
+      "id": "1",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -78,7 +87,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "21"
+      "id": "21",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "alias": "Git pull",
@@ -98,7 +111,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "22"
+      "id": "22",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -118,7 +135,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "27"
+      "id": "27",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -138,7 +159,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "28"
+      "id": "28",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -163,7 +188,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "29"
+      "id": "29",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -199,7 +228,11 @@
         }
       },
       "icon": null,
-      "id": "30"
+      "id": "30",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -223,7 +256,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "31"
+      "id": "31",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -247,7 +284,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "32"
+      "id": "32",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -271,7 +312,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "33"
+      "id": "33",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -291,7 +336,11 @@
       "preactions": [],
       "variable_default_values": {},
       "icon": null,
-      "id": "34"
+      "id": "34",
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      }
     }
   ],
   "prompts": [
@@ -330,5 +379,6 @@
       "name": "release_date",
       "description": "Used in replace-todo-dates.py"
     }
-  ]
+  ],
+  "output_wrappers": []
 }
