@@ -46,7 +46,7 @@ The former is the simplest, if you already have a shell command where you'd like
 2. Click the *New prompt* button.
 3. Another modal with a new prompt's settings opens up.
 
-After you finish setting up the prompt, you'll need to go to some shell command's settings to and select the prompt you created in order to enable opening it when the shell command executes. Follow the instructions in [[#Create a prompt from a shell command's settings modal create-prompt-from-shell-command]] to see how to pick a prompt for a shell command.
+After you finish setting up the prompt, you'll need to go to some shell command's settings and select the prompt you created in order to enable opening it when the shell command executes. Follow the instructions in [[#Create a prompt from a shell command's settings modal create-prompt-from-shell-command]] to see how to pick a prompt for a shell command.
 
 ## Configuring a prompt's settings ^configuring-prompt-settings
 ![[Settings-prompt-new-prompt.png]] ^prompt-settings-screenshot
