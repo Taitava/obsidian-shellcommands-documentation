@@ -5,6 +5,7 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 ## Normal variables
 | Variable                     | Availability                                                |
 | ---------------------------- | ----------------------------------------------------------- |
+| [[{{caret_paragraph}}]]      | When a note pane is open.                                   |
 | [[{{caret_position}}]]       | When a note pane is open.                                   |
 | [[{{clipboard}}]]            | Always.                                                     |
 | [[{{date}}]]                 | Always.                                                     |
