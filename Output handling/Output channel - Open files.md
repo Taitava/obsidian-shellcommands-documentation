@@ -2,6 +2,7 @@
 aliases:
  - "Open a file"
  - "Open file"
+ - "Open files"
 ---
 
 # Output channel: Open files
