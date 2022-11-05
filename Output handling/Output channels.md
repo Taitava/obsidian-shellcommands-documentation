@@ -22,6 +22,10 @@ All output channels are available to both `stdout` and `stderr`.
 3. An *extra options modal* opens up. In the modal, look for *Output channel for stdout* and *Output channel for stderr*. You'll find dropdown menus that allow you to change the channels:
   ![[Settings-modal-output.png]]
 
+## Realtime output handling
+> [!quote]
+> By default, the *Shell commands* plugin **waits till the end of execution** before it reads any output. This is fine for many cases, but if you are executing something that takes a long time to finish, you may opt for [[realtime output handling]].
+
 ## All output channels
 - [[Output channel - Ignore|Ignore]]
 - [[Output channel - Status bar]]

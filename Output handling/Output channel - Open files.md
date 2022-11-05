@@ -79,6 +79,16 @@ As Windows uses the colon `:` in absolute file paths (e.g. `C:\...`), and colon 
 - E.g. `MyNote.md:new-pane` is correctly interpreted so that `MyNote.md` and `new-pane` are different parts.
 - This inspection happens only on Windows systems, not on other platforms.
 
-## History
+# Differences in *realtime* mode  
+  
+If you define your shell command's [[Realtime output handling|output to be handled in realtime mode]], the output might show up a bit differently than in [[Realtime output handling#Wait until finished|wait until finished]] mode.  
+  
+> [!tldr] _Open files_ - realtime mode differences:
+> - You can create delays between file openings if you put e.g. `sleep 1` commands between your file path outputting commands.
+>  - No other known differences.
+> ^differences-in-realtime
+
+# History
+- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 - [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): Opening multiple files became supported, and the channel was renamed from *Open a file* to *Open files*, which also changed the documentation page's url. ([#255](https://github.com/Taitava/obsidian-shellcommands/issues/255)).
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).

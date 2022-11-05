@@ -21,7 +21,17 @@ This channel creates a modal window that displays output from a shell command.
 - `Ctrl`/`Cmd` + clicking a button does the same, redirects output and closes the modal.
 - Hover over each redirection button with mouse to see its hotkey letter.
 
-## History
+# Differences in *realtime* mode
+
+If you define your shell command's [[Realtime output handling|output to be handled in realtime mode]], the output might show up a bit differently than in [[Realtime output handling#Wait until finished|wait until finished]] mode.
+
+> [!tldr] _Ask after execution_ - realtime mode differences:
+> - You can edit early outputted text even when not all the output has been received. New output will go automatically to the bottom of the output textarea, regardless of your caret position.
+> - *Exit code* will only show up after the shell command finishes execution. Before that, an *Executing...* text indicates that the process is still running. 
+> ^differences-in-realtime
+
+# History
+- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the modal now closes it, although it won't probably be used much, because it requires that the output text field is not focused. Also `Esc` key can be used for closing, which has always been possible. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Added hotkeys for redirecting the output. Also, `Ctrl`/`Cmd` + clicking a button closes the modal. ([#145](https://github.com/Taitava/obsidian-shellcommands/issues/145)).
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed wrapping glitches: ([#172](https://github.com/Taitava/obsidian-shellcommands/issues/172))
