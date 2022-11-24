@@ -37,10 +37,17 @@ In addition to defining caret position, you can also define ranges of text to be
 - 4 parts: Defines a selection between two positions.
 - More than four parts: Defines multiple selections, but the amount of parts must be dividable into groups of four. 
 
-## Open in a new pane
-By default, the file will be opened in the currently active pane as long as it's not *pinned*. If the pane is *pinned* (= "locked"), then Obsidian will decide another pane where the file will be opened, which may be another already existing pane, or a completely new pane.
+## Open in a new pane, tab, or window
+By default, the file will be opened in the currently active tab as long as it's not *pinned*. If the tab is *pinned* (= "locked"), then Obsidian will decide another tab where the file will be opened, which may be another already existing tab, or a completely new tab.
 
 If you want to force creating a new pane, add `:new-pane`  to the end of the output. E.g. `MyNote.md:new-pane`.
+
+Instead of `new-pane`, you can also use `new-tab` or `new-window`.
+
+Differences between a _pane_, a _tab_ and a _window_ in Obsidian:
+ - A _pane_ can contain multiple _tabs_.
+ - All _panes_ are visible at the same time, and each pane show only one _tab_ at a time.
+ - A _window_ can contain multiple _panes_. Often there's just one window, but there can be many.
 
 ## If the file does not exist
 If you want to allow creating a file in case it does not exist, add `:can-create-file` to the end of the output. E.g. `MyNote.md:can-create-file`. If this flag is not present in the output, and if the file does not exist, the *Shell commands* plugin will cancel the operation and show an error message telling that new files cannot be created.
