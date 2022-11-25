@@ -31,11 +31,13 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > ^differences-in-realtime
 
 # History
-- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+	- Fixed: Redirecting output content repeated possible output wrapping ([#278](https://github.com/Taitava/obsidian-shellcommands/issues/278)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the modal now closes it, although it won't probably be used much, because it requires that the output text field is not focused. Also `Esc` key can be used for closing, which has always been possible. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Added hotkeys for redirecting the output. Also, `Ctrl`/`Cmd` + clicking a button closes the modal. ([#145](https://github.com/Taitava/obsidian-shellcommands/issues/145)).
-- [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed wrapping glitches: ([#172](https://github.com/Taitava/obsidian-shellcommands/issues/172))
-	- Long shell commands were not wrapped to multiple lines.
-	- When the window is narrow, redirection buttons were not wrapped to multiple lines. This fix also made the buttons wider, but smaller in height.
+- [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed line splitting glitches: ([#172](https://github.com/Taitava/obsidian-shellcommands/issues/172))
+	- Long shell commands were not splitted to multiple lines.
+	- When the window is narrow, redirection buttons were not splitted to multiple lines. This fix also made the buttons wider, but smaller in height.
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): If some text is selected, only the selected text will be used instead of the whole text. ([#158](https://github.com/Taitava/obsidian-shellcommands/issues/158)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The output channel was created. ([#134](https://github.com/Taitava/obsidian-shellcommands/issues/134)).
