@@ -24,9 +24,14 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > - Output is tried to be inserted into a single notification balloon, meaning that when new output is received, it's added to an existing notification.
 > - If a previous notification balloon was already closed, a new balloon is created, and it will contain **all** output content, not only new content.
 > - If both `stdout` and `stderr` are directed to a notification/error balloon, they will share the same balloon in *realtime* mode. This is for trying to keep both of these outputs in the same order they have appeared in. It may cause confusion if you need to know explicitly if certain output came via `stdout` or `stderr`. As a comparison, when in *wait* mode, notification/error balloon will create separate balloons for `stdout` and `stderr`.
+> - A stop icon can be clicked to terminate execution before it's finished:
+>   ![[Icon-Terminate-execution-Notification-balloon.png]]
+>   (Sends a `SIGTERM` signal to the process.)
 > ^differences-in-realtime
 
 # History
-- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+	- Added a button for terminating long-running shell commands - only appears in realtime mode. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
 - [0.5.1 - 2021-10-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#051---2021-10-09): Error balloon: Fixed exit code being sometimes null. ([#67](https://github.com/Taitava/obsidian-shellcommands/issues/67)).
 - [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The output channel was created. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).

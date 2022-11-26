@@ -28,11 +28,15 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > [!tldr] _Ask after execution_ - realtime mode differences:
 > - You can edit early outputted text even when not all the output has been received. New output will go automatically to the bottom of the output textarea, regardless of your caret position.
 > - *Exit code* will only show up after the shell command finishes execution. Before that, an *Executing...* text indicates that the process is still running. 
+> - A stop icon can be clicked to terminate execution before it's finished:
+>   ![[Icon-Terminate-execution-Ask-after-execution.png]]
+>   (Sends a `SIGTERM` signal to the process.)
 > ^differences-in-realtime
 
 # History
 - #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
 	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+	- Added a button for terminating long-running shell commands - only appears in realtime mode. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
 	- Fixed: Redirecting output content repeated possible output wrapping ([#278](https://github.com/Taitava/obsidian-shellcommands/issues/278)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the modal now closes it, although it won't probably be used much, because it requires that the output text field is not focused. Also `Esc` key can be used for closing, which has always been possible. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Added hotkeys for redirecting the output. Also, `Ctrl`/`Cmd` + clicking a button closes the modal. ([#145](https://github.com/Taitava/obsidian-shellcommands/issues/145)).
