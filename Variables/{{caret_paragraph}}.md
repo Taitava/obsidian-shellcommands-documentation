@@ -17,4 +17,4 @@ The returned text line constains everything on the caret's current line, i.e. ev
 - [[{{caret_position}}]]
 
 ## History
-- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The feature was born. ([#282](https://github.com/Taitava/obsidian-shellcommands/issues/282)).
+- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The variable was born. ([#282](https://github.com/Taitava/obsidian-shellcommands/issues/282)).

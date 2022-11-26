@@ -96,7 +96,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > ^differences-in-realtime
 
 # History
-- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--):
+- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26):
 	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 	- `new-pane` opens a new **pane** again, not a new **tab**. Obsidian `0.16.0` (aka `1.0.0`) [introduced tabs](https://forum.obsidian.md/t/obsidian-release-v1-0-0/44873), which also changed the behavior of this plugin's new pane opening feature. The original behavior is now restored. ([#276](https://github.com/Taitava/obsidian-shellcommands/issues/276)).
 	- Added: `new-tab` for opening a file in a new **tab** ([#291](https://github.com/Taitava/obsidian-shellcommands/issues/291)).

@@ -24,6 +24,6 @@ Usually, shell commands are quick to run, and it's only interesting to get a not
 
 
 # History
-- #TODO: Add a date [0.17.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Added an ability to terminate processes by clicking an icon. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
+- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): Added an ability to terminate processes by clicking an icon. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): Created the ability to show notifications about a shell command being executed. ([#261](https://github.com/Taitava/obsidian-shellcommands/issues/261)).
 	- This documentation page was created later, on 2022-11-26.
