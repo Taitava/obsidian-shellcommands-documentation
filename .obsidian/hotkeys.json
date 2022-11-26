@@ -126,5 +126,11 @@
       ],
       "key": "L"
     }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
   ]
 }
