@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.16.0",
+  "settings_version": "0.17.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -41,7 +41,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "alias": "Git Bash",
@@ -67,7 +68,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -91,7 +93,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "alias": "Git pull",
@@ -115,7 +118,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -139,7 +143,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -163,7 +168,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -192,7 +198,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -232,7 +239,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -260,7 +268,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -288,7 +297,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -316,7 +326,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     },
     {
       "platform_specific_commands": {
@@ -340,7 +351,8 @@
       "output_wrappers": {
         "stdout": null,
         "stderr": null
-      }
+      },
+      "output_handling_mode": "buffered"
     }
   ],
   "prompts": [
