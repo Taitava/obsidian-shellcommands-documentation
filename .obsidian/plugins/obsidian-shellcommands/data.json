@@ -353,6 +353,38 @@
         "stderr": null
       },
       "output_handling_mode": "buffered"
+    },
+    {
+      "id": "cuepyks12f",
+      "platform_specific_commands": {
+        "default": "mkdir \"Assets/Images/SC \"{{_sc_version}}\" - Obsidian \"{{_obsidian_version}}\necho \"REMEMBER TO SET AS ATTACHMENT FOLDER\"",
+        "win32": "mkdir \"Assets\\Images\\SC {{_sc_version}} - Obsidian {{_obsidian_version}}\" > $null\necho \"REMEMBER TO SET AS ATTACHMENT FOLDER\""
+      },
+      "shells": {},
+      "alias": "New image folder",
+      "icon": "folder-plus",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "modal"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "gihf4kpgsk"
+        }
+      ],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
@@ -378,6 +410,29 @@
         }
       ],
       "execute_button_text": "Execute"
+    },
+    {
+      "id": "gihf4kpgsk",
+      "title": "SC and Obsidian versions",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "Shell commands plugin version",
+          "description": "",
+          "default_value": "0.",
+          "target_variable_id": "euxjrqgpyh",
+          "required": true
+        },
+        {
+          "label": "Obsidian version",
+          "description": "",
+          "default_value": "1.",
+          "target_variable_id": "yvz02tniok",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Create folder"
     }
   ],
   "custom_variables": [
@@ -390,6 +445,11 @@
       "id": "fx1gavqiys",
       "name": "release_date",
       "description": "Used in replace-todo-dates.py"
+    },
+    {
+      "id": "yvz02tniok",
+      "name": "obsidian_version",
+      "description": ""
     }
   ],
   "output_wrappers": []
