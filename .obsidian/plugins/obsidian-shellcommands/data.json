@@ -385,6 +385,44 @@
         }
       ],
       "variable_default_values": {}
+    },
+    {
+      "id": "n2py3h2at3",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": " get-clipboard -Format image\n $img = get-clipboard -format image\n $img.save(\"{{event_folder_path:absolute}}\\{{_image_file_name}}\")\n# Copied 2022-12-05 from https://stackoverflow.com/a/55226209/2754026\n# Only works with PowerShell 5, not with newer versions!"
+      },
+      "shells": {
+        "win32": "PowerShell.exe"
+      },
+      "alias": "Paste image to file",
+      "icon": "image",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "modal"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {
+        "folder-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "k2jniuruaf"
+        }
+      ],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
@@ -433,6 +471,22 @@
         }
       ],
       "execute_button_text": "Create folder"
+    },
+    {
+      "id": "k2jniuruaf",
+      "title": "Image file name",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "Image file name",
+          "description": "",
+          "default_value": ".png",
+          "target_variable_id": "iks00t5s4s",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Create"
     }
   ],
   "custom_variables": [
@@ -449,6 +503,11 @@
     {
       "id": "yvz02tniok",
       "name": "obsidian_version",
+      "description": ""
+    },
+    {
+      "id": "iks00t5s4s",
+      "name": "image_file_name",
       "description": ""
     }
   ],
