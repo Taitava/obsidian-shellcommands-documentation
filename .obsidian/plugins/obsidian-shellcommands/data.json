@@ -203,8 +203,8 @@
     },
     {
       "platform_specific_commands": {
-        "default": "python Assets/Scripts/replace-todo-dates.py {{file_path:absolute}} {{_version}} {{_release_date}}",
-        "win32": "python Assets/Scripts/replace-todo-dates.py \"{{file_path:absolute}}\" \"{{_version}}\" \"{{_release_date}}\""
+        "default": "python Assets/Scripts/replace-todo-dates.py {{file_path:absolute}} {{_sc_version}} {{_release_date}}",
+        "win32": "python Assets/Scripts/replace-todo-dates.py \"{{file_path:absolute}}\" \"{{_sc_version}}\" \"{{_release_date}}\""
       },
       "shells": {},
       "alias": "Replace TODO with a date",
@@ -358,14 +358,14 @@
   "prompts": [
     {
       "id": "4huy5mwqf8",
-      "title": "Version and release date",
+      "title": "SC version and release date",
       "description": "",
       "preview_shell_command": false,
       "fields": [
         {
-          "label": "Version",
+          "label": "Shell commands plugin version",
           "description": "",
-          "default_value": "{{_version}}",
+          "default_value": "{{_sc_version}}",
           "target_variable_id": "euxjrqgpyh",
           "required": true
         },
@@ -383,7 +383,7 @@
   "custom_variables": [
     {
       "id": "euxjrqgpyh",
-      "name": "version",
+      "name": "sc_version",
       "description": "Used in replace-todo-dates.py"
     },
     {
