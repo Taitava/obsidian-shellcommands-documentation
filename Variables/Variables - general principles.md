@@ -90,3 +90,7 @@ Read more about [[custom variables]].
 > ```
 
 #TODO: The examples above only work for Bash (and similar shells)! Create examples for PowerShell, too.
+
+# History
+- #TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
+- #TODO: Add older history records regarding the variable system.
