@@ -14,13 +14,13 @@ The *Shell commands* plugin allows you to define different output channels for e
 While shells do support also other output streams than the `stdout` and `stderr`, the *Shell commands* plugin does not support custom output streams at the moment. This kind of support might be added in the future, although no decisions have been made.
 
 ## How to select output channels for a shell command
-All output channels are available to both `stdout` and `stderr`.
 1. Go to the plugin's settings panel.
 2. Look for the shell command whose output channels you want to change, and click the *Stdout/stderr handling, Ignore errors* icon next to it:
   ![[Settings-main-click-output-channels-icon.png]]
   
 3. An *extra options modal* opens up. In the modal, look for *Output channel for stdout* and *Output channel for stderr*. You'll find dropdown menus that allow you to change the channels:
   ![[Settings-modal-output.png]]
+Some output channels are available to both `stdout` and `stderr`. There are some channels that are not available for `stderr`, such as [[Output channel - Open files|Open files]].
 
 ## Realtime output handling
 > [!quote]
