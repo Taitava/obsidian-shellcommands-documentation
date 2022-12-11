@@ -10,5 +10,5 @@
 ## See also
 - [[{{folder_path}}]]
 
-## History
+# History
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The variable was created. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).

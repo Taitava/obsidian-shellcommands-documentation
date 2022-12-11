@@ -42,5 +42,5 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
 ## Based on
 The Obsidian event that powers this feature is [`modify` on `vault` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3260).
 
-## History
+# History
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The event was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/123)).

@@ -9,7 +9,7 @@
 ## See also
 - [[{{event_folder_path}}]]
 
-## History
+# History
 - [0.4.1 - 2021-09-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#041---2021-09-29):
 	- `{{folder_path:absolute}}`: Fixed missing leading `/` or `\` slash.
 	- Fixed `\` being replaced by `/` on Windows.

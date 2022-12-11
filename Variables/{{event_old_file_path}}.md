@@ -9,5 +9,5 @@
 ## See also
 - [[{{event_file_path}}]]: Gives the file's current (aka *new*) path that it has after moving/renaming.
 
-## History
+# History
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
