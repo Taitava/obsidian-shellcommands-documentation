@@ -28,14 +28,17 @@ with open(filePath, "r", newline="\n") as readFile:
     fileContent = readFile.read()
 
 # Change or add a timestamp in the content
-newTimestamp = "<small>This page was last modified on " + currentDate + " and created on " + creationDate + ".</small>"
-regexPattern = r"^<small>This page was last modified on \d{4}-\d{2}-\d{2} and created on \d{4}-\d{2}-\d{2}.</small>$"
-if re.match(regexPattern, fileContent, re.MULTILINE):
-    # An old timestamp exists - update it.
-    re.sub(regexPattern, newTimestamp, fileContent)
+newTimestamp = "<small>This page was last modified on " + currentDate + " and created on " + creationDate + ".</small>\n"
+regexPattern = r"(?<=^# History)(?P<middleSpacing>\s+)(<small>[^<]*</small>)?\n?"
+regexModifiers = re.MULTILINE | re.DOTALL
+if re.search(regexPattern, fileContent, regexModifiers):
+    # A History heading exists
+    print("Found a history record, updating it.")
+    fileContent = re.sub(regexPattern, r"\g<middleSpacing>" + newTimestamp, fileContent, flags=regexModifiers)
 else:
-    # No timestamp exists yet - add one.
-    fileContent = newTimestamp + "\n" + fileContent
+    # No History heading exists yet - add one.
+    print("Did not find a history record, creating one.")
+    fileContent = fileContent + "\n\n# History\n" + newTimestamp
 
 # Write the modified file
 with open(filePath, "w", newline="\n") as writeFile:
