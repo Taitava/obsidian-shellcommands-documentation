@@ -24,7 +24,7 @@ else:
     creation_date = current_date
 
 # Read the file in memory
-with open(file_path, "r") as read_file: # FIXME: This translates all newlines to \r\n on Windows, they should be \n. Not too bad, because Obsidian fixes the newlines when any manual edit is done on the file.
+with open(file_path, "r", newline="\n") as read_file:
     file_content = read_file.read()
 
 # Change or add a timestamp in the content
@@ -38,5 +38,5 @@ else:
     file_content = new_timestamp + "\n" + file_content
 
 # Write the modified file
-with open(file_path, "w") as write_file:
+with open(file_path, "w", newline="\n") as write_file:
     write_file.write(file_content)
