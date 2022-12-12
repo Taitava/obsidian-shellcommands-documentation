@@ -2,6 +2,7 @@
 import re
 import sys
 import subprocess
+import urllib.parse
 
 countNeededArguments = 1
 if len(sys.argv)-1 != countNeededArguments:
@@ -24,8 +25,13 @@ else:
 with open(filePath, "r", newline="\n") as readFile:
     fileContent = readFile.read()
 
+# Generate timestamp message
+timestampMessage = "This page was last modified on <strong>" + modificationDate + "</strong> and created on " + creationDate + ". " # Use <strong> instead of ** because ** doesn't seem to work in Obsidian's markdown when it's contained in a <small> element.
+filePathUrlEncoded = urllib.parse.quote(filePath.replace("\\", "/"), safe="/")
+timestampMessage += '<a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/' + filePathUrlEncoded + '">See page edit history</a>.'
+
 # Change or add a timestamp in the content
-newTimestamp = "<small>This page was last modified on <strong>" + modificationDate + "</strong> and created on " + creationDate + ".</small>\n" # Use <strong> instead of ** because ** doesn't seem to work in Obsidian's markdown when it's contained in a <small> element.
+newTimestamp = "<small>" + timestampMessage + "</small>\n"
 regexPattern = r"(?<=^# History)(?P<middleSpacing>\s+)(<small>.*?</small>)?\n?"
 regexModifiers = re.MULTILINE | re.DOTALL
 if re.search(regexPattern, fileContent, regexModifiers):
