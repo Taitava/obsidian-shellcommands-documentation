@@ -331,7 +331,7 @@
     },
     {
       "platform_specific_commands": {
-        "default": "python3 Assets/Scripts/update-timestamp.py {{file_path:relative}}"
+        "default": "python3 Assets/Scripts/updateTimestamp.py {{file_path:relative}}"
       },
       "shells": {},
       "alias": "Update file timestamp",
@@ -346,7 +346,7 @@
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {},
-      "icon": null,
+      "icon": "clock",
       "id": "34",
       "output_wrappers": {
         "stdout": null,
@@ -422,6 +422,31 @@
           "prompt_id": "k2jniuruaf"
         }
       ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "95rhxothbj",
+      "platform_specific_commands": {
+        "default": "python3 Assets/Scripts/updateTimestamps.py"
+      },
+      "shells": {},
+      "alias": "Update all files' timestamps",
+      "icon": "clock",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
       "variable_default_values": {}
     }
   ],

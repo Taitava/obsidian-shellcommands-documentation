@@ -132,5 +132,24 @@
       "modifiers": [],
       "key": "F10"
     }
+  ],
+  "obsidian-shellcommands:shell-command-34": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-95rhxothbj": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }
