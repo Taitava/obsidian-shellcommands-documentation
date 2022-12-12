@@ -26,7 +26,7 @@ with open(filePath, "r", newline="\n") as readFile:
 
 # Change or add a timestamp in the content
 newTimestamp = "<small>This page was last modified on <strong>" + modificationDate + "</strong> and created on " + creationDate + ".</small>\n" # Use <strong> instead of ** because ** doesn't seem to work in Obsidian's markdown when it's contained in a <small> element.
-regexPattern = r"(?<=^# History)(?P<middleSpacing>\s+)(<small>[^<]*</small>)?\n?"
+regexPattern = r"(?<=^# History)(?P<middleSpacing>\s+)(<small>.*?</small>)?\n?"
 regexModifiers = re.MULTILINE | re.DOTALL
 if re.search(regexPattern, fileContent, regexModifiers):
     # A History heading exists
