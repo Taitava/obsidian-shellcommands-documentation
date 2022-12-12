@@ -2,7 +2,6 @@
 import re
 import sys
 import subprocess
-from datetime import date
 
 countNeededArguments = 1
 if len(sys.argv)-1 != countNeededArguments:
