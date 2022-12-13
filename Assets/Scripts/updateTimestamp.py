@@ -5,6 +5,10 @@ import subprocess
 import urllib.parse
 
 
+class UpdateTimestampException(Exception):
+    pass
+
+
 def updateTimestamp(filePath: str):
     # Get the creation and modification dates from git (if possible)
     gitLogOutput = subprocess.run(["git", "log", "--follow", "--format=%ad", "--date", "format:%Y-%m-%d", filePath], stdout=subprocess.PIPE).stdout.decode("utf-8").strip('\n')
@@ -15,7 +19,7 @@ def updateTimestamp(filePath: str):
         creationDate = gitDates[-1]
     else:
         # Git did not find dates for the file, so the file is not in git yet.
-        return False
+        raise UpdateTimestampException("Unable to generate timestamp for file '" + filePath + "' because it doesn't seem to be committed to git.")
 
     # Read the file in memory
     with open(filePath, "r", newline="\n") as readFile:
@@ -40,7 +44,6 @@ def updateTimestamp(filePath: str):
     # Write the modified file
     with open(filePath, "w", newline="\n") as writeFile:
         writeFile.write(fileContent)
-    return True
 
 
 if __name__ == "__main__":
@@ -49,7 +52,11 @@ if __name__ == "__main__":
         sys.exit("This script requires " + str(countNeededArguments) + " arguments: a file path.")
 
     filePath = sys.argv[1]
-    if updateTimestamp(filePath):
+    try:
+        updateTimestamp(filePath)
+        # All is done.
         print("Timestamp is updated.")
-    else:
-        sys.exit("Unable to generate timestamp for file '" + filePath + "' because it doesn't seem to be committed to git.")
+    except UpdateTimestampException as exception:
+        # Something went wrong.
+        # Show the error message.
+        sys.exit(exception)
