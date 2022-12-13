@@ -6,7 +6,7 @@
 > - Also executed when a folder containing files is deleted. The event is then executed as many times as there were files in the folder.
 
 > [!Fail] Not executed when
-> - A file is deleted in `.obsidian` or any other folder starting with a dot `.`
+> - A file is deleted in `.obsidian` or any other folder starting with a dot�`.`
 
 ![[Events - general principles#^file-folder-events-detection]]
 
