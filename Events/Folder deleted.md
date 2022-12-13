@@ -6,7 +6,7 @@
 > - When a folder containing subfolders is deleted, the event is executed as many times as how many folders were deleted in total.
 
 > [!Fail] Not executed when
-> - A folder is deleted in `.obsidian` or any other folder starting with a dot `.`
+> - A folder is deleted in `.obsidian` or any other folder starting with a dot�`.`
 
 ![[Events - general principles#^file-folder-events-detection]]
 
