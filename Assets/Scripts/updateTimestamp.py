@@ -11,7 +11,18 @@ class UpdateTimestampException(Exception):
 
 def updateTimestamp(filePath: str):
     # Get the creation and modification dates from git (if possible)
-    gitLogOutput = subprocess.run(["git", "log", "--follow", "--format=%ad", "--date", "format:%Y-%m-%d", filePath], stdout=subprocess.PIPE).stdout.decode("utf-8").strip('\n')
+    gitLogOutput = subprocess.run([
+        "git",
+        "log",
+        "--grep=\\[IgnoreHistory\\]", # Exclude commits whose commit message contains [IgnoreHistory]
+        "--invert-grep",              # Makes it exclusive instead of inclusive.
+        "--regexp-ignore-case",       # No need to be careful with casing when writing [IgnoreHistory] to commit messages.
+        "--follow",
+        "--format=%ad",
+        "--date",
+        "format:%Y-%m-%d",
+        filePath
+    ], stdout=subprocess.PIPE).stdout.decode("utf-8").strip('\n')
     if re.match(r"^(\d{4}-\d{2}-\d{2})", gitLogOutput):
         # Git was able to find dates
         gitDates = gitLogOutput.split('\n')
