@@ -435,8 +435,8 @@
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
-        "stdout": "notification",
-        "stderr": "notification"
+        "stdout": "modal",
+        "stderr": "modal"
       },
       "output_wrappers": {
         "stdout": null,
