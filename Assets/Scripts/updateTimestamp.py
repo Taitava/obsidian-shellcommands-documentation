@@ -22,8 +22,13 @@ def updateTimestamp(filePath: str):
         raise UpdateTimestampException("Unable to generate timestamp for file '" + filePath + "' because it doesn't seem to be committed to git.")
 
     # Read the file in memory
-    with open(filePath, "r", newline="\n") as readFile:
-        fileContent = readFile.read()
+    try:
+        with open(filePath, "r", newline="\n") as readFile:
+            fileContent = readFile.read()
+    except UnicodeDecodeError:
+        # Something went wrong.
+        # Cancel updating.
+        raise UpdateTimestampException("Unicode decoding failed for file '" + filePath + "'. Does it contain emojis? :-)")
 
     # Generate timestamp message
     timestampMessage = "This page was last modified on <strong>" + modificationDate + "</strong> and created on " + creationDate + ". " # Use <strong> instead of ** because ** doesn't seem to work in Obsidian's markdown when it's contained in a <small> element.
