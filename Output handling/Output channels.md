@@ -34,3 +34,6 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 - [[Output channel - Clipboard]]
 - [[Output channel - Ask after execution]]
 - [[Output channel - Open files]]
+
+# History
+<small>This page was last modified on <strong>2022-12-11</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channels.md">See page edit history</a>.</small>

@@ -146,4 +146,5 @@ In addition to the [[{{environment}}|{{!environment}}]] variable, all other [[Va
 > ^no-escaping
 
 # History
+<small>This page was last modified on <strong>2022-06-28</strong> and created on 2022-05-01. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Additions%20to%20the%20PATH%20environment%20variable.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The ability to define PATH additions was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/204)).

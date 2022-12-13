@@ -10,6 +10,7 @@
 - [[{{event_file_path}}]]
 
 # History
+<small>This page was last modified on <strong>2022-12-11</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bfile_path%7D%7D.md">See page edit history</a>.</small>
 - [0.4.1 - 2021-09-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#041---2021-09-29):
 	- `{{file_path:absolute}}`: Fixed missing leading `/` or `\` slash.
 	- Fixed `\` being replaced by `/` on Windows.

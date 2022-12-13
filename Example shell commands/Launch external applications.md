@@ -18,3 +18,6 @@ Open the current file in a text editor: `gedit {{file_path:absolute}}`.
 
 ## Macintosh
 Open the current file in a text editor: `open -a TextEdit {{file_path:absolute}}`.
+
+# History
+<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Launch%20external%20applications.md">See page edit history</a>.</small>

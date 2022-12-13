@@ -1543,3 +1543,6 @@ You don't need to do this, but in case you want to know, here's how the list was
 I haven't added, modified, or removed anything from the command names or help texts.
 
 The list was generated on 2021-12-04. 
+
+# History
+<small>This page was last modified on <strong>2021-12-05</strong> and created on 2021-12-04. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Custom%20-%20Ubuntu%20Bash%20commands.md">See page edit history</a>.</small>

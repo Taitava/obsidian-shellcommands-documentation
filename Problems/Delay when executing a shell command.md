@@ -16,3 +16,6 @@ If your shell command is slow to execute (= has a few seconds delay before the a
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/187
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/227
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/234
+
+# History
+<small>This page was last modified on <strong>2022-07-15</strong> and created on 2022-07-15. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Problems/Delay%20when%20executing%20a%20shell%20command.md">See page edit history</a>.</small>

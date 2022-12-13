@@ -42,4 +42,5 @@ While this design decision might feel a bit complicated to understand at first, 
 Before a custom variable gets a value (for now, in SC version `0.12.0`, the only way for a custom variable to get a value is via [[Prompts]]), the variable is unassigned, and trying to use it would lead to an error message showing up. You can use the same default value features described on this page to handle the situations when a custom variable is unassigned.
 
 # History
+<small>This page was last modified on <strong>2022-05-07</strong> and created on 2022-04-09. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Default%20values.md">See page edit history</a>.</small>
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The ability to define default values and ignore errors silently was born. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).

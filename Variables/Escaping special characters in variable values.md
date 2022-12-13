@@ -48,5 +48,6 @@ I am not able to think about all the possibility use cases of this plugin. In th
 > - If you use variables in shell command *alias* fields, you can safely disable escaping there, as *alias* texts are never executed in shells.
 
 # History
+<small>This page was last modified on <strong>2022-06-09</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Escaping%20special%20characters%20in%20variable%20values.md">See page edit history</a>.</small>
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Escaping special characters in variable values started. ([#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)).

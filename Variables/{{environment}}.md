@@ -60,4 +60,5 @@ Replace *`VARIABLE`* with the environment variable name you want to read. `echo`
 
 
 # History
+<small>This page was last modified on <strong>2022-06-28</strong> and created on 2022-05-01. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Benvironment%7D%7D.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/#204)).

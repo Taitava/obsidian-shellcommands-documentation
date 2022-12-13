@@ -64,4 +64,5 @@ To see what values your custom variables currently contain, you may open a *Cust
 The side pane can currently only be used to read values. It doesn't provide any other functions.
 
 # History
+<small>This page was last modified on <strong>2022-05-22</strong> and created on 2022-04-11. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Custom%20variables.md">See page edit history</a>.</small>
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was born. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).

@@ -22,5 +22,6 @@ I'd like to make this variable available in *Reading* view too, but I don't know
 - [[{{caret_position}}]]
 
 # History
+<small>This page was last modified on <strong>2022-12-10</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bselection%7D%7D.md">See page edit history</a>.</small>
 - #TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable is now only available when something is selected, otherwise it shows an error message. ([#303](https://github.com/Taitava/obsidian-shellcommands/issues/303)).
 - [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.

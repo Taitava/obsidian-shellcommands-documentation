@@ -56,6 +56,7 @@ Here you can also quickly disable all events, if needed, by switching *Enable ev
 ![[Settings-main-events-tab.png]]
 
 # History
+<small>This page was last modified on <strong>2022-05-11</strong> and created on 2021-12-13. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Events%20-%20general%20principles.md">See page edit history</a>.</small>
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26):
 	- All events can now be disabled using a single toggle setting. ([#163](https://github.com/Taitava/obsidian-shellcommands/issues/163)).
 	- Fixed a bug: Ghost shell commands were executed by events even after removal ([#165](https://github.com/Taitava/obsidian-shellcommands/issues/165))

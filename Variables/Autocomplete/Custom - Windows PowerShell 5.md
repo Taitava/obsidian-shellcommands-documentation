@@ -1466,3 +1466,6 @@ You don't need to do this, but in case you want to know, here's how the list was
 I haven't added, modified, or removed anything from the command names or parameter lists.
 
 The list was generated on 2021-11-27. 
+
+# History
+<small>This page was last modified on <strong>2021-11-27</strong> and created on 2021-11-27. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Custom%20-%20Windows%20PowerShell%205.md">See page edit history</a>.</small>
