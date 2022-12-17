@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: File moved
 ## Execution
 > [!Success] Executed when

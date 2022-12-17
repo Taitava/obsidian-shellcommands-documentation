@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{file_content}}`
 > [!Quote] {{file_content}} described in the *Shell commands* plugin's settings
 > Gives the current file's content, including YAML frontmatter. If you need YAML excluded, use [[{{note_content}}]] instead.

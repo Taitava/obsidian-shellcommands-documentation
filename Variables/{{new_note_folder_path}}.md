@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{new_note_folder_path:relative}}` or `{{new_note_folder_path:absolute}}`
 > [!Quote] {{new_note_folder_name}} described in the *Shell commands* plugin's settings
 > Gives path to the *Default location for new notes* folder (a setting in Obsidian), either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.

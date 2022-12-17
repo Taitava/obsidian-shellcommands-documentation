@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{selection}}`
 > [!Quote] {{selection}} described in the *Shell commands* plugin's settings
 > Gives the currently selected text.

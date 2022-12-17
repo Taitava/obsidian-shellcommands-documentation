@@ -3,6 +3,7 @@ aliases:
  - "Open a file"
  - "Open file"
  - "Open files"
+cssclass: customiseTitle
 ---
 
 # Output channel: Open files

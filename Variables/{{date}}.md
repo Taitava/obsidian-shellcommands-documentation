@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{date:format}}`
 > [!Quote] {{date}} described in the *Shell commands* plugin's settings
 > Gives a date/time stamp as per your liking. The *format* part can be customized and is mandatory. Formatting options: https://momentjs.com/docs/#/displaying/format/

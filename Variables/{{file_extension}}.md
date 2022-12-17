@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{file_extension:with-dot}}` or `{{file_extension:no-dot}}`
 > [!Quote] {{file_extension}} described in the *Shell commands* plugin's settings
 > Gives the current file name's ending. Use {{file_extension:with-dot}} to include a preceding dot. If the extension is empty, no dot is added. {{file_extension:no-dot}} never includes a dot.

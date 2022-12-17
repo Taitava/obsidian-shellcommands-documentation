@@ -1,6 +1,7 @@
 ---
 aliases:
- - 
+ -
+cssclass: customiseTitle
 ---
 # Output channel: {{title}}
 

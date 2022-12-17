@@ -1,4 +1,3 @@
-# Arguments for variables
 From [[Variables - general principles#^arguments1|Variables - general principles]]:
 ![[Variables - general principles#^arguments1]]
 

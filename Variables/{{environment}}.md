@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{environment}}`
 > [!Quote] {{environment}} described in the *Shell commands* plugin's settings
 > Gives an environment variable's value. It's an original value received when Obsidian was started.

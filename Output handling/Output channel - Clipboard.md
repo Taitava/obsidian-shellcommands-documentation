@@ -1,6 +1,7 @@
 ---
 aliases:
  - Clipboard
+cssclass: customiseTitle
 ---
 # Output channel: Clipboard
 Output will be copied to the clipboard as text.

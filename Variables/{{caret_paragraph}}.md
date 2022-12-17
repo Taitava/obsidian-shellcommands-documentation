@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{caret_paragraph}}`
 > [!Quote] {{caret_position}} described in the *Shell commands* plugin's settings
 > Gives a text line at the current caret position.

@@ -1,4 +1,3 @@
-# How to define shell commands
 ## Creating your first command
 1. After you have [installed the *Shell commands* plugin](https://github.com/Taitava/obsidian-shellcommands#installation--usage), open up the settings modal and select *Shell commands* from the left side menu:
 	![[Settings-menu.png]]

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_file_name}}`
 > [!Quote] {{event_file_name}} described in the *Shell commands* plugin's settings
 > Gives the event related file name with a file extension. If you need it without the extension, use {{event_title}} instead.

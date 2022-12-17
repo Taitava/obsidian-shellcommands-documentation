@@ -1,6 +1,7 @@
 ---
 aliases:
  - Windows CMD commands
+cssclass: customiseTitle
 ---
 # Autocomplete custom suggestions: Windows PowerShell 5 commands
 Unfortunately, this list does not contain help texts for commands, but some of the commands have parameter lists present instead.

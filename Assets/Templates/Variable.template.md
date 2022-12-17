@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{title}}`
 > [!Quote] {{title}} described in the *Shell commands* plugin's settings
 > Description

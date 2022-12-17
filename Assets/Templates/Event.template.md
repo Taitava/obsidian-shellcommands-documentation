@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: {{title}}
 
 ## Execution

@@ -1,5 +1,3 @@
-# Output wrappers
-
 > [!summary]
 > Output wrappers are text snippets that can be used to surround text outputted by shell commands. For example, when [[Output channel - Current file|inserting output to current note]], put it in a [code block](https://help.obsidian.md/How+to/Format+your+notes#Code+blocks). Benefits:
 >  - Multiple shell commands can use the same output wrapper. No need to repeat the same wrapper text over and over again in the settings.

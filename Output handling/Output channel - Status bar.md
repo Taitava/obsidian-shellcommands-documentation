@@ -1,6 +1,7 @@
 ---
 aliases:
   - "Status bar"
+cssclass: customiseTitle
 ---
 # Output channel: Status bar
 Outputs text to the bottom of the Obsidian window. The last line of the output is visible permanently. If the output contains multiple lines, you can hover the status bar with mouse to see all the outputted lines.

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Copy a link to current file to the clipboard
 
 ## Windows, Linux & Macintosh

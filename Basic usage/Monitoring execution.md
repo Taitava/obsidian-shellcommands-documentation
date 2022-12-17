@@ -1,5 +1,3 @@
-# Monitoring execution
-
 Usually, shell commands are quick to run, and it's only interesting to get a notification about their output. However, some shell commands might take a longer time to process, in which case it can be nice to be able to see that a shell command is under execution. You can turn on a notification balloon for this in settings. It will look like this:
 
 ![[Execution-notification-balloon.png]]

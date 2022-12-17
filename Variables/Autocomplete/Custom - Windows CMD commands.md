@@ -1,6 +1,7 @@
 ---
 aliases:
  - Windows CMD commands
+cssclass: customiseTitle
 ---
 # Autocomplete custom suggestions: Windows CMD commands
 ## How it will look like

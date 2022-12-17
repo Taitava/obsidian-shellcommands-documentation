@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: Folder moved
 ## Execution
 > [!Success] Executed when

@@ -1,4 +1,3 @@
-# Ignoring errors
 By default, the *Shell commands* plugin displays all error messages produced by shell commands in a notification balloon in the top right corner of the Obsidian window. Sometimes, however, error messages might be unimportant. SC provides you with two ways on how to ignore error messages on a per shell command basis.
 
 ## Ignore all error messages produced by a shell command

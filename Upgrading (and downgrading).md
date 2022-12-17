@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Upgrading the plugin
 Upgrades can be installed easily from within Obsidian - [[#How to upgrade|see instructions]].
 

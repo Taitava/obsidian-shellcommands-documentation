@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_old_folder_name}}`
 > [!Quote] {{event_old_folder_name}} described in the *Shell commands* plugin's settings
 > File events: Gives the moved file's old parent folder's name.

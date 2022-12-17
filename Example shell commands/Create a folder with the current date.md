@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Create a folder with the current date
 
 ## Windows, Linux & Macintosh

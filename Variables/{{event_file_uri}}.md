@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_file_uri}}`
 > [!Quote] {{event_file_uri}} described in the *Shell commands* plugin's settings
 > Gives an Obsidian URI that opens the event related file.

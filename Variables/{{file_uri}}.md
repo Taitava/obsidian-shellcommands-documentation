@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{file_uri}}`
 > [!Quote] {{file_uri}} described in the *Shell commands* plugin's settings
 > Gives an Obsidian URI that opens the current file.

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Remember caret position when reopening Obsidian
 This example shows you how to automatically store the current file's caret position in a file every time Obsidian quits, and then read it next time Obsidian starts.
 

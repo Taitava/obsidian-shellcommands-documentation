@@ -1,5 +1,3 @@
-# Pass variables to stdin
-
 `stdin` can be used to pass text values to shell programs without including them in the command line used to call the program.
 
 > [!Info] About `stdin` - an abbreviation for _standard input_

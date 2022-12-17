@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{title}}`
 > [!Quote] {{title}} described in the *Shell commands* plugin's settings
 > Gives the current file name without a file extension. If you need it with the extension, use [[{{file_name}}|{{file_name}}]] instead.

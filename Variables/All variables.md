@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # All built-in variables
 
 This page contains a list of all `{{variables}}` that are built-in to the *Shell commands* plugin. For information about what `{{variables}}` are and how to use them, please read [[Variables - general principles]].

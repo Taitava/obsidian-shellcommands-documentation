@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: {{title}}
 
 ## Windows

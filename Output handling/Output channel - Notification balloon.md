@@ -2,6 +2,7 @@
 aliases:
   - "Notification balloon"
   - "Error balloon"
+cssclass: customiseTitle
 ---
 
 # Output channel: Notification/Error balloon

@@ -1,4 +1,3 @@
-# Example shell commands
 - [[Copy a link to current file to the clipboard]]
 - [[Create a file with content from the clipboard]]
 - [[Create a folder with the current date]]

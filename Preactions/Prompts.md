@@ -1,4 +1,3 @@
-# Prompts
 Prompts are a customisable way to ask a user to input a value - or multiple values - when a shell command is about to be executed.
 
 Some examples on what can be asked:

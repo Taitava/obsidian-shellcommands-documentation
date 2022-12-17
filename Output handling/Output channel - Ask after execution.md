@@ -1,6 +1,9 @@
 ---
 aliases:
  - "Ask after execution"
+cssclass: customiseTitle
+---
+
 ---
 # Output channel: Ask after execution
 This channel creates a modal window that displays output from a shell command.

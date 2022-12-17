@@ -1,6 +1,7 @@
 ---
 aliases:
  - Ubuntu Bash commands
+cssclass: customiseTitle
 ---
 # Autocomplete custom suggestions: Ubuntu Bash commands
 ## How it will look like

@@ -1,4 +1,4 @@
-/* Do not show the file name at the top of the page. */
-div.page-header {
+/* Do not show the file name at the top of the page for pages that define their own main title. */
+.customiseTitle div.page-header {
 	display: none;
 }

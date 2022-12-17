@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_old_file_path:relative}}` or `{{event_old_file_path:absolute}}`
 > [!Quote] {{event_old_file_path}} described in the *Shell commands* plugin's settings
 > Gives the renamed/moved file's old path, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.

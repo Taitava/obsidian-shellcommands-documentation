@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{output}}`
 > [!Quote] {{output}} described in the *Shell commands* plugin's settings
 > Gives text outputted by a shell command after it's executed.

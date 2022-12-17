@@ -2,8 +2,6 @@
 aliases:
   - shell
 ---
-
-# Shells
 Knowing your shell allows you to find out what shell commands are available for you to use, although most of the differences in command sets depend on which operating system you use, not so much on which shell you use. Then again, some commands may act a bit differently in different shells.
 
 ## Currently supported shells

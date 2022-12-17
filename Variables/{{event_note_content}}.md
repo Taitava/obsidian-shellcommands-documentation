@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_note_content}}`
 > [!Quote] {{event_note_content}} described in the *Shell commands* plugin's settings
 > Gives the event related file's content without YAML frontmatter. If you need YAML included, use [[{{event_file_content}}]] instead.

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{new_note_folder_name}}`
 > [!Quote] {{new_note_folder_name}} described in the *Shell commands* plugin's settings
 > Gives the folder name for *Default location for new notes* (a setting in Obsidian). No ancestor folders are included.

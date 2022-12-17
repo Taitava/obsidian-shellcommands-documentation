@@ -1,4 +1,3 @@
-# Custom variables
 Quote from [[Variables - general principles#^custom-variables|Variables - general principles]]:
 > Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
 > - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{folder_name}}`
 > [!Quote] {{folder_name}} described in the *Shell commands* plugin's settings
 > Gives the current file's parent folder name, or a dot if the folder is the vault's root. No ancestor folders are included.

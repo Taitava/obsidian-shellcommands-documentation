@@ -1,3 +1,3 @@
-# {{title}}
+
 
 # Related discussions

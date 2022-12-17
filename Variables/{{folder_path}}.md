@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{folder_path:relative}}` or `{{folder_path:absolute}}`
 > [!Quote] {{folder_path}} described in the *Shell commands* plugin's settings
 > Gives path to the current file's parent folder, either as absolute from the root of the file system, or as relative from the root of the Obsidian vault.

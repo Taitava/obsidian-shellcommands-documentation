@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: File renamed
 ## Execution
 > [!Success] Executed when

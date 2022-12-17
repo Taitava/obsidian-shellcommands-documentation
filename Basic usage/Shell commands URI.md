@@ -1,4 +1,3 @@
-# Shell commands URI
 *Shell commands URI* allows you to create links in your Obsidian note files (or in other applications outside of Obsidian) that execute your shell commands when they are clicked.
 
 - Syntax for an example link: `[Execute my shell command](obsidian://shell-commands/?vault=VAULTNAMEHERE&execute=SHELLCOMMANDIDHERE)`

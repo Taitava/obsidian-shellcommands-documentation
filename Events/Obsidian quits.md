@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: Obsidian quits
 
 ## Execution

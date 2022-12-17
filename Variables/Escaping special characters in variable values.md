@@ -1,4 +1,3 @@
-# Escaping special characters in variable values
 Shells have special meanings for certain characters. If the variables that you use in your commands, return special characters in their values, the special characters need to be *escaped* so that they will not perform any special, unexpected and possibly dangerous actions.
 
 > [!Tip] Escaping can be disabled

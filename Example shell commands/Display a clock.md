@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Display a clock
 
 This example uses [[Events - general principles|events]] to keep an up-to-date information about the current time on the status bar. The time is updated every second.

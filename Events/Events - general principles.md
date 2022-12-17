@@ -2,9 +2,6 @@
 aliases:
   - Events
 ---
-
-# Events - general principles
-
 An obvious feature of the *Shell commands* plugin is the ability to execute shell commands from Obsidian's command palette, and via hotkeys. In addition to this, shell commands can also be executed automatically under certain circumstances - by using events.
 
 For example, you can launch a set of applications [[Obsidian starts|every time you open Obsidian]], so you will have all the needed tool programs open when you start your day by working on a project. And when you are done for the day, you can [[watch cat videos on YouTube after closing Obsidian]].

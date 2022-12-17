@@ -1,5 +1,3 @@
-# Delay when executing a shell command
-
 If your shell command is slow to execute (= has a few seconds delay before the actions of the shell command are done), there can be different reasons for it. Different shells may have different reasons for delays, so please [[Shells#How to know which shell is used|check first what shell you are using]].
 
 > [!info] PowerShell (Windows)

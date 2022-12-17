@@ -2,6 +2,7 @@
 aliases:
  - autocomplete menu
  - autocomplete variable names
+cssclass: customiseTitle
 ---
 # Autocomplete variable names
 [[Variables - general principles|{{Variables}}]] are handy, but what makes them even handier is a super easy way to access them. When you are [[How to define shell commands|defining a shell command]], just type `{{`, and a dropdown menu like the one below will open up, showing all available variables and instructions:

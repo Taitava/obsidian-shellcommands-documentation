@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: Folder created
 ## Execution
 > [!Success] Executed when

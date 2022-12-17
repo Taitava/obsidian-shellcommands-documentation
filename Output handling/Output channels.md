@@ -1,5 +1,3 @@
-# Output channels
-
 Output channels specify what to do with text that your shell commands return to Obsidian after their execution. You can define specific output channels for each of your shell commands. For example, one shell command's output may be channeled to the file that is currently open in Obsidian, and another shell command's output may be channeled to the clipboard. Output can also be discarded (ignored).
 
 ## Two different *output streams*

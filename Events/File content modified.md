@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: File content modified
 ## Execution
 > [!Success] Executed when

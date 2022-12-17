@@ -1,4 +1,3 @@
-# Hidden settings
 There are a couple of settings that do not have a visible field in the settings view, due to the fact that the settings are usually not needed to be changed, or for me not being able to decide a good location for the settings in the user interface.
 
 ## How to access the hidden settings

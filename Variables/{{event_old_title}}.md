@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_old_title}}`
 > [!Quote] {{event_old_title}} described in the *Shell commands* plugin's settings
 > Gives the renamed file's old name without a file extension. If you need it with the extension, use [[{{event_old_file_name}}]] instead.

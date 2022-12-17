@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: Switching the active pane
 
 ## Execution

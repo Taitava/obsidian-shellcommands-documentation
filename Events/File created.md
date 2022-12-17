@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: File created
 ## Execution
 > [!Success] Executed when

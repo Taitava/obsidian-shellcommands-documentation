@@ -1,5 +1,3 @@
-# Working directory
-
 A *working directory* is a folder where your shell commands are executed in. This means, that all shell commands that *read*, *create*, *modify*, *move*, *delete* or otherwise access *files* or *folders*, will perform these actions in the *working directory*. By default, the *working directory* is your vault's root directory, but you can change it.
 
 ## Changing the working directory for all shell commands

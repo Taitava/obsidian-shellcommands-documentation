@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_folder_name}}`
 > [!Quote] {{event_folder_name}} described in the *Shell commands* plugin's settings
 > File events: Gives the event related file's parent folder name.

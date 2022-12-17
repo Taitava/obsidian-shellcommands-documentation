@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Launch external applications
 ## Windows
 On Windows, you can use a shell command `start`.

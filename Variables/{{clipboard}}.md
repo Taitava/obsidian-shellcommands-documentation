@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{clipboard}}`
 > [!Quote] {{clipboard}} described in the *Shell commands* plugin's settings
 > Gives the content you last copied to your clipboard.

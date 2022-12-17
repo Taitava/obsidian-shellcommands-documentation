@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Create a file with content from the clipboard
 
 ## Windows, Linux & Macintosh

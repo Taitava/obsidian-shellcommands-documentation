@@ -2,6 +2,7 @@
 aliases:
  - "{{caret_position:line}}"
  - "{{caret_position:column}}"
+cssclass: customiseTitle
 ---
 # Variable: `{{caret_position}}`
 > [!Quote] {{caret_position}} described in the *Shell commands* plugin's settings

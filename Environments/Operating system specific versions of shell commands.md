@@ -1,4 +1,3 @@
-# Operating system specific versions of shell commands
 Probably most users use their Obsidian vaults on a single operating system, be it Windows, Linux or Macintosh. For those, the feature of _operating system specific versions of shell commands_ is not needed.
 
 But if you happen to have a vault that you synchronize between computers that have **different** operating systems (e.g. one computer is a Macintosh, and another has Windows), and if you also synchronize the *Shell commands* plugin's settings between the computers, you might end up in a situation where some of your commands only work on one of the operating systems, but not others.

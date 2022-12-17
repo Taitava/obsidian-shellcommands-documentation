@@ -1,4 +1,3 @@
-# Settings backups
 Heavy users of this plugin may end up defining over 50 shell commands in their settings. It's a ton to remember if it has to be redone due to a hardware failure, corrupted settings file, or other accident. This note will discuss about two ways to to backup - manual and automatic.
 
 ## Manual backups are important

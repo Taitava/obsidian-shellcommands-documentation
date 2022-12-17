@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Display file size and modification time on status bar
 
 This example uses events to keep an (almost) up-to-date information about file size and modification time of the currently active file on the status bar. The information is updated:

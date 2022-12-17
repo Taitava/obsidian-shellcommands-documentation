@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{workspace}}`
 > [!Quote] {{workspace}} described in the *Shell commands* plugin's settings
 > Gives the current workspace's name.

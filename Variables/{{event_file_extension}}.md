@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_file_extension:with-dot}}` or `{{event_file_extension:no-dot}}`
 > [!Quote] {{event_file_extension}} described in the *Shell commands* plugin's settings
 > Gives the event related file name's ending. Use {{event_file_extension:with-dot}} to include a preceding dot. If the extension is empty, no dot is added. {{event_file_extension:no-dot}} never includes a dot.

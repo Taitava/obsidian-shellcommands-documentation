@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_folder_path:relative}}` or `{{event_folder_path:absolute}}`
 > [!Quote] {{event_folder_path}} described in the *Shell commands* plugin's settings
 > File events: Gives path to the event related file's parent folder.

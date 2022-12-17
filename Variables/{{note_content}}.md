@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{note_content}}`
 > [!Quote] {{note_content}} described in the *Shell commands* plugin's settings
 > Gives the current note's content without YAML frontmatter. If you need YAML included, use [[{{file_content}}]] instead.

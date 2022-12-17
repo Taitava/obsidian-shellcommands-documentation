@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Event: File deleted
 ## Execution
 > [!Success] Executed when

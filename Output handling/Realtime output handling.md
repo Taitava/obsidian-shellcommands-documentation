@@ -2,9 +2,6 @@
 aliases:
  - "Realtime mode"
 ---
-
-# Realtime output handling
-
 > [!info]
 > By default, the *Shell commands* plugin **waits till the end of execution** before it reads any output. This is fine for many cases, but if you are executing something that takes a long time to finish, you may opt for realtime output handling. <!-- If you change this paragraph, change it in Output channels.md, too! -->
 

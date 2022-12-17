@@ -4,7 +4,6 @@ aliases:
  - "{{variable}}"
  - "{{variables}}"
 ---
-# Variables - general principles
 In each shell command, you can use `{{variables}}` to submit data to your commands. You can for example pass the currently open file's path to a command that echoes the current date to the end of that file: `echo {{date:YYYY-MM-DD}} >> {{file_path:absolute}}`.
 
 - Variables are always enclosed within `{{` and `}}`.

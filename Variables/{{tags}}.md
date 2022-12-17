@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{tags:separator}}`
 > [!Quote] {{tags}} described in the *Shell commands* plugin's settings
 > Gives all tags defined in the current note. Replace the *separator* part with a comma, space or whatever characters you want to use as a separator between tags. A separator is always needed to be defined.
