@@ -7,10 +7,10 @@ A long day behind and you need some relaxation after finally being able to stop 
 3. Enable the [[Obsidian quits]] event. 
 
 ## Windows
-- Visit this plugin's GitHub repository: `start https://www.youtube.com/results?search_query=cat+videos`
+- `start https://www.youtube.com/results?search_query=cat+videos`
 
 ## Linux
-- Visit this plugin's GitHub repository: `xdg-open "https://www.youtube.com/results?search_query=cat+videos"`.
+- `xdg-open "https://www.youtube.com/results?search_query=cat+videos"`.
 
 ## Macintosh
-- Visit this plugin's GitHub repository: `open "https://www.youtube.com/results?search_query=cat+videos"`.
+- `open "https://www.youtube.com/results?search_query=cat+videos"`.
