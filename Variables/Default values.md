@@ -1,5 +1,7 @@
 ---
 cssclass: customiseTitle
+aliases:
+ - "default value"
 ---
 # Default values for variables
 From [[Variables - general principles#^default-values|Variables - general principles]]:
