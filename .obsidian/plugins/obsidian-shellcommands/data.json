@@ -448,6 +448,43 @@
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {}
+    },
+    {
+      "id": "9fbeydy9mz",
+      "platform_specific_commands": {
+        "default": "echo \"- #TODO: Add a date [\"{{_sc_version}}\" - \"{{date:YYYY}}\"--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---\"{{date:YYYY}}\"--): \"{{_description}}\" ([#\"{{_issue_number}}\"](https://github.com/Taitava/obsidian-shellcommands/issues/\"{{_issue_number}}\")).\"",
+        "win32": "echo \"- #TODO: Add a date [{{_sc_version}} - {{date:YYYY}}--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---{{date:YYYY}}--): {{_description}} ([#{{_issue_number}}](https://github.com/Taitava/obsidian-shellcommands/issues/{{_issue_number}})).\""
+      },
+      "shells": {},
+      "alias": "Insert history record",
+      "icon": "list",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "hj6r70a6fc"
+        }
+      ],
+      "variable_default_values": {
+        "euxjrqgpyh": {
+          "type": "value",
+          "value": "0..0"
+        }
+      }
     }
   ],
   "prompts": [
@@ -512,6 +549,36 @@
         }
       ],
       "execute_button_text": "Create"
+    },
+    {
+      "id": "hj6r70a6fc",
+      "title": "History record",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "SC version",
+          "description": "In which SC version will this change be released.",
+          "default_value": "{{_sc_version}}",
+          "target_variable_id": "euxjrqgpyh",
+          "required": true
+        },
+        {
+          "label": "History description",
+          "description": "",
+          "default_value": "",
+          "target_variable_id": "d7ezwmyjuh",
+          "required": true
+        },
+        {
+          "label": "GitHub issue number",
+          "description": "No # should be included!",
+          "default_value": "",
+          "target_variable_id": "o4jguvdny7",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Insert"
     }
   ],
   "custom_variables": [
@@ -533,6 +600,16 @@
     {
       "id": "iks00t5s4s",
       "name": "image_file_name",
+      "description": ""
+    },
+    {
+      "id": "d7ezwmyjuh",
+      "name": "description",
+      "description": ""
+    },
+    {
+      "id": "o4jguvdny7",
+      "name": "issue_number",
       "description": ""
     }
   ],
