@@ -26,6 +26,7 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 | [[{{tags}}]]                 | When a note pane is open.                                   |
 | [[{{title}}]]                | When a file is open.                                        |
 | [[{{vault_path}}]]           | Always.                                                     |
+| [[{{yaml_content}}]]         | When a note pane is open and a YAML frontmatter is defined. |
 | [[{{yaml_value}}]]           | When a note pane is open and a YAML frontmatter is defined. |
 | [[{{workspace}}]]            | When the *Workspaces* core plugin is enabled.               |
 
@@ -49,6 +50,7 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_old_title}}]]       | [[File renamed]]                                                                                                                                                                                                 |
 | [[{{event_tags}}]]            | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
+| [[{{event_yaml_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 
 ## Special purpose variables
 
