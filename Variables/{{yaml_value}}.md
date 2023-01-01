@@ -60,7 +60,8 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 
 ## Availability
 > [!Warning] Only available:
-> When the active pane contains a file, not in graph view or other non-file view.
+> - When the active pane contains a file, not in graph view or other non-file view.
+> - Also, the given YAML property must exist in the file's frontmatter.
 
 ## See also
 - [[{{event_yaml_value}}]]

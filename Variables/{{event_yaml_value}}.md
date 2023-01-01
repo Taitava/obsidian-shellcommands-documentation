@@ -7,7 +7,8 @@ cssclass: customiseTitle
 
 ## Availability
 > [!Warning] Only available:
-> In events: [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]].
+> - In events: [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]].
+> - Also, the given YAML property must exist in the file's frontmatter.
 
 ## See also
 - [[{{yaml_value}}]]
