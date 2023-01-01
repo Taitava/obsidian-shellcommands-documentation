@@ -66,4 +66,4 @@ This list contains variables that are usually used somewhere else than in actual
 Read about [[Default values|defining default values for variables]].
 
 # History
-<small>This page was last modified on <strong>2022-11-04</strong> and created on 2022-05-08. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/All%20variables.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-01-01</strong> and created on 2022-05-08. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/All%20variables.md">See page edit history</a>.</small>
