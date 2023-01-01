@@ -51,6 +51,7 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_tags}}]]            | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_yaml_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
+| [[{{event_yaml_value}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                       |                                                                                                                                                                                                                  |
 
 ## Special purpose variables
 
