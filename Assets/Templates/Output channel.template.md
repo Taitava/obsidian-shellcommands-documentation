@@ -13,4 +13,4 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > - #TODO
 
 # History
-- #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel was born. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).
+- #TODO: Add a date [0.. - {{date:YYYY}}--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel was born. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).
