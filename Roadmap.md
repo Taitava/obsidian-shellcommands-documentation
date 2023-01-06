@@ -42,13 +42,10 @@ These are not in any particular order, but some features are needed to be done b
 - E.g. [Git Bash (MINGW)](https://github.com/Taitava/obsidian-shellcommands/discussions/208) could be supported. Not everyone has it, so I'm not going to implement it as a permanent shell in the plugin.
 - [Need to take exportability into account](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-3199601) - this needs planning.
 
-## [Support `stdin` (#89)](https://github.com/Taitava/obsidian-shellcommands/discussions/89)
-- `stdin` is an input stream that would allow passing long text content (such as contents of a note file) to a shell command.
-- Also, some shell commands are designed to work on inputted text, rather than on text submitted via arguments. Without proper `stdin` support, users currently need to use `echo` to pass variables to a shell command's `stdin`. An example: `echo {{tags:,}} | grep myTag`. With `stdin` support, the example could be shortened to just `grep myTag`, with `{{tags:,}}` defined as `stdin` content in a shell command's settings.
-
 # Already implemented features
 | SC version | Feature                                                             | Discussion                                                                | Completed  |
 |:---------- |:------------------------------------------------------------------- |:------------------------------------------------------------------------- | ---------- |
+| `0.18.0`   | Pass variables to `stdin`                                           | [#89](https://github.com/Taitava/obsidian-shellcommands/discussions/89)   | completely |
 | `0.17.0`   | Realtime output handling                                            | [#64](https://github.com/Taitava/obsidian-shellcommands/discussions/64)   | completely |
 | `0.13.0`   | Execute shell commands via Obsidian URI                             | [#195](https://github.com/Taitava/obsidian-shellcommands/discussions/195) | completely |
 | `0.12.0`   | A modal for asking values from user (Prompt)                        | [#17](https://github.com/Taitava/obsidian-shellcommands/discussions/17)   | partially  |
