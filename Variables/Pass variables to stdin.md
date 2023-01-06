@@ -13,7 +13,7 @@
 4. Write the content (static text or [[Variables - general principles|{{variables}}]]) that should be passed to `stdin` to the text field. Multiline content is also supported, the field grows if you press enter.
 
 > [!summary] Notes
-> - When using [[Variables - general principles|{{variables}}]] in the `stdin` field, special characters in their values are [[Escaping special characters in variable values|escaped]]. [[Escaping special characters in variable values#Prevent escaping - but only after a deep consideration|Prevent escaping if needed]].
+> - When using [[Variables - general principles|{{variables}}]] in the `stdin` field, special characters in their values are not [[Escaping special characters in variable values|escaped]], unlike when passing variables to shell commands directly.
 > - If the `stdin` settings field is empty, nothing will be passed to `stdin`, not even an empty string.
 > - If there are multiple values that need to be inputted, put them on separate lines. Many shell programs interpret newlines as separators between different values.
 
