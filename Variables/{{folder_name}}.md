@@ -22,6 +22,6 @@ If the folder is the root folder of the Obsidian vault, the variable gives a dot
 - [[{{event_folder_name}}]]
 
 # History
-<small>This page was last modified on <strong>2022-12-11</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bfolder_name%7D%7D.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-01-06</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bfolder_name%7D%7D.md">See page edit history</a>.</small>
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): When the folder is the root folder of the vault, the variable now gives a dot `.` instead of an empty text. ([#304](https://github.com/Taitava/obsidian-shellcommands/issues/304)).
 - [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.

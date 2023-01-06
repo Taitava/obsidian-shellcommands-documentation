@@ -58,4 +58,4 @@ These are not in any particular order, but some features are needed to be done b
 
 
 # History
-<small>This page was last modified on <strong>2022-11-26</strong> and created on 2022-07-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-01-06</strong> and created on 2022-07-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md">See page edit history</a>.</small>
