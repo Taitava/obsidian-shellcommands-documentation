@@ -2,8 +2,6 @@
 aliases:
   - shell
 ---
-
-# Shells
 Knowing your shell allows you to find out what shell commands are available for you to use, although most of the differences in command sets depend on which operating system you use, not so much on which shell you use. Then again, some commands may act a bit differently in different shells.
 
 ## Currently supported shells
@@ -32,3 +30,6 @@ In the above section, you are able to change the shell that all of your shell co
 	![[Settings-main-click-environments-icon.png]]
 3. An *extra options* modal pops up. You can switch the shell at the bottom of the modal:
 	![[Settings-modal-environments.png]]
+
+# History
+<small>This page was last modified on <strong>2022-04-19</strong> and created on 2021-11-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Shells.md">See page edit history</a>.</small>

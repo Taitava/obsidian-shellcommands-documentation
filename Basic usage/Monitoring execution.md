@@ -1,5 +1,3 @@
-# Monitoring execution
-
 Usually, shell commands are quick to run, and it's only interesting to get a notification about their output. However, some shell commands might take a longer time to process, in which case it can be nice to be able to see that a shell command is under execution. You can turn on a notification balloon for this in settings. It will look like this:
 
 ![[Execution-notification-balloon.png]]
@@ -24,6 +22,7 @@ Usually, shell commands are quick to run, and it's only interesting to get a not
 
 
 # History
+<small>This page was last modified on <strong>2022-11-26</strong> and created on 2022-11-26. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Monitoring%20execution.md">See page edit history</a>.</small>
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): Added an ability to terminate processes by clicking an icon. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): Created the ability to show notifications about a shell command being executed. ([#261](https://github.com/Taitava/obsidian-shellcommands/issues/261)).
 	- This documentation page was created later, on 2022-11-26.

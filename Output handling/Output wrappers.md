@@ -1,5 +1,3 @@
-# Output wrappers
-
 > [!summary]
 > Output wrappers are text snippets that can be used to surround text outputted by shell commands. For example, when [[Output channel - Current file|inserting output to current note]], put it in a [code block](https://help.obsidian.md/How+to/Format+your+notes#Code+blocks). Benefits:
 >  - Multiple shell commands can use the same output wrapper. No need to repeat the same wrapper text over and over again in the settings.
@@ -78,4 +76,5 @@ If `{{output}}` is not present in an output wrapper, then the wrapper text will 
 
 # History
 
+<small>This page was last modified on <strong>2022-09-25</strong> and created on 2022-09-01. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20wrappers.md">See page edit history</a>.</small>
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The ability to define output wrappers was born. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).

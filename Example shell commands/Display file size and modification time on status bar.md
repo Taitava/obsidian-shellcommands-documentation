@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Display file size and modification time on status bar
 
 This example uses events to keep an (almost) up-to-date information about file size and modification time of the currently active file on the status bar. The information is updated:
@@ -29,3 +32,6 @@ Write-Host("Size: ", [math]::Round((Get-Item {{file_path:absolute}}).length/1KB)
 
 ## Macintosh
 #TODO
+
+# History
+<small>This page was last modified on <strong>2022-04-08</strong> and created on 2022-01-04. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md">See page edit history</a>.</small>

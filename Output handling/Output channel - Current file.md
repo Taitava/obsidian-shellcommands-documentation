@@ -1,6 +1,7 @@
 ---
 aliases:
   - "Current file"
+cssclass: customiseTitle
 ---
 # Output channel: Current file: top/bottom/caret position
 Output will be inserted to the file that is currently open and active in Obsidian. If no file is active (e.g. you have Graph view active instead of a file), the output will be shown in a message balloon.
@@ -18,6 +19,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > ^differences-in-realtime
 
 # History
+<small>This page was last modified on <strong>2022-11-26</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Current%20file.md">See page edit history</a>.</small>
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 - [0.6.0 - 2021-10-12](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#060---2021-10-12): The output channels *Current file: top* and *Current file: bottom* were created. ([#68](https://github.com/Taitava/obsidian-shellcommands/issues/68)).
 - [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The output channel *Current file: caret position* was created. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).

@@ -1,4 +1,6 @@
-<small>This page was last modified on 2022-07-21 and created on 2022-07-21.</small>
+---
+cssclass: customiseTitle
+---
 # Roadmap: The horizon of SC `1.0`
 
 This page sums up some far-future goals of the *Shell commands* project. There are some fundamental features on my radar that I want to address here, because even though they are important, implementing them needs a lot of time, and often the presence of other planned features (= prerequisites). Some of the features are originating from other people's ideas, and I want to be more open about how I'm going to place them on the path of the future of this plugin.
@@ -56,3 +58,7 @@ These are not in any particular order, but some features are needed to be done b
 | `0.7.0`    | Escaping variable values                                            | [#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)        | completely |
 | `0.5.0`    | Output channels                                                     | [#16](https://github.com/Taitava/obsidian-shellcommands/discussions/16)   | partially  |
 
+
+
+# History
+<small>This page was last modified on <strong>2022-11-26</strong> and created on 2022-07-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md">See page edit history</a>.</small>

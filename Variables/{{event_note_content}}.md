@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{event_note_content}}`
 > [!Quote] {{event_note_content}} described in the *Shell commands* plugin's settings
 > Gives the event related file's content without YAML frontmatter. If you need YAML included, use [[{{event_file_content}}]] instead.
@@ -11,4 +14,5 @@
 - [[{{note_content}}]]
 
 # History
+<small>This page was last modified on <strong>2022-09-25</strong> and created on 2022-09-11. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_note_content%7D%7D.md">See page edit history</a>.</small>
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was born. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).

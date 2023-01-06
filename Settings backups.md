@@ -1,4 +1,3 @@
-# Settings backups
 Heavy users of this plugin may end up defining over 50 shell commands in their settings. It's a ton to remember if it has to be redone due to a hardware failure, corrupted settings file, or other accident. This note will discuss about two ways to to backup - manual and automatic.
 
 ## Manual backups are important
@@ -28,4 +27,5 @@ To restore a backup settings file, do:
 6. Launch Obsidian again and check that everything works.
 
 # History
+<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Settings%20backups.md">See page edit history</a>.</small>
 [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Started making automatic backup of the settings file after upgrades. ([#83](https://github.com/Taitava/obsidian-shellcommands/issues/83)).

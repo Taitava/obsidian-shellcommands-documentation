@@ -1,1 +1,0 @@
-- #TODO: Add a date [0.. - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The feature was born. ([#](https://github.com/Taitava/obsidian-shellcommands/issues/)).

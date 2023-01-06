@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Remember caret position when reopening Obsidian
 This example shows you how to automatically store the current file's caret position in a file every time Obsidian quits, and then read it next time Obsidian starts.
 
@@ -35,3 +38,6 @@ On Windows, the second shell command assumes you are using PowerShell instead of
 The idea in the second shell command is to print out the current file's path together with the restored caret position numbers (line and column). Obsidian does open the last file during startup, but it does not remember the caret position. So we do not need to store the file name. The output channel [[Output channel - Open files|Open a file]] handles placing the caret in the position we want. It also needs the file name, although it's the same file that is already open.
 
 You can change the `caret_position.txt` file name freely in the commands. For example, you can "hide" the file by using e.g. this instead: `.obsidian/caret_position.txt`.
+
+# History
+<small>This page was last modified on <strong>2022-08-21</strong> and created on 2022-03-05. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Remember%20caret%20position%20when%20reopening%20Obsidian.md">See page edit history</a>.</small>

@@ -1,4 +1,3 @@
-# Operating system specific versions of shell commands
 Probably most users use their Obsidian vaults on a single operating system, be it Windows, Linux or Macintosh. For those, the feature of _operating system specific versions of shell commands_ is not needed.
 
 But if you happen to have a vault that you synchronize between computers that have **different** operating systems (e.g. one computer is a Macintosh, and another has Windows), and if you also synchronize the *Shell commands* plugin's settings between the computers, you might end up in a situation where some of your commands only work on one of the operating systems, but not others.
@@ -31,3 +30,6 @@ Because this feature is only meaningful in situations where vaults and settings 
 - [Obsidian Sync](https://obsidian.md/sync): The official way to synchronize Obsidian vaults and settings. Probably the easiest to set up. **Paid**.
 - [Git](https://git-scm.com) + [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[BitBucket](https://bitbucket.org): A very good way to manually store versions of your files in a version control system. Allows you to annotate (= write notes about) each change that you make to your files. Git has a learning curve, but if you are willing to use time, it'll pay off in the end, and it's usable for other projects outside of Obsidian, too. If you'd like to automate this, you can take a look at a community plugin named [Obsidian Git](https://github.com/denolehov/obsidian-git). **Free** for most use cases. *(Git itself is always free, but the hosting providers do have both free and paid plans available, with the free plans offering enough space and features for most Obsidian vaults).*
 - [Dropbox](https://dropbox.com), [iCloud](https://icloud.com), [OneDrive](https://onedrive.com), [Google Drive](https://google.com/drive): General file synchronization services. **Free** for most use cases.
+
+# History
+<small>This page was last modified on <strong>2022-04-19</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md">See page edit history</a>.</small>

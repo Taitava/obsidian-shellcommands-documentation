@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{yaml_value}}`
 > [!Quote] {{yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the current file's frontmatter. Give a property name as an argument. You can access nested properties with dot notation: property1.property2
@@ -57,11 +60,13 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 
 ## Availability
 > [!Warning] Only available:
-> When the active pane contains a file, not in graph view or other non-file view.
+> - When the active pane contains a file, not in graph view or other non-file view.
+> - Also, the given YAML property must exist in the file's frontmatter.
 
 ## See also
 - [[{{event_yaml_value}}]]
 
-## History
+# History
+<small>This page was last modified on <strong>2023-01-01</strong> and created on 2021-12-10. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Byaml_value%7D%7D.md">See page edit history</a>.</small>
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Fixed a crash when the argument was empty. The bug appeared in version `0.10.0` at the same time when variable `{{event_yaml_value}}` was created. ([#181](https://github.com/Taitava/obsidian-shellcommands/issues/181)).
 - [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#120](https://github.com/Taitava/obsidian-shellcommands/issues/120)).

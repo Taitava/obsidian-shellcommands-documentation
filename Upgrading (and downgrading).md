@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Upgrading the plugin
 Upgrades can be installed easily from within Obsidian - [[#How to upgrade|see instructions]].
 
@@ -49,3 +52,6 @@ Now that you are aware of the `data.json` incompatibility issue, you can start t
 	- Do not download *Source code*! You will not need it, and it would only contain a ton of files that would just make you confused.
 9. From the old `obsidian-shellcommands-disabled` folder, copy a settings file that you know to be compatible with the version of SC you have chosen to downgrade to, to the new `obsidian-shellcommands` folder next to the three other files.
 10. Launch Obsidian. Check that everything works okay!
+
+# History
+<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Upgrading%20%28and%20downgrading%29.md">See page edit history</a>.</small>

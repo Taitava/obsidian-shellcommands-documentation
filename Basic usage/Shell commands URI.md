@@ -1,4 +1,3 @@
-# Shell commands URI
 *Shell commands URI* allows you to create links in your Obsidian note files (or in other applications outside of Obsidian) that execute your shell commands when they are clicked.
 
 - Syntax for an example link: `[Execute my shell command](obsidian://shell-commands/?vault=VAULTNAMEHERE&execute=SHELLCOMMANDIDHERE)`
@@ -59,4 +58,5 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 > - **Shell commands URI does not support opening a specific file before executing a shell command**, which is [supported by Obsidian Advanced URI](https://vinzent03.github.io/obsidian-advanced-uri/actions/navigation). This support might be added to Shell commands URI later.
 
 # History
+<small>This page was last modified on <strong>2022-06-28</strong> and created on 2022-04-30. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The support for shell command URI was born. ([#202](https://github.com/Taitava/obsidian-shellcommands/issues/202)).

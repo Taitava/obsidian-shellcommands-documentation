@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.17.0",
+  "settings_version": "0.18.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -11,7 +11,7 @@
   "environment_variable_path_augmentations": {},
   "error_message_duration": 20,
   "notification_message_duration": 10,
-  "execution_notification_mode": "disabled",
+  "execution_notification_mode": "if-long",
   "output_channel_clipboard_also_outputs_to_notification": true,
   "enable_events": true,
   "approve_modals_by_pressing_enter_key": true,
@@ -42,7 +42,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "alias": "Git Bash",
@@ -69,7 +72,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -94,7 +100,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "alias": "Git pull",
@@ -119,7 +128,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -144,7 +156,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -169,7 +184,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -199,12 +217,15 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
-        "default": "python Assets/Scripts/replace-todo-dates.py {{file_path:absolute}} {{_version}} {{_release_date}}",
-        "win32": "python Assets/Scripts/replace-todo-dates.py \"{{file_path:absolute}}\" \"{{_version}}\" \"{{_release_date}}\""
+        "default": "python Assets/Scripts/replace-todo-dates.py {{file_path:absolute}} {{_sc_version}} {{_release_date}}",
+        "win32": "python Assets/Scripts/replace-todo-dates.py \"{{file_path:absolute}}\" \"{{_sc_version}}\" \"{{_release_date}}\""
       },
       "shells": {},
       "alias": "Replace TODO with a date",
@@ -240,7 +261,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -269,7 +293,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -298,7 +325,10 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
@@ -327,11 +357,14 @@
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "platform_specific_commands": {
-        "default": "python3 Assets/Scripts/update-timestamp.py {{file_path:relative}}"
+        "default": "python3 Assets/Scripts/updateTimestamp.py {{file_path:relative}}"
       },
       "shells": {},
       "alias": "Update file timestamp",
@@ -346,26 +379,173 @@
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {},
-      "icon": null,
+      "icon": "clock",
       "id": "34",
       "output_wrappers": {
         "stdout": null,
         "stderr": null
       },
-      "output_handling_mode": "buffered"
+      "output_handling_mode": "buffered",
+      "input_contents": {
+        "stdin": null
+      }
+    },
+    {
+      "id": "cuepyks12f",
+      "platform_specific_commands": {
+        "default": "mkdir \"Assets/Images/SC \"{{_sc_version}}\" - Obsidian \"{{_obsidian_version}}\necho \"REMEMBER TO SET AS ATTACHMENT FOLDER\"",
+        "win32": "mkdir \"Assets\\Images\\SC {{_sc_version}} - Obsidian {{_obsidian_version}}\" > $null\necho \"REMEMBER TO SET AS ATTACHMENT FOLDER\""
+      },
+      "shells": {},
+      "alias": "New image folder",
+      "icon": "folder-plus",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "modal"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "gihf4kpgsk"
+        }
+      ],
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
+    },
+    {
+      "id": "n2py3h2at3",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": " get-clipboard -Format image\n $img = get-clipboard -format image\n $img.save(\"{{event_folder_path:absolute}}\\{{_image_file_name}}\")\n# Copied 2022-12-05 from https://stackoverflow.com/a/55226209/2754026\n# Only works with PowerShell 5, not with newer versions!"
+      },
+      "shells": {
+        "win32": "PowerShell.exe"
+      },
+      "alias": "Paste image to file",
+      "icon": "image",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "modal"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {
+        "folder-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "k2jniuruaf"
+        }
+      ],
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
+    },
+    {
+      "id": "95rhxothbj",
+      "platform_specific_commands": {
+        "default": "python3 Assets/Scripts/updateTimestamps.py"
+      },
+      "shells": {},
+      "alias": "Update all files' timestamps",
+      "icon": "clock",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "modal"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
+    },
+    {
+      "id": "9fbeydy9mz",
+      "platform_specific_commands": {
+        "default": "echo \"- #TODO: Add a date [\"{{_sc_version}}\" - \"{{date:YYYY}}\"--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---\"{{date:YYYY}}\"--): \"{{_description}}\" ([#\"{{_issue_number}}\"](https://github.com/Taitava/obsidian-shellcommands/issues/\"{{_issue_number}}\")).\"",
+        "win32": "echo \"- #TODO: Add a date [{{_sc_version}} - {{date:YYYY}}--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---{{date:YYYY}}--): {{_description}} ([#{{_issue_number}}](https://github.com/Taitava/obsidian-shellcommands/issues/{{_issue_number}})).\""
+      },
+      "shells": {},
+      "alias": "Insert history record",
+      "icon": "list",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "hj6r70a6fc"
+        }
+      ],
+      "variable_default_values": {
+        "euxjrqgpyh": {
+          "type": "value",
+          "value": "0..0"
+        }
+      },
+      "input_contents": {
+        "stdin": null
+      }
     }
   ],
   "prompts": [
     {
       "id": "4huy5mwqf8",
-      "title": "Version and release date",
+      "title": "SC version and release date",
       "description": "",
       "preview_shell_command": false,
       "fields": [
         {
-          "label": "Version",
+          "label": "Shell commands plugin version",
           "description": "",
-          "default_value": "{{_version}}",
+          "default_value": "{{_sc_version}}",
           "target_variable_id": "euxjrqgpyh",
           "required": true
         },
@@ -378,18 +558,114 @@
         }
       ],
       "execute_button_text": "Execute"
+    },
+    {
+      "id": "gihf4kpgsk",
+      "title": "SC and Obsidian versions",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "Shell commands plugin version",
+          "description": "",
+          "default_value": "0.",
+          "target_variable_id": "euxjrqgpyh",
+          "required": true
+        },
+        {
+          "label": "Obsidian version",
+          "description": "",
+          "default_value": "1.",
+          "target_variable_id": "yvz02tniok",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Create folder"
+    },
+    {
+      "id": "k2jniuruaf",
+      "title": "Image file name",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "Image file name",
+          "description": "",
+          "default_value": ".png",
+          "target_variable_id": "iks00t5s4s",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Create"
+    },
+    {
+      "id": "hj6r70a6fc",
+      "title": "History record",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "SC version",
+          "description": "In which SC version will this change be released.",
+          "default_value": "{{_sc_version}}",
+          "target_variable_id": "euxjrqgpyh",
+          "required": true
+        },
+        {
+          "label": "History description",
+          "description": "",
+          "default_value": "",
+          "target_variable_id": "d7ezwmyjuh",
+          "required": true
+        },
+        {
+          "label": "GitHub issue number",
+          "description": "No # should be included!",
+          "default_value": "",
+          "target_variable_id": "o4jguvdny7",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Insert"
     }
   ],
+  "builtin_variables": {},
   "custom_variables": [
     {
       "id": "euxjrqgpyh",
-      "name": "version",
-      "description": "Used in replace-todo-dates.py"
+      "name": "sc_version",
+      "description": "Used in replace-todo-dates.py",
+      "default_value": null
     },
     {
       "id": "fx1gavqiys",
       "name": "release_date",
-      "description": "Used in replace-todo-dates.py"
+      "description": "Used in replace-todo-dates.py",
+      "default_value": null
+    },
+    {
+      "id": "yvz02tniok",
+      "name": "obsidian_version",
+      "description": "",
+      "default_value": null
+    },
+    {
+      "id": "iks00t5s4s",
+      "name": "image_file_name",
+      "description": "",
+      "default_value": null
+    },
+    {
+      "id": "d7ezwmyjuh",
+      "name": "description",
+      "description": "",
+      "default_value": null
+    },
+    {
+      "id": "o4jguvdny7",
+      "name": "issue_number",
+      "description": "",
+      "default_value": null
     }
   ],
   "output_wrappers": []

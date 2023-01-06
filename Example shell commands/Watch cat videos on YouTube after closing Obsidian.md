@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Watch cat videos on YouTube after closing Obsidian
 
 A long day behind and you need some relaxation after finally being able to stop working? This example will cheer you up by presenting a simple shell command that serves you lovely cat videos every time you close Obsidian. 😸👍

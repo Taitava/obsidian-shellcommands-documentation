@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # All built-in variables
 
 This page contains a list of all `{{variables}}` that are built-in to the *Shell commands* plugin. For information about what `{{variables}}` are and how to use them, please read [[Variables - general principles]].
@@ -23,6 +26,7 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 | [[{{tags}}]]                 | When a note pane is open.                                   |
 | [[{{title}}]]                | When a file is open.                                        |
 | [[{{vault_path}}]]           | Always.                                                     |
+| [[{{yaml_content}}]]         | When a note pane is open and a YAML frontmatter is defined. |
 | [[{{yaml_value}}]]           | When a note pane is open and a YAML frontmatter is defined. |
 | [[{{workspace}}]]            | When the *Workspaces* core plugin is enabled.               |
 
@@ -31,7 +35,7 @@ These variables are only available when a shell command is executed by a specifi
 
 | Variable                      | Available during events                                                                                                                                                                                          |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[{{event_file_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                                                                                                                                 |
+| [[{{event_file_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_file_extension}}]]  | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_file_name}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_file_path}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
@@ -46,6 +50,8 @@ These variables are only available when a shell command is executed by a specifi
 | [[{{event_old_title}}]]       | [[File renamed]]                                                                                                                                                                                                 |
 | [[{{event_tags}}]]            | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
 | [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
+| [[{{event_yaml_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
+| [[{{event_yaml_value}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                       |                                                                                                                                                                                                                  |
 
 ## Special purpose variables
 
@@ -58,3 +64,6 @@ This list contains variables that are usually used somewhere else than in actual
 
 ## When a variable is not available
 Read about [[Default values|defining default values for variables]].
+
+# History
+<small>This page was last modified on <strong>2023-01-01</strong> and created on 2022-05-08. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/All%20variables.md">See page edit history</a>.</small>

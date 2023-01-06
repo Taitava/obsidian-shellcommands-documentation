@@ -1,4 +1,3 @@
-# Ignoring errors
 By default, the *Shell commands* plugin displays all error messages produced by shell commands in a notification balloon in the top right corner of the Obsidian window. Sometimes, however, error messages might be unimportant. SC provides you with two ways on how to ignore error messages on a per shell command basis.
 
 ## Ignore all error messages produced by a shell command
@@ -20,7 +19,8 @@ An exit code (aka error code) is used to identify error situations programmatica
 	You can check which exit code you need to use by executing a shell command that fails and looking at the number in the brackets:
 	![[Output-error-balloon.png]]
 	
-## History
+# History
+<small>This page was last modified on <strong>2022-12-11</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Ignoring%20errors.md">See page edit history</a>.</small>
 - [0.8.0 - 2021-12-10](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#080---2021-12-10): Changed error code ignoring so that also error code 0 can be ignored. ([#107](https://github.com/Taitava/obsidian-shellcommands/issues/107)).
 - [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): Added support for ignoring all error output regardless of error codes. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).
 - [0.4.0 - 2021-09-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#040---2021-09-26): Added support for ignoring error codes that are greater than or equal to 1. ([#36](https://github.com/Taitava/obsidian-shellcommands/issues/36)).

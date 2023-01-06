@@ -1,4 +1,3 @@
-# How to define shell commands
 ## Creating your first command
 1. After you have [installed the *Shell commands* plugin](https://github.com/Taitava/obsidian-shellcommands#installation--usage), open up the settings modal and select *Shell commands* from the left side menu:
 	![[Settings-menu.png]]
@@ -36,7 +35,9 @@ In addition to the actual shell command text field, there are some other control
 - <svg viewBox="0 0 100 100" class="trash" width="16" height="16"><path fill="currentColor" stroke="currentColor" stroke-width="2" d="M42,4c-3.3,0-6,2.7-6,6v4H20.3c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0H16c-0.7,0-1.4,0.4-1.8,1c-0.4,0.6-0.4,1.4,0,2 c0.4,0.6,1,1,1.8,1h2v72c0,3.3,2.7,6,6,6h52c3.3,0,6-2.7,6-6V18h2c0.7,0,1.4-0.4,1.8-1c0.4-0.6,0.4-1.4,0-2c-0.4-0.6-1-1-1.8-1 h-3.7c-0.2,0-0.4,0-0.7,0H64v-4c0-3.3-2.7-6-6-6L42,4z M42,8h16c1.1,0,2,0.9,2,2v4H40v-4C40,8.9,40.9,8,42,8z M22,18h15.7 c0.2,0,0.4,0,0.7,0h23.3c0.2,0,0.4,0,0.7,0H78v72c0,1.1-0.9,2-2,2H24c-1.1,0-2-0.9-2-2V18z M38,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8s1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C39,28.2,38.5,28,38,28z M50,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8c0.6,0.4,1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C51,28.2,50.5,28,50,28z M62,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8c0.6,0.4,1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C63,28.2,62.5,28,62,28z"></path></svg> *Delete this shell command*. Will ask a confirmation. Deletion cannot be undone, unless you have [[Settings backups|backups of the plugin's settings]].
 
 # History
+<small>This page was last modified on <strong>2022-07-23</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md">See page edit history</a>.</small>
 - [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22):
+	<small>This page was last modified on <strong>2022-07-23</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md">See page edit history</a>.</small>
 	- The *Execute now* button can now be `Ctrl`/`Cmd` + clicked to temporarily show all output in a modal ([#241](https://github.com/Taitava/obsidian-shellcommands/issues/241)).
 	- The ability to define menu icons was created ([#240](https://github.com/Taitava/obsidian-shellcommands/issues/240)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):

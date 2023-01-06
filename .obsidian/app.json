@@ -4,7 +4,7 @@
   "spellcheck": true,
   "readableLineLength": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "Assets/Images/SC 0.17.0 - Obsidian 1.0.3",
+  "attachmentFolderPath": "Assets/Images/SC 0.18.0 - Obsidian 1.0.3",
   "spellcheckDictionary": [
     "customisable",
     "programmatically",
@@ -33,5 +33,6 @@
     "Assets/Templates/"
   ],
   "communityThemeSortOrder": "download",
-  "communityPluginSortOrder": "download"
+  "communityPluginSortOrder": "download",
+  "showLineNumber": true
 }

@@ -1,5 +1,3 @@
-# Delay when executing a shell command
-
 If your shell command is slow to execute (= has a few seconds delay before the actions of the shell command are done), there can be different reasons for it. Different shells may have different reasons for delays, so please [[Shells#How to know which shell is used|check first what shell you are using]].
 
 > [!info] PowerShell (Windows)
@@ -16,3 +14,6 @@ If your shell command is slow to execute (= has a few seconds delay before the a
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/187
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/227
 > - https://github.com/Taitava/obsidian-shellcommands/discussions/234
+
+# History
+<small>This page was last modified on <strong>2022-07-15</strong> and created on 2022-07-15. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Problems/Delay%20when%20executing%20a%20shell%20command.md">See page edit history</a>.</small>

@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Shell commands - Documentation
 *Shell commands* is a community plugin for [Obsidian.md Markdown editor](https://obsidian.md). Its purpose is to make it possible to execute system commands from within Obsidian (the same commands that you can execute in a [terminal](https://en.wikipedia.org/wiki/Terminal_emulator)).
 
@@ -57,6 +60,7 @@ Actions that are performed before executing a shell command, i.e. preparations.
 ### Variables
 - [[Custom variables]]
 - [[Default values|Default values for variables]]
+- [[Use stdin for long variable values]]
 
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
@@ -86,3 +90,7 @@ Also, some screenshots may be from older versions of SC, in case no significant 
 
 ![[Settings-main-shell-commands-tab.png]]
 (An example screenshot from the main settings view of SC version `0.10.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and Macintosh. Also, the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on Macintosh, which would have `Cmd` instead of `Ctrl`.)
+
+
+# History
+<small>This page was last modified on <strong>2022-12-05</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Index.md">See page edit history</a>.</small>

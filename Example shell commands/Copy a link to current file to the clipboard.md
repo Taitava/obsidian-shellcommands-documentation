@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Copy a link to current file to the clipboard
 
 ## Windows, Linux & Macintosh
@@ -9,3 +12,6 @@ This example works on all operating systems.
 
 # Author
 Thank you [FelipeRearden](https://github.com/FelipeRearden) for this idea! 🙂
+
+# History
+<small>This page was last modified on <strong>2021-11-20</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Copy%20a%20link%20to%20current%20file%20to%20the%20clipboard.md">See page edit history</a>.</small>

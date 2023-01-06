@@ -2,6 +2,7 @@
 aliases:
  - autocomplete menu
  - autocomplete variable names
+cssclass: customiseTitle
 ---
 # Autocomplete variable names
 [[Variables - general principles|{{Variables}}]] are handy, but what makes them even handier is a super easy way to access them. When you are [[How to define shell commands|defining a shell command]], just type `{{`, and a dropdown menu like the one below will open up, showing all available variables and instructions:
@@ -96,6 +97,8 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
+<small>This page was last modified on <strong>2022-12-10</strong> and created on 2021-11-27. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Autocomplete.md">See page edit history</a>.</small>
+#TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
 - [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The list of autocomplete suggestions is now tried to be [sorted intelligently](https://github.com/Taitava/obsidian-shellcommands/discussions/248). ([#249](https://github.com/Taitava/obsidian-shellcommands/issues/249)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Updated the library version to a [custom built 6.1.3](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0) one in order to better support multiline fields. This fixes pressing enter in an autocomplete menu causing a line break being added in multiline fields, which happened in previous versions of SC (e.g. prompt description field). ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 - [0.12.1 - 2022-05-16](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0121---2022-05-16): Fixed unintended console logging that started in `0.12.0`. ([#223](https://github.com/Taitava/obsidian-shellcommands/issues/223)).

@@ -4,7 +4,6 @@ aliases:
  - "{{variable}}"
  - "{{variables}}"
 ---
-# Variables - general principles
 In each shell command, you can use `{{variables}}` to submit data to your commands. You can for example pass the currently open file's path to a command that echoes the current date to the end of that file: `echo {{date:YYYY-MM-DD}} >> {{file_path:absolute}}`.
 
 - Variables are always enclosed within `{{` and `}}`.
@@ -90,3 +89,8 @@ Read more about [[custom variables]].
 > ```
 
 #TODO: The examples above only work for Bash (and similar shells)! Create examples for PowerShell, too.
+
+# History
+<small>This page was last modified on <strong>2022-12-10</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Variables%20-%20general%20principles.md">See page edit history</a>.</small>
+- #TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
+- #TODO: Add older history records regarding the variable system.

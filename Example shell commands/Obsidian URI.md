@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Example: Obsidian URI
 
 ## Windows
@@ -14,3 +17,6 @@
 
 # Author
 \*) Thank you [FelipeRearden](https://github.com/FelipeRearden) for these ideas! 🙂
+
+# History
+<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Obsidian%20URI.md">See page edit history</a>.</small>

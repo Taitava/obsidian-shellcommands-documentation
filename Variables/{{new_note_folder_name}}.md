@@ -1,3 +1,6 @@
+---
+cssclass: customiseTitle
+---
 # Variable: `{{new_note_folder_name}}`
 > [!Quote] {{new_note_folder_name}} described in the *Shell commands* plugin's settings
 > Gives the folder name for *Default location for new notes* (a setting in Obsidian). No ancestor folders are included.
@@ -16,4 +19,5 @@ This variable is handy e.g. when you execute shell commands that generate new fi
 - [[{{new_note_folder_path}}]]
 
 # History
+<small>This page was last modified on <strong>2022-07-22</strong> and created on 2022-07-16. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bnew_note_folder_name%7D%7D.md">See page edit history</a>.</small>
 - [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22): The variable was born. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
