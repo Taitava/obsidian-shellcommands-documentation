@@ -19,7 +19,7 @@ There are a couple of settings that do not have a visible field in the settings 
 
 # History
 <small>This page was last modified on <strong>2022-12-03</strong> and created on 2022-02-22. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md">See page edit history</a>.</small>
-- #TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): `{{newline}}` was created. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
+- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was created. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- `max_visible_lines_in_shell_command_fields` was created. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 	- `approve_modals_by_pressing_enter_key` was created. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).

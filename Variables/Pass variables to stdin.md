@@ -19,4 +19,4 @@
 
 # History
 <small>This page was last modified on <strong>2022-12-05</strong> and created on 2022-12-05. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Pass%20variables%20to%20stdin.md">See page edit history</a>.</small>
-- #TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The ability to pass content to `stdin` was born. ([#283](https://github.com/Taitava/obsidian-shellcommands/issues/283)).
+- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): The ability to pass content to `stdin` was born. ([#283](https://github.com/Taitava/obsidian-shellcommands/issues/283)).
