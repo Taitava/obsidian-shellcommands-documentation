@@ -10,8 +10,8 @@ If the folder is the root folder of the Obsidian vault, the variable gives a dot
 > 
 > | Example situation | Old, problematic result (SC `0.17.0` and older) | Result with a dot (SC `0.18.0` and newer) |
 > | ------------------ | ---------------------------- | ----------------------------- |
-> | A file path where `{{folder_name}}` is one part, e.g. <span style="white-space: nowrap;">`echo "Content" > {{folder_name}}/NewNote.md`</span> | <span style="white-space: nowrap;">`echo "Content" > /NewNote.md`</span><br>Creates a file to the file system root, outside the Obsidian vault. | `echo "Content" > ./NewNote.md` <br>Creates a file correctly in the current working directory.
-> | When copying a directory, e.g. <span style="white-space: nowrap;">`cp -r {{folder_name}} /absolute/path/outside/the/vault`</span> | <span style="white-space: nowrap;">`cp -r  /absolute/path/outside/the/vault`</span><br>The first argument to `cp` is omitted because it was empty. | <span style="white-space: nowrap;">`cp -r . /absolute/path/outside/the/vault`</span><br>The first argument is correctly `.` so it's not accidentally omitted.
+> | A file path where `{{folder_name}}` is one part, e.g. <span style="white-space: nowrap;">`echo "Content" > {{folder_name}}/NewNote.md`</span> | <span style="white-space: nowrap;">`echo "Content" > /NewNote.md`</span><br>Creates a file to the file system root, outside the Obsidian vault. | `echo "Content" > ./NewNote.md` <br>Creates a file correctly in the current working directory.|
+> | When copying a directory, e.g. <span style="white-space: nowrap;">`cp -r {{folder_name}} /absolute/path/outside/the/vault`</span> | <span style="white-space: nowrap;">`cp -r  /absolute/path/outside/the/vault`</span><br>The first argument to `cp` is omitted because it was empty. | <span style="white-space: nowrap;">`cp -r . /absolute/path/outside/the/vault`</span><br>The first argument is correctly `.` so it's not accidentally omitted.|
 > <small>(Before SC `0.18.0`, the variable returned an empty text for the vault's root folder.)</small> ^dot-examples
 
 ## Availability
