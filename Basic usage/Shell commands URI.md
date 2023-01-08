@@ -5,8 +5,12 @@
 
 You can find the id by opening up the shell command's settings modal and going to the *General* tab. There you'll find a *Shell command id:* text.
 
-> [!INFO] About shell command ids
-> At the time of writing this documentation, shell command ids are consecutive numbers, but in some version of SC in the future, there will be a change so that for **new** shell commands, ids will consist of random letters and numbers. So for now, you are looking for a number, but later you might also see alphanumeric ids.
+> [!INFO]- Shell command id format has changed
+> Depending on when you have first started using the _Shell commands_ plugin, you might notice a difference between ids of newer and older shell commands:
+> - SC version `0.14.0` and below used sequential numbering when creating an id for a new shell command. I.e. shell commands created using version `0.14.0` or earlier, have ids that consist only of numbers.
+> - SC version `0.15.0` (released on 2022-08-20) and onwards generate random text ids consisting of 10 characters for new shell commands. The characters are any of letters `a` - `z`  and numbers `0` - `9`.
+> - Old shell commands that still have solely numeric ids will continue working like they used to do, and their ids are **not** changed in any way by newer plugin versions. This ensures that relations to existing URI links and hotkey configurations will keep working.
+> - The longer format was taken into use because there's a plan to develop an [importing / exporting feature](https://github.com/Taitava/obsidian-shellcommands/discussions/151). Sequential numbering ids could easily cause collisions when trying to import a shell command to a vault that has another shell command that already uses that numeric id.
 
 ## Generate the URI easily with a correct id
 Looking for the shell command id and writing the URI manually can be cumbersome. To do it easier, you can open up the plugin's main settings view, locate the shell command you want to create a URI for, and click the *Copy this shell command's URI to the clipboard* icon:
@@ -58,5 +62,5 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 > - **Shell commands URI does not support opening a specific file before executing a shell command**, which is [supported by Obsidian Advanced URI](https://vinzent03.github.io/obsidian-advanced-uri/actions/navigation). This support might be added to Shell commands URI later.
 
 # History
-<small>This page was last modified on <strong>2022-06-28</strong> and created on 2022-04-30. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-01-08</strong> and created on 2022-04-30. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The support for shell command URI was born. ([#202](https://github.com/Taitava/obsidian-shellcommands/issues/202)).
