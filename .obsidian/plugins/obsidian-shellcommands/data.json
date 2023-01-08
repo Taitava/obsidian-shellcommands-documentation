@@ -533,6 +533,70 @@
       "input_contents": {
         "stdin": null
       }
+    },
+    {
+      "id": "qglyfz5k0m",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": "C:\\Program` Files\\JetBrains\\WebStorm` 2021.2\\bin\\webstorm64.exe --line {{caret_position:line}} --column {{caret_position:column}} {{file_path:absolute}}"
+      },
+      "shells": {
+        "win32": "pwsh.exe"
+      },
+      "alias": "Open current file in WebStorm",
+      "icon": "edit",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "qa4k3a5nl6",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": "C:\\Program` Files\\JetBrains\\WebStorm` 2021.2\\bin\\webstorm64.exe {{event_file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "Open {{!event_file_name}} in WebStorm",
+      "icon": "edit",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {
+        "file-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [

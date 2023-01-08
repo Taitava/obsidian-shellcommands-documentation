@@ -158,5 +158,14 @@
       ],
       "key": "H"
     }
-  ]
+  ],
+  "obsidian-shellcommands:shell-command-qglyfz5k0m": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "markdown:toggle-preview": []
 }
