@@ -32,11 +32,12 @@ To create a shell command and a link according to this example:
 > [!TIP]
 > The URI generator inspects the shell command for all custom variables it contains, and inserts them into the generated URI automatically (except that it excludes custom variables whose values come from [[Prompts]], as those do not usually need to be defined in URIs).
 
-Custom variable rules related to the Shell commands URI:
+### Custom variable rules related to the Shell commands URI
 - All URI argument names that start with an underscore `_` are considered to refer to custom variables. E.g. `&_pdf_page=77` assigns the value `77` to the custom variable `{{_pdf_page}}`.
 - When you use custom variables in your shell commands, their names are wrapped in `{{` and `}}`. However, in Shell commands URI, the custom variable names must be simplified by leaving the curly brackets out. So, `{{_pdf_page}}` becomes `&_pdf_page=` instead of ~~`&{{_pdf_page}}=`~~. 
 - If a custom variable with the given name does not exist, an error message will be shown and the shell command execution will be cancelled for safety reasons.
 - You can assign values to multiple custom variables in one URI.
+- In case a value happens to contain special characters, **it's good to always _URL encode_ values**. If a value contains e.g. a space ` `, it should be replaced by `%20`, so for example `My value` would become `My%20value` . A full URL could be: `obsidian://shell-commands/?vault=VAULTNAMEHERE&_my_custom_variable=My%20value` . URL encoding is needed, because special characters (such as a space) might otherwise cut the value text in half, ignoring the right side part, or causing other side effects. URL encoding is easy to do using an online service such as [urlencoder.io](https://www.urlencoder.io/). Just note that you must only to encode a _value_, **not** the custom variable *name* nor an equal sign `=` between the *name* and the *value*.
 - After the shell command is executed, any assigned custom variables will **keep their assigned values** until Obsidian is closed (or new values are assigned to them). This means that you can pass values to custom variables via URIs, and reuse them later in the same shell command (by executing it e.g. via Obsidian's command palette) or in other shell commands.
 - You can also create URIs that only assign values to custom variables, *but do not execute any shell command*. An example: `obsidian://shell-commands/?vault=VAULTNAMEHERE&_custom_variable1=first-value&_custom_variable2=second-value`. This makes it possible to first pass in some data to wait for processing, and then execute a shell command that utilizes the data later in a second step.
 
