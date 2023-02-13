@@ -93,4 +93,4 @@ Also, some screenshots may be from older versions of SC, in case no significant 
 
 
 # History
-<small>This page was last modified on <strong>2022-12-05</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Index.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-02-13</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Index.md">See page edit history</a>.</small>
