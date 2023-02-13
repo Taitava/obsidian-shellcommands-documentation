@@ -60,7 +60,7 @@ Actions that are performed before executing a shell command, i.e. preparations.
 ### Variables
 - [[Custom variables]]
 - [[Default values|Default values for variables]]
-- [[Use stdin for long variable values]]
+- [[Pass variables to stdin]]
 
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
