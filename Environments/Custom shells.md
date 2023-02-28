@@ -1,0 +1,1 @@
+The documentation page for custom shells will be published when the custom shell feature is published in _Shell command_ version 0.19.0.
