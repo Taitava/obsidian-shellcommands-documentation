@@ -3,7 +3,7 @@ cssclass: customiseTitle
 ---
 # Example: Copy a link to current file to the clipboard
 
-## Windows, Linux & Macintosh
+## Windows, Linux & macOS
 Insert a link with file title and workspace name to clipboard. You can have workspaces named by e.g. book names that you read.
 1. Shell command: `echo \[\[{{title}}\|{{title}}" -> "{{workspace}}\]\]`
 2. [[Output channels#How to select output channels for a shell command|Set *Output channel* to *Clipboard*]].

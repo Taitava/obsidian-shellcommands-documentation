@@ -15,5 +15,5 @@ A long day behind and you need some relaxation after finally being able to stop 
 ## Linux
 - `xdg-open "https://www.youtube.com/results?search_query=cat+videos"`.
 
-## Macintosh
+## macOS
 - `open "https://www.youtube.com/results?search_query=cat+videos"`.

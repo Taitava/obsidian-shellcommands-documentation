@@ -8,7 +8,7 @@ cssclass: customiseTitle
 
 The following things cannot be retrieved from the clipboard at the moment:
 - Image data
-- Files (except maybe file paths can be retrieved on Macintosh and Linux)
+- Files (except maybe file paths can be retrieved on macOS and Linux)
 
 ## Availability
 > [!Success] This variable is always available.

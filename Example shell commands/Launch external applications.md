@@ -19,7 +19,7 @@ Sometimes you might need to add  an empty argument `""` to the `start` command t
 ## Linux
 Open the current file in a text editor: `gedit {{file_path:absolute}}`.
 
-## Macintosh
+## macOS
 Open the current file in a text editor: `open -a TextEdit {{file_path:absolute}}`.
 
 # History

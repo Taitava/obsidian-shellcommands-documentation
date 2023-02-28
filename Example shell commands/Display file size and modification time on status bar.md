@@ -30,7 +30,7 @@ Write-Host("Size: ", [math]::Round((Get-Item {{file_path:absolute}}).length/1KB)
 ## Linux
 #TODO 
 
-## Macintosh
+## macOS
 #TODO
 
 # History

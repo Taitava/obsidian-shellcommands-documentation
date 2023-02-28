@@ -9,5 +9,5 @@ cssclass: customiseTitle
 ## Linux
 #TODO 
 
-## Macintosh
+## macOS
 #TODO

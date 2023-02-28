@@ -1,10 +1,10 @@
-Probably most users use their Obsidian vaults on a single operating system, be it Windows, Linux or Macintosh. For those, the feature of _operating system specific versions of shell commands_ is not needed.
+Probably most users use their Obsidian vaults on a single operating system, be it Windows, Linux or macOS. For those, the feature of _operating system specific versions of shell commands_ is not needed.
 
-But if you happen to have a vault that you synchronize between computers that have **different** operating systems (e.g. one computer is a Macintosh, and another has Windows), and if you also synchronize the *Shell commands* plugin's settings between the computers, you might end up in a situation where some of your commands only work on one of the operating systems, but not others.
+But if you happen to have a vault that you synchronize between computers that have **different** operating systems (e.g. one computer is a macOS, and another has Windows), and if you also synchronize the *Shell commands* plugin's settings between the computers, you might end up in a situation where some of your commands only work on one of the operating systems, but not others.
 
 *Operating system specific versions of shell commands* allows you to define a command so that on certain operating system, it executes a shell command that is specifically tailored for that particular operating system, and on another operating system, another shell command is executed.
 
-**Note that mobile platforms are not supported by the plugin, so this feature only supports desktop operating systems Windows, Linux and Macintosh.** #mobile
+**Note that mobile platforms are not supported by the plugin, so this feature only supports desktop operating systems Windows, Linux and macOS.** #mobile
 
 ## Instructions
 1. Head over to the plugin's settings, and look for a shell command that you would like to customize to have different versions for different operating systems. In this example, I'm going to use a command aliased *Terminal in test suite folder*, which is supposed to open either [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) or [Xfce terminal on Linux](https://docs.xfce.org/apps/terminal/start):
@@ -13,7 +13,7 @@ But if you happen to have a vault that you synchronize between computers that ha
 3. Click the *Shell selection, Operating system specific shell commands* icon button.
 4. An *extra options modal* will pop up, showing shell command fields for all the three supported operating systems:
 	![[Settings-modal-environments.png]]
-5. In the picture above, there are different shell commands specified for Linux and Windows. Macintosh does not have a command, because I haven't planned to execute this particular command on Macintosh. If I execute it on Macintosh, SC would show an error *The shell command is empty*, because like was shown in the step *2*, also the operating system agnostic shell command field is empty.
+5. In the picture above, there are different shell commands specified for Linux and Windows. macOS does not have a command, because I haven't planned to execute this particular command on macOS. If I execute it on macOS, SC would show an error *The shell command is empty*, because like was shown in the step *2*, also the operating system agnostic shell command field is empty.
 6. When a shell command is executed, the *Shell commands* plugin will automatically pick a correct shell command version based on the current operating system.
 
 ## The *operating system agnostic* shell command field
@@ -21,7 +21,7 @@ But if you happen to have a vault that you synchronize between computers that ha
 Prior to SC version `0.7.0`, each shell command had only one shell command field. In `0.7.0`, the field's purpose has been slightly redesigned: it works as a *fallback* shell command, meaning that it will be executed if no shell command version exists for the current operating system.
 
 This has certain advantages:
-- For vaults that are synchronized between all the three operating systems, it's possible to create an operating system agnostic shell command for two of the operating systems (e.g. Linux and Macintosh), while defining a special shell command for the third operating system (e.g. Windows). In practice, Linux and Macintosh tend to use very similar [[Shell|shells]], with some commands being the same in both operating systems, so sometimes they can share the exactly same shell command, while Windows with its very different shell ([[CMD]] or [[PowerShell]]) can have a different shell command.
+- For vaults that are synchronized between all the three operating systems, it's possible to create an operating system agnostic shell command for two of the operating systems (e.g. Linux and macOS), while defining a special shell command for the third operating system (e.g. Windows). In practice, Linux and macOS tend to use very similar [[Shell|shells]], with some commands being the same in both operating systems, so sometimes they can share the exactly same shell command, while Windows with its very different shell ([[CMD]] or [[PowerShell]]) can have a different shell command.
 - Shell commands defined in SC versions prior to `0.7.0` will work regardless of what the operating system is, just like they did before.
 
 ## Different ways to synchronize vaults and settings

@@ -13,7 +13,7 @@ Configure the [[Every n seconds]] event to execute this shell command every 1 se
 ## Stdout channel must be *Status bar*
 ![[Settings-modal-Output-stdout-status-bar.png]]
 
-## Windows, Linux & Macintosh
+## Windows, Linux & macOS
 The following shell command should work on every operating system. It's actually so simple that it should not need a shell at all (it's just about outputting the [[{{date}}]] variable's value), but the *Shell commands* plugin does not currently offer a way to just output stuff without passing it to a shell first.
 
 `echo {{date:HH:mm:ss}}`

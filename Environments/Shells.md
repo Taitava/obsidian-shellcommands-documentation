@@ -12,7 +12,7 @@ At the moment, the *Shell commands* plugin only supports a limited set of shells
 - [[PowerShell 5]]
 - [[PowerShell Core]]
 
-### Linux and Macintosh
+### Linux and macOS
 - [[Bash]]
 - [[Dash]]
 - [[Zsh]]

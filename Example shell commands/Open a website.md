@@ -12,7 +12,7 @@ Open up a web browser to:
 - Visit this plugin's GitHub repository: `xdg-open "https://github.com/Taitava/obsidian-shellcommands"`.
 - Search the web using text you have selected: `xdg-open "https://duckduckgo.com/?q="{{selection}}`. **\***
 
-## Macintosh
+## macOS
 - Visit this plugin's GitHub repository: `open "https://github.com/Taitava/obsidian-shellcommands"`.
 - Search the web using text you have selected: `open "https://duckduckgo.com/?q="{{selection}}`. **\***
 

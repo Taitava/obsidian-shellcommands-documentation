@@ -3,7 +3,7 @@ cssclass: customiseTitle
 ---
 # Example: Create a folder with the current date
 
-## Windows, Linux & Macintosh
+## Windows, Linux & macOS
  - Make a monthly folder: `mkdir {{date:YYYY-MM}}`.
  - Make a daily folder: `mkdir {{date:YYYY-MM-DD}}`.
 
