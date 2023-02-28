@@ -23,4 +23,4 @@ This is how the clock will look like in the status bar:
 ![[Example-display-clock.gif]]
 
 # History
-<small>This page was last modified on <strong>2022-02-06</strong> and created on 2022-01-29. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20a%20clock.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-02-28</strong> and created on 2022-01-29. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20a%20clock.md">See page edit history</a>.</small>

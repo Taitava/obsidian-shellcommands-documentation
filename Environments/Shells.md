@@ -32,4 +32,4 @@ In the above section, you are able to change the shell that all of your shell co
 	![[Settings-modal-environments.png]]
 
 # History
-<small>This page was last modified on <strong>2022-04-19</strong> and created on 2021-11-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Shells.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-02-28</strong> and created on 2021-11-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Shells.md">See page edit history</a>.</small>

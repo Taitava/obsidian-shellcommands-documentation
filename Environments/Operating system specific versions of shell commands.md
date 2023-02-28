@@ -32,4 +32,4 @@ Because this feature is only meaningful in situations where vaults and settings 
 - [Dropbox](https://dropbox.com), [iCloud](https://icloud.com), [OneDrive](https://onedrive.com), [Google Drive](https://google.com/drive): General file synchronization services. **Free** for most use cases.
 
 # History
-<small>This page was last modified on <strong>2022-04-19</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-02-28</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md">See page edit history</a>.</small>

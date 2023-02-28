@@ -34,4 +34,4 @@ Write-Host("Size: ", [math]::Round((Get-Item {{file_path:absolute}}).length/1KB)
 #TODO
 
 # History
-<small>This page was last modified on <strong>2022-04-08</strong> and created on 2022-01-04. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-02-28</strong> and created on 2022-01-04. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md">See page edit history</a>.</small>
