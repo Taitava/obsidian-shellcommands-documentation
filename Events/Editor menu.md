@@ -13,6 +13,15 @@ cssclass: customiseTitle
 > 
 > Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
+> [!Warning]- Note: Values of [[Variables - general principles|{{variables}}]] might not show up in menus if Obsidian's _Native menus_ setting is on
+> - If Obsidian's _Native menus_ setting is turned on, menu generating happens so fast that the _Shell commands_ plugin doesn't have enough time to parse [[Variables - general principles|{{variables}}]] in menu titles. I.e. you'll see the variables' names instead of actual content.
+> - However, [[Variables - general principles|{{variables}}]] will work correctly in the actual shell command when it's executed, so this is just an annoyance rather than a practical problem.
+> - **So, if you have this setting turned on:**
+>     ![[Obsidian-native-menus-setting.png]]
+> - **Then this is what you'll see in a menu:**
+>     ![[Obsidian-native-menus-unparsed-variable.png]]
+>     (`{{title}}}` should normally contain a note's file name without an extension.) ^obsidian-native-menus-warning
+
 ## Variables
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 

@@ -13,6 +13,8 @@ cssclass: customiseTitle
 > 
 > Shell command menu items do not currently show any icons, but [an ability to define an icon might be added later](https://github.com/Taitava/obsidian-shellcommands/discussions/25).
 
+![[Editor menu#^obsidian-native-menus-warning]]
+
 ## Variables
 In addition to [[All variables#Normal variables|normal variables]], the following variables are available during this event:
 
