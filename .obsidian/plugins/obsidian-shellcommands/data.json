@@ -597,6 +597,35 @@
       "command_palette_availability": "disabled",
       "preactions": [],
       "variable_default_values": {}
+    },
+    {
+      "id": "gx8cszcfck",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": "Start-Process \"https://help.obsidian.md/Editing+and+formatting/Callouts#Supported+types\""
+      },
+      "shells": {},
+      "alias": "Open a list of callout types in web browser",
+      "icon": "globe",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
