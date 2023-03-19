@@ -1,1 +1,3 @@
- ==This feature is only available in a [0.13.0-beta.1 test](https://github.com/Taitava/obsidian-shellcommands/discussions/228). #TODO: Remove this annotation when the final version is released.== 
+ > [!Warning] This feature is only available in a beta test
+ > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
+ > %% #TODO: Remove this annotation when the final version is released. %%
