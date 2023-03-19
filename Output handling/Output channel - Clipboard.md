@@ -15,7 +15,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 
 > [!tldr] _Clipboard_ - realtime mode differences:
 > - Clipboard content is updated multiple times during execution. Each time when new output is received, it gets added at the end of old output, making the clipboard always contain **all output** that have been received so far. No early output is lost.
-> - You may see multiple _Copied to clipboard_ notifications, if you have the _Output channel 'Clipboard' displays a notification message_ setting turned on (it's on by default).
+> - You may see multiple _Copied to clipboard_ notifications, if you have the _Outputting to 'Clipboard' displays a notification message_ setting turned on (it's on by default).
 > - `stdout` and `stderr` are mixed together in the order they are outputted in *realtime* mode. In *wait* mode they are grouped together so that either **all** `stdout` output comes first, and then comes **all** `stderr` output (or vice-versa, depending on settings).
 > ^differences-in-realtime
 
