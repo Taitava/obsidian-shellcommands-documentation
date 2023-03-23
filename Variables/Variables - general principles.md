@@ -44,10 +44,13 @@ Not all variables are always available. For example, [[{{file_name}}]] variable 
 Read more about [[Default values|how to define default values for variables]].
 
 # Custom variables ^custom-variables
-Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
-- [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
-- [Planned: Execute shell commands via Obsidian URI](https://github.com/Taitava/obsidian-shellcommands/discussions/195)
-- Anything else? [Throw me ideas 😉](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
+> [!Summary] Custom variables can be used to:
+> - store values inputted by user via [[prompts]].
+> - pass values when [[Shell commands URI|executing shell commands via Obsidian URI]].
+ 
+ > [!Note] Later, custom variables will be able to receive values from:
+> - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
+> - Anything else? [Throw me ideas 😉](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
 
 Read more about [[custom variables]].
 
