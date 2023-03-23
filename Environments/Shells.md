@@ -8,9 +8,9 @@ Knowing your shell allows you to find out what shell commands are available for 
 At the moment, the *Shell commands* plugin only supports a limited set of shells. Support for customisable shells might be added later.
 
 ### Windows
-- [[CMD]]
-- [[PowerShell 5]]
-- [[PowerShell Core]]
+- [[CMD.EXE]]
+- [[PowerShell#PowerShell Core|PowerShell Core]]
+- [[PowerShell#PowerShell 5|PowerShell 5]]
 
 ### Linux and macOS
 - [[Bash]]

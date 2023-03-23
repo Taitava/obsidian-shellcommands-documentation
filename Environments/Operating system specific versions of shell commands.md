@@ -21,7 +21,7 @@ But if you happen to have a vault that you synchronize between computers that ha
 Prior to SC version `0.7.0`, each shell command had only one shell command field. In `0.7.0`, the field's purpose has been slightly redesigned: it works as a *fallback* shell command, meaning that it will be executed if no shell command version exists for the current operating system.
 
 This has certain advantages:
-- For vaults that are synchronized between all the three operating systems, it's possible to create an operating system agnostic shell command for two of the operating systems (e.g. Linux and macOS), while defining a special shell command for the third operating system (e.g. Windows). In practice, Linux and macOS tend to use very similar [[Shell|shells]], with some commands being the same in both operating systems, so sometimes they can share the exactly same shell command, while Windows with its very different shell ([[CMD]] or [[PowerShell]]) can have a different shell command.
+- For vaults that are synchronized between all the three operating systems, it's possible to create an operating system agnostic shell command for two of the operating systems (e.g. Linux and macOS), while defining a special shell command for the third operating system (e.g. Windows). In practice, Linux and macOS tend to use very similar [[Shell|shells]], with some commands being the same in both operating systems, so sometimes they can share the exactly same shell command, while Windows with its very different shell ([[CMD.EXE]] or [[PowerShell]]) can have a different shell command.
 - Shell commands defined in SC versions prior to `0.7.0` will work regardless of what the operating system is, just like they did before.
 
 ## Different ways to synchronize vaults and settings
