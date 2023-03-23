@@ -138,4 +138,5 @@ When a shell command is executed, both the [[#Shell arguments]] and [[#Wrapper f
 > - Cannot be used as part of a shell command's content. If it were possible, it would cause an infinite recursion. 😅
 
 # History
+<small>This page was last modified on <strong>2023-03-23</strong> and created on 2023-03-23. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bshell_command_content%7D%7D.md">See page edit history</a>.</small>
 - #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was born. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).

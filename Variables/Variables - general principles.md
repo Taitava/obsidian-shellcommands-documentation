@@ -94,6 +94,6 @@ Read more about [[custom variables]].
 #TODO: The examples above only work for Bash (and similar shells)! Create examples for PowerShell, too.
 
 # History
-<small>This page was last modified on <strong>2023-01-06</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Variables%20-%20general%20principles.md">See page edit history</a>.</small>
+<small>This page was last modified on <strong>2023-03-23</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Variables%20-%20general%20principles.md">See page edit history</a>.</small>
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
 - #TODO: Add older history records regarding the variable system.
