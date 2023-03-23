@@ -43,6 +43,7 @@ I am not able to think about all the possibility use cases of this plugin. In th
 
 > [!Info] Exceptions
 > - Currently, preventing escaping might be temporarily needed with the `{{tags}}` variable. [[{{tags}}#Special characters in separator are escaped|More information]].
+> - [[{{shell_command_content}}]] (used in [[Settings for custom shells|custom shell settings]]) is usually used with escaping turned off.
 > - Escaping should be prevented when using {{variables}} in the *PATH additions* settings. [[Additions to the PATH environment variable#^no-escaping|More information]].
 > - If you use variables in shell command *alias* fields, you can safely disable escaping there, as *alias* texts are never executed in shells.
 
