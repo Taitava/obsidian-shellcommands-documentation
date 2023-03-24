@@ -63,5 +63,14 @@ Replace *`VARIABLE`* with the environment variable name you want to read. `echo`
 
 
 # History
-<small>This page was last modified on <strong>2022-06-28</strong> and created on 2022-05-01. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Benvironment%7D%7D.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/#204)).
+
+> [!page-edit-history]- Page edit history: 2022-05-01 &#10132; 2022-06-28
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bb37c1f8ee6630879a4d6578eae61c50730cda97): 0.13.0-beta.1 annotations.
+> - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b3e7de3816f3d1b8675616f41e6fc4b8fe66e740): Variables: Updated description layouts.
+> - [<small>2022-05-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ec4c6a61c51fc5c5a9c2ddb78469e671cffae9d1): 'PATH additions' settings: {{environment}} should be {{!environment}}.
+> - [<small>2022-05-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/78d81b39be6c97aecac9c7229c5419e4dd0a81cd): {{environment}} variable.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Benvironment%7D%7D.md).
+> ^page-edit-history

@@ -63,5 +63,15 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 > - **Shell commands URI does not support opening a specific file before executing a shell command**, which is [supported by Obsidian Advanced URI](https://vinzent03.github.io/obsidian-advanced-uri/actions/navigation). This support might be added to Shell commands URI later.
 
 # History
-<small>This page was last modified on <strong>2023-01-08</strong> and created on 2022-04-30. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The support for shell command URI was born. ([#202](https://github.com/Taitava/obsidian-shellcommands/issues/202)).
+
+> [!page-edit-history]- Page edit history: 2022-04-30 &#10132; 2023-01-08
+> - [<small>2023-01-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/32c776f8ac8c22351a3e196870710c8ca28db06b): Shell commands URI.md: Mention that custom variable values should be URL encoded.
+> - [<small>2023-01-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/17ef77d1c58167bab865a661e4809e7141c9838b): Shell commands URI.md: Update ID information.
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bb37c1f8ee6630879a4d6578eae61c50730cda97): 0.13.0-beta.1 annotations.
+> - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/341e9f4cde907eafe165b724c28559df5f1ef68d): Shell commands URI: Mention Ctrl + clicking the copy button.
+> - [<small>2022-04-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1435534a8ba1bc862237cd5c067b5c0ce07b35c4): Shell commands URI.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md).
+> ^page-edit-history

@@ -32,4 +32,18 @@ Because this feature is only meaningful in situations where vaults and settings 
 - [Dropbox](https://dropbox.com), [iCloud](https://icloud.com), [OneDrive](https://onedrive.com), [Google Drive](https://google.com/drive): General file synchronization services. **Free** for most use cases.
 
 # History
-<small>This page was last modified on <strong>2023-02-28</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2023-02-28
+> - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
+> - [<small>2022-04-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/893a7098c3a22942bf115447418212a97c616dcb): Forgot to rename directory 'Operating systems and shells' to 'Environments'.
+> - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b5c6aabefb69afcf387fb2a4fd20e9c223f080bc): 0.12.0: Updated old screenshots to contain 'Environments', 'Preactions' and 'Variables' tabs.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/464f32b37f6ce9d2779b3fc5181b850cb2ad593c): Operating system specific versions of shell commands.md: Remove an unnecessary TODO comment.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/34848568584de5a45d67928d41221ed5cb7aa69e): Operating system specific versions of shell commands.
+> - [<small>2021-11-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/aba3caead0248996d5fcf0f99799f8e5be271544): Some quick plans for topics related to operating systems and shells.
+> - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
+> - [<small>2021-10-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5693b00490180aded4d5da5f80cb1bcdafecba6c): Initial commit.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md).
+> ^page-edit-history

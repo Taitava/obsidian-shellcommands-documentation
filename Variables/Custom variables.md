@@ -63,5 +63,14 @@ To see what values your custom variables currently contain, you may open a *Cust
 The side pane can currently only be used to read values. It doesn't provide any other functions.
 
 # History
-<small>This page was last modified on <strong>2022-05-22</strong> and created on 2022-04-11. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Custom%20variables.md">See page edit history</a>.</small>
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was born. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
+
+> [!page-edit-history]- Page edit history: 2022-04-11 &#10132; 2022-05-22
+> - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/26f2ed84d4663901ff516fbc140f9e82ffd2a392): Custom variables.md: Add information about Shell commands URI.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/002bf3b92e8f50bd1deb304dab946a3b8f981c8e): 0.12.0 is released.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1ea6e6dfc57d520e523cfde196bce955d7b1a06): Beta 0.12.0: Remove notices.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
+> - [<small>2022-04-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91702a4b6edda4a90120067de22de23a26383240): Custom variables.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Custom%20variables.md).
+> ^page-edit-history

@@ -34,4 +34,21 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 - [[Output channel - Open files]]
 
 # History
-<small>This page was last modified on <strong>2022-12-11</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channels.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2022-12-11
+> - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/97879fc6f02642444d1a61eee52f83b35a0ef86d): Output channels: Mention that some output channels are only available on `stdout`.
+> - [<small>2022-11-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ba41cfb111b3cfd904f82df2746ef4689d9abba3): Realtime output handling.
+> - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c6f5146f8f90047f63fd90bfbe81f024d6513ea): Rename Output channel "Open a file" to "Open files".
+> - [<small>2022-02-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10927a104173795814a93a66febebdf536563faa): Output channels: 'Open a file defined in the output' renamed to 'Open a file'.
+> - [<small>2022-02-17</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/de08ed9e9c01e8c184e498473dafc44cad9eb0e0): Output channel: Open a file defined in the output.
+> - [<small>2022-02-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1a84fe59a57f760fa9773a70cf41693982d571ef): #134: Output channel - Modal: Change the title to "Output channel - Ask after execution".
+> - [<small>2022-01-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/88f88ce46a22a9a7ae4ce3f93727dca1ed8b97bd): Output channel: Modal.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e98d750bc24d867629c6de1fa5019c31b6e87f49): Exract output channels to separate files.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49f6a5aa991b118b0193538cb111300aca91dc96): Improve some links.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a0b2ca18f74c8ece9499165e26bda7750e6945cd): Output channels.
+> - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channels.md).
+> ^page-edit-history

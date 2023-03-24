@@ -23,4 +23,12 @@ Open the current file in a text editor: `gedit {{file_path:absolute}}`.
 Open the current file in a text editor: `open -a TextEdit {{file_path:absolute}}`.
 
 # History
-<small>This page was last modified on <strong>2023-02-28</strong> and created on 2021-11-19. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Launch%20external%20applications.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2023-02-28
+> - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/920506704755013392420d110d2d90319cc0cf51): Example shell commands: Add Linux and Mac versions.
+> - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07f94b03e4e8a79f1269c1dab598b5e7f536b652): Example shell commands.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Launch%20external%20applications.md).
+> ^page-edit-history

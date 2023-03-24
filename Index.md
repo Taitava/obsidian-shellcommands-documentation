@@ -93,4 +93,46 @@ Also, some screenshots may be from older versions of SC, in case no significant 
 
 
 # History
-<small>This page was last modified on <strong>2023-02-28</strong> and created on 2021-10-03. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Index.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2023-02-28
+> - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
+> - [<small>2023-02-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac067d75771cfb2b7aae3bd3e1788491fb9de37a): Index.md: Fix stdin link.
+> - [<small>2022-12-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c9c81dbfada887011827c82b9c6dcf60b962e4a3): Pass variables to stdin.md
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b66e987b28739cf2875a1dd33349420c832ca6e2): Index: Add a link to 'Realtime output handling'.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/202411b0f08dacf29b0967f7e6e16ff3cde0aed3): Documentation for execution notification.
+> - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fd9edbf69c25863a39526cf3fe00077625f6a01d): Output wrappers.
+> - [<small>2022-07-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6c9df8e8d8769676d3c160c56c1ed26b4a415504): First version of Roadmap.
+> - [<small>2022-07-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/54fe6f9cbcc46737650513163c0af638fcebc270): Index.md: Add Problems link.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1ea6e6dfc57d520e523cfde196bce955d7b1a06): Beta 0.12.0: Remove notices.
+> - [<small>2022-04-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1435534a8ba1bc862237cd5c067b5c0ce07b35c4): Shell commands URI.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3a0deef66398b57fe209025e4761fe55b27e992a): Index.md: Add a link to Prompts.md.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ddb140ebf5f8abd8a3b0b68acb954a6aee9cdc69): Beta 0.12.0: Add notice to Prompts.md.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/201b79ea1a42ab903f947424990332f449a24ffc): Index: Add a link to Default values.
+> - [<small>2022-04-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91702a4b6edda4a90120067de22de23a26383240): Custom variables.
+> - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/61658656e301113c3139c1b1dfe1653d0e4a0063): 0.12.0: Instructions for Prompts.
+> - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fad0f25eae8bdfa9ecd82fda2d32fbbddbe3654f): Change 'Operating systems & shells' tab name to 'Environments'.
+> - [<small>2022-02-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c29ca8761f2f05a8ed149b447447304becb0e3c9): Fix github repository link
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fabdd6cf143447380e2f28f92ee7752d169d2554): Create a page for Hidden settings.
+> - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1e61b410c2336cef01cda5321766bcba85cf60d7): Update some screenshots to contain "Events" main settings tab.
+> - [<small>2022-01-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/13c1f6a730fafb892c14d6598b58592b3bdb5fc0): Typo fixes.
+> - [<small>2021-12-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0c1282c0d04a2dc6bfd8b357ab2955ad856ce008): Index: Add information about creating a PR for correcting errors in the documentation.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ff17d13c815a111e48ab5d2ced7a084fce0b280): Instructions to downgrade the plugin.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9873c4587a2b97c6a61a5cbfc2bb7ce55834ffda): Basic usage instructions.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c0604c80a2db202476658a3ac945d3e8ccbf56f1): Upgrading.md: About semver and how to upgrade.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ef45ee2d438bd565ed11c39ab2b8e1557d24aa6b): Index.md: Add a todo comment.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a222616b109b84d621c8376c0a8c22365fe576f9): Image assets: Add Obsidian version to the folder name.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3d719ac9dce5421807fdddc4a3cbca6afdc6eb95): Index.md: Move the Installation section up.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/118aaeb67eed11873cbe54c98b0f74b152b1c210): Shells.md: Add 'Choosing a shell on a per shell command basis'.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3010cd79f48e79b997509b6a8a1b0bad5a23993b): Create Shells.md.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/99a2b8dffec8e307302c234755f255eda41c0317): Index.md: Mention that it's expected that users know their shell.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4f3c84cfe4f74062679a566ead734d03a5c97f5c): Index.md: Add notes about improving the documentation.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d86be45a35f3f26c1525de98d88dcc7c81a50b62): Index: Add information about screenshots.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/366f1cecd4709d2da639b76fd2269e0f6d4a11ba): Fix a couple of links.
+> - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/51879d0d421cfde702d2699a2209332b24836e3f): Index: Add a list of topics and some other stuff.
+> - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
+> - [<small>2021-10-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5693b00490180aded4d5da5f80cb1bcdafecba6c): Initial commit.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Index.md).
+> ^page-edit-history

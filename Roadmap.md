@@ -58,4 +58,13 @@ These are not in any particular order, but some features are needed to be done b
 
 
 # History
-<small>This page was last modified on <strong>2023-01-06</strong> and created on 2022-07-21. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2022-07-21 &#10132; 2023-01-06
+> - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f2b125e40b6f6beafdec7abf9f53890137347040): Roadmap.md: `stdin` support is now implemented.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1d2f69e560da073028233e767a0ea164023fb656): Roadmap: Mark that realtime output handling is implemented.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/158eba2360a38dfcc4732d08e0373182e0c2a7e3): Roadmap: Mention `stdin` support.
+> - [<small>2022-07-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6c9df8e8d8769676d3c160c56c1ed26b4a415504): First version of Roadmap.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md).
+> ^page-edit-history

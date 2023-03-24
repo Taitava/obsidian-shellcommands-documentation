@@ -27,5 +27,12 @@ To restore a backup settings file, do:
 6. Launch Obsidian again and check that everything works.
 
 # History
-<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Settings%20backups.md">See page edit history</a>.</small>
 [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Started making automatic backup of the settings file after upgrades. ([#83](https://github.com/Taitava/obsidian-shellcommands/issues/83)).
+
+> [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2021-11-25
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/665e73aae6b62e00048acb19f4167b245686675e): Setting backups: Fix a history link.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ff17d13c815a111e48ab5d2ced7a084fce0b280): Instructions to downgrade the plugin.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/88c6d8c062984d73f9fb660fb804ed4e8e15df92): About baking up settings.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Settings%20backups.md).
+> ^page-edit-history

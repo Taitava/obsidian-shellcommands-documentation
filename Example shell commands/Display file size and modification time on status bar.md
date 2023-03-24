@@ -34,4 +34,14 @@ Write-Host("Size: ", [math]::Round((Get-Item {{file_path:absolute}}).length/1KB)
 #TODO
 
 # History
-<small>This page was last modified on <strong>2023-02-28</strong> and created on 2022-01-04. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2022-01-04 &#10132; 2023-02-28
+> - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
+> - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fad0f25eae8bdfa9ecd82fda2d32fbbddbe3654f): Change 'Operating systems & shells' tab name to 'Environments'.
+> - [<small>2022-02-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3cc94c373e6fdff6712511de5cb0482c2c7ba5e9): 0.10.0 is released.
+> - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/db74fd2ed107c70fc30a73fa4f23fea2e5957eae): Mark certain features to be only available in the 0.10.0 beta test.
+> - [<small>2022-01-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3aa41de3fe5fbc68f915bb05dc3313ba598ce3a8): WIP: Example: Display file size and modification time on status bar.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md).
+> ^page-edit-history

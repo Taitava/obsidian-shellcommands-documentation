@@ -54,4 +54,10 @@ Now that you are aware of the `data.json` incompatibility issue, you can start t
 10. Launch Obsidian. Check that everything works okay!
 
 # History
-<small>This page was last modified on <strong>2021-11-25</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Upgrading%20%28and%20downgrading%29.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2021-11-25
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ff17d13c815a111e48ab5d2ced7a084fce0b280): Instructions to downgrade the plugin.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Upgrading%20%28and%20downgrading%29.md).
+> ^page-edit-history

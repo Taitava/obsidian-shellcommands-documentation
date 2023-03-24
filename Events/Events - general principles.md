@@ -53,8 +53,27 @@ Here you can also quickly disable all events, if needed, by switching *Enable ev
 ![[Settings-main-events-tab.png]]
 
 # History
-<small>This page was last modified on <strong>2022-05-11</strong> and created on 2021-12-13. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Events%20-%20general%20principles.md">See page edit history</a>.</small>
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26):
 	- All events can now be disabled using a single toggle setting. ([#163](https://github.com/Taitava/obsidian-shellcommands/issues/163)).
 	- Fixed a bug: Ghost shell commands were executed by events even after removal ([#165](https://github.com/Taitava/obsidian-shellcommands/issues/165))
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): First events became supported. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
+
+> [!page-edit-history]- Page edit history: 2021-12-13 &#10132; 2022-05-11
+> - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bcc0e63a8382fdbe8c42242d3df28cbc4fe63d18): Shorten event names.
+> - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5bbc04d5721f6b3723fd5baade2975a596e799dc): Events, part 2.
+> - [<small>2022-04-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1435534a8ba1bc862237cd5c067b5c0ce07b35c4): Shell commands URI.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2d3e8929249fc0817a92b10ffe04b8b735d2cb97): 0.12.0: Default values for variables.
+> - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da3fab304cf1ecd9f7134fa969e4e6b3f8a9fa11): Add an example: Remember caret position when reopening Obsidian
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d6e852c88fb1ba221140841ea599189a27864a19): 0.11.0 is released.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5463e54d3424913624f9ebc61fcc7f5dee829cb): 0.11.0 is released.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ce76d80247575b3d194500b2c0f8ee65dd7ce56b): Events: Added information about being able to enable/disable all events.
+> - [<small>2022-02-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3cc94c373e6fdff6712511de5cb0482c2c7ba5e9): 0.10.0 is released.
+> - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/db74fd2ed107c70fc30a73fa4f23fea2e5957eae): Mark certain features to be only available in the 0.10.0 beta test.
+> - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6355e7e9635c5baa1824e77337b48ecba4647c79): Events: Add 'See which events are currently enabled' section.
+> - [<small>2022-01-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f82d4d857c0acf39c4ffac3af84633e843e71d31): Events: General information.
+> - [<small>2022-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/99dc8c4717fc8b85fd34ab2c632e61d1d08f28af): Events: Add more information about different events.
+> - [<small>2021-12-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/62392cb2d52bcf909cd8a5f56933ff07c5496e3b): WIP: A draft of Events documentation.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Events%20-%20general%20principles.md).
+> ^page-edit-history

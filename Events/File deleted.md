@@ -35,5 +35,14 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
 The Obsidian event that powers this feature is [`delete` on `vault` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3264).
 
 # History
-<small>This page was last modified on <strong>2022-12-13</strong> and created on 2022-05-11. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/File%20deleted.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The event was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
+
+> [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2022-12-13
+> - [<small>2022-12-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2b1bf240d974ed5da051bf1c9bcc956e1d9d7d18): File deleted.md: Fix some NBSP spaces.
+> - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bb37c1f8ee6630879a4d6578eae61c50730cda97): 0.13.0-beta.1 annotations.
+> - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5bbc04d5721f6b3723fd5baade2975a596e799dc): Events, part 2.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/File%20deleted.md).
+> ^page-edit-history

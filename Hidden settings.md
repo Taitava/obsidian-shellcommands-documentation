@@ -18,7 +18,6 @@ There are a couple of settings that do not have a visible field in the settings 
 - `settings_version`: This is not really a setting, as **it should not be changed** manually! This value tells the *Shell commands* plugin what format was used to save the settings. Again, do not change this value yourself! 🙂
 
 # History
-<small>This page was last modified on <strong>2023-01-06</strong> and created on 2022-02-22. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md">See page edit history</a>.</small>
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was created. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- `max_visible_lines_in_shell_command_fields` was created. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
@@ -26,3 +25,21 @@ There are a couple of settings that do not have a visible field in the settings 
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): `obsidian_command_palette_prefix` was created. ([#164](https://github.com/Taitava/obsidian-shellcommands/issues/164)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `settings_version` was created. ([#90](https://github.com/Taitava/obsidian-shellcommands/issues/90)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was created. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
+
+
+> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-01-06
+> - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
+> - [<small>2022-12-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5fd8e7237b33b273ae2174f19cf47ef8ef915e35): Hidden settings: Mention {{newline}}.
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bb37c1f8ee6630879a4d6578eae61c50730cda97): 0.13.0-beta.1 annotations.
+> - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/af84abadcd9066a857fe6c6c52da0a1f2555a9dc): Hidden settings.md: Add 'approve_modals_by_pressing_enter_key'.
+> - [<small>2022-05-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8e2b04d58bc91cd7d795b95217fd45c2fc11df2c): Multiline shell commands.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7769b1c47ae8c0709d7631fef285d82c82dcaca7): Hidden settings: Added a missing history record.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d6e852c88fb1ba221140841ea599189a27864a19): 0.11.0 is released.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5463e54d3424913624f9ebc61fcc7f5dee829cb): 0.11.0 is released.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/84083f0caed7e2a4f427685839ff6422b0901230): Hidden settings: Add information about 'settings_version'.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fabdd6cf143447380e2f28f92ee7752d169d2554): Create a page for Hidden settings.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md).
+> ^page-edit-history

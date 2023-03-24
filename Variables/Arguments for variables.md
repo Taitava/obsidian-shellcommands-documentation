@@ -15,4 +15,12 @@ The last argument of a variable can also contain a colon `:` as a literal charac
 You cannot use a colon `:` in an argument that precedes the last argument, as in that situation the colon would act as a separator between two arguments. However, at the moment of writing this documentation (2021-11-20, for SC version `0.7.0`), there is no variables that can take multiple arguments. This notice is actually meant for future versions of SC that will have variables that use multiple arguments.
 
 # History
-<small>This page was last modified on <strong>2021-11-24</strong> and created on 2021-11-20. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Arguments%20for%20variables.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2021-11-20 &#10132; 2021-11-24
+> - [<small>2021-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da2bc9e5eee499f12b6cc2c4952739652b999de1): Wrap variable note names between {{ and }}.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2c3e9b2d8b625eb02dd1b6d8b709a5a4140c36f1): Arguments for variables.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Arguments%20for%20variables.md).
+> ^page-edit-history

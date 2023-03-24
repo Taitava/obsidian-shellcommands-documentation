@@ -76,5 +76,12 @@ If `{{output}}` is not present in an output wrapper, then the wrapper text will 
 
 # History
 
-<small>This page was last modified on <strong>2022-09-25</strong> and created on 2022-09-01. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20wrappers.md">See page edit history</a>.</small>
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The ability to define output wrappers was born. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).
+
+> [!page-edit-history]- Page edit history: 2022-09-01 &#10132; 2022-09-25
+> - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4de5d6e0c277106e9f51c1acada0d2f3a80f8a72): Output wrappers.md: Added a missing heading.
+> - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.
+> - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fd9edbf69c25863a39526cf3fe00077625f6a01d): Output wrappers.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20wrappers.md).
+> ^page-edit-history

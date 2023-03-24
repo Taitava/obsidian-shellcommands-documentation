@@ -19,5 +19,12 @@ This variable is handy e.g. when you execute shell commands that generate new fi
 - [[{{new_note_folder_name}}]]
 
 # History
-<small>This page was last modified on <strong>2022-08-21</strong> and created on 2022-07-16. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bnew_note_folder_path%7D%7D.md">See page edit history</a>.</small>
 - [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22): The variable was born. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
+
+> [!page-edit-history]- Page edit history: 2022-07-16 &#10132; 2022-08-21
+> - [<small>2022-08-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5ad0dd8064c892901f885d7b2ab8037179f3c40d): Fix line endings.
+> - [<small>2022-07-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5f492a6510449bdbf0a873382f08d7d7ef9863c3): 0.14.0 is released.
+> - [<small>2022-07-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/12b7600cbffc94290e9fe54476b395cb93a02e7f): New variables: {{new_note_folder_name}} and {{new_note_folder_path}}.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bnew_note_folder_path%7D%7D.md).
+> ^page-edit-history

@@ -35,7 +35,6 @@ In addition to the actual shell command text field, there are some other control
 - <svg viewBox="0 0 100 100" class="trash" width="16" height="16"><path fill="currentColor" stroke="currentColor" stroke-width="2" d="M42,4c-3.3,0-6,2.7-6,6v4H20.3c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0H16c-0.7,0-1.4,0.4-1.8,1c-0.4,0.6-0.4,1.4,0,2 c0.4,0.6,1,1,1.8,1h2v72c0,3.3,2.7,6,6,6h52c3.3,0,6-2.7,6-6V18h2c0.7,0,1.4-0.4,1.8-1c0.4-0.6,0.4-1.4,0-2c-0.4-0.6-1-1-1.8-1 h-3.7c-0.2,0-0.4,0-0.7,0H64v-4c0-3.3-2.7-6-6-6L42,4z M42,8h16c1.1,0,2,0.9,2,2v4H40v-4C40,8.9,40.9,8,42,8z M22,18h15.7 c0.2,0,0.4,0,0.7,0h23.3c0.2,0,0.4,0,0.7,0H78v72c0,1.1-0.9,2-2,2H24c-1.1,0-2-0.9-2-2V18z M38,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8s1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C39,28.2,38.5,28,38,28z M50,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8c0.6,0.4,1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C51,28.2,50.5,28,50,28z M62,28c-1.1,0-2,0.9-2,2v50 c0,0.7,0.4,1.4,1,1.8c0.6,0.4,1.4,0.4,2,0s1-1,1-1.8V30c0-0.5-0.2-1.1-0.6-1.4C63,28.2,62.5,28,62,28z"></path></svg> *Delete this shell command*. Will ask a confirmation. Deletion cannot be undone, unless you have [[Settings backups|backups of the plugin's settings]].
 
 # History
-<small>This page was last modified on <strong>2022-07-23</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md">See page edit history</a>.</small>
 - [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22):
 	<small>This page was last modified on <strong>2022-07-23</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md">See page edit history</a>.</small>
 	- The *Execute now* button can now be `Ctrl`/`Cmd` + clicked to temporarily show all output in a modal ([#241](https://github.com/Taitava/obsidian-shellcommands/issues/241)).
@@ -56,3 +55,20 @@ In addition to the actual shell command text field, there are some other control
 - [0.2.0 - 2021-09-11](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#020---2021-09-11): New setting *Alias* created the extra options modal for shell commands ([#6](https://github.com/Taitava/obsidian-shellcommands/issues/6)).
 - [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29):  Added first built-in variables. (No issue).
 - [0.0.0 - 2021-08-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#000---2021-08-22): Initial release of the plugin. (No issue).
+
+> [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2022-07-23
+> - [<small>2022-07-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7595405f40dfd5f8b07b6107adae0c0ea78ca3e9): How to define shell commands.md: Add 0.14.0 history records and mention icon ability.
+> - [<small>2022-07-17</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cb17681b184f00ad3113e0342428d3f93bcf06bb): How to define shell commands.md: Added information about ctrl/cmd clicking the 'Execute now' button.
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/beb1e7a684c3f6668eecdcd53e6ab7fe9b2eca60): Multiline shell commands: Mention that the feature is only available in 0.13.0 beta.
+> - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2fabd9b7768d3301a6b467f1e8815c54cfc1978e): How to define shell commands.md: Define a date for 0.12.0.
+> - [<small>2022-05-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c9621f873ef2df46e6adb74bd2d84f678c93c13): How to define shell commands.md: Added a History section.
+> - [<small>2022-05-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8e2b04d58bc91cd7d795b95217fd45c2fc11df2c): Multiline shell commands.
+> - [<small>2022-04-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/23784701289a0722381f22a93bd40a4ba63b4aac): How to define shell commands.md: Add icons for preactions and variable default values.
+> - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8008003191e4522eb487404fa41ffe7ed16dfd57): How to define shell commands: Add information about events.
+> - [<small>2022-01-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f82d4d857c0acf39c4ffac3af84633e843e71d31): Events: General information.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/97a36489865125f8a23f18bb34649420564a2f8b): How to define shell commands: Fix a link.
+> - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9873c4587a2b97c6a61a5cbfc2bb7ce55834ffda): Basic usage instructions.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md).
+> ^page-edit-history

@@ -97,7 +97,6 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > ^differences-in-realtime
 
 # History
-<small>This page was last modified on <strong>2022-11-26</strong> and created on 2022-02-17. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Open%20files.md">See page edit history</a>.</small>
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26):
 	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 	- `new-pane` opens a new **pane** again, not a new **tab**. Obsidian `0.16.0` (aka `1.0.0`) [introduced tabs](https://forum.obsidian.md/t/obsidian-release-v1-0-0/44873), which also changed the behavior of this plugin's new pane opening feature. The original behavior is now restored. ([#276](https://github.com/Taitava/obsidian-shellcommands/issues/276)).
@@ -105,3 +104,30 @@ If you define your shell command's [[Realtime output handling|output to be handl
 	- Added: `new-window` for opening a file in a new **window** ([#291](https://github.com/Taitava/obsidian-shellcommands/issues/291)).
 - [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): Opening multiple files became supported, and the channel was renamed from *Open a file* to *Open files*, which also changed the documentation page's url. ([#255](https://github.com/Taitava/obsidian-shellcommands/issues/255)).
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
+
+> [!page-edit-history]- Page edit history: 2022-02-17 &#10132; 2022-11-26
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
+> - [<small>2022-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ff1a4d800ecefcef1b519c53565c212991cb5793): Output channel - Open files: Add history records for 'new-*' related stuff.
+> - [<small>2022-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4a1a559fcaa05d35185f08713fab17e4eaa8bfa9): Output channel - Open files: Information about 'new-tab' and 'new-window'.
+> - [<small>2022-11-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ba41cfb111b3cfd904f82df2746ef4689d9abba3): Realtime output handling.
+> - [<small>2022-11-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ea494db2b7bd768c78fe4f35b611a648f06c588f): Output channel - Open files: Add an alias.
+> - [<small>2022-08-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5ad0dd8064c892901f885d7b2ab8037179f3c40d): Fix line endings.
+> - [<small>2022-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1a6dfee33a7690cbac10706fc1b064432c310bb2): 0.15.0 is released.
+> - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f22e064625cbc695799d2d665d69943c94d67f3a): Output channel - Open files.md: Add a history record for supporting multiple files.
+> - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c6f5146f8f90047f63fd90bfbe81f024d6513ea): Rename Output channel "Open a file" to "Open files".
+> - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/69e69a2fd7acbfe8c2ac2a9ef08eff71513bbaa3): Output channel "Open a file" supports opening multiple files now.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d6e852c88fb1ba221140841ea599189a27864a19): 0.11.0 is released.
+> - [<small>2022-02-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5463e54d3424913624f9ebc61fcc7f5dee829cb): 0.11.0 is released.
+> - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
+> - [<small>2022-02-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/869d55571e0d08a620b43f44722a3f411f712570): Output channel - Open a file.md: Mention line-break restrictions.
+> - [<small>2022-02-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10927a104173795814a93a66febebdf536563faa): Output channels: 'Open a file defined in the output' renamed to 'Open a file'.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0e9104591ef58737a3ae912189c19aeb94840bb0): Open a file defined in the output: Mention that spaces can be used to separate parts.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/472f0e79aa12fa62f4e465c648e205f1aa496bd9): Open a file defined in the output: A remark about absolute paths on Windows.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/eaf23cc748682be2fe2e13de413580c23ca7cef7): Open a file defined in the output: Support selections.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d42c417c24e32cb0f9d680462602c4a5ad78d29f): Open a file defined in the output: Mention the delay in caret positioning.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/018de70a58a3cd4cfc62c7529179a541f5ae5bb2): Open a file defined in the output: Negative caret position is supported.
+> - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/275cedf318dbd5dac86a38341cbdff39d051973b): Open a file defined in the output: Add abilities to open a non-existing file and to open the file in a new pane.
+> - [<small>2022-02-17</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/de08ed9e9c01e8c184e498473dafc44cad9eb0e0): Output channel: Open a file defined in the output.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Open%20files.md).
+> ^page-edit-history

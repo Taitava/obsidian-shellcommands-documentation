@@ -40,4 +40,13 @@ The idea in the second shell command is to print out the current file's path tog
 You can change the `caret_position.txt` file name freely in the commands. For example, you can "hide" the file by using e.g. this instead: `.obsidian/caret_position.txt`.
 
 # History
-<small>This page was last modified on <strong>2022-08-21</strong> and created on 2022-03-05. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Remember%20caret%20position%20when%20reopening%20Obsidian.md">See page edit history</a>.</small>
+
+
+> [!page-edit-history]- Page edit history: 2022-03-05 &#10132; 2022-08-21
+> - [<small>2022-08-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5ad0dd8064c892901f885d7b2ab8037179f3c40d): Fix line endings.
+> - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c6f5146f8f90047f63fd90bfbe81f024d6513ea): Rename Output channel "Open a file" to "Open files".
+> - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bcc0e63a8382fdbe8c42242d3df28cbc4fe63d18): Shorten event names.
+> - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da3fab304cf1ecd9f7134fa969e4e6b3f8a9fa11): Add an example: Remember caret position when reopening Obsidian
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Remember%20caret%20position%20when%20reopening%20Obsidian.md).
+> ^page-edit-history

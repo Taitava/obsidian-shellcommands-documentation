@@ -94,6 +94,35 @@ Read more about [[custom variables]].
 #TODO: The examples above only work for Bash (and similar shells)! Create examples for PowerShell, too.
 
 # History
-<small>This page was last modified on <strong>2023-03-23</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Variables%20-%20general%20principles.md">See page edit history</a>.</small>
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
 - #TODO: Add older history records regarding the variable system.
+
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2023-03-23
+> - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ff1855d010f20a905a0ab35a813f984c3f0cd02c): Variables - general principles.md: Shell commands URI is released already.
+> - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
+> - [<small>2022-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cf21d0992315eb7e221e2522ac1a52c3c3413bb4): History records for adding documentation links to variable listings in the plugin.
+> - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b19d636b4887940a685f6a90089d036b53de908a): Variables - general principles.md: Add more aliases.
+> - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/22bbc6f273f83619ad206784d8e1d451dc1a4f06): Variables: How to pass variable values to script files.
+> - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f47632e512e5549216f844d42703410de2dde0fc): Variables: Move built-in variable lists to a new file, All variables.md.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1ea6e6dfc57d520e523cfde196bce955d7b1a06): Beta 0.12.0: Remove notices.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
+> - [<small>2022-04-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91702a4b6edda4a90120067de22de23a26383240): Custom variables.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2d3e8929249fc0817a92b10ffe04b8b735d2cb97): 0.12.0: Default values for variables.
+> - [<small>2022-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/99dc8c4717fc8b85fd34ab2c632e61d1d08f28af): Events: Add more information about different events.
+> - [<small>2022-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ca3ab49bb838e832ee435cb1427161cfa8c1444): Add event related variables.
+> - [<small>2021-12-18</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/626eb9f280fa5298c9c19037783552fb0318042c): Cancel adding {{newline}} variable.
+> - [<small>2021-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/24cbeaa5d55ef3f3c251af9bf3ecf33331af9b2b): {{newline}} variable.
+> - [<small>2021-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/800c7e08d965a402888f523192571198fbeb029c): Variables - general principles: Forgot to add {{yaml_value}}.
+> - [<small>2021-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/50aac17878dcdc8be628789f8c9fee1f566d3f3a): {{file_extension}} variable.
+> - [<small>2021-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bfb1a340d550b18e946b799907d8696bde818da): {{caret_position}} variable.
+> - [<small>2021-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da2bc9e5eee499f12b6cc2c4952739652b999de1): Wrap variable note names between {{ and }}.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3010cd79f48e79b997509b6a8a1b0bad5a23993b): Create Shells.md.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f51105a249490dff82fc8f24753b1c975bcebb28): Variables - general principles.md: Add a link to CMD escaping discussion.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2c3e9b2d8b625eb02dd1b6d8b709a5a4140c36f1): Arguments for variables.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/00980a4ff0c56a5196b65efaa430b4e265d3a00c): Variables - general principles.
+> - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/17cb062fae9850024325871b93694d81e5d67fa3): Documentation for each variable.
+> - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3e5e64ba07d1979852b3f75f53ed3d1480ffdb09): Documentation for each variable.
+> - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Variables%20-%20general%20principles.md).
+> ^page-edit-history

@@ -14,5 +14,11 @@ cssclass: customiseTitle
 - [[{{note_content}}]]
 
 # History
-<small>This page was last modified on <strong>2022-09-25</strong> and created on 2022-09-11. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_note_content%7D%7D.md">See page edit history</a>.</small>
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was born. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
+
+> [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2022-09-25
+> - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.
+> - [<small>2022-09-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/57eab54eef74305f6ee9868344249ae79115c699): {{note_content}} and {{event_note_content}} variables.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_note_content%7D%7D.md).
+> ^page-edit-history

@@ -113,6 +113,21 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
 # History
-<small>This page was last modified on <strong>2022-09-01</strong> and created on 2022-04-08. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Preactions/Prompts.md">See page edit history</a>.</small>
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the prompt modal now closes it and executes the shell command. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was born. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
+
+> [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2022-09-01
+> - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02e98b52d70617d390d8b1dbfda581c9e03151bd): Prompts.md and {{event_old_folder_path}}.md: Typo fixes.
+> - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
+> - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/946bdf5546a1580a4332cce169aa03a65ca9f0b9): Modals: Mention in history records that modals can be closed by hitting the 'Enter' key.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/002bf3b92e8f50bd1deb304dab946a3b8f981c8e): 0.12.0 is released.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1ea6e6dfc57d520e523cfde196bce955d7b1a06): Beta 0.12.0: Remove notices.
+> - [<small>2022-04-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3e8291571f084c53ecb9e7ed537ec4b6356a5008): Prompts: Add CSS instructions.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ddb140ebf5f8abd8a3b0b68acb954a6aee9cdc69): Beta 0.12.0: Add notice to Prompts.md.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/94015379ec1574b16f7ad2c60413b063792a1070): 0.12.0: Rename Settings-main-click-preactions.png image file.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/527ccff928a6af819d2237c7f98db8e18acf6cea): Prompts: Execute button text supports variables now.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7b150874ec1ec2620b683cc44075bd8205e4e518): Prompts: Restructure target variable instructions and mention that the same variable cannot be used in multiple fields.
+> - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/61658656e301113c3139c1b1dfe1653d0e4a0063): 0.12.0: Instructions for Prompts.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Preactions/Prompts.md).
+> ^page-edit-history

@@ -22,7 +22,13 @@ Usually, shell commands are quick to run, and it's only interesting to get a not
 
 
 # History
-<small>This page was last modified on <strong>2022-11-26</strong> and created on 2022-11-26. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Monitoring%20execution.md">See page edit history</a>.</small>
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): Added an ability to terminate processes by clicking an icon. ([#289](https://github.com/Taitava/obsidian-shellcommands/issues/289)).
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): Created the ability to show notifications about a shell command being executed. ([#261](https://github.com/Taitava/obsidian-shellcommands/issues/261)).
 	- This documentation page was created later, on 2022-11-26.
+
+> [!page-edit-history]- Page edit history: 2022-11-26 &#10132; 2022-11-26
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/202411b0f08dacf29b0967f7e6e16ff3cde0aed3): Documentation for execution notification.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Monitoring%20execution.md).
+> ^page-edit-history

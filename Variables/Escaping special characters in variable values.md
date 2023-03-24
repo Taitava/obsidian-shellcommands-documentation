@@ -48,6 +48,24 @@ I am not able to think about all the possibility use cases of this plugin. In th
 > - If you use variables in shell command *alias* fields, you can safely disable escaping there, as *alias* texts are never executed in shells.
 
 # History
-<small>This page was last modified on <strong>2023-03-23</strong> and created on 2021-10-31. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Escaping%20special%20characters%20in%20variable%20values.md">See page edit history</a>.</small>
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Escaping special characters in variable values started. ([#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)).
+
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2023-03-23
+> - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07644d90d4a01c20fd0a151a7fec543000df0a54): Documentation for {{shell_command_content}}.
+> - [<small>2022-06-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a6d98af9f752d83d8546719680419c2bd6973987): Escaping special characters in variable values: Mention that it's feasible to disable escaping in alias texts.
+> - [<small>2022-06-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3327495afa8b2202864b59e13246b29d4e4a3bc0): Escaping special characters in variable values: Make it more prominent that escaping can be disabled.
+> - [<small>2022-05-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ec4c6a61c51fc5c5a9c2ddb78469e671cffae9d1): 'PATH additions' settings: {{environment}} should be {{!environment}}.
+> - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2cb5f2e7896619b6e8b026b7744282b98d605528): Escaping special characters in variable values.md: Mention that a 4-byte unicode corruption bug is fixed.
+> - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8fc69b0f06842d47adc8143b3815ce3a0cab482f): Escaping special characters in variable values.md: Add a history section.
+> - [<small>2021-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da2bc9e5eee499f12b6cc2c4952739652b999de1): Wrap variable note names between {{ and }}.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/118aaeb67eed11873cbe54c98b0f74b152b1c210): Shells.md: Add 'Choosing a shell on a per shell command basis'.
+> - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3010cd79f48e79b997509b6a8a1b0bad5a23993b): Create Shells.md.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1f4d7bbadccbb367d8f75d5b9d7f045f5b9a2954): Escaping special characters in variable values.
+> - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6eaebca7665be014aa0c07fd9a91bad9356dc541): Escaping special characters in variable values.md: Add a note about the system not being developed by an expert.
+> - [<small>2021-11-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/72deca128a6c88e6ed8afaa14700609cc3670655): More topics about escaping and how to check the default shell.
+> - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Escaping%20special%20characters%20in%20variable%20values.md).
+> ^page-edit-history

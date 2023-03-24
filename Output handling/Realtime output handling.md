@@ -113,5 +113,13 @@ If you are reporting suspected bugs in output handling, you can [create a new di
 
 # History
 
-<small>This page was last modified on <strong>2022-12-11</strong> and created on 2022-11-05. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Realtime%20output%20handling.md">See page edit history</a>.</small>
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The possibility to handle output in _realtime_ mode was born. Before this, only the _Wait until finished_ mode was available. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+
+> [!page-edit-history]- Page edit history: 2022-11-05 &#10132; 2022-12-11
+> - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ce8889647069a44f28c1acd1cf38aa750cd6e94): Realtime output handling.md: Fix newlines.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/34aec99a8b15a70a19c007626604a3cbd4029eb9): Realtime output handling: Add missing heading.
+> - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
+> - [<small>2022-11-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ba41cfb111b3cfd904f82df2746ef4689d9abba3): Realtime output handling.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Realtime%20output%20handling.md).
+> ^page-edit-history

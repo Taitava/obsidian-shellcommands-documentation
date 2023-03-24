@@ -62,6 +62,17 @@ While this might feel a bit complicated to understand at first, it allows a lot 
 Before a custom variable gets a value (for now, in SC version `0.12.0`, the only way for a custom variable to get a value is via [[Prompts]]), the variable is unassigned, and trying to use it would lead to an error message showing up. You can use the same default value features described on this page to handle the situations when a custom variable is unassigned.
 
 # History
-<small>This page was last modified on <strong>2023-01-06</strong> and created on 2022-04-09. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Default%20values.md">See page edit history</a>.</small>
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Default values can now be defined globally for all shell commands. ([#298](https://github.com/Taitava/obsidian-shellcommands/issues/298)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The ability to define default values and ignore errors silently was born. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).
+
+> [!page-edit-history]- Page edit history: 2022-04-09 &#10132; 2023-01-06
+> - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
+> - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/55c412a9bd41ea75906d1df675a3d5ddd8229ed1): Default values.md: Tell about global default values.
+> - [<small>2023-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9b624e215cde7227187a8a4b4760200a02565f31): Default values.md: Add an alias.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/002bf3b92e8f50bd1deb304dab946a3b8f981c8e): 0.12.0 is released.
+> - [<small>2022-05-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1ea6e6dfc57d520e523cfde196bce955d7b1a06): Beta 0.12.0: Remove notices.
+> - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
+> - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2d3e8929249fc0817a92b10ffe04b8b735d2cb97): 0.12.0: Default values for variables.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Default%20values.md).
+> ^page-edit-history
