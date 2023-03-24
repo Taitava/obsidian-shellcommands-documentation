@@ -13,7 +13,7 @@ cssclass: customiseTitle
 - [[{{event_file_extension}}]]
 
 # History
-- [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was created. ([#122](https://github.com/Taitava/obsidian-shellcommands/issues/122)).
+- [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was released. ([#122](https://github.com/Taitava/obsidian-shellcommands/issues/122)).
 
 > [!page-edit-history]- Page edit history: 2021-12-11 &#10132; 2022-12-11
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.

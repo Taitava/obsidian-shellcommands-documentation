@@ -63,7 +63,7 @@ Before a custom variable gets a value (for now, in SC version `0.12.0`, the only
 
 # History
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Default values can now be defined globally for all shell commands. ([#298](https://github.com/Taitava/obsidian-shellcommands/issues/298)).
-- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The ability to define default values and ignore errors silently was born. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The ability to define default values and ignore errors silently was released. ([#190](https://github.com/Taitava/obsidian-shellcommands/issues/190)).
 
 > [!page-edit-history]- Page edit history: 2022-04-09 &#10132; 2023-01-06
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.

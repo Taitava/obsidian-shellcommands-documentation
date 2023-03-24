@@ -16,7 +16,7 @@ cssclass: customiseTitle
 - [[{{event_folder_name}}]]: Gives the folder's current (aka *new*) name that it has after renaming.
 
 # History
-- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was released. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
 
 > [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2022-06-28
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.

@@ -23,7 +23,7 @@ If the folder is the root folder of the Obsidian vault, the variable gives a dot
 
 # History
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): When the folder is the root folder of the vault, the variable now gives a dot `.` instead of an empty text. ([#304](https://github.com/Taitava/obsidian-shellcommands/issues/304)).
-- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.
+- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was released.
 
 > [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2023-01-06
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2cde8f14a2b8835509e6874315c74db3298cdb1b): {{folder_name}}.md: Fixed table borders (pipe symbols).

@@ -21,7 +21,7 @@ cssclass: customiseTitle
 - [[{{event_file_uri}}]]
 
 # History
-- [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The variable was born. Idea by [catfist](https://github.com/catfist). ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
+- [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The variable was released. Idea by [catfist](https://github.com/catfist). ([#258](https://github.com/Taitava/obsidian-shellcommands/issues/258)).
 
 > [!page-edit-history]- Page edit history: 2022-08-20 &#10132; 2022-08-20
 > - [<small>2022-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91fd9a4e2179cdd883ca563e76f57bfed72815b4): {{file_uri}} and {{event_file_uri}}: Mention that the idea came from catfist.

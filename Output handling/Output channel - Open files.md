@@ -103,7 +103,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 	- Added: `new-tab` for opening a file in a new **tab** ([#291](https://github.com/Taitava/obsidian-shellcommands/issues/291)).
 	- Added: `new-window` for opening a file in a new **window** ([#291](https://github.com/Taitava/obsidian-shellcommands/issues/291)).
 - [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): Opening multiple files became supported, and the channel was renamed from *Open a file* to *Open files*, which also changed the documentation page's url. ([#255](https://github.com/Taitava/obsidian-shellcommands/issues/255)).
-- [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): The output channel was created. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
+- [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): The output channel was released. ([#143](https://github.com/Taitava/obsidian-shellcommands/issues/#143)).
 
 > [!page-edit-history]- Page edit history: 2022-02-17 &#10132; 2022-11-26
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.

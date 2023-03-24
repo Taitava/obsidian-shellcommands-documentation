@@ -26,7 +26,7 @@ I'd like to make this variable available in *Reading* view too, but I don't know
 
 # History
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): The variable is now only available when something is selected, otherwise it shows an error message. ([#303](https://github.com/Taitava/obsidian-shellcommands/issues/303)).
-- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.
+- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was released.
 
 > [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2023-01-06
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.

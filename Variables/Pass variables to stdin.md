@@ -18,7 +18,7 @@
 > - If there are multiple values that need to be inputted, put them on separate lines. Many shell programs interpret newlines as separators between different values.
 
 # History
-- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): The ability to pass content to `stdin` was born. ([#283](https://github.com/Taitava/obsidian-shellcommands/issues/283)).
+- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): The ability to pass content to `stdin` was released. ([#283](https://github.com/Taitava/obsidian-shellcommands/issues/283)).
 
 > [!page-edit-history]- Page edit history: 2022-12-05 &#10132; 2023-01-06
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.

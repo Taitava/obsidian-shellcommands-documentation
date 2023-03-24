@@ -14,7 +14,7 @@ cssclass: customiseTitle
 - [[{{event_note_content}}]]
 
 # History
-- [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was born. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
+- [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was released. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
 
 > [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2022-09-25
 > - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.

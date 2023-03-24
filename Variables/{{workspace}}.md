@@ -10,7 +10,7 @@ cssclass: customiseTitle
 > When the [Workspaces](https://help.obsidian.md/Plugins/Workspaces) core plugin is enabled.
 
 # History
-- [0.3.0 - 2021-09-17](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#030---2021-09-17): The variable was created. Idea by [Felipe Rearden](https://github.com/FelipeRearden). ([#14](https://github.com/Taitava/obsidian-shellcommands/issues/14)).
+- [0.3.0 - 2021-09-17](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#030---2021-09-17): The variable was released. Idea by [Felipe Rearden](https://github.com/FelipeRearden). ([#14](https://github.com/Taitava/obsidian-shellcommands/issues/14)).
 
 > [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2022-12-11
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.

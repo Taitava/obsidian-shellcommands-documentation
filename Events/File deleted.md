@@ -35,7 +35,7 @@ In addition to [[Variables - general principles#^normal-variables|normal variabl
 The Obsidian event that powers this feature is [`delete` on `vault` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts#L3264).
 
 # History
-- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The event was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The event was released. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
 
 > [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2022-12-13
 > - [<small>2022-12-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2b1bf240d974ed5da051bf1c9bcc956e1d9d7d18): File deleted.md: Fix some NBSP spaces.

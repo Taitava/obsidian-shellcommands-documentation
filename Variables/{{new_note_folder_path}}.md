@@ -19,7 +19,7 @@ This variable is handy e.g. when you execute shell commands that generate new fi
 - [[{{new_note_folder_name}}]]
 
 # History
-- [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22): The variable was born. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
+- [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22): The variable was released. ([#235](https://github.com/Taitava/obsidian-shellcommands/issues/235)).
 
 > [!page-edit-history]- Page edit history: 2022-07-16 &#10132; 2022-08-21
 > - [<small>2022-08-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5ad0dd8064c892901f885d7b2ab8037179f3c40d): Fix line endings.

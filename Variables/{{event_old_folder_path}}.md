@@ -16,7 +16,7 @@ cssclass: customiseTitle
 - [[{{event_folder_path}}]]: Gives the folder's current (aka *new*) path that it has after moving/renaming.
 
 # History
-- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was released. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
 
 > [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2022-09-01
 > - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02e98b52d70617d390d8b1dbfda581c9e03151bd): Prompts.md and {{event_old_folder_path}}.md: Typo fixes.

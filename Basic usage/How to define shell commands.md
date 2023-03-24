@@ -38,7 +38,7 @@ In addition to the actual shell command text field, there are some other control
 - [0.14.0 - 2022-07-22](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0140---2022-07-22):
 	<small>This page was last modified on <strong>2022-07-23</strong> and created on 2021-11-25. <a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md">See page edit history</a>.</small>
 	- The *Execute now* button can now be `Ctrl`/`Cmd` + clicked to temporarily show all output in a modal ([#241](https://github.com/Taitava/obsidian-shellcommands/issues/241)).
-	- The ability to define menu icons was created ([#240](https://github.com/Taitava/obsidian-shellcommands/issues/240)).
+	- The ability to define menu icons was released ([#240](https://github.com/Taitava/obsidian-shellcommands/issues/240)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- Support for multiline shell commands was added ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 	- Icon button for adding/changing hotkeys was added ([#210](https://github.com/Taitava/obsidian-shellcommands/issues/210)).

@@ -13,7 +13,7 @@ cssclass: customiseTitle
 - [[{{event_file_path}}]]: Gives the file's current (aka *new*) path that it has after moving/renaming.
 
 # History
-- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was born. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
+- [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The variable was released. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/218)).
 
 > [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2022-12-11
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.

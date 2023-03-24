@@ -76,7 +76,7 @@ If `{{output}}` is not present in an output wrapper, then the wrapper text will 
 
 # History
 
-- [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The ability to define output wrappers was born. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).
+- [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The ability to define output wrappers was released. ([#262](https://github.com/Taitava/obsidian-shellcommands/issues/262)).
 
 > [!page-edit-history]- Page edit history: 2022-09-01 &#10132; 2022-09-25
 > - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4de5d6e0c277106e9f51c1acada0d2f3a80f8a72): Output wrappers.md: Added a missing heading.

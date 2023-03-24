@@ -114,7 +114,7 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 
 # History
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the prompt modal now closes it and executes the shell command. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
-- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was born. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
+- [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was released. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
 
 > [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2022-09-01
 > - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02e98b52d70617d390d8b1dbfda581c9e03151bd): Prompts.md and {{event_old_folder_path}}.md: Typo fixes.

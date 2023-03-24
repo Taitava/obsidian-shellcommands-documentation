@@ -113,7 +113,7 @@ If you are reporting suspected bugs in output handling, you can [create a new di
 
 # History
 
-- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The possibility to handle output in _realtime_ mode was born. Before this, only the _Wait until finished_ mode was available. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
+- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The possibility to handle output in _realtime_ mode was released. Before this, only the _Wait until finished_ mode was available. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
 
 > [!page-edit-history]- Page edit history: 2022-11-05 &#10132; 2022-12-11
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ce8889647069a44f28c1acd1cf38aa750cd6e94): Realtime output handling.md: Fix newlines.

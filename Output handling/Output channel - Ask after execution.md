@@ -47,7 +47,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 	- Long shell commands were not splitted to multiple lines.
 	- When the window is narrow, redirection buttons were not splitted to multiple lines. This fix also made the buttons wider, but smaller in height.
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): If some text is selected, only the selected text will be used instead of the whole text. ([#158](https://github.com/Taitava/obsidian-shellcommands/issues/158)).
-- [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The output channel was created. ([#134](https://github.com/Taitava/obsidian-shellcommands/issues/134)).
+- [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The output channel was released. ([#134](https://github.com/Taitava/obsidian-shellcommands/issues/134)).
 
 > [!page-edit-history]- Page edit history: 2022-01-02 &#10132; 2022-11-26
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.

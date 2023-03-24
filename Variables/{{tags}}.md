@@ -35,7 +35,7 @@ If you wish to use special characters in the *separator*, currently the only way
 # History
 - [0.6.0 - 2021-10-12](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#060---2021-10-12): The variable does not include preceding hash (#) characters anymore. This is a backwards incompatible change (although a small one), and normally these kinds of changes would not be released in a _minor_ version update. But this plugin is still in its 0.x era, so breaking changes are tolerated more than in stable releases. If you want to have your tags prefixed with a hash again, use something like `#{{tags:,#}}` instead of `{{tags:,}}`.  ([#62](https://github.com/Taitava/obsidian-shellcommands/issues/62)).
 - [0.5.1 - 2021-10-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#051---2021-10-09): The variable does not give duplicate tags anymore. ([#65](https://github.com/Taitava/obsidian-shellcommands/issues/65)).
-- [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The variable was created. Idea by [Felipe Rearden](https://github.com/FelipeRearden). ([#51](https://github.com/Taitava/obsidian-shellcommands/issues/51)).
+- [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The variable was released. Idea by [Felipe Rearden](https://github.com/FelipeRearden). ([#51](https://github.com/Taitava/obsidian-shellcommands/issues/51)).
 
 > [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2022-12-11
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.

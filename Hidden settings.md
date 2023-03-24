@@ -18,13 +18,13 @@ There are a couple of settings that do not have a visible field in the settings 
 - `settings_version`: This is not really a setting, as **it should not be changed** manually! This value tells the *Shell commands* plugin what format was used to save the settings. Again, do not change this value yourself! 🙂
 
 # History
-- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was created. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
+- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was released. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
-	- `max_visible_lines_in_shell_command_fields` was created. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
-	- `approve_modals_by_pressing_enter_key` was created. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
-- [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): `obsidian_command_palette_prefix` was created. ([#164](https://github.com/Taitava/obsidian-shellcommands/issues/164)).
-- [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `settings_version` was created. ([#90](https://github.com/Taitava/obsidian-shellcommands/issues/90)).
-- [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was created. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
+	- `max_visible_lines_in_shell_command_fields` was released. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
+	- `approve_modals_by_pressing_enter_key` was released. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
+- [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): `obsidian_command_palette_prefix` was released. ([#164](https://github.com/Taitava/obsidian-shellcommands/issues/164)).
+- [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `settings_version` was released. ([#90](https://github.com/Taitava/obsidian-shellcommands/issues/90)).
+- [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was released. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
 
 
 > [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-01-06

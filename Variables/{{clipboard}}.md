@@ -14,7 +14,7 @@ The following things cannot be retrieved from the clipboard at the moment:
 > [!Success] This variable is always available.
 
 # History
-- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was created.
+- [0.1.0 - 2021-08-29](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#010---2021-08-29): The variable was released.
 
 > [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2023-02-28
 > - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".

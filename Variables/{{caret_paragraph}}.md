@@ -21,7 +21,7 @@ The returned text line constains everything on the caret's current line, i.e. ev
 
 # History
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Fixed not being able to define a [[Default values|default value]] for this variable. ([#311](https://github.com/Taitava/obsidian-shellcommands/issues/311)).
-- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The variable was born. ([#282](https://github.com/Taitava/obsidian-shellcommands/issues/282)).
+- [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26): The variable was released. ([#282](https://github.com/Taitava/obsidian-shellcommands/issues/282)).
 
 > [!page-edit-history]- Page edit history: 2022-11-04 &#10132; 2023-01-06
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
