@@ -18,16 +18,17 @@ def updateTimestamp(filePath: str):
         "--invert-grep",              # Makes it exclusive instead of inclusive.
         "--regexp-ignore-case",       # No need to be careful with casing when writing [IgnoreHistory] to commit messages.
         "--follow",
-        "--format=%ad",
+        "--format=%ad|%H|%s",
         "--date",
         "format:%Y-%m-%d",
         filePath
     ], stdout=subprocess.PIPE).stdout.decode("utf-8").strip('\n')
     if re.match(r"^(\d{4}-\d{2}-\d{2})", gitLogOutput):
         # Git was able to find dates
-        gitDates = gitLogOutput.split('\n')
-        modificationDate = gitDates[0]
-        creationDate = gitDates[-1]
+        gitCommits = gitLogOutput.split('\n')
+        modificationDate = gitCommits[0].split("|")[0]
+        creationDate = gitCommits[-1].split("|")[0]
+        gitCommitsMarkdown = parseCommitList(gitCommits)
     else:
         # Git did not find dates for the file, so the file is not in git yet.
         raise UpdateTimestampException("Unable to generate timestamp for file '" + filePath + "' because it doesn't seem to be committed to git.")
@@ -42,25 +43,43 @@ def updateTimestamp(filePath: str):
         raise UpdateTimestampException("Unicode decoding failed for file '" + filePath + "'. Does it contain emojis? :-)")
 
     # Generate timestamp message
-    timestampMessage = "This page was last modified on <strong>" + modificationDate + "</strong> and created on " + creationDate + ". " # Use <strong> instead of ** because ** doesn't seem to work in Obsidian's markdown when it's contained in a <small> element.
     filePathUrlEncoded = urllib.parse.quote(filePath.replace("\\", "/"), safe="/")
-    timestampMessage += '<a href="https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/' + filePathUrlEncoded + '">See page edit history</a>.'
+    historyContent = f"""> [!page-edit-history]- Page edit history: {creationDate} &#10132; {modificationDate}
+{gitCommitsMarkdown}
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/{filePathUrlEncoded}).
+> ^page-edit-history"""
 
     # Change or add a timestamp in the content
-    newTimestamp = "<small>" + timestampMessage + "</small>\n"
-    regexPattern = r"(?<=^# History)(?P<middleSpacing>\s+)(<small>.*?</small>)?\n?"
+    regexPattern = r"^\> \[\!page\-edit\-history\].*?\> \^page\-edit\-history"
     regexModifiers = re.MULTILINE | re.DOTALL
     if re.search(regexPattern, fileContent, regexModifiers):
-        # A History heading exists
-        fileContent = re.sub(regexPattern, r"\g<middleSpacing>" + newTimestamp, fileContent, flags=regexModifiers)
+        # A previous block exists.
+        fileContent = re.sub(regexPattern, historyContent, fileContent, flags=regexModifiers)
     else:
-        # No History heading exists yet - add one.
-        fileContent = fileContent + "\n\n# History\n" + newTimestamp
+        # No previous block exists yet - add one.
+        # Check should "History" heading be added, too.
+        if re.search(r"^# History", fileContent, regexModifiers):
+            # "History" heading exists already.
+            historyHeading = ""
+        else:
+            # "History" heading needs to be added.
+            historyHeading = "# History\n"
+
+        fileContent = fileContent + "\n\n" + historyHeading + historyContent
 
     # Write the modified file
     with open(filePath, "w", newline="\n") as writeFile:
         writeFile.write(fileContent)
 
+def parseCommitList(gitCommits):
+    list = ""
+    for gitCommit in gitCommits:
+        if list != "":
+            list += "\n"
+        [date, hash, comment] = gitCommit.split("|")
+        list += f"> - [<small>{date}</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/{hash}): {comment}"
+    return list
 
 if __name__ == "__main__":
     countNeededArguments = 1
