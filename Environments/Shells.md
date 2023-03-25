@@ -54,7 +54,9 @@ In the above section, you are able to change the shell that all of your shell co
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-11-21 &#10132; 2023-02-28
+> [!page-edit-history]- Page edit history: 2021-11-21 &#10132; 2023-03-25
+> - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4f304a3cafb96df717a589d73194c3998e45f997): Custom shells.md: Begin writing documentation.
+> - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8e8a5f52843516c77953875f773d0f760bbb1855): Shells.md: More information about built-in shells.
 > - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
 > - [<small>2022-04-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/893a7098c3a22942bf115447418212a97c616dcb): Forgot to rename directory 'Operating systems and shells' to 'Environments'.
 > - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b5c6aabefb69afcf387fb2a4fd20e9c223f080bc): 0.12.0: Updated old screenshots to contain 'Environments', 'Preactions' and 'Variables' tabs.

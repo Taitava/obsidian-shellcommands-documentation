@@ -50,7 +50,8 @@ If you define your shell command's [[Realtime output handling|output to be handl
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26): If some text is selected, only the selected text will be used instead of the whole text. ([#158](https://github.com/Taitava/obsidian-shellcommands/issues/158)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The output channel was released. ([#134](https://github.com/Taitava/obsidian-shellcommands/issues/134)).
 
-> [!page-edit-history]- Page edit history: 2022-01-02 &#10132; 2022-11-26
+> [!page-edit-history]- Page edit history: 2022-01-02 &#10132; 2023-03-25
+> - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9b35ea387574e4cc06eb774c6659cd99954aa13a): Output channel - Ask after execution.md: Add a history record.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/51befca61156a26873f502966d42de2d98b382fe): 'Ask after execution' and 'Notification balloon': Mention an icon that can be used to terminate processes.
 > - [<small>2022-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cfdba5f85d4f92207a8fb81b14c9116b8e1f465f): Output channel - Ask after execution: Add a history record for a wrapping bug fix.
