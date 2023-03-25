@@ -7,6 +7,11 @@
  * - publish.css (used on the https://publish.obsidian.md website)
  */
 .callout[data-callout="page-edit-history"] {
-    --callout-color: 0,0,75;
     --callout-icon: lucide-history;
+}
+.theme-light .callout[data-callout="page-edit-history"] {
+    --callout-color: 0,0,75;
+}
+.theme-dark .callout[data-callout="page-edit-history"] {
+    --callout-color: 155,155,255;
 }
