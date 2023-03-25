@@ -28,6 +28,15 @@ Knowing your shell allows you to find out what shell commands are available for 
 - Binary paths cannot be altered for built-in shells. If you need to use different paths, you can define a [[Custom shells|custom shell]] instead.
 - Used switches cannot be altered for built-in shells.
 
+## Custom shells
+> [!Warning] This feature is only available in a beta test
+> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
+		> %% #TODO: Remove this annotation when the final version is released. %%
+
+![[Custom shells#^custom-shells-summary]]
+
+> [!Tip] [[Custom shells|Read more about custom shells]]
+
 ## How to know which shell is used
 1. Open up the plugin's settings pane and click the *Environments* tab.
 ![[Settings-main-environments-default-shell.png]]
