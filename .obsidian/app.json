@@ -30,7 +30,8 @@
     "en-US"
   ],
   "userIgnoreFilters": [
-    "Assets/Templates/"
+    "Assets/Templates/",
+    "Assets/Scripts/"
   ],
   "communityThemeSortOrder": "download",
   "communityPluginSortOrder": "download",
