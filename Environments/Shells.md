@@ -4,18 +4,29 @@ aliases:
 ---
 Knowing your shell allows you to find out what shell commands are available for you to use, although most of the differences in command sets depend on which operating system you use, not so much on which shell you use. Then again, some commands may act a bit differently in different shells.
 
-## Currently supported shells
-At the moment, the *Shell commands* plugin only supports a limited set of shells. Support for customisable shells might be added later.
+## Built-in shells
+> [!Info]
+> The *Shell commands* plugin has built-in support for the shells listed below. In case you want to use a different shell, you can define a [[Custom shells|custom shell]]. Even when using one of the built-in shells listed below, it might make sense to configure it as a custom shell, as that offers more control over the shell's settings, e.g. the ability to define a different path for the shell.
+> 
+> **Built-in shells do not offer any settings.**
 
 ### Windows
-- [[CMD.EXE]]
-- [[PowerShell#PowerShell Core|PowerShell Core]]
-- [[PowerShell#PowerShell 5|PowerShell 5]]
+| Shell                                           | Executable name  | Used switches                                                                                                                        |
+| ----------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [[CMD.EXE\|Command Prompt]]                     | `CMD.EXE`        | [`/d /s /c`](https://ss64.com/nt/cmd.html)                                                                                           |
+| [[PowerShell#PowerShell Core\|PowerShell Core]] | `pwsh.exe`       | [`-c`](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.3)           |
+| [[PowerShell#PowerShell 5\|PowerShell 5]]       | `powershell.exe` | [`-c`](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe?view=powershell-5.1) |
+- These shells are executed by their executable names only, not by a complete file path, so their location doesn't matter, but they need to be declared in the [[Additions to the PATH environment variable|Path environment variable]] if they are used.
+- Used switches cannot be altered for built-in shells. If needed, define a [[Custom shells|custom shell]] instead.
 
 ### Linux and macOS
-- [[Bash]]
-- [[Dash]]
-- [[Zsh]]
+| Shell    | Binary path | Used switches                                                               |
+| -------- | ----------- | --------------------------------------------------------------------------- |
+| [[Bash]] | `/bin/bash` | [`-c`](https://www.man7.org/linux/man-pages/man1/bash.1.html)               |
+| [[Dash]] | `/bin/dash` | [`-c`](https://man7.org/linux/man-pages/man1/dash.1.html)                   |
+| [[Zsh]]  | `/bin/zsh`  | [`-c`](https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation-1) |
+- Binary paths cannot be altered for built-in shells. If you need to use different paths, you can define a [[Custom shells|custom shell]] instead.
+- Used switches cannot be altered for built-in shells.
 
 ## How to know which shell is used
 1. Open up the plugin's settings pane and click the *Environments* tab.
