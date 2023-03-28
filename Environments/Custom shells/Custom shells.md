@@ -7,15 +7,16 @@ aliases:
  > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
  > %% #TODO: Remove this annotation when the final version is released. %%
 
-> [!Info] 
-> As the list of [[Shells#Built-in shells|shells that are built in]] in the _Shell commands_ plugin is small (only contains shells that come pre-installed with certain operating systems), _custom shells_ is a feature that allows defining shells in a more freely manner. Here is a non-exhaustive list of example shells that can be defined as _custom shells_:
+> [!Info] About _custom shells_
+> As there are only a few [[Shells#Built-in shells|built-in shells]] in the _Shell commands_ plugin (by default, the plugin only supports shells that come pre-installed with certain operating systems), _custom shells_ is a feature that allows defining shells in a more freely manner. Here is a non-exhaustive list of example shells that can be defined as _custom shells_:
 > 
-> **For Windows:**
->  - [[Windows Subsystem for Linux (WSL)]]: Execute Linux shell commands on Windows.
->  - [[Windows - MinGW-w64|MinGW-w64]]: Support the GCC compiler on Windows systems, but can be used to execute many other Linux commands, too.
-> 
-> **For Linux and macOS:**
->  - [[MacOS-Linux - Wine|Wine]]: A compatibility layer capable of running Windows applications. ^custom-shells-summary
+> | Shell | For macOS | For Linux | For Windows |
+> | ------- | ---------------|-------------|--------------|
+> | [[Windows Subsystem for Linux (WSL)]]<br>Execute Linux shell commands on Windows. | - | - | Yes |
+> | [[Windows - MinGW-w64\|MinGW-w64]]<br>Support the GCC compiler on Windows systems, but can be used to execute many other Linux commands, too. | - | - | Yes |
+> | [[MacOS-Linux - Wine\|Wine]]<br>A compatibility layer capable of running Windows applications. | Yes | Yes | - |
+> | BusyBox (no SC documentation yet)<br> From [busybox.net](https://busybox.net/): _"BusyBox combines tiny versions of many common UNIX utilities into a single small executable."_ | Yes | Yes | Yes, through [frippery.org](https://frippery.org/busybox/index.html)
+> ^custom-shells-summary
 
 #TODO: Continue writing documentation.
 
