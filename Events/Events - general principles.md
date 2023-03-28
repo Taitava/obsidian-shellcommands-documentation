@@ -15,7 +15,7 @@ Here you'll find all the event's that you can enable for a shell command - prett
 
 A couple of tips:
 - Multiple events can be enabled for a single shell command, but note that if you use event related variables, you can only use them when the shell command is executed by an event that supports the variables. E.g. `{{event_folder_name}}` can only be used when a shell command is executed by [[Folder menu]] or [[File menu]] events. Otherwise an error message is shown and execution prevented.
-- If you have a shell command that you don't need to execute manually - only via events - you can switch the *Availability in Obsidian's command palette* setting to *Excluded* to make your command palette a little bit less polluted. 😉 Note that if you use [[Shell commands URI]], the exclusion does **not** prevent using the URI to execute shell commands. ^exlude-from-command-palette
+- If you have a shell command that you don't need to execute manually - only via events - you can switch the *Availability in Obsidian's command palette* setting to *Excluded* to make your command palette a little bit less polluted. 😉 Note that if you use [[Shell commands URI]], the exclusion does **not** prevent using the URI to execute shell commands. ^exclude-from-command-palette
 
 # All events
 You can also access the event documentation pages via question mark icons in the event settings view.
