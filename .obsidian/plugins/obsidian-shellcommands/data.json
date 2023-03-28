@@ -271,7 +271,7 @@
         "default": "echo {{event_file_name}}"
       },
       "shells": {},
-      "alias": "Copy {{event_file_name}} to clipboard",
+      "alias": "Copy {{!event_file_name}} to clipboard",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
@@ -303,7 +303,7 @@
         "default": "echo {{event_title}}"
       },
       "shells": {},
-      "alias": "Copy {{event_title}} to clipboard",
+      "alias": "Copy {{!event_title}} to clipboard",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
@@ -335,7 +335,7 @@
         "default": "echo {{event_folder_name}}"
       },
       "shells": {},
-      "alias": "Copy {{event_folder_name}} to clipboard",
+      "alias": "Copy {{!event_folder_name}} to clipboard",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
