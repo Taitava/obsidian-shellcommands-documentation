@@ -34,3 +34,10 @@ aliases:
 ## Wrapper for shell command
 
 ![[Settings-custom-shell-wrapper-for-shell-command.png]]
+
+# History
+> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-03-28
+> - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac2b9e500546136d598346f559a1275dd7f749f7): Create draft `Settings for custom shells.md`, including screenshots.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Settings%20for%20custom%20shells.md).
+> ^page-edit-history
