@@ -64,7 +64,7 @@ Actions that are performed before executing a shell command, i.e. preparations.
 
 ### Environments: Operating systems and shells
 - [[Operating system specific versions of shell commands]]
-- [[Shells]]
+- [[Shells#Built-in shells|Built-in shells]] / [[Custom shells]]
 
 ### Hidden settings
 - [[Hidden settings|There are some minor settings that do not have a visible field in the settings user interface]]
