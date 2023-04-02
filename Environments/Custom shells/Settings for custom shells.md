@@ -7,6 +7,11 @@ aliases:
 #TODO: Update _Settings-main-environments-tab.png_, so it includes Custom shells.
 ![[Settings-main-environments-tab.png]]
 
+## Shell name and description
+
+![[Settings-Custom-shell-Shell-name-and-description.png]]
+The name and description are freely decidable, as they do not affect the custom shell's operation in any way.
+
 ## Executable binary file path
 
 ![[Settings-Custom-shell-Executable-binary-file-path.png]]
