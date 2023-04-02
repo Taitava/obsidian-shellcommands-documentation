@@ -41,7 +41,8 @@ The name and description are freely decidable, as they do not affect the custom 
 ![[Settings-custom-shell-wrapper-for-shell-command.png]]
 
 # History
-> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-03-28
+> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-02
+> - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0d3f39d1b90f015e834fe1471deb091e225f2c38): Settings for custom shells.md: Add "Shell name and description" section.
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac2b9e500546136d598346f559a1275dd7f749f7): Create draft `Settings for custom shells.md`, including screenshots.
 > 
 > [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Settings%20for%20custom%20shells.md).

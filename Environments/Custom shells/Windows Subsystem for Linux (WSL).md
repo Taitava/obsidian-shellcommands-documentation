@@ -141,3 +141,10 @@ Now that the WSL is configured as a custom shell, it still needs to be taken int
 > ![[Shells#Choosing a shell on a per shell command basis]]
 
 Now all the configuration should be done. Try to execute your shell commands!
+
+# History
+> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-02
+> - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bd74c26aac68d0051a128d58fa15f8f3d6f03f5): Custom shell example: Windows Subsystem for Linux (WSL)
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Windows%20Subsystem%20for%20Linux%20%28WSL%29.md).
+> ^page-edit-history
