@@ -160,5 +160,15 @@
       "key": "E"
     }
   ],
-  "markdown:toggle-preview": []
+  "markdown:toggle-preview": [],
+  "obsidian-shellcommands:shell-command-cuepyks12f": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ]
 }
