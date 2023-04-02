@@ -119,14 +119,6 @@
       "key": "D"
     }
   ],
-  "editor:insert-wikilink": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [],
