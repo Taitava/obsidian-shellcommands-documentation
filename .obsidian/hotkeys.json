@@ -37,6 +37,7 @@
   "obsidian-shellcommands:shell-command-21": [
     {
       "modifiers": [
+        "Alt",
         "Mod"
       ],
       "key": "T"
