@@ -14,7 +14,7 @@ aliases:
 > | ------- | ---------------|-------------|--------------|
 > | [[Windows Subsystem for Linux (WSL)]]<br>Execute Linux shell commands on Windows. | - | - | Yes |
 > | [[Windows - MinGW-w64\|MinGW-w64]]<br>Support the GCC compiler on Windows systems, but can be used to execute many other Linux commands, too. | - | - | Yes |
-> | [[MacOS-Linux - Wine\|Wine]]<br>A compatibility layer capable of running Windows applications. | Yes | Yes | - |
+> | [[MacOS or Linux - Wine\|Wine]]<br>A compatibility layer capable of running Windows applications. | Yes | Yes | - |
 > | BusyBox (no SC documentation yet)<br> From [busybox.net](https://busybox.net/): _"BusyBox combines tiny versions of many common UNIX utilities into a single small executable."_ | Yes | Yes | Yes, through [frippery.org](https://frippery.org/busybox/index.html)
 > ^custom-shells-summary
 
