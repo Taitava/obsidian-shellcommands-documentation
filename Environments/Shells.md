@@ -33,7 +33,8 @@ Knowing your shell allows you to find out what shell commands are available for 
 > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
 		> %% #TODO: Remove this annotation when the final version is released. %%
 
-![[Custom shells#^custom-shells-summary]]
+![[Custom shells#^about-custom-shells]]
+![[Custom shells#^tailored-configuration-guides]]
 
 > [!Tip] [[Custom shells|Read more about custom shells]]
 
