@@ -103,6 +103,8 @@ Test that the path translator works by clicking the _Test absolute path translat
 ![[Settings-Custom-shell-WSL-path-translation-test.png]]
 Your paths will be different, as you have your vault in a different directory, and differently named files. **Just make sure all the three paths start with `/mnt/`** .
 
+![[Settings for custom shells#^what-file-system-paths-are-translated]]
+
 ## Wrapper for shell command
 
 ![[Settings-custom-shell-wrapper-for-shell-command.png]]
