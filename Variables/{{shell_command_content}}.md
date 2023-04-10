@@ -28,8 +28,7 @@ This variable is used in [[custom shells]]' settings to pass the content of a sh
 > > > ```
 
 ## Shell arguments
-> [!Info] Arguments for custom shells
-> Each shell defines arguments that control their behavior when they execute commands. The most important argument is the executable command itself.
+![[Settings for custom shells#^arguments-summary]]
 
 When used as a shell argument, `{{!shell_command_content}}` gives:
  - **a)** the content of a wrapper, if defined for the shell, **or**:
@@ -40,12 +39,7 @@ Here's the [[Settings for custom shells#Shell arguments|Shell arguments]] settin
 ![[Settings-custom-shell-shell-arguments.png]]
 
 ## Wrapper for shell command
-> [!Info] Wrappers in custom shells
-> Each [[Custom shells|custom shell]] may optionally define a wrapper that consist of normal shell command expressions that prefix and/or postfix the actual shell command in order to perform some preparing and/or finishing tasks, such as:
->  - setting character encodings (prefix)
->  - adding directories to the `PATH` environment variable (prefix)
->  - storing executed shell commands in a log file (prefix/postfix)
->  - converting output from one format to another (postfix)
+![[Settings for custom shells#^wrapper-summary]]
 
 When used in a wrapper, `{{!shell_command_content}}` gives the shell command content defined in an executable shell command setting item.
 

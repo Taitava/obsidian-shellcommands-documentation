@@ -5,7 +5,7 @@ Shells have special meanings for certain characters. If the variables that you u
 
 Some examples:
 - `mycommand "{{clipboard}}"`, with clipboard happening to contain a double quote `"` character. Your command might end up looking like this: `mycommand "Text pasted from clipboard that contains a " character."`.
-- `mycommand {{clipboard}}`, with clipboard happening to contain stuff like `some text > C:\path\to\some\important\file`. In this case, the command might end up accidentally overwriting some file without a conscious meaning from the user.
+- `mycommand {{clipboard}}`, with clipboard happening to contain stuff like `some text > C:\path\to\some\important\file`. In this case, the command might end up accidentally overwriting some file without a conscious meaning from the user. ^dangerous-special-characters
 
 In other words, special characters may cause your commands to execute completely different commands and actions than what you meant. To overcome this, **the *Shell commands* plugin automatically escapes special characters in variable values** ([[#Escaping depends on the shell|except for Windows CMD no escaping is done]]).
 

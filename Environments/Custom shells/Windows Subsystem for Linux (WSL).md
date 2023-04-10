@@ -68,8 +68,7 @@ Use the following shell arguments:
 ```
 The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined after them, so everything after the dashes should be interpreted as executable commands.
 
-> [!Info] About `{{!shell_command_content}}`
-> `{{!shell_command_content}}` is a placeholder for any executable shell command. `!` means that special characters in the shell command are **not** [[Escaping special characters in variable values|escaped]] when passing the command as an argument. However, the shell command's content may contain already escaped special characters before it gets passed as an argument.
+![[Settings for custom shells#^about-shell-command-content]]
 
 ## Host operating system
 
@@ -127,20 +126,9 @@ Make sure that the outputted _current working directory_ is your Obsidian vault'
 Example result for me:
 ![[Settings-Custom-shell-WSL-execution-test.png]]
 
-## Make shell commands to use the newly created WSL shell
+## Make shell commands use the newly created WSL shell
 
-Now that the WSL is configured as a custom shell, it still needs to be taken into use. There are two ways to select the shell:
- - **A**) a default shell can be selected for all shell commands that do not have an explicitly selected shell, or
- - **B)** a shell can be selected for each shell command individually.
-
-> [!Info]- A) Select WSL as a _default_ shell
-> You can follow this guide about finding out the current default shell. You can change the default shell there, too.
-> ![[Shells#How to know which shell is used]]
-
-> [!Info]- B) Select WSL for an individual shell command
-> ![[Shells#Choosing a shell on a per shell command basis]]
-
-Now all the configuration should be done. Try to execute your shell commands!
+![[Settings for custom shells#Make shell commands use the newly created shell]]
 
 # History
 > [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-02
