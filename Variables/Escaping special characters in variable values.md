@@ -52,7 +52,8 @@ I am not able to think about all the possibility use cases of this plugin. In th
 - [0.11.1 - 2022-03-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0111---2022-03-05): Fixed a bug that corrupted four-byte unicode characters, e.g. emojis. ([#171](https://github.com/Taitava/obsidian-shellcommands/issues/171)).
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): Escaping special characters in variable values started. ([#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)).
 
-> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2023-03-29
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2023-04-10
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-03-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/53e256a42e8f491f850a6807de3f97e9a22cb828): [[Escaping special characters in variable values.md]]: Mention that escaping can be disabled, if variables are used for defining dynamic shell commands.
 > - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07644d90d4a01c20fd0a151a7fec543000df0a54): Documentation for {{shell_command_content}}.
 > - [<small>2022-06-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a6d98af9f752d83d8546719680419c2bd6973987): Escaping special characters in variable values: Mention that it's feasible to disable escaping in alias texts.

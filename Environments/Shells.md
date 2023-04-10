@@ -55,7 +55,8 @@ In the above section, you are able to change the shell that all of your shell co
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-11-21 &#10132; 2023-03-25
+> [!page-edit-history]- Page edit history: 2021-11-21 &#10132; 2023-04-10
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a5ac0a0a8b9a3a1532bbad7bb377e2d602dbf3): Custom shells.md: Split `^custom-shells-summary` in half so that the list of shell guides can be linked separately.
 > - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4f304a3cafb96df717a589d73194c3998e45f997): Custom shells.md: Begin writing documentation.
 > - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8e8a5f52843516c77953875f773d0f760bbb1855): Shells.md: More information about built-in shells.
 > - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".

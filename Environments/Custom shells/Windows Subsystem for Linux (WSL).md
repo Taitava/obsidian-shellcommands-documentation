@@ -135,7 +135,11 @@ Example result for me:
 ![[Settings for custom shells#Make shell commands use the newly created shell]]
 
 # History
-> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-02
+> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-10
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/836d6a75e93c7664cf895a02722ec688f612f172): [[Windows Subsystem for Linux (WSL).md]]: Rename a heading.
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/92811b9c999f3459792dd2ab6639f77b9477466b): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Wrapper for shell command]].
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e10d73ad0efbeb59eccdd175d3c7c8628630dd54): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Path translator]].
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bd74c26aac68d0051a128d58fa15f8f3d6f03f5): Custom shell example: Windows Subsystem for Linux (WSL)
 > 
 > [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Windows%20Subsystem%20for%20Linux%20%28WSL%29.md).

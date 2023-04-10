@@ -26,7 +26,8 @@ aliases:
 # History
 
 
-> [!page-edit-history]- Page edit history: 2023-02-28 &#10132; 2023-03-28
+> [!page-edit-history]- Page edit history: 2023-02-28 &#10132; 2023-04-10
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a5ac0a0a8b9a3a1532bbad7bb377e2d602dbf3): Custom shells.md: Split `^custom-shells-summary` in half so that the list of shell guides can be linked separately.
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cda9585a23ecbb64bccb380c75fa5df5ae32bc33): Custom shells.md: Put custom shell examples in a table.
 > - [<small>2023-03-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4f304a3cafb96df717a589d73194c3998e45f997): Custom shells.md: Begin writing documentation.
 > - [<small>2023-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/561754f6cbe89180f451508e3cfd4d271240301a): Move the Custom shells.md draft to a new subfolder.

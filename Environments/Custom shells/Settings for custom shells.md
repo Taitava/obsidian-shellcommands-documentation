@@ -160,7 +160,8 @@ Now that the custom shell is configured, it still needs to be taken into use. Th
 Now all the configuration should be complete. Try to execute your shell commands!
 
 # History
-> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-02
+> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-10
+> - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0d3f39d1b90f015e834fe1471deb091e225f2c38): Settings for custom shells.md: Add "Shell name and description" section.
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac2b9e500546136d598346f559a1275dd7f749f7): Create draft `Settings for custom shells.md`, including screenshots.
 > 
