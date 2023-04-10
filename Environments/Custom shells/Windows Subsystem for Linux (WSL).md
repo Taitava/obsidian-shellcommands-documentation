@@ -27,7 +27,7 @@ As this documentation focuses on the usage of the _Shell commands_ plugin, WSL i
 > [!Info] WSL distro: Ubuntu
 > This documentation assumes that WSL is installed with [Ubuntu](https://ubuntu.com/wsl) as it's <abbr title="distribution">distro</abbr>. That's also the default distro that `wsl --install` installs. However, this guide should work just perfectly for whatever distro. If you encounter problems with other distros, please start a discussion in the [_Debugging and testing_ discussion category on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/debugging-and-testing). 
 
-# Configure the _Shell commands_ plugin to use WSL
+# Configure a new _custom shell_: WSL
 
 This section walks you through the configuring process step by step, just like [[Settings for custom shells]], but with the instructions adapted for WSL.
 
