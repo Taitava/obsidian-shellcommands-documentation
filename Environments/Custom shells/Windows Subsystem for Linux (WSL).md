@@ -111,6 +111,8 @@ Your paths will be different, as you have your vault in a different directory, a
 
 You can leave the wrapper field empty. A wrapper could be defined if you'd like to execute certain commands before and/or after the main command, but there's no explicit need for it.
 
+![[Settings for custom shells#^about-shell-command-content]]
+
 ## Execute a command to test the shell
 
 ![[Settings-Custom-shell-Execute-command-to-test-shell.png]]
