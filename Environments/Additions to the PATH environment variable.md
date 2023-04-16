@@ -148,7 +148,8 @@ In addition to the [[{{environment}}|{{!environment}}]] variable, all other [[Va
 # History
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The ability to define PATH additions was released. ([#204](https://github.com/Taitava/obsidian-shellcommands/issues/204)).
 
-> [!page-edit-history]- Page edit history: 2022-05-01 &#10132; 2022-06-28
+> [!page-edit-history]- Page edit history: 2022-05-01 &#10132; 2023-04-16
+> - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fc3c95817de468cbc5cd34c3194497eb5952795f): [[Custom shells.md]]: Instructions for adding directories to `PATH`.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
 > - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bb37c1f8ee6630879a4d6578eae61c50730cda97): 0.13.0-beta.1 annotations.
 > - [<small>2022-05-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c86e6c031f6c9031b5e9c1f8160e359a6a0b34e2): Additions to the PATH environment variable.md: Mention that inserting before anything else won't always insert to the absolute beginning.

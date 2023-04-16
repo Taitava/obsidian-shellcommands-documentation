@@ -165,7 +165,8 @@ Now all the configuration should be complete. Try to execute your shell commands
 # History
 - #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): The ability to define custom shells was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
 
-> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-10
+> [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-16
+> - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/af9616f369f5677077d2165cb54c7596abe7b6d2): Add changelog records to [[Custom shells.md]] and [[Settings for custom shells.md]].
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0d3f39d1b90f015e834fe1471deb091e225f2c38): Settings for custom shells.md: Add "Shell name and description" section.
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac2b9e500546136d598346f559a1275dd7f749f7): Create draft `Settings for custom shells.md`, including screenshots.
