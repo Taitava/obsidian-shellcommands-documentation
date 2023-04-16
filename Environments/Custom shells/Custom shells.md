@@ -21,8 +21,10 @@ aliases:
 > | BusyBox (no SC documentation yet)<br> From [busybox.net](https://busybox.net/): _"BusyBox combines tiny versions of many common UNIX utilities into a single small executable."_ | Yes | Yes | Yes, through [frippery.org](https://frippery.org/busybox/index.html) |
 > ^tailored-configuration-guides
 
-#TODO: Continue writing documentation.
+# Configuring custom shells
+You can find instructions for how to configure certain shells in the table above. However, in case you're about to configure a shell that does not have specific instructions, or you need more information about the different settings, you can read the generic instructions for custom shell settings.
 
+> [!Info] Read: [[Settings for custom shells]]
 # History
 
 
