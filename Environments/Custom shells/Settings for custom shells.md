@@ -68,7 +68,7 @@ Each shell has its own invocation options and arguments that are used to adjust 
 
 ## Host operating system
 
-![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows-Quote-off.png]]
 
 The _Host operating system_ setting defines an operating system that your computer must be currently running in order to use this shell. It's a bit "dummy" setting, because you probably never need to change it, as it defaults to the current operating system when creating a new custom shell.
 

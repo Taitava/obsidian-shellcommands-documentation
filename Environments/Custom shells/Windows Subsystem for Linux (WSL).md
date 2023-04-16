@@ -68,7 +68,7 @@ The two dashes `--` are meant to be **included**, and should be on its own line,
 
 ## Host operating system
 
-![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows-Quote-off.png]]
 
 _Host operating system_ must be **Windows**, as WSL is run on Windows.
 _Windows: Quote shell arguments_ must be **disabled**.

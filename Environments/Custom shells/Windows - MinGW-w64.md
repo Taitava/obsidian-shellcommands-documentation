@@ -70,7 +70,7 @@ Use the following shell arguments:
 
 ## Host operating system
 
-![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows-Quote-off.png]]
 
 _Host operating system_ must be **Windows**, as MinGW-w64 is run on Windows.
 _Windows: Quote shell arguments_ must be **enabled**.
