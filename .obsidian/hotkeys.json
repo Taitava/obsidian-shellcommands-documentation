@@ -87,7 +87,6 @@
     }
   ],
   "workspace:undo-close-pane": [],
-  "editor:save-file": [],
   "obsidian-shellcommands:shell-command-41": [
     {
       "modifiers": [
@@ -107,7 +106,8 @@
   "obsidian-shellcommands:shell-command-28": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "S"
     }
