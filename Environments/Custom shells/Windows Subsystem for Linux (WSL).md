@@ -131,7 +131,8 @@ Example result for me:
 ![[Settings for custom shells#Make shell commands use the newly created shell]]
 
 # History
-> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-10
+> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-16
+> - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/79ac0bd858ee53b8b721ba44d5d980c2325f0f1f): [[Windows Subsystem for Linux (WSL).md]]: Use WSL specific screenshots.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/836d6a75e93c7664cf895a02722ec688f612f172): [[Windows Subsystem for Linux (WSL).md]]: Rename a heading.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/92811b9c999f3459792dd2ab6639f77b9477466b): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Wrapper for shell command]].
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e10d73ad0efbeb59eccdd175d3c7c8628630dd54): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Path translator]].
