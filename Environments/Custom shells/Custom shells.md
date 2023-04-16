@@ -25,9 +25,21 @@ aliases:
 You can find instructions for how to configure certain shells in the table above. However, in case you're about to configure a shell that does not have specific instructions, or you need more information about the different settings, you can read the generic instructions for custom shell settings.
 
 > [!Info] Read: [[Settings for custom shells]]
+
+# Path additions
+
+![[Additions to the PATH environment variable#^what-is-path]]
+
+Sometimes program directories need to be explicitly added to the `PATH` environment variable. For [[Shells#Built-in shells|built-in shells]], the _Shell commands_ plugin has a setting named [[Additions to the PATH environment variable#An easier way to add directories to `PATH`|Add directories to the PATH environment variable]]. However, that setting does **not** work for _custom shells_. For custom shells, you can use the following settings to add directories to `PATH`:
+ - [[Settings for custom shells#Shell arguments|Shell arguments]]: If your custom shell is [[Bash]], you can try adding `--login` as an option to the _Shell arguments_ setting. `--login` makes [[Bash]] read and execute _profile_ files (e.g. `~/profile`, etc.)  before executing the actual shell command. The executed profile files may add some directories to `PATH`, making more programs available for you. Read more about [Bash startup files and `--login`](https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html).
+ - [[Settings for custom shells#Wrapper for shell command|Wrapper for shell command]]: If your custom shell is [[Bash]], you can write a preceding shell command that adds directories to the `PATH` environment variable:
+  ```
+  PATH=$PATH:/additional/directory1:/additional/directory2
+  {{!shell_command_content}}
+  ```
+ - If your custom shell is not [[Bash]], you might still be able to adapt similar techniques to it.
+
 # History
-
-
 - #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): The ability to define custom shells was created. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
 
 > [!page-edit-history]- Page edit history: 2023-02-28 &#10132; 2023-04-10

@@ -2,6 +2,7 @@
 > `PATH` is an [environment variable](https://en.wikipedia.org/wiki/Environment_variable) used in macOS, Linux and Windows (and some other operating systems) to specify directories where executable programs are located. Executable programs can be located also in other directories not specified in `PATH`, but then their execution requires to use either their full path (= directory + file name) or they need to be located in the current [[working directory]].
 > 
 > It's convenient to have all frequently executed programs' directories specified in the `PATH` environment variable, so that only the program's file name is needed to be able to execute it.
+> ^what-is-path
 
 ## The traditional way to add directories to `PATH`
 
