@@ -33,9 +33,6 @@ This section walks you through the configuring process step by step, just like [
 
 **To begin**, open up the settings panel in Obsidian by pressing the hotkey `Ctrl` + `,` . Navigate to _Shell commands_ -> _Environments_ -> _Custom shells_. Click the _New custom shell_ button. A modal pops up, where you can configure the custom shell's options as described in the below subchapters.
 
-> [!Attention]
-> The screenshots used on this page are general screenshots for the [[custom shells]] feature, and might not show correct values for WSL. They are meant to only show **where** specific values should be defined in. **Always read the configuration values below the images.**
-
 ## Shell name and description
 
 ![[Settings-Custom-shell-WSL-Shell-name-and-description.png]]
@@ -59,8 +56,7 @@ WSL's executable binary file path is: `C:\Windows\System32\wsl.exe` (at least on
 
 ## Shell arguments
 
-![[Settings-Custom-shell-MinGW-w64-Shell-arguments.png]]
-
+![[Settings-Custom-shell-WSL-Shell-arguments.png]]
 Use the following shell arguments:
 ```
 --
@@ -107,7 +103,7 @@ Your paths will be different, as you have your vault in a different directory, a
 
 ## Wrapper for shell command
 
-![[Settings-Custom-shell-General-Wrapper-for-shell-command-Example.png]]
+![[Settings-Custom-shell-General-Wrapper-for-shell-command-Empty.png]]
 
 You can leave the wrapper field empty. A wrapper could be defined if you'd like to execute certain commands before and/or after the main command, but there's no explicit need for it.
 
