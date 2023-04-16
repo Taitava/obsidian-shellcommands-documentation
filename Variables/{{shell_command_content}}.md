@@ -36,7 +36,7 @@ When used as a shell argument, `{{!shell_command_content}}` gives:
 
 Here's the [[Settings for custom shells#Shell arguments|Shell arguments]] setting field in [[Settings for custom shells|custom shell settings]] where `{{!shell_command_content}}` is used:
 
-![[Settings-custom-shell-shell-arguments.png]]
+![[Settings-Custom-shell-MinGW-w64-Shell-arguments.png]]
 
 ## Wrapper for shell command
 ![[Settings for custom shells#^wrapper-summary]]
@@ -45,7 +45,7 @@ When used in a wrapper, `{{!shell_command_content}}` gives the shell command con
 
 Here's the [[Settings for custom shells#Wrapper for shell command|Wrapper for shell command]] setting field in [[Settings for custom shells|custom shell settings]] where `{{!shell_command_content}}` is used:
 
-![[Settings-custom-shell-wrapper-for-shell-command.png]]
+![[Settings-Custom-shell-General-Wrapper-for-shell-command-Example.png]]
 
 > [!tip]- Repeating `{{!shell_command_content}}`
 > Like shown in the screenshot above, `{{!shell_command_content}}` and/or `{{shell_command_content}}` can appear multiple times in a wrapper. 

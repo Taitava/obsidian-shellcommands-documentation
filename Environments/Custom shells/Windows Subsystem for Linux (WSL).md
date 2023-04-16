@@ -38,7 +38,7 @@ This section walks you through the configuring process step by step, just like [
 
 ## Shell name and description
 
-![[Settings-Custom-shell-Shell-name-and-description.png]]
+![[Settings-Custom-shell-WSL-Shell-name-and-description.png]]
 The name and description are freely decidable, as they do not affect the custom shell's operation in any way.
 
 _Shell name_: `Windows Subsystem for Linux (WSL)`
@@ -53,13 +53,13 @@ Install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
 
 ## Executable binary file path
 
-![[Settings-Custom-shell-Executable-binary-file-path.png]]
+![[Settings-Custom-shell-WSL-Executable-binary-file-path.png]]
 
 WSL's executable binary file path is: `C:\Windows\System32\wsl.exe` (at least on Windows 10).
 
 ## Shell arguments
 
-![[Settings-custom-shell-shell-arguments.png]]
+![[Settings-Custom-shell-MinGW-w64-Shell-arguments.png]]
 
 Use the following shell arguments:
 ```
@@ -72,24 +72,24 @@ The two dashes `--` are meant to be **included**, and should be on its own line,
 
 ## Host operating system
 
-![[Settings-Custom-shell-Host-operating-system.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
 
 _Host operating system_ must be **Windows**, as WSL is run on Windows.
 _Windows: Quote shell arguments_ must be **disabled**.
 
 ## Shell's operating system
 
-![[Settings-Custom-shell-Shells-operating-system.png]]
+![[Settings-Custom-shell-General-Shells-operating-system-Linux.png]]
 _Shell's operating system_ must be **Linux**.
 
 ## Special characters escaping
 
-![[Settings-Custom-shell-Special-characters-escaping.png]]
+![[Settings-Custom-shell-General-Special-characters-escaping-Unix.png]]
 Select **Unix shell style with \\ as escape character**. 
 
 ## Path translator
 
-![[Settings-Custom-shell-Path-translator.png]]
+![[Settings-Custom-shell-WSL-Path-translator.png]]
 
 As the [[#Shell's operating system]] differs from [[#Host operating system]], a _Path translator_ must be defined, so that Windows file paths get converted to a format that works in WSL. Use the following JavaScript function as the translator:
 ```javascript
@@ -100,14 +100,14 @@ return '/mnt/' + driveLetter.toLocaleLowerCase() + '/' + trailingPath;
 ```
 
 Test that the path translator works by clicking the _Test absolute path translation_ icon: ![[Translate-icon.png]]. It should provide three test paths:
-![[Settings-Custom-shell-WSL-path-translation-test.png]]
+![[Settings-Custom-shell-WSL-Path-translation-test.png]]
 Your paths will be different, as you have your vault in a different directory, and differently named files. **Just make sure all the three paths start with `/mnt/`** .
 
 ![[Settings for custom shells#^what-file-system-paths-are-translated]]
 
 ## Wrapper for shell command
 
-![[Settings-custom-shell-wrapper-for-shell-command.png]]
+![[Settings-Custom-shell-General-Wrapper-for-shell-command-Example.png]]
 
 You can leave the wrapper field empty. A wrapper could be defined if you'd like to execute certain commands before and/or after the main command, but there's no explicit need for it.
 
@@ -115,7 +115,7 @@ You can leave the wrapper field empty. A wrapper could be defined if you'd like 
 
 ## Execute a command to test the shell
 
-![[Settings-Custom-shell-Execute-command-to-test-shell.png]]
+![[Settings-Custom-shell-WSL-Execute-command-to-test-shell.png]]
 
 You can define e.g. the following test command:
 
@@ -128,7 +128,7 @@ Click the _Execute the test command using this shell_ icon button: ![[Execute-ic
 Make sure that the outputted _current working directory_ is your Obsidian vault's path (assuming you have not changed the [[Working directory]] setting).
 
 Example result for me:
-![[Settings-Custom-shell-WSL-execution-test.png]]
+![[Settings-Custom-shell-WSL-Execution-test.png]]
 
 ## Make shell commands use the newly created WSL shell
 

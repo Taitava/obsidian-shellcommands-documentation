@@ -19,12 +19,12 @@ In case you are configuring a shell not present in the list above, just continue
 
 ## Shell name and description
 
-![[Settings-Custom-shell-Shell-name-and-description.png]]
+![[Settings-Custom-shell-WSL-Shell-name-and-description.png]]
 The name and description are freely decidable, as they do not affect the custom shell's operation in any way.
 
 ## Executable binary file path
 
-![[Settings-Custom-shell-Executable-binary-file-path.png]]
+![[Settings-Custom-shell-WSL-Executable-binary-file-path.png]]
 
 This defines a program file that will be executed when a shell command needs to be run.
 
@@ -46,7 +46,7 @@ No [[Variables - general principles|{{variables}}]] are supported in this field.
 
 ## Shell arguments
 
-![[Settings-custom-shell-shell-arguments.png]]
+![[Settings-Custom-shell-MinGW-w64-Shell-arguments.png]]
 
 > [!Info] Arguments for custom shells
 > Each shell defines arguments and options that control their behavior when they execute commands. The most important argument is the executable command itself.
@@ -68,7 +68,7 @@ Each shell has its own invocation options and arguments that are used to adjust 
 
 ## Host operating system
 
-![[Settings-Custom-shell-Host-operating-system.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
 
 The _Host operating system_ setting defines an operating system that your computer must be currently running in order to use this shell. It's a bit "dummy" setting, because you probably never need to change it, as it defaults to the current operating system when creating a new custom shell.
 
@@ -94,13 +94,13 @@ Like mentioned in the screenshot, on Windows, this setting _wraps shell argument
 
 ## Shell's operating system
 
-![[Settings-Custom-shell-Shells-operating-system.png]]
+![[Settings-Custom-shell-General-Shells-operating-system-Linux.png]]
 
 The _Shell's operating system_ gives an insight to how certain structures work in the shell, in case they differ from the [[#Host operating system]]. It's currently only used for determining a correct directory separator when [[Variables - general principles|{{variables}}]] return file/folder paths. I.e. `\` for Windows, and `/` for Linux and macOS. Other uses might be implemented later, if needed.
 
 ## Special characters escaping
 
-![[Settings-Custom-shell-Special-characters-escaping.png]]
+![[Settings-Custom-shell-General-Special-characters-escaping-Unix.png]]
 
 When [[Variables - general principles|{{variables}}]] are used in shell commands (or in some settings for custom shells), [[Escaping special characters in variable values|special characters in their values are usually escaped]]. In this setting, you can select the desired escaping mechanism according to what your shell understands and interprets correctly:
  - _Unix shell style with `\` as escape character_: Select this, if the shell is one of (or similar to): [[Bash]], [[Dash]], or [[Zsh]]. This will precede e.g. a double quote `"` with a backslash: `\"`
@@ -109,7 +109,7 @@ When [[Variables - general principles|{{variables}}]] are used in shell commands
 
 ## Path translator
 
-![[Settings-Custom-shell-Path-translator.png]]
+![[Settings-Custom-shell-WSL-Path-translator.png]]
 
 If the [[#Shell's operating system]] differs from the [[#Host operating system]], a _Path translator_ should be written in a form of a JavaScript function, so that your main operating system's file paths get converted to a structure that works in your shell.
 
@@ -124,7 +124,7 @@ After you've written a path translator, test that it works by clicking the _Test
 
 ## Wrapper for shell command
 
-![[Settings-custom-shell-wrapper-for-shell-command.png]]
+![[Settings-Custom-shell-General-Wrapper-for-shell-command-Example.png]]
 
 > [!Info] A wrapper can add extra shell commands around the main command
 > Each [[Custom shells|custom shell]] may optionally define a wrapper that consist of normal shell command expressions that prefix and/or postfix the actual shell command in order to perform some preparing and/or finishing tasks, such as:
@@ -140,7 +140,7 @@ If you do define a wrapper, you need to include [[{{shell_command_content}}]] in
 
 ## Execute a command to test the shell
 
-![[Settings-Custom-shell-Execute-command-to-test-shell.png]]
+![[Settings-Custom-shell-WSL-Execute-command-to-test-shell.png]]
 
 Click the _Execute the test command using this shell_ icon button: ![[Execute-icon.png]]
 

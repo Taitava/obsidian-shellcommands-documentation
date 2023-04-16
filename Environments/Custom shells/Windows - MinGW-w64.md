@@ -38,7 +38,7 @@ This section walks you through the configuring process step by step, just like [
 
 ## Shell name and description
 
-![[Settings-Custom-shell-Shell-name-and-description.png]]
+![[Settings-Custom-shell-WSL-Shell-name-and-description.png]]
 The name and description are freely decidable, as they do not affect the custom shell's operation in any way.
 
 _Shell name_: `MinGW-w64`
@@ -51,13 +51,13 @@ This custom shell configuration allows you to execute some Linux/Bash commands f
 
 ## Executable binary file path
 
-![[Settings-Custom-shell-Executable-binary-file-path.png]]
+![[Settings-Custom-shell-WSL-Executable-binary-file-path.png]]
 
 The executable binary file path is: `C:\Program Files\Git\bin\bash.exe` .
 
 ## Shell arguments
 
-![[Settings-custom-shell-shell-arguments.png]]
+![[Settings-Custom-shell-MinGW-w64-Shell-arguments.png]]
 
 Use the following shell arguments:
 ```
@@ -70,24 +70,24 @@ Use the following shell arguments:
 
 ## Host operating system
 
-![[Settings-Custom-shell-Host-operating-system.png]]
+![[Settings-Custom-shell-General-Host-operating-system-Windows.png]]
 
 _Host operating system_ must be **Windows**, as MinGW-w64 is run on Windows.
 _Windows: Quote shell arguments_ must be **enabled**.
 
 ## Shell's operating system
 
-![[Settings-Custom-shell-Shells-operating-system.png]]
+![[Settings-Custom-shell-General-Shells-operating-system-Linux.png]]
 _Shell's operating system_ must be **Linux**.
 
 ## Special characters escaping
 
-![[Settings-Custom-shell-Special-characters-escaping.png]]
+![[Settings-Custom-shell-General-Special-characters-escaping-Unix.png]]
 Select **Unix shell style with \\ as escape character**. 
 
 ## Path translator
 
-![[Settings-Custom-shell-Path-translator.png]]
+![[Settings-Custom-shell-WSL-Path-translator.png]]
 
 As the [[#Shell's operating system]] differs from [[#Host operating system]], a _Path translator_ must be defined, so that Windows file paths get converted to a format that works in MinGW-w64. Use the following JavaScript function as the translator:
 ```javascript
@@ -105,7 +105,7 @@ Your paths will be different, as you have your vault in a different directory, a
 
 ## Wrapper for shell command
 
-![[Settings-custom-shell-wrapper-for-shell-command.png]]
+![[Settings-Custom-shell-General-Wrapper-for-shell-command-Example.png]]
 
 You can leave the wrapper field empty. A wrapper could be defined if you'd like to execute certain commands before and/or after the main command, but there's no explicit need for it.
 
@@ -113,7 +113,7 @@ You can leave the wrapper field empty. A wrapper could be defined if you'd like 
 
 ## Execute a command to test the shell
 
-![[Settings-Custom-shell-Execute-command-to-test-shell.png]]
+![[Settings-Custom-shell-WSL-Execute-command-to-test-shell.png]]
 
 You can define e.g. the following test command:
 
