@@ -1,10 +1,6 @@
 ---
 cssclass: customiseTitle
 ---
- > [!Warning] This feature is only available in a beta test
- > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
- > %% #TODO: Remove this annotation when the final version is released. %%
-
 # Variable: `{{!shell_command_content}}`
 > [!Quote] {{!shell_command_content}} described in the *Shell commands* plugin's settings
 > Gives the executable shell command statements that should be passed to a shell.
@@ -132,7 +128,7 @@ When a shell command is executed, both the [[#Shell arguments]] and [[#Wrapper f
 > - Cannot be used as part of a shell command's content. If it were possible, it would cause an infinite recursion. 😅
 
 # History
-- #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
+- [0.19.0 - 2023-05-27](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0190---2023-05-27): The variable was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
 
 > [!page-edit-history]- Page edit history: 2023-03-23 &#10132; 2023-04-10
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.

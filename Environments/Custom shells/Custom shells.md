@@ -3,10 +3,6 @@ aliases:
   - "custom shell"
 ---
 
- > [!Warning] This feature is only available in a beta test
- > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
- > %% #TODO: Remove this annotation when the final version is released. %%
-
 > [!Info] About _custom shells_
 > As there are only a few [[Shells#Built-in shells|built-in shells]] in the _Shell commands_ plugin (by default, the plugin only supports shells that come pre-installed with certain operating systems), _custom shells_ is a feature that allows defining shells in a more freely manner. Below you'll find a non-exhaustive list of example shells that can be defined as _custom shells_.
 > ^about-custom-shells
@@ -40,7 +36,7 @@ Sometimes program directories need to be explicitly added to the `PATH` environm
  - If your custom shell is not [[Bash]], you might still be able to adapt similar techniques to it.
 
 # History
-- #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): The ability to define custom shells was created. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
+- [0.19.0 - 2023-05-27](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0190---2023-05-27): The ability to define custom shells was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
 
 > [!page-edit-history]- Page edit history: 2023-02-28 &#10132; 2023-04-16
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fc3c95817de468cbc5cd34c3194497eb5952795f): [[Custom shells.md]]: Instructions for adding directories to `PATH`.

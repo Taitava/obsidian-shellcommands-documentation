@@ -2,10 +2,6 @@
 aliases:
  - "custom shell settings"
 ---
- > [!Warning] This feature is only available in a beta test
- > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
- > %% #TODO: Remove this annotation when the final version is released. %%
-
 # Configure a new _custom shell_
 
 This page walks you through the general configuring process of creating a new [[Custom shells|custom shell]]. However, for a few specific shells, there are tailored guides available. If you happen to be configuring one of these, you can follow their specific instructions instead of reading this page:
@@ -163,7 +159,7 @@ Now that the custom shell is configured, it still needs to be taken into use. Th
 Now all the configuration should be complete. Try to execute your shell commands!
 
 # History
-- #TODO: Add a date [0.19.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): The ability to define custom shells was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
+- [0.19.0 - 2023-05-27](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0190---2023-05-27): The ability to define custom shells was released. ([#297](https://github.com/Taitava/obsidian-shellcommands/issues/297)).
 
 > [!page-edit-history]- Page edit history: 2023-03-28 &#10132; 2023-04-16
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/af9616f369f5677077d2165cb54c7596abe7b6d2): Add changelog records to [[Custom shells.md]] and [[Settings for custom shells.md]].

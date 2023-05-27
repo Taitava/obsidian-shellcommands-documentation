@@ -4,10 +4,6 @@ aliases:
  - WSL
 ---
 
- > [!Warning] This feature is only available in a beta test
- > - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
- > %% #TODO: Remove this annotation when the final version is released. %%
-
 ## What is WSL? 
 
 > [!Quote] From [Wikipedia: Windows Subsystem for Linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux):

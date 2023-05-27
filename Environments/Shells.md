@@ -29,10 +29,6 @@ Knowing your shell allows you to find out what shell commands are available for 
 - Used switches cannot be altered for built-in shells.
 
 ## Custom shells
-> [!Warning] This feature is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-5277523).
-		> %% #TODO: Remove this annotation when the final version is released. %%
-
 ![[Custom shells#^about-custom-shells]]
 ![[Custom shells#^tailored-configuration-guides]]
 
