@@ -5,7 +5,7 @@ cssclass: customiseTitle
 
 This page sums up some far-future goals of the *Shell commands* project. There are some fundamental features on my radar that I want to address here, because even though they are important, implementing them needs a lot of time, and often the presence of other planned features (= prerequisites). Some of the features are originating from other people's ideas, and I want to be more open about how I'm going to place them on the path of the future of this plugin.
 
-The list of features is not explicit: new ideas may born along the way, and current ones may be refined.
+The list of features is not explicit: new ideas may be born along the way, and current ones may be refined.
 
 > [!Info] Other places to look for incoming features
 > - There is [an older roadmap in GitHub](https://github.com/Taitava/obsidian-shellcommands/projects/1), but I haven't really utilized it to its full potential, and it's also not quite the thing I'm looking for: I want a roadmap that shows a one glance overview of far-ahead cornerstone features without the noise of near-future small features. I'm currently considering to retire the roadmap in GitHub. 
@@ -23,14 +23,14 @@ These are not in any particular order, but some features are needed to be done b
 - There will be a GitHub repository designated for sharing shell commands publicly with others, but shell commands could also be easily shared in Discord, forums or by other public or private means.
 
 ## [JavaScript API (#219)](https://github.com/Taitava/obsidian-shellcommands/discussions/219)
-- The most basic level: support treating shell command output as JavaScript code that could be evaluated. Need to provide some basic public API, at least access to Obsidian's `app` (or maybe there's not need, as it [seems to be global nowadays](https://forum.obsidian.md/t/obsidian-release-v0-14-4-insider-build/35026)).
+- The most basic level: support treating shell command output as JavaScript code that could be evaluated. Need to provide some basic public API, at least access to Obsidian's `app` (or maybe there's no need, as it [seems to be global nowadays](https://forum.obsidian.md/t/obsidian-release-v0-14-4-insider-build/35026)).
 - Later: Define a public API that allows calling some of the *Shell commands* plugin's methods from user code (= either JavaScript that is received as output from shell commands, or JavaScript written in other community plugins).
 
-## [Tighter integration with templater plugin.](https://github.com/Taitava/obsidian-shellcommands/discussions/217)
+## [Tighter integration with Templater plugin.](https://github.com/Taitava/obsidian-shellcommands/discussions/217)
 - Allow executing [Templater](https://github.com/SilentVoid13/Templater) scripts after a shell command is executed.
 
 ## [PowerShell: Handle output encoding](https://github.com/Taitava/obsidian-shellcommands/discussions/157)
- - Currently, [[PowerShell]] only works well when used with text that has only English characters - even if Unicode is used. Combine that to the fact that [[Escaping special characters in variable values#Escaping depends on the shell|there is not variable value escaping for CMD]], Windows as a platform is not currently as well supported by the *Shell commands* plugin, comparing to Linux and macOS.
+ - Currently, [[PowerShell]] only works well when used with text that has only English characters - even if Unicode is used. Combine that to the fact that [[Escaping special characters in variable values#Escaping depends on the shell|there is not variable value escaping for CMD]], Windows as a platform is not currently as well-supported by the *Shell commands* plugin, comparing to Linux and macOS.
 
 ## [Methods for variables (#147)](https://github.com/Taitava/obsidian-shellcommands/discussions/147)
  - A prerequisite for [#105](https://github.com/Taitava/obsidian-shellcommands/discussions/105).
