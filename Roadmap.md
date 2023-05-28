@@ -40,18 +40,18 @@ These are not in any particular order, but some features are needed to be done b
 
 # Already implemented features
 
-| SC version | Feature                                                             | Discussion                                                                | Completed  |
-|:---------- |:------------------------------------------------------------------- |:------------------------------------------------------------------------- | ---------- |
-| `0.19.0`   | Support custom shells                                               | [#108](https://github.com/Taitava/obsidian-shellcommands/discussions/108) | completely           |
-| `0.18.0`   | Pass variables to `stdin`                                           | [#89](https://github.com/Taitava/obsidian-shellcommands/discussions/89)   | completely |
-| `0.17.0`   | Realtime output handling                                            | [#64](https://github.com/Taitava/obsidian-shellcommands/discussions/64)   | completely |
-| `0.13.0`   | Execute shell commands via Obsidian URI                             | [#195](https://github.com/Taitava/obsidian-shellcommands/discussions/195) | completely |
-| `0.12.0`   | A modal for asking values from user (Prompt)                        | [#17](https://github.com/Taitava/obsidian-shellcommands/discussions/17)   | partially  |
-| `0.12.0`   | Preactions                                                          | [#183](https://github.com/Taitava/obsidian-shellcommands/discussions/183) | partially  |
-| `0.12.0`   | Custom variables                                                    | [#146](https://github.com/Taitava/obsidian-shellcommands/discussions/146) | partially  |
-| `0.10.0`   | Events: Execute shell commands automatically when something happens | [#60](https://github.com/Taitava/obsidian-shellcommands/discussions/60)   | partially  |
-| `0.7.0`    | Escaping variable values                                            | [#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)        | completely |
-| `0.5.0`    | Output channels                                                     | [#16](https://github.com/Taitava/obsidian-shellcommands/discussions/16)   | partially  |
+| SC version                                                                                           | Feature                                                             | Discussion                                                                | Completed  |
+|:---------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |:------------------------------------------------------------------------- | ---------- |
+| [0.19.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0190---2023-05-27) | Support custom shells                                               | [#108](https://github.com/Taitava/obsidian-shellcommands/discussions/108) | completely |
+| [0.18.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06) | Pass variables to `stdin`                                           | [#89](https://github.com/Taitava/obsidian-shellcommands/discussions/89)   | completely |
+| [0.17.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26) | Realtime output handling                                            | [#64](https://github.com/Taitava/obsidian-shellcommands/discussions/64)   | completely |
+| [0.13.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28) | Execute shell commands via Obsidian URI                             | [#195](https://github.com/Taitava/obsidian-shellcommands/discussions/195) | completely |
+| [0.12.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07) | A modal for asking values from user (Prompt)                        | [#17](https://github.com/Taitava/obsidian-shellcommands/discussions/17)   | partially  |
+| [0.12.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07) | Preactions                                                          | [#183](https://github.com/Taitava/obsidian-shellcommands/discussions/183) | partially  |
+| [0.12.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07) | Custom variables                                                    | [#146](https://github.com/Taitava/obsidian-shellcommands/discussions/146) | partially  |
+| [0.10.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06) | Events: Execute shell commands automatically when something happens | [#60](https://github.com/Taitava/obsidian-shellcommands/discussions/60)   | partially  |
+| [0.7.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25) | Escaping variable values                                            | [#11](https://github.com/Taitava/obsidian-shellcommands/issues/11)        | completely |
+| [0.5.0](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02) | Output channels                                                     | [#16](https://github.com/Taitava/obsidian-shellcommands/discussions/16)   | partially  |
 
 
 
