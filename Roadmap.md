@@ -58,7 +58,8 @@ These are not in any particular order, but some features are needed to be done b
 # History
 
 
-> [!page-edit-history]- Page edit history: 2022-07-21 &#10132; 2023-01-06
+> [!page-edit-history]- Page edit history: 2022-07-21 &#10132; 2023-05-28
+> - [<small>2023-05-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ec4cb08d2ec909a4866415434569e1b55a47555d): Roadmap: Custom shells are now implemented.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f2b125e40b6f6beafdec7abf9f53890137347040): Roadmap.md: `stdin` support is now implemented.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1d2f69e560da073028233e767a0ea164023fb656): Roadmap: Mark that realtime output handling is implemented.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/158eba2360a38dfcc4732d08e0373182e0c2a7e3): Roadmap: Mention `stdin` support.
