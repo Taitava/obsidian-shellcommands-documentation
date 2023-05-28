@@ -38,13 +38,11 @@ These are not in any particular order, but some features are needed to be done b
 ## [Variables: Handling separator arguments without escaping (#105)](https://github.com/Taitava/obsidian-shellcommands/discussions/105)
  - I could add more variables that present listed content, but currently [[{{tags}}#Special characters in separator are escaped|there's no solid way to define item separators when joining list items together]]. [[{{tags}}]] is currently the only variable that provides a list of values, and I don't want to create more like it before I develop a proper way to define separators.
 
-## [Support custom shells (#108)](https://github.com/Taitava/obsidian-shellcommands/discussions/108)
-- E.g. [Git Bash (MINGW)](https://github.com/Taitava/obsidian-shellcommands/discussions/208) could be supported. Not everyone has it, so I'm not going to implement it as a permanent shell in the plugin.
-- [Need to take exportability into account](https://github.com/Taitava/obsidian-shellcommands/discussions/108#discussioncomment-3199601) - this needs planning.
-
 # Already implemented features
+
 | SC version | Feature                                                             | Discussion                                                                | Completed  |
 |:---------- |:------------------------------------------------------------------- |:------------------------------------------------------------------------- | ---------- |
+| `0.19.0`   | Support custom shells                                               | [#108](https://github.com/Taitava/obsidian-shellcommands/discussions/108) | completely           |
 | `0.18.0`   | Pass variables to `stdin`                                           | [#89](https://github.com/Taitava/obsidian-shellcommands/discussions/89)   | completely |
 | `0.17.0`   | Realtime output handling                                            | [#64](https://github.com/Taitava/obsidian-shellcommands/discussions/64)   | completely |
 | `0.13.0`   | Execute shell commands via Obsidian URI                             | [#195](https://github.com/Taitava/obsidian-shellcommands/discussions/195) | completely |
