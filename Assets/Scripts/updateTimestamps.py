@@ -6,6 +6,7 @@ import sys
 from updateTimestamp import updateTimestamp, UpdateTimestampException
 
 excludeFolders = {"Assets"}
+excludeFiles = ["Donate.md"]
 countUpdatedFiles = 0
 countFailedFiles = 0
 for root, subdirectories, fileNames in os.walk(".", topdown=True):
@@ -13,7 +14,7 @@ for root, subdirectories, fileNames in os.walk(".", topdown=True):
     subdirectories[:] = [subdirectory for subdirectory in subdirectories if not re.search(r"^\.", subdirectory) and not subdirectory in excludeFolders]
 
     for fileName in fileNames:
-        if re.search(r".md$", fileName, re.IGNORECASE):
+        if fileName not in excludeFiles and re.search(r".md$", fileName, re.IGNORECASE):
             filePath = os.path.join(root, fileName)
             try:
                 updateTimestamp(filePath)
