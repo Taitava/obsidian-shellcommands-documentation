@@ -9,6 +9,10 @@ There are a couple of settings that do not have a visible field in the settings 
 
 ## A list of hidden settings
 - `approve_modals_by_pressing_enter_key`: Can be `true` (default) or `false`. If `true`, any modals (such as deletion/execution confirmations) can be accepted and closed by pressing the `Enter` key. If you want to avoid accidental approving, set this to `false`. 
+- `command_palette` 
+    - `re_execute_last_shell_command`
+        - `enabled`: A boolean. Can be set to false to remove the _Re-execute:_ command from Obsidian's *command palette*.
+        - `prefix`: A string. Defines a text that will be inserted in Obsidian's *command palette* before a re-executable shell command's [[alias]] or the actual command text.
 - `debug`: Can be `true` or `false`. If true, the following features are enabled:
 	- The *Shell commands* plugin will log debugging information into a console, which you can open up by pressing `Ctrl`/`Cmd` + `Shift` + `I`. This is good in case if you encounter some kind of crash or bug and want to report it. You can then report these debug loggins.
 	- A special variable named `{{passthrough:argument}}` becomes available. Although I said *special*, it's not actually so special: It just returns the same text that it received as `argument`. It's used for testing escaping special characters in variable values, and it doesn't probably have any benefit to be used in real world situations. It might also be modified or removed in future versions without prior notice.
@@ -18,6 +22,7 @@ There are a couple of settings that do not have a visible field in the settings 
 - `settings_version`: This is not really a setting, as **it should not be changed** manually! This value tells the *Shell commands* plugin what format was used to save the settings. Again, do not change this value yourself! 🙂
 
 # History
+- #TODO: Add a date [0.20.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): _Re-execute_ command was released, with the related hidden settings. ([#354](https://github.com/Taitava/obsidian-shellcommands/issues/354)).
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was released. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- `max_visible_lines_in_shell_command_fields` was released. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
