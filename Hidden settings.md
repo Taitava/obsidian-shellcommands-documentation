@@ -22,7 +22,7 @@ There are a couple of settings that do not have a visible field in the settings 
 - `settings_version`: This is not really a setting, as **it should not be changed** manually! This value tells the *Shell commands* plugin what format was used to save the settings. Again, do not change this value yourself! 🙂
 
 # History
-- #TODO: Add a date [0.20.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): _Re-execute_ command was released, with the related hidden settings. ([#354](https://github.com/Taitava/obsidian-shellcommands/issues/354)).
+- [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): _Re-execute_ command was released, with the related hidden settings. ([#354](https://github.com/Taitava/obsidian-shellcommands/issues/354)).
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was released. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):
 	- `max_visible_lines_in_shell_command_fields` was released. ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
@@ -32,7 +32,8 @@ There are a couple of settings that do not have a visible field in the settings 
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was released. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
 
 
-> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-01-06
+> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-06-23
+> - [<small>2023-06-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f3ff1611a4c4a370f07fe70a18b7ceea01cba0bc): Hiden settings: Mention "Re-execute" command.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
 > - [<small>2022-12-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5fd8e7237b33b273ae2174f19cf47ef8ef915e35): Hidden settings: Mention {{newline}}.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
@@ -46,5 +47,5 @@ There are a couple of settings that do not have a visible field in the settings 
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fabdd6cf143447380e2f28f92ee7752d169d2554): Create a page for Hidden settings.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Hidden%20settings.md).
 > ^page-edit-history
