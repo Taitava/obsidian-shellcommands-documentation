@@ -97,7 +97,7 @@ The following pages contain ready made lists of commands for different shells an
 - [[Custom - Windows PowerShell 5]]
 
 # History
-#TODO: Add a date [0.18.0 - 2022--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
+- [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
 - [0.15.0 - 2022-08-20](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0150---2022-08-20): The list of autocomplete suggestions is now tried to be [sorted intelligently](https://github.com/Taitava/obsidian-shellcommands/discussions/248). ([#249](https://github.com/Taitava/obsidian-shellcommands/issues/249)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Updated the library version to a [custom built 6.1.3](https://github.com/Taitava/autocomplete/releases/tag/obsidian-shellcommands-0.13.0) one in order to better support multiline fields. This fixes pressing enter in an autocomplete menu causing a line break being added in multiline fields, which happened in previous versions of SC (e.g. prompt description field). ([#203](https://github.com/Taitava/obsidian-shellcommands/issues/203)).
 - [0.12.1 - 2022-05-16](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0121---2022-05-16): Fixed unintended console logging that started in `0.12.0`. ([#223](https://github.com/Taitava/obsidian-shellcommands/issues/223)).
@@ -124,5 +124,5 @@ The following pages contain ready made lists of commands for different shells an
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c6074a38a62b4497d94eba37e0dcf57f4321b9ab): Autocomplete: Custom list for Windows CMD.
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e86b64443fb566f5dddd1e8376dc909fd2c738be): Instructions about Autocomplete.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Autocomplete.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Autocomplete/Autocomplete.md).
 > ^page-edit-history
