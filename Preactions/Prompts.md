@@ -65,10 +65,11 @@ Fill in the following information:
 - *Execute button text*: Make the button that executes a shell command to show more specifically, what will be done. Examples: *Create the file*, *Open the application*, *Delete the file*, *Do the custom search in the vault*.
 
 ### Variables
-All of the abovementioned text elements **support `{{variables}}`** and [[Autocomplete|autocompletion]]!
- - You can customise your description texts with information from your vault.
- - You can define the default value of a field to consist of multiple variables, e.g. `Year {{date:YYYY}} and current file name {{file_name}}`.
- - Also, when you finally execute a shell command that opens up a prompt, all text fields support `{{variables}}` and [[Autocomplete|autocompletion]].
+> [!Tip] Using `{{variables}}` diversely in Prompts
+> All textual settings in Prompts **support [[{{variables}}]]** and [[Autocomplete|autocompletion]]!
+>  - You can customise your description texts with information from your vault.
+>  - You can define the default value of a field to consist of multiple variables, e.g. `Year {{date:YYYY}} and current file name {{file_name}}`.
+>  - Also, when you finally execute a shell command that opens up a prompt, all text fields support [[{{variables}}]] and [[Autocomplete|autocompletion]].
 
 ### Previewing the prompt
 After you have filled in the prompt's information, click the small icon button next to the *Prompt title* field. You'll see a prompt modal opening up, showing how the prompt looks like.
