@@ -54,6 +54,7 @@ Fill in the following information:
 - *Prompt title*
 - *Description* (optional): Longer text if you need to write some instructions on how the executable shell command works.
 - Create new fields by clicking the *New field* button. Fill in the field details:
+	-  Field type on the field's heading line: Choose either _Single line text_ , _Multiline text_, _Toggle_ or _Dropdown menu_.
 	- *Field label*: A question or other label.
 	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will used in the *Target variable* field, e.g. `{{_my_variable}}`.
 	- *Description*: More detailed instructions on how to fill this field.
@@ -62,7 +63,50 @@ Fill in the following information:
 		- You can insert the custom variable's name into your shell command to access the inputted value there.
 		- You cannot use a custom variable as a target if it's already used in another field in the **same** prompt. However, if you have multiple prompts, you may use the same custom variable as a field's target variable in different prompts.
 	- *Is required*: If this is on, a user cannot accidentally submit the prompt and execute a shell command if the field is left empty.
+	- Other fields: Depending on which type of prompt field you selected, you might see additional settings. These are covered below.
 - *Execute button text*: Make the button that executes a shell command to show more specifically, what will be done. Examples: *Create the file*, *Open the application*, *Delete the file*, *Do the custom search in the vault*.
+
+### Different types of fields
+
+> [!Info]- Single line text
+> - A very basic type of input. Allows typing text on one line without line breaks.
+> - Has no additional setting fields.
+> - Uses the HTML `<input type="text">` element under the hood.
+> - Before SC version `0.21.0`, this was the only supported prompt field type.
+
+> [!Info]- Multiline text
+> - Allows typing text on multiple rows. Lines will be separated by [newline characters (`\n`)](https://en.wikipedia.org/wiki/Newline) regardless of platform (Windows, Linux, or macOS).
+> - First appears in single line height, but grows when the `Enter` key is pressed.
+> - Has no additional setting fields.
+> - Uses the HTML `<textarea>` element under the hood.
+> - Available since SC version `0.21.0`.
+
+> [!Info]- Toggle
+> - A simple on/off switch field for choosing between two states.
+> - As all field types must produce a textual value, _Toggle_ provides two additional settings for defining its textual value for both states:
+>     - _Result when toggled on_
+>     - _Result when toggled off_
+>     - For example, the _on_ result can be a flag `--verbose` to a shell command, and the _off_ result can be an empty string for situations where the flag is not wanted. E.g. A complete shell command `git add {{!_verbosity}}` can become either `git add --verbose` or just `git add `.
+>     - These settings are also used during Prompt opening, when interpreting a _Default value_ for the Toggle field. If _Default value_ matches _Result when toggled on_, the toggle will be turned on by default, otherwise off. The matching is not case-sensitive. (If _Default value_ happens to be something that matches neither the _on_ result, nor the _off_ result, the toggle's starting state will be off.)
+>     - [[Variables - general principles|{{variables}}]] can be used to make the toggle provide dynamic values.
+> - If _Is required_ is turned on, then a Prompt is only allowed to be submitted if the toggle is turned **on**. This can be used as an extra confirmation when executing a potentially dangerous shell command. Otherwise, having _Is required_ on for a toggle does not make much sense.
+> - Uses the HTML `<input type="checkbox">` element under the hood, which Obsidian renders as a more modern looking toggle element: ![[Toggle.png]]
+> - Available since SC version `0.21.0`.
+
+> [!Info]- Dropdown menu
+> - Allows choosing one value from a list of choices.
+> - The available values are defined in _Choices_ setting, which takes multiline list:
+>     - Each line defines one value.
+>     - If a line contains a pipe `|` then the left part of the line is used as a value for a target variable (not shown in the dropdown menu), and the right part is used as a visual label in the dropdown menu.
+>     - If no pipe `|` is present on a line, then the whole line is used both as a value and a label.
+>     - If a line contains multiple pipes `|` then only the first one works as a separator between a value and a label. Later pipes will be considered as part of the label.
+>     - If you need to have a pipe `|` present in the value part, then I'm sorry, it's not possible. Please [ask me on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/17) to develop a solution for it.
+>     - [[Variables - general principles|{{variables}}]] can be used as choices. For example, you can provide the current [[{{file_name}}]] as a choice.
+> - _Default value_ setting is used to pre-select a choice when a Prompt is opened. The _Default value_ is tried to be matched to one of the choice values (no case-sensitivity), but if there's no match, then the first choice will be selected.
+> - If _Is required_ is turned on, then a Prompt is only allowed to be submitted if the selected value is not an empty string. So, if you want, you can define an empty line as a first choice, to make the Prompt not able to submit if the empty line is selected. Similarly, you can define `=Choose an option` to define a choice with an empty value.
+> - (If you enter a value that only consists of number(s), it may appear out of its original position when the dropdown menu is shown. This is due to the nature of [how JavaScript's Object properties are ordered](https://stackoverflow.com/a/5525820/2754026).) <!-- I could improve this later, by preceding each value with e.g. an underscore, and then removing it from the value when reading it. -->
+> - Uses the HTML `<select>` element under the hood.
+> - Available since SC version `0.21.0`.
 
 ### Variables
 > [!Tip] Using `{{variables}}` diversely in Prompts
