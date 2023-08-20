@@ -22,13 +22,7 @@
   ],
   "legacyEditor": false,
   "livePreview": true,
-  "spellcheckLanguages": [
-    "en-AU",
-    "en-CA",
-    "en-GB",
-    "en-GB-oxendict",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "userIgnoreFilters": [
     "Assets/Templates/",
     "Assets/Scripts/"
