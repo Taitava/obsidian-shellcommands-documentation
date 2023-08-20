@@ -56,7 +56,7 @@ Fill in the following information:
 - Create new fields by clicking the *New field* button. Fill in the field details:
 	-  Field type on the field's heading line: Choose either _Single line text_ , _Multiline text_, _Toggle_ or _Dropdown menu_.
 	- *Field label*: A question or other label.
-	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will used in the *Target variable* field, e.g. `{{_my_variable}}`.
+	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will use in the *Target variable* field, e.g. `{{_my_variable}}`.
 	- *Description*: More detailed instructions on how to fill this field.
 	- *Target variable*: You need to select a [[Custom variables|custom variable]] where the prompt will store the inputted value.
 		- Custom variables are `{{variables}}` that you can create yourself in the settings, and here the dropdown menu also offers you an option to *Create a new custom variable*. By selecting that, you will be asked a name for a new custom variable. Custom variables always start with `{{_` and end with `}}`, e.g. `{{_my_variable}}`.
@@ -120,7 +120,7 @@ After you have filled in the prompt's information, click the small icon button n
 
 This prompt cannot execute any shell commands, because it's just a preview. **However**, if you click the execution button in the prompt modal, the prompt **will store the field values into the specified target variables**.
 
-# Accessing inputted values afterwards
+# Accessing inputted values afterward
 After a custom variable is assigned with a value (by a prompt, or in some later version by other means), it stores its value even after the shell command is executed. You can use the same custom variable in another shell command, even if that shell command does not open up a prompt, and so the two shell commands can share the same custom value.
 
 You can also [[Custom variables|display the current custom variable values in a side pane]]. Custom variable values are lost when Obsidian quits or the *Shell commands* plugin is reloaded.
@@ -153,7 +153,7 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > 	font-weight: bold;
 > }
 > ```
-> This CSS snippet makes text bold in a prompt whose **id** is *w3ocyqvjxb*. It doesn't change anything in any other prompt. Each prompt has a unique id, and you need to check your prompt's id from it's settings. [[#^prompt-settings-screenshot|See the bottom of the prompt settings screenshot above]].
+> This CSS snippet makes text bold in a prompt whose **id** is *w3ocyqvjxb*. It doesn't change anything in any other prompt. Each prompt has a unique id, and you need to check your prompt's id from its settings. [[#^prompt-settings-screenshot|See the bottom of the prompt settings screenshot above]].
 > 
 > (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
