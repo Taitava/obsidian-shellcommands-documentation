@@ -178,7 +178,11 @@ Example result for me:
 ![[Settings for custom shells#Make shell commands use the newly created shell]]
 
 # History
-> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-16
+> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-11-26
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91a0808dd6e1ddc64db26d6931ff73f1cbe4a918): [[Windows Subsystem for Linux (WSL).md]]: Add `-shell-type login` argument.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6306e0b87569083c9e6c1ceace8f4f4846001e23): [[Windows Subsystem for Linux (WSL).md]]: Explain path translator details.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/dfcbec7cdd993836578aeea96f002004ca33fb6b): [[Windows Subsystem for Linux (WSL).md]]: Mention that no `-c` switch is used with WSL.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f38c1167c404a492729f9e692029aa73b2fc2585): [[Windows Subsystem for Linux (WSL).md]]: Add a tip about choosing a distro.
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/79ac0bd858ee53b8b721ba44d5d980c2325f0f1f): [[Windows Subsystem for Linux (WSL).md]]: Use WSL specific screenshots.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/836d6a75e93c7664cf895a02722ec688f612f172): [[Windows Subsystem for Linux (WSL).md]]: Rename a heading.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/92811b9c999f3459792dd2ab6639f77b9477466b): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Wrapper for shell command]].
