@@ -22,6 +22,8 @@ As this documentation focuses on the usage of the _Shell commands_ plugin, WSL i
 
 > [!Info] WSL distro: Ubuntu
 > This documentation assumes that WSL is installed with [Ubuntu](https://ubuntu.com/wsl) as it's <abbr title="distribution">distro</abbr>. That's also the default distro that `wsl --install` installs. However, this guide should work just perfectly for whatever distro. If you encounter problems with other distros, please start a discussion in the [_Debugging and testing_ discussion category on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/debugging-and-testing). 
+> 
+> <small>(Btw, if you have **multiple** distros installed, see [[#^multiple-distros|this tip for choosing which distro to use]] with your custom shell configuration.)</small>
 
 # Configure a new _custom shell_: WSL
 
@@ -59,6 +61,16 @@ Use the following shell arguments:
 {{!shell_command_content}}
 ```
 The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined after them, so everything after the dashes should be interpreted as executable commands.
+
+> [!Tip]- If you have multiple distros installed
+> If you have multiple distros installed, you can specify what distro should be used by adding `-d DistroName` to the list of arguments:
+> ```
+> -d Ubuntu-22.04
+> --
+> {{!shell_command_content}}
+> ```
+> To get the names of all installed distros, you can execute `wsl -l` in a terminal.
+> If you want to run certain shell commands in one distro, and others in another distro, you can create multiple custom shells, one for each distro. ^multiple-distros
 
 ![[Settings for custom shells#^about-shell-command-content]]
 
