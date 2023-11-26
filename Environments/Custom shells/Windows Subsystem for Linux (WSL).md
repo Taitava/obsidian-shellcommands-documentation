@@ -62,6 +62,8 @@ Use the following shell arguments:
 ```
 The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined after them, so everything after the dashes should be interpreted as executable commands.
 
+Note that WSL does not use a `-c` switch before the `{{!shell_command_content}}` part, unlike many other shells do.
+
 > [!Tip]- If you have multiple distros installed
 > If you have multiple distros installed, you can specify what distro should be used by adding `-d DistroName` to the list of arguments:
 > ```
