@@ -57,10 +57,12 @@ WSL's executable binary file path is: `C:\Windows\System32\wsl.exe` (at least on
 ![[Settings-Custom-shell-WSL-Shell-arguments.png]]
 Use the following shell arguments:
 ```
+--shell-type login
 --
 {{!shell_command_content}}
 ```
-The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined after them, so everything after the dashes should be interpreted as executable commands.
+- `--shell-type login` tells WSL that startup scripts should be executed when invoking the shell (e.g. `~/.profile` and `~/.bashrc`). In practise, this ensures that the [[Additions to the PATH environment variable|$PATH environment variable]] will contain all directories needed to execute third party programs.
+- The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined **after** them, so everything **after** the dashes should be interpreted as executable commands.
 
 Note that WSL does not use a `-c` switch before the `{{!shell_command_content}}` part, unlike many other shells do.
 
@@ -68,6 +70,7 @@ Note that WSL does not use a `-c` switch before the `{{!shell_command_content}}`
 > If you have multiple distros installed, you can specify what distro should be used by adding `-d DistroName` to the list of arguments:
 > ```
 > -d Ubuntu-22.04
+> --shell-type login
 > --
 > {{!shell_command_content}}
 > ```
