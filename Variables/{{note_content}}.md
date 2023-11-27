@@ -18,7 +18,8 @@ cssclass: customiseTitle
 # History
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was released. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
 
-> [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2022-09-25
+> [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2023-11-27
+> - [<small>2023-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7736b53cd5c2294fefe8856521e7b4d8188aa20b): Add broken variable warnings to [[{{note_content}}.md]], [[{{yaml_content}}.md]] and [[{{yaml_value}}.md]].
 > - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.
 > - [<small>2022-09-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/57eab54eef74305f6ee9868344249ae79115c699): {{note_content}} and {{event_note_content}} variables.
 > 
