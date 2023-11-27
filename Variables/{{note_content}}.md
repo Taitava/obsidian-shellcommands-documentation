@@ -1,6 +1,8 @@
 ---
 cssclass: customiseTitle
 ---
+> [!bug] 2023-11-27: `{{note_content}}` does not currently work in Obsidian 1.4.0 and later versions.
+> This problem will be solved later. [More details on GitHub](https://github.com/Taitava/obsidian-shellcommands/issues/372).
 # Variable: `{{note_content}}`
 > [!Quote] {{note_content}} described in the *Shell commands* plugin's settings
 > Gives the current note's content without YAML frontmatter. If you need YAML included, use [[{{file_content}}]] instead.

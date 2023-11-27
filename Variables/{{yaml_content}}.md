@@ -1,6 +1,8 @@
 ---
 cssclass: customiseTitle
 ---
+> [!bug] 2023-11-27: `{{yaml_content}}` does not currently work in Obsidian 1.4.0 and later versions.
+> This problem will be solved later. [More details on GitHub](https://github.com/Taitava/obsidian-shellcommands/issues/372).
 # Variable: `{{yaml_content:with-dashes}}` or `{{yaml_content:no-dashes}}`
 > [!Quote] {{yaml_content}} described in the *Shell commands* plugin's settings
 > Gives the current note's [YAML frontmatter](https://help.obsidian.md/Advanced+topics/YAML+front+matter). Dashes `---` can be included or excluded.
