@@ -70,7 +70,8 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Fixed a crash when the argument was empty. The bug appeared in version `0.10.0` at the same time when variable `{{event_yaml_value}}` was released. ([#181](https://github.com/Taitava/obsidian-shellcommands/issues/181)).
 - [0.9.0 - 2021-12-18](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#090---2021-12-18): The variable was released. ([#120](https://github.com/Taitava/obsidian-shellcommands/issues/120)).
 
-> [!page-edit-history]- Page edit history: 2021-12-10 &#10132; 2023-11-27
+> [!page-edit-history]- Page edit history: 2021-12-10 &#10132; 2023-11-28
+> - [<small>2023-11-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/576021933b92cc044348895ef2c1e080afe4cc06): [[{{yaml_value}}.md]]: Remove an incorrect annotation about this variable not working in Obsidian 1.4.0.
 > - [<small>2023-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7736b53cd5c2294fefe8856521e7b4d8188aa20b): Add broken variable warnings to [[{{note_content}}.md]], [[{{yaml_content}}.md]] and [[{{yaml_value}}.md]].
 > - [<small>2023-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b7321d2509c80b5788d19c2ea080f035e94f7b94): {{yaml_value}} and {{event_yaml_value}}: Improve availability texts.
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.
