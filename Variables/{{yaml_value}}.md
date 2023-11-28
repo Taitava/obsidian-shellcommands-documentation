@@ -1,8 +1,6 @@
 ---
 cssclass: customiseTitle
 ---
-> [!bug] 2023-11-27: `{{yaml_value}}` does not currently work in Obsidian 1.4.0 and later versions.
-> This problem will be solved later. [More details on GitHub](https://github.com/Taitava/obsidian-shellcommands/issues/372).
 # Variable: `{{yaml_value}}`
 > [!Quote] {{yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the current file's frontmatter. Give a property name as an argument. You can access nested properties with dot notation: property1.property2
