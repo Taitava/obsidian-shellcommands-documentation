@@ -108,6 +108,13 @@ Fill in the following information:
 > - Uses the HTML `<select>` element under the hood.
 > - Available since SC version `0.21.0`.
 
+> [!Info]- Password
+> - Similar to _Single line text_ (allows typing text on one line without line breaks), but shows a cloaked text &bullet;&bullet;&bullet; instead of the typed characters.
+> - Variable values that came from a _Password_ field are also cloaked when shown in a prompt's shell command preview or _[[Custom variables#Monitor the custom variable values|Custom variables pane]]_.
+> - Has no additional setting fields.
+> - Uses the HTML `<input type="password">` element under the hood.
+> - Available since SC version `0.21.0`.
+
 ### Variables
 > [!Tip] Using `{{variables}}` diversely in Prompts
 > All textual settings in Prompts **support [[Variables - general principles|{{variables}}]]** and [[Autocomplete|autocompletion]]!
