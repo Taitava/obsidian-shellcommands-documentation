@@ -96,11 +96,11 @@ Fill in the following information:
 > [!Info]- Dropdown menu
 > - Allows choosing one value from a list of choices.
 > - The available values are defined in _Choices_ setting, which takes multiline list:
->     - Each line defines one value.
+>     - Each line defines one choice.
 >     - If a line contains a pipe `|` then the left part of the line is used as a value for a target variable (not shown in the dropdown menu), and the right part is used as a visual label in the dropdown menu.
 >     - If no pipe `|` is present on a line, then the whole line is used both as a value and a label.
 >     - If a line contains multiple pipes `|` then only the first one works as a separator between a value and a label. Later pipes will be considered as part of the label.
->     - If you need to have a pipe `|` present in the value part, then I'm sorry, it's not possible. Please [ask me on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/17) to develop a solution for it.
+>     - If you need to have a pipe `|` present in the value part, then I'm sorry, it's not possible via the user interface. But you can edit the settings file (`.obsidian/plugins/obsidian-shellcommands/data.json`) and add it there. Please [ask me on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/17) for instructions.
 >     - [[Variables - general principles|{{variables}}]] can be used as choices. For example, you can provide the current [[{{file_name}}]] as a choice.
 > - _Default value_ setting is used to pre-select a choice when a Prompt is opened. The _Default value_ is tried to be matched to one of the choice values (no case-sensitivity), but if there's no match, then the first choice will be selected.
 > - If _Is required_ is turned on, then a Prompt is only allowed to be submitted if the selected value is not an empty string. So, if you want, you can define an empty line as a first choice, to make the Prompt not able to submit if the empty line is selected. Similarly, you can define `=Choose an option` to define a choice with an empty value.
