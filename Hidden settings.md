@@ -33,7 +33,8 @@ There are a couple of settings that do not have a visible field in the settings 
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was released. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
 
 
-> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-06-23
+> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-12-21
+> - [<small>2023-12-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/71c7bad42976db5b21483e7c5cc45bd05228787c): [[Hidden settings.md]]: Information about `show_installation_warnings` setting.
 > - [<small>2023-06-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f3ff1611a4c4a370f07fe70a18b7ceea01cba0bc): Hiden settings: Mention "Re-execute" command.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
 > - [<small>2022-12-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5fd8e7237b33b273ae2174f19cf47ef8ef915e35): Hidden settings: Mention {{newline}}.
