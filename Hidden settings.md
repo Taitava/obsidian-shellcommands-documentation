@@ -11,10 +11,10 @@ There are a couple of settings that do not have a visible field in the settings 
 - `approve_modals_by_pressing_enter_key`: Can be `true` (default) or `false`. If `true`, any modals (such as deletion/execution confirmations) can be accepted and closed by pressing the `Enter` key. If you want to avoid accidental approving, set this to `false`. 
 - `command_palette` 
     - `re_execute_last_shell_command`
-        - `enabled`: A boolean. Can be set to false to remove the _Re-execute:_ command from Obsidian's *command palette*.
-        - `prefix`: A string. Defines a text that will be inserted in Obsidian's *command palette* before a re-executable shell command's [[alias]] or the actual command text.
+        - `enabled`: A `boolean`. Can be set to `false` to remove the _Re-execute:_ command from Obsidian's *command palette*.
+        - `prefix`: A `string`. Defines a text that will be inserted in Obsidian's *command palette* before a re-executable shell command's [[alias]] or the actual command text.
 - `debug`: Can be `true` or `false`. If true, the following features are enabled:
-	- The *Shell commands* plugin will log debugging information into a console, which you can open up by pressing `Ctrl`/`Cmd` + `Shift` + `I`. This is good in case if you encounter some kind of crash or bug and want to report it. You can then report these debug loggins.
+	- The *Shell commands* plugin will log debugging information into a console, which you can open up by pressing `Ctrl`/`Cmd` + `Shift` + `I`. This is good in case if you encounter some kind of crash or bug and want to report it. You can then report these debug log records.
 	- A special variable named `{{passthrough:argument}}` becomes available. Although I said *special*, it's not actually so special: It just returns the same text that it received as `argument`. It's used for testing escaping special characters in variable values, and it doesn't probably have any benefit to be used in real world situations. It might also be modified or removed in future versions without prior notice.
 	- A special variable named `{{newline}}` becomes available. It returns a newline character (`\n`). An optional argument can be defined to tell, how many newlines are needed.
 - `max_visible_lines_in_shell_command_fields`: Can be `false` or a number. If it's a number, limit the max height of all shell commands fields in settings. Useful if you want to prevent long scripts from taking up too much screen space. It won't restrict adding more lines to a shell command, it just makes the field to have a scroll bar instead of stretching infinitely. If it's `false` (default), don't limit at all. ^max-visible-lines-in-shell-command-fields
