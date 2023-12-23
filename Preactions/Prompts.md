@@ -168,7 +168,10 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the prompt modal now closes it and executes the shell command. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was released. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
 
-> [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2022-09-01
+> [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2023-12-10
+> - [<small>2023-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f0e78b1a4c80d2a45e14b41a34addd11188a1d84): [[Prompts.md]]: Small changes to dropdown menu texts.
+> - [<small>2023-12-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cc669e9f9b7830bdb91da48c40e31d9d135e0427): [[Prompts.md]]: Information about Password field type.
+> - [<small>2023-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/90149bdd741c193d1a1c674b7a0b8b0b37717a0c): Prompts.md: Information about different prompt field types.
 > - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02e98b52d70617d390d8b1dbfda581c9e03151bd): Prompts.md and {{event_old_folder_path}}.md: Typo fixes.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
 > - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/946bdf5546a1580a4332cce169aa03a65ca9f0b9): Modals: Mention in history records that modals can be closed by hitting the 'Enter' key.

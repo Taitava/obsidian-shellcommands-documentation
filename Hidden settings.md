@@ -34,7 +34,8 @@ There are a couple of settings that do not have a visible field in the settings 
 - [0.7.0 - 2021-11-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#070---2021-11-25): `debug` was released. ([#69](https://github.com/Taitava/obsidian-shellcommands/issues/69)).
 
 
-> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-12-21
+> [!page-edit-history]- Page edit history: 2022-02-22 &#10132; 2023-12-23
+> - [<small>2023-12-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d586cb48e0b834224852c911bfda24b1d3168991): Create [[Flatpak installation.md]].
 > - [<small>2023-12-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/71c7bad42976db5b21483e7c5cc45bd05228787c): [[Hidden settings.md]]: Information about `show_installation_warnings` setting.
 > - [<small>2023-06-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f3ff1611a4c4a370f07fe70a18b7ceea01cba0bc): Hiden settings: Mention "Re-execute" command.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
@@ -50,5 +51,5 @@ There are a couple of settings that do not have a visible field in the settings 
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fabdd6cf143447380e2f28f92ee7752d169d2554): Create a page for Hidden settings.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Hidden%20settings.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md).
 > ^page-edit-history
