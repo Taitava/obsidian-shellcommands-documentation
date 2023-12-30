@@ -46,6 +46,7 @@ No dashes `---` are included.
 - [[{{yaml_content}}]]
 
 # History
+- [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): Prevent a crash when using the variable in Obsidian version `>= 1.4.0`. No practical changes in behavior. ([#372](https://github.com/Taitava/obsidian-shellcommands/issues/372)).
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): The variable was released. ([#267](https://github.com/Taitava/obsidian-shellcommands/issues/267)).
 
 > [!page-edit-history]- Page edit history: 2023-01-01 &#10132; 2023-01-06

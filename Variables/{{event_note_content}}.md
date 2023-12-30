@@ -14,6 +14,7 @@ cssclass: customiseTitle
 - [[{{note_content}}]]
 
 # History
+- [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): Prevent a crash when using the variable in Obsidian version `>= 1.4.0`. No practical changes in behavior. ([#372](https://github.com/Taitava/obsidian-shellcommands/issues/372)).
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was released. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
 
 > [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2022-09-25

@@ -1,8 +1,6 @@
 ---
 cssclass: customiseTitle
 ---
-> [!bug] 2023-11-27: `{{note_content}}` does not currently work in Obsidian 1.4.0 and later versions.
-> This problem will be solved later. [More details on GitHub](https://github.com/Taitava/obsidian-shellcommands/issues/372).
 # Variable: `{{note_content}}`
 > [!Quote] {{note_content}} described in the *Shell commands* plugin's settings
 > Gives the current note's content without YAML frontmatter. If you need YAML included, use [[{{file_content}}]] instead.
@@ -16,6 +14,7 @@ cssclass: customiseTitle
 - [[{{event_note_content}}]]
 
 # History
+- [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): Prevent a crash when using the variable in Obsidian version `>= 1.4.0`. No practical changes in behavior. ([#372](https://github.com/Taitava/obsidian-shellcommands/issues/372)).
 - [0.16.0 - 2022-09-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0160---2022-09-25): The variable was released. ([#77](https://github.com/Taitava/obsidian-shellcommands/issues/77)).
 
 > [!page-edit-history]- Page edit history: 2022-09-11 &#10132; 2023-11-27
