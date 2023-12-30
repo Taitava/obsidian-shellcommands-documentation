@@ -54,15 +54,66 @@ Fill in the following information:
 - *Prompt title*
 - *Description* (optional): Longer text if you need to write some instructions on how the executable shell command works.
 - Create new fields by clicking the *New field* button. Fill in the field details:
+	-  Field type on the field's heading line: Choose either _Single line text_ , _Multiline text_, _Toggle_ or _Dropdown menu_.
 	- *Field label*: A question or other label.
-	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will used in the *Target variable* field, e.g. `{{_my_variable}}`.
+	- *Default value*: What the field will contain at the beginning when the prompt is opened. Tip: if you want the prompt to remember the last used value, put here the same variable that you will use in the *Target variable* field, e.g. `{{_my_variable}}`.
 	- *Description*: More detailed instructions on how to fill this field.
 	- *Target variable*: You need to select a [[Custom variables|custom variable]] where the prompt will store the inputted value.
 		- Custom variables are `{{variables}}` that you can create yourself in the settings, and here the dropdown menu also offers you an option to *Create a new custom variable*. By selecting that, you will be asked a name for a new custom variable. Custom variables always start with `{{_` and end with `}}`, e.g. `{{_my_variable}}`.
 		- You can insert the custom variable's name into your shell command to access the inputted value there.
 		- You cannot use a custom variable as a target if it's already used in another field in the **same** prompt. However, if you have multiple prompts, you may use the same custom variable as a field's target variable in different prompts.
 	- *Is required*: If this is on, a user cannot accidentally submit the prompt and execute a shell command if the field is left empty.
+	- Other fields: Depending on which type of prompt field you selected, you might see additional settings. These are covered below.
 - *Execute button text*: Make the button that executes a shell command to show more specifically, what will be done. Examples: *Create the file*, *Open the application*, *Delete the file*, *Do the custom search in the vault*.
+
+### Different types of fields
+
+> [!Info]- Single line text
+> - A very basic type of input. Allows typing text on one line without line breaks.
+> - Has no additional setting fields.
+> - Uses the HTML `<input type="text">` element under the hood.
+> - Before SC version `0.21.0`, this was the only supported prompt field type.
+
+> [!Info]- Multiline text
+> - Allows typing text on multiple rows. Lines will be separated by [newline characters (`\n`)](https://en.wikipedia.org/wiki/Newline) regardless of platform (Windows, Linux, or macOS).
+> - First appears in single line height, but grows when the `Enter` key is pressed.
+> - Has no additional setting fields.
+> - Uses the HTML `<textarea>` element under the hood.
+> - Available since SC version `0.21.0`.
+
+> [!Info]- Toggle
+> - A simple on/off switch field for choosing between two states.
+> - As all field types must produce a textual value, _Toggle_ provides two additional settings for defining its textual value for both states:
+>     - _Result when toggled on_
+>     - _Result when toggled off_
+>     - For example, the _on_ result can be a flag `--verbose` to a shell command, and the _off_ result can be an empty string for situations where the flag is not wanted. E.g. A complete shell command `git add {{!_verbosity}}` can become either `git add --verbose` or just `git add `.
+>     - These settings are also used during Prompt opening, when interpreting a _Default value_ for the Toggle field. If _Default value_ matches _Result when toggled on_, the toggle will be turned on by default, otherwise off. The matching is not case-sensitive. (If _Default value_ happens to be something that matches neither the _on_ result, nor the _off_ result, the toggle's starting state will be off.)
+>     - [[Variables - general principles|{{variables}}]] can be used to make the toggle provide dynamic values.
+> - If _Is required_ is turned on, then a Prompt is only allowed to be submitted if the toggle is turned **on**. This can be used as an extra confirmation when executing a potentially dangerous shell command. Otherwise, having _Is required_ on for a toggle does not make much sense.
+> - Uses the HTML `<input type="checkbox">` element under the hood, which Obsidian renders as a more modern looking toggle element: ![[Toggle.png]]
+> - Available since SC version `0.21.0`.
+
+> [!Info]- Dropdown menu
+> - Allows choosing one value from a list of choices.
+> - The available values are defined in _Choices_ setting, which takes multiline list:
+>     - Each line defines one choice.
+>     - If a line contains a pipe `|` then the left part of the line is used as a value for a target variable (not shown in the dropdown menu), and the right part is used as a visual label in the dropdown menu.
+>     - If no pipe `|` is present on a line, then the whole line is used both as a value and a label.
+>     - If a line contains multiple pipes `|` then only the first one works as a separator between a value and a label. Later pipes will be considered as part of the label.
+>     - If you need to have a pipe `|` present in the value part, then I'm sorry, it's not possible via the user interface. But you can edit the settings file (`.obsidian/plugins/obsidian-shellcommands/data.json`) and add it there. Please [ask me on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/17) for instructions.
+>     - [[Variables - general principles|{{variables}}]] can be used as choices. For example, you can provide the current [[{{file_name}}]] as a choice.
+> - _Default value_ setting is used to pre-select a choice when a Prompt is opened. The _Default value_ is tried to be matched to one of the choice values (no case-sensitivity), but if there's no match, then the first choice will be selected.
+> - If _Is required_ is turned on, then a Prompt is only allowed to be submitted if the selected value is not an empty string. So, if you want, you can define an empty line as a first choice, to make the Prompt not able to submit if the empty line is selected. Similarly, you can define `=Choose an option` to define a choice with an empty value.
+> - (If you enter a value that only consists of number(s), it may appear out of its original position when the dropdown menu is shown. This is due to the nature of [how JavaScript's Object properties are ordered](https://stackoverflow.com/a/5525820/2754026).) <!-- I could improve this later, by preceding each value with e.g. an underscore, and then removing it from the value when reading it. -->
+> - Uses the HTML `<select>` element under the hood.
+> - Available since SC version `0.21.0`.
+
+> [!Info]- Password
+> - Similar to _Single line text_ (allows typing text on one line without line breaks), but shows a cloaked text &bullet;&bullet;&bullet; instead of the typed characters.
+> - Variable values that came from a _Password_ field are also cloaked when shown in a prompt's shell command preview or _[[Custom variables#Monitor the custom variable values|Custom variables pane]]_.
+> - Has no additional setting fields.
+> - Uses the HTML `<input type="password">` element under the hood.
+> - Available since SC version `0.21.0`.
 
 ### Variables
 > [!Tip] Using `{{variables}}` diversely in Prompts
@@ -76,7 +127,7 @@ After you have filled in the prompt's information, click the small icon button n
 
 This prompt cannot execute any shell commands, because it's just a preview. **However**, if you click the execution button in the prompt modal, the prompt **will store the field values into the specified target variables**.
 
-# Accessing inputted values afterwards
+# Accessing inputted values afterward
 After a custom variable is assigned with a value (by a prompt, or in some later version by other means), it stores its value even after the shell command is executed. You can use the same custom variable in another shell command, even if that shell command does not open up a prompt, and so the two shell commands can share the same custom value.
 
 You can also [[Custom variables|display the current custom variable values in a side pane]]. Custom variable values are lost when Obsidian quits or the *Shell commands* plugin is reloaded.
@@ -109,7 +160,7 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > 	font-weight: bold;
 > }
 > ```
-> This CSS snippet makes text bold in a prompt whose **id** is *w3ocyqvjxb*. It doesn't change anything in any other prompt. Each prompt has a unique id, and you need to check your prompt's id from it's settings. [[#^prompt-settings-screenshot|See the bottom of the prompt settings screenshot above]].
+> This CSS snippet makes text bold in a prompt whose **id** is *w3ocyqvjxb*. It doesn't change anything in any other prompt. Each prompt has a unique id, and you need to check your prompt's id from its settings. [[#^prompt-settings-screenshot|See the bottom of the prompt settings screenshot above]].
 > 
 > (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
@@ -117,7 +168,10 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the prompt modal now closes it and executes the shell command. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was released. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
 
-> [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2022-09-01
+> [!page-edit-history]- Page edit history: 2022-04-08 &#10132; 2023-12-10
+> - [<small>2023-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f0e78b1a4c80d2a45e14b41a34addd11188a1d84): [[Prompts.md]]: Small changes to dropdown menu texts.
+> - [<small>2023-12-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cc669e9f9b7830bdb91da48c40e31d9d135e0427): [[Prompts.md]]: Information about Password field type.
+> - [<small>2023-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/90149bdd741c193d1a1c674b7a0b8b0b37717a0c): Prompts.md: Information about different prompt field types.
 > - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02e98b52d70617d390d8b1dbfda581c9e03151bd): Prompts.md and {{event_old_folder_path}}.md: Typo fixes.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
 > - [<small>2022-05-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/946bdf5546a1580a4332cce169aa03a65ca9f0b9): Modals: Mention in history records that modals can be closed by hitting the 'Enter' key.

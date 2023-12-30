@@ -22,6 +22,8 @@ As this documentation focuses on the usage of the _Shell commands_ plugin, WSL i
 
 > [!Info] WSL distro: Ubuntu
 > This documentation assumes that WSL is installed with [Ubuntu](https://ubuntu.com/wsl) as it's <abbr title="distribution">distro</abbr>. That's also the default distro that `wsl --install` installs. However, this guide should work just perfectly for whatever distro. If you encounter problems with other distros, please start a discussion in the [_Debugging and testing_ discussion category on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/debugging-and-testing). 
+> 
+> <small>(Btw, if you have **multiple** distros installed, see [[#^multiple-distros|this tip for choosing which distro to use]] with your custom shell configuration.)</small>
 
 # Configure a new _custom shell_: WSL
 
@@ -55,10 +57,25 @@ WSL's executable binary file path is: `C:\Windows\System32\wsl.exe` (at least on
 ![[Settings-Custom-shell-WSL-Shell-arguments.png]]
 Use the following shell arguments:
 ```
+--shell-type login
 --
 {{!shell_command_content}}
 ```
-The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined after them, so everything after the dashes should be interpreted as executable commands.
+- `--shell-type login` tells WSL that startup scripts should be executed when invoking the shell (e.g. `~/.profile` and `~/.bashrc`). In practise, this ensures that the [[Additions to the PATH environment variable|$PATH environment variable]] will contain all directories needed to execute third party programs.
+- The two dashes `--` are meant to be **included**, and should be on its own line, before `{{!shell_command_content}}`. The dashes indicate that no shell options will be defined **after** them, so everything **after** the dashes should be interpreted as executable commands.
+
+Note that WSL does not use a `-c` switch before the `{{!shell_command_content}}` part, unlike many other shells do.
+
+> [!Tip]- If you have multiple distros installed
+> If you have multiple distros installed, you can specify what distro should be used by adding `-d DistroName` to the list of arguments:
+> ```
+> -d Ubuntu-22.04
+> --shell-type login
+> --
+> {{!shell_command_content}}
+> ```
+> To get the names of all installed distros, you can execute `wsl -l` in a terminal.
+> If you want to run certain shell commands in one distro, and others in another distro, you can create multiple custom shells, one for each distro. ^multiple-distros
 
 ![[Settings for custom shells#^about-shell-command-content]]
 
@@ -90,6 +107,40 @@ const driveLetter = pathParts[1];
 const trailingPath = pathParts[2];
 return '/mnt/' + driveLetter.toLocaleLowerCase() + '/' + trailingPath;
 ```
+
+> [!question]- Path translator code explained in detail
+> Consider the following example path when interpreting the translator code: `C:\Obsidian vaults\My vault\MyNote.md`.
+> 1. Before the translator code is called, the SC plugin has automatically replaced backslashes `\` with forward slashes `/` (because we selected `Linux` as the _Shell's operating system_ above).
+>     - So, `absolutePath` has a value of `C:/Obsidian vaults/My vault/MyNote.md`.
+> 2. Split the path into two parts using a regular expression (regex):
+>     ```javascript
+>     const pathParts = absolutePath.match(/^([a-z]):\/(.+)$/ui);
+>     ```
+>     1. `^` denotes a start of a string, as we want to pick up a letter that is the **first** character of the string.
+>     2. `([a-z])` denotes that we want to pick up a drive letter that is any alphabet between `a` and `z`. (The letter can be upper or lower case, because a case-insensitive regex modifier `i` is used - see the point 2.5. below). Parenthesis `()` tell regex to store their content as the first part of the path.
+>         - Considering the example path, `C` is picked up as the drive letter.
+>     3. A colon and a forward slash `:\/` are literal characters that are just assumed to be present after the drive letter. The colon `:` is not needed in the translated path, so it's simply discarded.
+>         - (The forward slash `/` is preceded with a backslash `\` to denote that it should be considered as a literal character, not as the end of the regex pattern).
+>     4. `(.+)$` denotes that we want to pick up all the rest of the characters as the second part of the path. The dot `.` denotes any character (a letter, a number, a whitespace or a punctuation character) and `+` tells to pick up at least one, but possibly multiple characters. The dollar `$` denotes that all characters until the very end of the string should be picked up.
+>         - Considering the example path, `Obsidian vaults/My vault/MyNote.md` is picked up as the trailing part of the path.
+>     5. Characters `ui` after the last forward slash `/` indicate regex _modifiers_:
+>         - `u` tells regex to support unicode characters, just in case any of them are present in `absolutePath`.
+>         - `i` tells regex to pick up also uppercase drive letters, even though the pattern only expresses lowercase letters `a-z`.
+> 3. Assign the picked up parts to constants `driveLetter` and `trailingPath`.
+>     ```javascript
+>     const driveLetter = pathParts[1];
+>     const trailingPath = pathParts[2];
+>     ```
+>     - `driveLetter` becomes `C`.
+>     - `trailingPath` becomes `Obsidian vaults/My vault/MyNote.md`.
+> 4. Add a prefix, concatenate the path parts together, and return the result.
+>     ```javascript
+>     return '/mnt/' + driveLetter.toLocaleLowerCase() + '/' + trailingPath;
+>     ```
+>     - `/mnt/` is used in WSL as a special directory via which Windows file system can be accessed.
+>     - `/mnt/` is followed by a Windows drive letter (which must be converted to lower case).
+>     - The rest of the path is presented after the drive letter, separated by a forward slash `/`.
+>     - The translator returns the result `/mnt/c/Obsidian vaults/My vault/MyNote.md`.
 
 Test that the path translator works by clicking the _Test absolute path translation_ icon: ![[Translate-icon.png]]. It should provide three test paths:
 ![[Settings-Custom-shell-WSL-Path-translation-test.png]]
@@ -127,7 +178,11 @@ Example result for me:
 ![[Settings for custom shells#Make shell commands use the newly created shell]]
 
 # History
-> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-04-16
+> [!page-edit-history]- Page edit history: 2023-04-02 &#10132; 2023-11-26
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91a0808dd6e1ddc64db26d6931ff73f1cbe4a918): [[Windows Subsystem for Linux (WSL).md]]: Add `-shell-type login` argument.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6306e0b87569083c9e6c1ceace8f4f4846001e23): [[Windows Subsystem for Linux (WSL).md]]: Explain path translator details.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/dfcbec7cdd993836578aeea96f002004ca33fb6b): [[Windows Subsystem for Linux (WSL).md]]: Mention that no `-c` switch is used with WSL.
+> - [<small>2023-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f38c1167c404a492729f9e692029aa73b2fc2585): [[Windows Subsystem for Linux (WSL).md]]: Add a tip about choosing a distro.
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/79ac0bd858ee53b8b721ba44d5d980c2325f0f1f): [[Windows Subsystem for Linux (WSL).md]]: Use WSL specific screenshots.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/836d6a75e93c7664cf895a02722ec688f612f172): [[Windows Subsystem for Linux (WSL).md]]: Rename a heading.
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/92811b9c999f3459792dd2ab6639f77b9477466b): [[Windows Subsystem for Linux (WSL).md]]: Add more info to [[#Wrapper for shell command]].

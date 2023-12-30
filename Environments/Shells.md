@@ -11,6 +11,7 @@ Knowing your shell allows you to find out what shell commands are available for 
 > **Built-in shells do not offer any settings.**
 
 ### Windows
+
 | Shell                                           | Executable name  | Used switches                                                                                                                        |
 | ----------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [[CMD.EXE\|Command Prompt]]                     | `CMD.EXE`        | [`/d /s /c`](https://ss64.com/nt/cmd.html)                                                                                           |
@@ -20,6 +21,7 @@ Knowing your shell allows you to find out what shell commands are available for 
 - Used switches cannot be altered for built-in shells. If needed, define a [[Custom shells|custom shell]] instead.
 
 ### Linux and macOS
+
 | Shell    | Binary path | Used switches                                                               |
 | -------- | ----------- | --------------------------------------------------------------------------- |
 | [[Bash]] | `/bin/bash` | [`-c`](https://www.man7.org/linux/man-pages/man1/bash.1.html)               |
