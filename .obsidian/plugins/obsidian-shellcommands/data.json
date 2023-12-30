@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.20.0",
+  "settings_version": "0.21.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -9,6 +9,7 @@
     "win32": "pwsh.exe"
   },
   "environment_variable_path_augmentations": {},
+  "show_installation_warnings": true,
   "error_message_duration": 20,
   "notification_message_duration": 10,
   "execution_notification_mode": "if-long",
@@ -761,14 +762,16 @@
           "description": "",
           "default_value": "{{_sc_version}}",
           "target_variable_id": "euxjrqgpyh",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         },
         {
           "label": "Release date",
           "description": "",
           "default_value": "{{_release_date}}",
           "target_variable_id": "fx1gavqiys",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         }
       ],
       "execute_button_text": "Execute"
@@ -784,14 +787,16 @@
           "description": "",
           "default_value": "0.",
           "target_variable_id": "euxjrqgpyh",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         },
         {
           "label": "Obsidian version",
           "description": "",
           "default_value": "1.",
           "target_variable_id": "yvz02tniok",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         }
       ],
       "execute_button_text": "Create folder"
@@ -807,7 +812,8 @@
           "description": "",
           "default_value": ".png",
           "target_variable_id": "iks00t5s4s",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         }
       ],
       "execute_button_text": "Create"
@@ -823,21 +829,24 @@
           "description": "In which SC version will this change be released.",
           "default_value": "{{_sc_version}}",
           "target_variable_id": "euxjrqgpyh",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         },
         {
           "label": "History description",
           "description": "",
           "default_value": "",
           "target_variable_id": "d7ezwmyjuh",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         },
         {
           "label": "GitHub issue number",
           "description": "No # should be included!",
           "default_value": "",
           "target_variable_id": "o4jguvdny7",
-          "required": true
+          "required": true,
+          "type": "single-line-text"
         }
       ],
       "execute_button_text": "Insert"
