@@ -23,7 +23,7 @@ There are a couple of settings that do not have a visible field in the settings 
 - `show_installation_warnings`: A `boolean`. If `true` (default), the plugin's settings pane can display warnings related to how Obsidian is installed, if the installation may cause known potential problems for shell commands execution. Currently, the only detected situation is if Obsidian is installed using [[Flatpak installation|Flatpak]], which can cause problems. The warnings can be turned off if you prefer not to change your Obsidian installation method and if you can cope with the possible limitations. ^show-installation-warnings
 
 # History
-- #TODO: Add a date [0.21.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): `show_installation_warnings` was released. ([#368](https://github.com/Taitava/obsidian-shellcommands/issues/368)).
+- [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): `show_installation_warnings` was released. ([#368](https://github.com/Taitava/obsidian-shellcommands/issues/368)).
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): _Re-execute_ command was released, with the related hidden settings. ([#354](https://github.com/Taitava/obsidian-shellcommands/issues/354)).
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): `{{newline}}` was released. ([#295](https://github.com/Taitava/obsidian-shellcommands/issues/295)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28):

@@ -46,7 +46,7 @@ From SC version `0.21.0` onwards, the plugin can detect if Obsidian has been ins
 > 4. Save the file and reopen Obsidian. If you open up the SC plugin's settings panel, there should not be a warning anymore.
 
 # History
-- #TODO: Add a date [0.21.0 - 2023--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2023--): Flatpak warning was added to the plugin's settings panel. ([#368](https://github.com/Taitava/obsidian-shellcommands/issues/368)).
+- [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): Flatpak warning was added to the plugin's settings panel. ([#368](https://github.com/Taitava/obsidian-shellcommands/issues/368)).
 
 > [!page-edit-history]- Page edit history: 2023-12-23 &#10132; 2023-12-23
 > - [<small>2023-12-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d586cb48e0b834224852c911bfda24b1d3168991): Create [[Flatpak installation.md]].
