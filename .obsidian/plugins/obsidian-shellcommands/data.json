@@ -1,6 +1,6 @@
 {
   "settings_version": "0.21.0",
-  "debug": false,
+  "debug": true,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
@@ -793,7 +793,7 @@
         {
           "label": "Obsidian version",
           "description": "",
-          "default_value": "1.",
+          "default_value": "{{obsidian_api:version}}",
           "target_variable_id": "yvz02tniok",
           "required": true,
           "type": "single-line-text"
