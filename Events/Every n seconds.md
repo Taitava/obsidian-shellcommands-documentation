@@ -1,13 +1,16 @@
 ---
 cssclass: customiseTitle
 ---
-# Event: Every *n* seconds
+# Event: Every $n$ seconds
 
 ## Execution
 > [!Success] Executed when
 > - On a freely decidable frequency defined in seconds.
 > 
 > ![[Event-every-n-seconds.png]]
+
+> [!Info] Debouncing can make the frequency longer
+> Note that if [[Events - debouncing|event debouncing]] is enabled for the same shell command where the _Every $n$ seconds_ event is enabled, the debouncing can make the shell command to be executed **less often** than what the event's configured frequency ($n$) is. This happens, if `the execution duration + `[[Events - debouncing#Cooldown duration|cooldown duration]] is longer than the event's frequency ($n$).
 
 ## Variables
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
