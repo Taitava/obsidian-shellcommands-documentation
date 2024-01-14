@@ -81,7 +81,12 @@ All feedback and ideas are greatly appreciated! 🙂
 ## Screenshots in the documentation
 The documentation is partly illustrated with screenshots. The screenshots may look different from how the plugin's user interface looks in your Obsidian, as you might use a different theme, a different color mode, a different version of Obsidian, and a different operating system.
 
-The screenshots are taken in the following environment:
+**Newer** screenshots are taken in the following environment:
+- Theme: Obsidian's default
+- Color mode: Dark
+- Operating system: Windows
+
+**Old** screenshots are taken in the following environment:
 - Theme: [Red graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
 - Color mode: Light (with dark contrast side panes, provided by *Red graphite*)
 - Operating system: Windows
@@ -89,7 +94,7 @@ The screenshots are taken in the following environment:
 Also, some screenshots may be from older versions of SC, in case no significant changes have occurred, or if screenshots have been forgotten to update. You can see from which version of SC a particular screenshot has been taken from, by looking at which folder it resides in (e.g. `Assets/Images/SC 0.10.0 - Obsidian 0.13.23`).
 
 ![[Settings-main-shell-commands-tab.png]]
-(An example screenshot from the main settings view of SC version `0.10.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and macOS. Also, the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on macOS, which would have `Cmd` instead of `Ctrl`.)
+(An example screenshot from the main settings view of SC version `0.12.0`. You can tell it's taken on Windows, because the shell command previews show an escape character `` ` `` that is used by *PowerShell*, instead of `\`, that is used by e.g. *Bash* on Linux and macOS. Also, the hotkeys `Ctrl` + `G` and `Ctrl` + `Shift` + `G` indicate that the screenshot is not taken on macOS, which would have `Cmd` instead of `Ctrl`.)
 
 
 # History

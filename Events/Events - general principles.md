@@ -52,6 +52,12 @@ Here you can also quickly disable all events, if needed, by switching *Enable ev
 
 ![[Settings-main-events-tab.png]]
 
+## Debounce events that might otherwise trigger too often
+
+![[Events - debouncing#^about-debouncing]]
+
+[[Events - debouncing|Read more about event debouncing]]
+
 # History
 - [0.11.0 - 2022-02-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0110---2022-02-26):
 	- All events can now be disabled using a single toggle setting. ([#163](https://github.com/Taitava/obsidian-shellcommands/issues/163)).
