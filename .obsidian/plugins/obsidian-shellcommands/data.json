@@ -566,7 +566,7 @@
       "shells": {},
       "alias": "Update all files' timestamps",
       "icon": "clock",
-      "confirm_execution": false,
+      "confirm_execution": true,
       "ignore_error_codes": [],
       "output_wrappers": {
         "stdout": null,
