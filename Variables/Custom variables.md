@@ -1,3 +1,7 @@
+---
+aliases:
+  - custom variable
+---
 ![[Variables - general principles#^custom-variables-can-be-used-for]]
 
 Custom variables are *"storage slots"* that can contain values. You will create all the custom variables you need, by default there is no custom variables, and not everybody will need them.
