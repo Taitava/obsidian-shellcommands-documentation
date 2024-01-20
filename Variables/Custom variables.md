@@ -62,6 +62,25 @@ To see what values your custom variables currently contain, you may open a *Cust
 
 The side pane can currently only be used to read values. It doesn't provide any other functions.
 
+## Show notifications when values change
+
+From SC version `0.22.0` onwards, the plugin displays a notification balloon by default every time a custom variable's value is changed by any of the following methods:
+- [[Shell commands URI]]
+- [[Output channel - Assign custom variables|Assign custom variables]] output channel
+
+(Note that notifications are not displayed when custom variable values are changed manually, i.e. via [[Prompts]].)
+
+> [!Example] Example notification
+> ![[Balloon-Custom-variable-change.png]]
+> The first line contains the variable name, under which is the assigned value.
+> ^value-change-example-notification
+
+### How to disable notifications about value changes
+1. Open up the main settings view and go to the *Variables* tab:
+  ![[Settings-main-variables-tab.png]]
+2. Look for the setting _Show notifications when values of custom variables change_ and select the desired options from the dropdowns:
+  - _Via URI: Notify_ / _Via output assignment: Notify_
+  - _Via URI: Don't notify_ / _Via output assignment: Don't notify_
 # History
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was released. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
 
