@@ -26,12 +26,12 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 
 ## All output channels
 - [[Output channel - Ignore|Ignore]]
-- [[Output channel - Status bar]]
+- [[Output channel - Status bar|Status bar]]
 - [[Output channel - Notification balloon|Notification/Error balloon]]
-- [[Output channel - Current file]]
-- [[Output channel - Clipboard]]
-- [[Output channel - Ask after execution]]
-- [[Output channel - Open files]]
+- [[Output channel - Current file|Current file]]
+- [[Output channel - Clipboard|Clipboard]]
+- [[Output channel - Ask after execution|Ask after execution]]
+- [[Output channel - Open files|Open files]]
 
 # History
 
