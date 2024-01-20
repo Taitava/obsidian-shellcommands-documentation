@@ -21,7 +21,7 @@ Your shell commands can use custom variables the same way as any other variables
 When Obsidian starts, all custom variables are *unassigned*, i.e. they do not have a value.
 - If a shell command tries to read a custom variable that has no value yet, it will fail with an error message: *This custom variable does not have a value yet, and no default value is defined.*
 - If a shell command has been configured to open up a [[Prompts|prompt]] that sets the custom variable, then it's okay, no error message will be shown, as the custom variable will eventually get a value.
-- You can also define a [[Default values|default value]] for your custom variable, in which case the default value will be used every time the custom variable does not have a value. Default values are shell command specific, and so they are configured in shell command settings, not in the custom variable's own settings.
+- You can also define a [[Default values|default value]] for your custom variable, in which case the default value will be used every time the custom variable does not have a value.
 
 # How to create custom variables
 Custom variables can be created from these places:
