@@ -25,13 +25,13 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 > By default, the *Shell commands* plugin **waits till the end of execution** before it reads any output. This is fine for many cases, but if you are executing something that takes a long time to finish, you may opt for [[realtime output handling]].
 
 ## All output channels
-- [[Output channel - Ignore|Ignore]]
-- [[Output channel - Status bar|Status bar]]
-- [[Output channel - Notification balloon|Notification/Error balloon]]
-- [[Output channel - Current file|Current file]]
-- [[Output channel - Clipboard|Clipboard]]
 - [[Output channel - Ask after execution|Ask after execution]]
+- [[Output channel - Clipboard|Clipboard]]
+- [[Output channel - Current file|Current file]]
+- [[Output channel - Ignore|Ignore]]
+- [[Output channel - Notification balloon|Notification/Error balloon]]
 - [[Output channel - Open files|Open files]]
+- [[Output channel - Status bar|Status bar]]
 
 # History
 
