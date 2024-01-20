@@ -1,14 +1,11 @@
-Quote from [[Variables - general principles#^custom-variables|Variables - general principles]]:
-> Custom variables can be created to store values inputted by a user via [[prompts]]. Later, custom variables will be able to receive values from many sources:
-> - [Planned: Output channel: Custom variable](https://github.com/Taitava/obsidian-shellcommands/discussions/127)
-> - [Planned: Execute shell commands via Obsidian URI](https://github.com/Taitava/obsidian-shellcommands/discussions/195)
-> - Anything else? [Throw me ideas 😉](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
+![[Variables - general principles#^custom-variables-can-be-used-for]]
 
 Custom variables are *"storage slots"* that can contain values. You will create all the custom variables you need, by default there is no custom variables, and not everybody will need them.
 
 Custom variables are needed, if...
  - ...you use [[prompts]] to ask values from a user when a shell command is about to be executed. When a user inputs values into a prompt's fields and then submits the prompt, the inputted values are stored into custom variables. Each prompt field has a designated custom variable (decided by you) that will get the value from the field.
  - ...you use [[Shell commands URI]] to pass values to your shell commands
+ - ...you need to do intermediate data storing by [[Output channel - Assign custom variables|assigning output from one shell command into custom variables]], and then inputting it to another shell command in a later phase of your workflow.
 
 Your shell commands can use custom variables the same way as any other variables, to retrieve the inputted/passed value.
 

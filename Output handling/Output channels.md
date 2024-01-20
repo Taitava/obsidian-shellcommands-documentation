@@ -28,6 +28,7 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 | Output handler                                                        | Available for streams |
 | --------------------------------------------------------------------- | --------------------- |
 | [[Output channel - Ask after execution\|Ask after execution]]         | `stdout` and `stderr` |
+| [[Output channel - Assign custom variables\|Assign custom variables]] | `stdout` only         |
 | [[Output channel - Clipboard\|Clipboard]]                             | `stdout` and `stderr` |
 | [[Output channel - Current file\|Current file]]                       | `stdout` and `stderr` |
 | [[Output channel - Ignore\|Ignore]]                                   | `stdout` and `stderr` |
