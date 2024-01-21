@@ -28,12 +28,12 @@ The primitive idea of the variable assignment format is that the output consists
 
 > [!Example] Output examples
 > One variable assignment:
-> ```
+> ```json
 > {"_link_to_file": "My folder/My note.md"}
 > ```
 > 
 > Multiple variable assignments:
-> ```
+> ```json
 > {
 >     "_link_to_file": "My folder/My note.md",
 >     "_link_alias": "Meeting notes"
@@ -48,7 +48,7 @@ The primitive idea of the variable assignment format is that the output consists
 > ```
 > 
 > Output:
-> ```
+> ```json
 > {"_file_size": "4 kB"}
 > ```
 > 
@@ -58,12 +58,12 @@ The primitive idea of the variable assignment format is that the output consists
 > Padding the output with whitespace characters (spaces, tabs, newlines) does not affect interpreting the output. It's up to you if you prefer tight single-liners or sparse, easy to read multiline presentations.
 > 
 > > [!Success] Single line
-> > ```
+> > ```json
 > > {"_link_to_file": "My folder/My note.md", "_link_alias": "Meeting notes"}
 > > ```
 > 
 > > [!Success] Multiline
-> > ```
+> > ```json
 > > {
 > >     "_link_to_file": "My folder/My note.md",
 > >     "_link_alias": "Meeting notes"
