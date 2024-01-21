@@ -55,11 +55,23 @@ Custom variables can be renamed via the *Variables* tab in the main settings vie
 
 # Monitor the custom variable values
 To see what values your custom variables currently contain, you may open a *Custom variables pane*:
-1. Open up the *Variables* tab on the plugin's [[How to define shell commands#Main controls for shell commands shell-command-controls|main settings view]]:
-	![[Settings-main-variables-tab.png]]
-2. Click the small icon near the *Custom variables* heading that has a tool-tip: *Open a pane that displays all custom variables and their values*.
-3. Close the settings modal, and you'll see a new side pane:
-	![[Pane-custom-variables.png]]
+
+> [!TODO]- Open up the _Custom variables_ pane from settings
+> 1. Open up the *Variables* tab on the plugin's [[How to define shell commands#Main controls for shell commands shell-command-controls|main settings view]]:
+>   ![[Settings-main-variables-tab.png]]
+> 2. Click the small icon near the *Custom variables* heading that has a tool-tip: *Open a pane that displays all custom variables and their values*.
+> 3. Close the settings modal, and you'll see a new side pane:
+>   ![[Pane-custom-variables.png]]
+
+> [!TODO]- Open up the _Custom variables_ pane from the left side ribbon
+> 1. The following icon should be visible in Obsidian's sidebar. Click on it:
+>   ![[Ribbon-Custom-variables-icon.png]]
+> 2. You should now see a new side pane:
+>   ![[Pane-custom-variables.png]]
+
+> [!TODO]- How to remove the icon from the left side ribbon - or add it back
+> If you want to avoid icons cluttering your sidebar, you can remove the _Custom variables_ icon by [customizing the ribbon](https://help.obsidian.md/User+interface/Ribbon#Desktop).
+> The same method allows you to add the icon back.
 
 The side pane can currently only be used to read values. It doesn't provide any other functions.
 
@@ -83,6 +95,7 @@ From SC version `0.22.0` onwards, the plugin displays a notification balloon by 
   - _Via URI: Notify_ / _Via output assignment: Notify_
   - _Via URI: Don't notify_ / _Via output assignment: Don't notify_
 # History
+- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): [[#Monitor the custom variable values|Custom variables view]] can now be opened via a ribbon icon in the left sidebar of Obsidian. ([#386](https://github.com/Taitava/obsidian-shellcommands/issues/386)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was released. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
 
 > [!page-edit-history]- Page edit history: 2022-04-11 &#10132; 2022-05-22
