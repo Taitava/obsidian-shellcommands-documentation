@@ -11,6 +11,33 @@ cssclasses:
 > [!Quote] {{obsidian_api_version}} described in the *Shell commands* plugin's settings
 > Gives Obsidian's API version, which follows the release cycle of the desktop application.
 
+> [!Tip] Version variables can be used to determine available features
+> [[{{obsidian_api_version}}]] and [[{{shell_commands_plugin_version}}]] are usable in situations where an executed script needs to know if a specific feature is available in Obsidian or the _Shell commands_ plugin. This information can affect content outputted by the script.
+> - For example, the support for [Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts) was [released on 2022-03-14 in Obsidian `0.14.0`](https://obsidian.md/changelog/2022-03-14-desktop-v0.14.0/) .
+> - If the [[{{obsidian_api_version}}]] variable had existed back then (it did not), it could have been used to check if the user had a version of Obsidian that supports callouts.
+>     - If callouts were supported, the script could have wrapped its output in a callout block:
+>         ```
+>         > [!Quote] Heading outputted from script
+>         > Content outputted from script.
+>         ```
+>         
+>         Which would render as:
+>         > [!Quote] Heading outputted from script
+>         > Content outputted from script.
+>         
+>     - If callouts were not supported, the script could have used fallback formatting by wrapping its output in a [quote block](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Quotes):
+>         ```
+>         > ### Heading outputted from script
+>         > Content outputted from script.
+>         ```
+>         
+>         Which would render as:
+>         > ### Heading outputted from script
+>         > Content outputted from script.
+> 
+> Similarly, [[{{shell_commands_plugin_version}}]] can be used to determine which features are made available by its different [[Output channels|output handlers]].
+> ^version-variables-use-cases
+
 > [!Question] What does it mean that it's the _API_ version?
 > To my understanding, Obsidian's API version seems to be the same as Obsidian's desktop application's release version. The version information is retrieved from [the `apiVersion` variable in Obsidian's API](https://github.com/obsidianmd/obsidian-api/blob/da7309d0f22c073ca6eb0fe95c0eeee055a235a7/obsidian.d.ts#L369-L374), and I do not know if the API version can differ from the release version of Obsidian in any way. 
 

@@ -19,6 +19,8 @@ cssclasses:
 >     - Often the _settings version_ is the same as the _plugin version_, but in case a new _plugin version_ does not introduce any changes to the settings file format, then the _settings version_ **is not** raised with the _plugin version_. For instance, _patch_ releases do not usually need to raise the _settings version_.
 > - The first argument (`plugin` / `settings`) is used to select which one is wanted.
 
+![[{{obsidian_api_version}}#^version-variables-use-cases]]
+
 ## Getting just one part of the version
 
 - `{{shell_commands_plugin_version:plugin}}` or `{{shell_commands_plugin_version:settings}}` gives you the whole version number, e.g. `0.22.1`.
