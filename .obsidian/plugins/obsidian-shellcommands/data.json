@@ -795,6 +795,48 @@
           "value": "{{file_path:relative}}"
         }
       }
+    },
+    {
+      "id": "2i8ah219iy",
+      "platform_specific_commands": {
+        "default": "git branch --show-current"
+      },
+      "shells": {},
+      "alias": "Git: Show branch",
+      "icon": "git-branch",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "status-bar",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": "91cpcnw8xb",
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {
+        "on-layout-ready": {
+          "enabled": true
+        },
+        "every-n-seconds": {
+          "enabled": true,
+          "seconds": 30
+        }
+      },
+      "command_palette_availability": "disabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
@@ -939,5 +981,11 @@
     }
   ],
   "custom_shells": [],
-  "output_wrappers": []
+  "output_wrappers": [
+    {
+      "id": "91cpcnw8xb",
+      "title": "Git prefix",
+      "content": "Git: {{output}}"
+    }
+  ]
 }
