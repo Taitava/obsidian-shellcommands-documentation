@@ -3,6 +3,10 @@ aliases:
   - Event debouncing
 ---
 
+> [!Warning] This feature is only available in a beta test
+> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
+> %% #TODO: Remove this annotation when the final version is released. %%
+
 > [!Info] About debouncing
 > Certain events may trigger a shell command's execution so often that it's desirable to limit how often events can execute the shell command. This is called [_debouncing_](http://unscriptable.com/2009/03/20/debouncing-javascript-methods/).
 > - Debouncing prevents certain events from starting a shell command's execution if the command is already executing, is about to be executed, or has finished executing a short time ago. A _cooldown_ time is used to define for how long subsequent executions are prevented before or after a shell command's execution.

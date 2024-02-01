@@ -2,6 +2,11 @@
 cssclasses:
   - customiseTitle
 ---
+
+> [!Warning] This variable is only available in a beta test
+> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
+> %% #TODO: Remove this annotation when the final version is released. %%
+
 # Variable: `{{obsidian_api_version}}` or `{{obsidian_api_version:major|minor|patch}}`
 > [!Quote] {{obsidian_api_version}} described in the *Shell commands* plugin's settings
 > Gives Obsidian's API version, which follows the release cycle of the desktop application.

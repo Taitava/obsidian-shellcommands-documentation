@@ -2,6 +2,11 @@
 cssclasses:
   - customiseTitle
 ---
+
+> [!Warning] This variable is only available in a beta test
+> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
+> %% #TODO: Remove this annotation when the final version is released. %%
+
 # Variable: `{{shell_commands_plugin_version:plugin}}`, `{{shell_commands_plugin_version:plugin:major|minor|patch}}`, `{{shell_commands_plugin_version:settings}}`, or `{{shell_commands_plugin_version:settings:major|minor|patch}}`
 > [!Quote] {{shell_commands_plugin_version}} described in the *Shell commands* plugin's settings
 > Gives the plugin's version or settings structure version.
