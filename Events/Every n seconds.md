@@ -27,7 +27,9 @@ This feature utilizes [JavaScript's `window.setInterval()` method](https://devel
 - #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): The seconds can now have one decimal. ([#385](https://github.com/Taitava/obsidian-shellcommands/issues/385)).
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The event was released. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
 
-> [!page-edit-history]- Page edit history: 2022-01-01 &#10132; 2022-12-11
+> [!page-edit-history]- Page edit history: 2022-01-01 &#10132; 2024-01-20
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b242343b52174ecb98bd874d3655876980694aca): Event [[Every n seconds.md]]: The seconds can now have one decimal.
+> - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4cbddbedbc92fce6430240b1567b1f94e48e1d46): [[Every n seconds.md]]: Information about event debouncing.
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b3db94cf15a6c0b1af609ff00e6289e565393e7): Events: Use callouts for the 'Executed when' sections.
 > - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f47632e512e5549216f844d42703410de2dde0fc): Variables: Move built-in variable lists to a new file, All variables.md.

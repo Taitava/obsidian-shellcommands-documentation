@@ -96,7 +96,8 @@ Read more about [[custom variables]].
 - [0.18.0 - 2023-01-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0180---2023-01-06): Variables listed in _Variables_ tab in settings and in [[autocomplete]] menu, have now a link to their documentation pages. ([#302](https://github.com/Taitava/obsidian-shellcommands/issues/302)).
 - #TODO: Add older history records regarding the variable system.
 
-> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2023-03-23
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2024-01-20
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b15d62c0164dd1b8cc676a40a21e2aaf062704f): New output handler [[Output channel - Assign custom variables.md]].
 > - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ff1855d010f20a905a0ab35a813f984c3f0cd02c): Variables - general principles.md: Shell commands URI is released already.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
 > - [<small>2022-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cf21d0992315eb7e221e2522ac1a52c3c3413bb4): History records for adding documentation links to variable listings in the plugin.

@@ -64,7 +64,8 @@ Here you can also quickly disable all events, if needed, by switching *Enable ev
 	- Fixed a bug: Ghost shell commands were executed by events even after removal ([#165](https://github.com/Taitava/obsidian-shellcommands/issues/165))
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): First events became supported. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
 
-> [!page-edit-history]- Page edit history: 2021-12-13 &#10132; 2022-05-11
+> [!page-edit-history]- Page edit history: 2021-12-13 &#10132; 2024-01-14
+> - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e854c7f77ae93e038265401a766595f870feac47): First version of [[Events - debouncing.md]].
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bcc0e63a8382fdbe8c42242d3df28cbc4fe63d18): Shorten event names.
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5bbc04d5721f6b3723fd5baade2975a596e799dc): Events, part 2.
 > - [<small>2022-04-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1435534a8ba1bc862237cd5c067b5c0ce07b35c4): Shell commands URI.

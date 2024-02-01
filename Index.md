@@ -100,7 +100,8 @@ Also, some screenshots may be from older versions of SC, in case no significant 
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2023-03-28
+> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2024-01-14
+> - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e854c7f77ae93e038265401a766595f870feac47): First version of [[Events - debouncing.md]].
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/95767b52f215e02a5e0f2be13bcc092ca7a2d8ae): Index.md: Add a link to [[Custom shells]].
 > - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
 > - [<small>2023-02-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ac067d75771cfb2b7aae3bd3e1788491fb9de37a): Index.md: Fix stdin link.

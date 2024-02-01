@@ -39,7 +39,11 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2022-12-11
+> [!page-edit-history]- Page edit history: 2021-10-31 &#10132; 2024-01-20
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b15d62c0164dd1b8cc676a40a21e2aaf062704f): New output handler [[Output channel - Assign custom variables.md]].
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/872c533fe8f5cc44a061c0dce292625cbb98e33a): [[Output channels.md]]: Format output handlers in a table.
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cb5091b1ceab31fbe749fb237dbba84c4e264054): [[Output channels.md]]: Sort channels alphabetically.
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/de8a4775ac581bdd1655c4f6416099e995f2f694): [[Output channels.md]]: Remove "Output channel - " prefixes from channel link labels.
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/97879fc6f02642444d1a61eee52f83b35a0ef86d): Output channels: Mention that some output channels are only available on `stdout`.
 > - [<small>2022-11-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ba41cfb111b3cfd904f82df2746ef4689d9abba3): Realtime output handling.
 > - [<small>2022-08-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c6f5146f8f90047f63fd90bfbe81f024d6513ea): Rename Output channel "Open a file" to "Open files".

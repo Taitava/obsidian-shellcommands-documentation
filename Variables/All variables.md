@@ -71,7 +71,8 @@ Read about [[Default values|defining default values for variables]].
 # History
 
 
-> [!page-edit-history]- Page edit history: 2022-05-08 &#10132; 2023-03-23
+> [!page-edit-history]- Page edit history: 2022-05-08 &#10132; 2024-01-21
+> - [<small>2024-01-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a94285bc786c5c827a89adb660162cb1f8f7bee0): Create [[{{obsidian_api_version}}.md]] and [[{{shell_commands_plugin_version}}.md]].
 > - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07644d90d4a01c20fd0a151a7fec543000df0a54): Documentation for {{shell_command_content}}.
 > - [<small>2023-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e47cc468318c9508af6883489793dcdcf3e5ca4a): All variables.md: Add missing {{event_yaml_value}}
 > - [<small>2023-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/13cb8b33b0c260833240f024cb4cb20f52717fbe): All variables.md: Fix table spacing.

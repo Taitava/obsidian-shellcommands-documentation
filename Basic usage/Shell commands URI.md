@@ -66,7 +66,8 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 - #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Changing custom variable values via Shell commands URI now [[Custom variables#Show notifications when values change|displays a notification balloon (configurable)]]. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The support for shell command URI was released. ([#202](https://github.com/Taitava/obsidian-shellcommands/issues/202)).
 
-> [!page-edit-history]- Page edit history: 2022-04-30 &#10132; 2023-01-08
+> [!page-edit-history]- Page edit history: 2022-04-30 &#10132; 2024-01-20
+> - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/14f72e02f10127df4aef4661a14386d91a1217a7): [[Custom variables]] now display a notification when their values change.
 > - [<small>2023-01-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/32c776f8ac8c22351a3e196870710c8ca28db06b): Shell commands URI.md: Mention that custom variable values should be URL encoded.
 > - [<small>2023-01-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/17ef77d1c58167bab865a661e4809e7141c9838b): Shell commands URI.md: Update ID information.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
