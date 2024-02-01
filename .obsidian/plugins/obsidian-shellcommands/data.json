@@ -642,7 +642,7 @@
       "id": "qglyfz5k0m",
       "platform_specific_commands": {
         "default": "",
-        "win32": "C:\\Program` Files\\JetBrains\\WebStorm` 2021.2\\bin\\webstorm64.exe --line {{caret_position:line}} --column {{caret_position:column}} {{file_path:absolute}}\nsleep 2 # It takes some time for WebStorm to load changed file, and it does not update the caret position correctly if it's loading the file.\nC:\\Program` Files\\JetBrains\\WebStorm` 2021.2\\bin\\webstorm64.exe --line {{caret_position:line}} --column {{caret_position:column}} {{file_path:absolute}}"
+        "win32": "C:\\Program` Files\\JetBrains\\WebStorm` 2021.2\\bin\\webstorm64.exe --line {{caret_position:line}} --column {{caret_position:column}} {{file_path:absolute}}"
       },
       "shells": {
         "win32": "pwsh.exe"
