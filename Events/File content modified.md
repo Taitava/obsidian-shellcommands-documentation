@@ -22,7 +22,14 @@ cssclass: customiseTitle
 > [!Warning] Warning: May cause forever repeated executions
 > If this event is used to execute commands that modify files in the vault (either the shell command itself or the output channel it uses), it will likely cause an infinite loop, because the modifications made by the shell command trigger this event to execute the same shell command again.
 > 
-> **It is recommended not to execute any file system altering shell commands via this event.**
+> To avoid eternal modification loops, you can design your shell command in a way that will not react to all file modifications. This example if for [[Bash]]:
+> ```bash
+> if [ {{event_file_name}} != "OutputNote.md" ]
+> then
+>     echo "Hello world!" >> OutputNote.md
+> fi
+> ```
+> The `if` condition breaks infinite loops by demanding that modifications to `OutputNote.md` must not cause further modifications. The requirement of this design is that a shell command must **not** modify **the same** file whose modifications it's reacting to.
 
 ## Variables
 
