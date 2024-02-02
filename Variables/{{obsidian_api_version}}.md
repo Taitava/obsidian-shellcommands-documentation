@@ -64,7 +64,8 @@ cssclasses:
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): The variable became available in debug mode only by the name `{{obsidian_api:version}}` ([#341](https://github.com/Taitava/obsidian-shellcommands/issues/341)).
 
 
-> [!page-edit-history]- Page edit history: 2024-01-21 &#10132; 2024-01-21
+> [!page-edit-history]- Page edit history: 2024-01-21 &#10132; 2024-02-01
+> - [<small>2024-02-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/83d5fc557a1833a7bfa3c5d8945cfca1dfd423b2): [[{{obsidian_api_version}}.md]] and [[{{shell_commands_plugin_version}}.md]]: Add use-case information.
 > - [<small>2024-01-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a94285bc786c5c827a89adb660162cb1f8f7bee0): Create [[{{obsidian_api_version}}.md]] and [[{{shell_commands_plugin_version}}.md]].
 > 
 > [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bobsidian_api_version%7D%7D.md).
