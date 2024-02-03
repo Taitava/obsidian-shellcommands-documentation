@@ -3,7 +3,7 @@ import os
 import re
 import sys
 
-from updateTimestamp import updateTimestamp, UpdateTimestampException
+from updateFooter import updateFooter, UpdateFooterException
 
 excludeFolders = {"Assets"}
 excludeFiles = ["Donate.md"]
@@ -19,15 +19,15 @@ for root, subdirectories, fileNames in os.walk(".", topdown=True):
             filePath = re.sub(r"^.[\\/]", "", filePath) # Remove an unnecessary .\ from the beginning of the path.
             try:
                 print("Updating footer: " + filePath + "... ", end="", flush=True)
-                updateTimestamp(filePath)
+                updateFooter(filePath)
                 print("ok.", flush=True)
                 countUpdatedFiles += 1
-            except UpdateTimestampException as exception:
+            except UpdateFooterException as exception:
                 # Something went wrong
                 # Output the error message, but continue updating other files.
                 print("FAILED!", flush=True)
                 print(exception, file=sys.stderr, flush=True)
                 countFailedFiles += 1
-print("Updated timestamps on " + str(countUpdatedFiles) + " files.")
+print("Updated footers on " + str(countUpdatedFiles) + " files.")
 if countFailedFiles > 0:
     sys.exit("Updating failed on " + str(countFailedFiles) + " files.")

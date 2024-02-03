@@ -5,11 +5,11 @@ import subprocess
 import urllib.parse
 
 
-class UpdateTimestampException(Exception):
+class UpdateFooterException(Exception):
     pass
 
 
-def updateTimestamp(filePath: str):
+def updateFooter(filePath: str):
     # Get the creation and modification dates from git (if possible)
     gitLogOutput = subprocess.run([
         "git",
@@ -31,7 +31,7 @@ def updateTimestamp(filePath: str):
         gitCommitsMarkdown = parseCommitList(gitCommits)
     else:
         # Git did not find dates for the file, so the file is not in git yet.
-        raise UpdateTimestampException(filePath + ":\n    - Unable to generate a timestamp because the file doesn't seem to be committed to git.")
+        raise UpdateFooterException(filePath + ":\n    - Unable to generate a footer because the file doesn't seem to be committed to git.")
 
     # Read the file in memory
     try:
@@ -40,9 +40,9 @@ def updateTimestamp(filePath: str):
     except UnicodeDecodeError:
         # Something went wrong.
         # Cancel updating.
-        raise UpdateTimestampException(filePath + ":\n    - Unicode decoding failed. Does the file contain emojis? :-)")
+        raise UpdateFooterException(filePath + ":\n    - Unicode decoding failed. Does the file contain emojis? :-)")
 
-    # Generate timestamp message
+    # Generate footer message
     filePathUrlEncoded = urllib.parse.quote(filePath.replace("\\", "/"), safe="/")
     historyContent = f"""> [!page-edit-history]- Page edit history: {creationDate} &#10132; {modificationDate}
 {gitCommitsMarkdown}
@@ -50,7 +50,7 @@ def updateTimestamp(filePath: str):
 > [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/{filePathUrlEncoded}).
 > ^page-edit-history"""
 
-    # Change or add a timestamp in the content
+    # Change or add a footer in the content
     regexPattern = r"^\> \[\!page\-edit\-history\].*?\> \^page\-edit\-history"
     regexModifiers = re.MULTILINE | re.DOTALL
     if re.search(regexPattern, fileContent, regexModifiers):
@@ -88,10 +88,10 @@ if __name__ == "__main__":
 
     filePath = sys.argv[1]
     try:
-        updateTimestamp(filePath)
+        updateFooter(filePath)
         # All is done.
-        print("Timestamp is updated.")
-    except UpdateTimestampException as exception:
+        print("Footer is updated.")
+    except UpdateFooterException as exception:
         # Something went wrong.
         # Show the error message.
         sys.exit(exception)
