@@ -18,12 +18,13 @@ for root, subdirectories, fileNames in os.walk(".", topdown=True):
             filePath = os.path.join(root, fileName)
             filePath = re.sub(r"^.[\\/]", "", filePath) # Remove an unnecessary .\ from the beginning of the path.
             try:
+                print("Updating footer: " + filePath, flush=True)
                 updateTimestamp(filePath)
                 countUpdatedFiles += 1
             except UpdateTimestampException as exception:
                 # Something went wrong
                 # Output the error message, but continue updating other files.
-                print(exception, file=sys.stderr)
+                print(exception, file=sys.stderr, flush=True)
                 countFailedFiles += 1
 print("Updated timestamps on " + str(countUpdatedFiles) + " files.")
 if countFailedFiles > 0:
