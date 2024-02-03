@@ -26,5 +26,5 @@ Open up a web browser to:
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/920506704755013392420d110d2d90319cc0cf51): Example shell commands: Add Linux and Mac versions.
 > - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07f94b03e4e8a79f1269c1dab598b5e7f536b652): Example shell commands.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Open%20a%20website.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Open%20a%20website.md).
 > ^page-edit-history

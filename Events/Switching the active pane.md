@@ -39,5 +39,5 @@ The Obsidian event that powers this feature is [`active-leaf-change` on `workspa
 > - [<small>2021-12-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bdf92617999418cd604db6fbbd79a1f9e638ebb): Events: Change 'After active leaf has changed' to 'After switching the active pane'.
 > - [<small>2021-12-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/62392cb2d52bcf909cd8a5f56933ff07c5496e3b): WIP: A draft of Events documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Switching%20the%20active%20pane.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Events/Switching%20the%20active%20pane.md).
 > ^page-edit-history

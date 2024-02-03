@@ -31,5 +31,5 @@ This is how the clock will look like in the status bar:
 > - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/db74fd2ed107c70fc30a73fa4f23fea2e5957eae): Mark certain features to be only available in the 0.10.0 beta test.
 > - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5b806c587863e196b130ee859c05d9ac9ff0fae): Examples: Display a clock.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20a%20clock.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Display%20a%20clock.md).
 > ^page-edit-history

@@ -57,5 +57,5 @@ Some output channels are available to both `stdout` and `stderr`. There are some
 > - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a0b2ca18f74c8ece9499165e26bda7750e6945cd): Output channels.
 > - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channels.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Output%20channels.md).
 > ^page-edit-history

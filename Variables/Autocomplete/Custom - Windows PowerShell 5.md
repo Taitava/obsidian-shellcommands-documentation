@@ -1475,5 +1475,5 @@ The list was generated on 2021-11-27.
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8fe24fd06ad7554ea580c314702e9ca13c1ec1d7): Autocomplete: Fix PowerShell 5 list indentation.
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/a16d94e51a1da8626bab73354533e4dcb48e158a): Autocomplete: Custom list for Windows PowerShell 5.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Custom%20-%20Windows%20PowerShell%205.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Autocomplete/Custom%20-%20Windows%20PowerShell%205.md).
 > ^page-edit-history

@@ -22,5 +22,5 @@ cssclass: customiseTitle
 > - [<small>2022-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1a6dfee33a7690cbac10706fc1b064432c310bb2): 0.15.0 is released.
 > - [<small>2022-08-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/77a2de80ce8655b41b595eda2ffe221ef2a36a02): New variables: {{file_uri}} and {{event_file_uri}}.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_file_uri%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bevent_file_uri%7D%7D.md).
 > ^page-edit-history

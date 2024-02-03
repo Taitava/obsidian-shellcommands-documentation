@@ -26,5 +26,5 @@ This variable can only be used for the *Content* field of [[Output wrappers|outp
 > - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.
 > - [<small>2022-09-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fd9edbf69c25863a39526cf3fe00077625f6a01d): Output wrappers.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Boutput%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Boutput%7D%7D.md).
 > ^page-edit-history

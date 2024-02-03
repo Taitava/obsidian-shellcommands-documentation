@@ -115,5 +115,5 @@ The list was generated on 2021-11-27.
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6737abac60881a28f2c86a84a42e195f18eaa032): Autocomplete: Windows CMD commands: Added a date.
 > - [<small>2021-11-27</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c6074a38a62b4497d94eba37e0dcf57f4321b9ab): Autocomplete: Custom list for Windows CMD.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Custom%20-%20Windows%20CMD%20commands.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Autocomplete/Custom%20-%20Windows%20CMD%20commands.md).
 > ^page-edit-history

@@ -72,5 +72,5 @@ Replace *`VARIABLE`* with the environment variable name you want to read. `echo`
 > - [<small>2022-05-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ec4c6a61c51fc5c5a9c2ddb78469e671cffae9d1): 'PATH additions' settings: {{environment}} should be {{!environment}}.
 > - [<small>2022-05-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/78d81b39be6c97aecac9c7229c5419e4dd0a81cd): {{environment}} variable.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Benvironment%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Benvironment%7D%7D.md).
 > ^page-edit-history

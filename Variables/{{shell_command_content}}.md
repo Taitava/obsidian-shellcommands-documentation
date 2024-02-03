@@ -134,5 +134,5 @@ When a shell command is executed, both the [[#Shell arguments]] and [[#Wrapper f
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-03-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07644d90d4a01c20fd0a151a7fec543000df0a54): Documentation for {{shell_command_content}}.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bshell_command_content%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bshell_command_content%7D%7D.md).
 > ^page-edit-history

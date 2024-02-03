@@ -37,5 +37,5 @@ The Obsidian event that powers this feature is [`EVENT NAME HERE` on `workspace`
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1399ca5f52956bd6ba2b3202720d6422f270c088): Rename [[Caret moved in editor.md]] to [[Caret moves in editor.md]].
 > - [<small>2023-06-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df52c62a0ea458e8f4c29614f5af7baca7573255): [[Caret moved in editor]] event got accidentally published before it's complete.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Caret%20moves%20in%20editor.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Events/Caret%20moves%20in%20editor.md).
 > ^page-edit-history

@@ -21,5 +21,5 @@ If your shell command is slow to execute (= has a few seconds delay before the a
 > [!page-edit-history]- Page edit history: 2022-07-15 &#10132; 2022-07-15
 > - [<small>2022-07-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/104c1229f4ecd7b84de0e1a795b90ccc0806c534): Problem: Delay when executing a shell command
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Problems/Delay%20when%20executing%20a%20shell%20command.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Problems/Delay%20when%20executing%20a%20shell%20command.md).
 > ^page-edit-history

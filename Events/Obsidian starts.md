@@ -34,5 +34,5 @@ The Obsidian event that powers this feature is [`onLayoutReady()` on `workspace`
 > - [<small>2021-12-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d5f1b99804efef78f1550e9ec8fd58d25acdfc68): Events: 'After Obsidian starts' is not anymore triggered right after enabling the setting.
 > - [<small>2021-12-13</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/62392cb2d52bcf909cd8a5f56933ff07c5496e3b): WIP: A draft of Events documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Obsidian%20starts.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Events/Obsidian%20starts.md).
 > ^page-edit-history

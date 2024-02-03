@@ -190,5 +190,5 @@ Example result for me:
 > - [<small>2023-04-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/47744de2b41b0ae2f44a8cbe83d4bcd0301bf3bc): [[Settings for custom shells.md]]: Add content.
 > - [<small>2023-04-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bd74c26aac68d0051a128d58fa15f8f3d6f03f5): Custom shell example: Windows Subsystem for Linux (WSL)
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Windows%20Subsystem%20for%20Linux%20%28WSL%29.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Custom%20shells/Windows%20Subsystem%20for%20Linux%20%28WSL%29.md).
 > ^page-edit-history

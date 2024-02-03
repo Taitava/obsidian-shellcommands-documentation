@@ -65,5 +65,5 @@ These are not in any particular order, but some features are needed to be done b
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/158eba2360a38dfcc4732d08e0373182e0c2a7e3): Roadmap: Mention `stdin` support.
 > - [<small>2022-07-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6c9df8e8d8769676d3c160c56c1ed26b4a415504): First version of Roadmap.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Roadmap.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Roadmap.md).
 > ^page-edit-history

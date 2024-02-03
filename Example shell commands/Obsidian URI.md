@@ -27,5 +27,5 @@ cssclass: customiseTitle
 > - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
 > - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07f94b03e4e8a79f1269c1dab598b5e7f536b652): Example shell commands.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Obsidian%20URI.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Obsidian%20URI.md).
 > ^page-edit-history

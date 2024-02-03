@@ -30,5 +30,5 @@ The returned text line constains everything on the caret's current line, i.e. ev
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
 > - [<small>2022-11-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8966b2f59d3695f807025df90b5c34142b7e4845): Add {{caret_paragraph}} variable.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bcaret_paragraph%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bcaret_paragraph%7D%7D.md).
 > ^page-edit-history

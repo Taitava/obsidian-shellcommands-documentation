@@ -65,5 +65,5 @@ In the above section, you are able to change the shell that all of your shell co
 > - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/118aaeb67eed11873cbe54c98b0f74b152b1c210): Shells.md: Add 'Choosing a shell on a per shell command basis'.
 > - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3010cd79f48e79b997509b6a8a1b0bad5a23993b): Create Shells.md.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Shells.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Shells.md).
 > ^page-edit-history

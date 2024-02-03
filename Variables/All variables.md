@@ -91,5 +91,5 @@ Read about [[Default values|defining default values for variables]].
 > - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cccb2b1e0ce4f86ccefc6831f13ba119ef8c30ab): All variables.md: Convert 'Normal variables' list to a table.
 > - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f47632e512e5549216f844d42703410de2dde0fc): Variables: Move built-in variable lists to a new file, All variables.md.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/All%20variables.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/All%20variables.md).
 > ^page-edit-history

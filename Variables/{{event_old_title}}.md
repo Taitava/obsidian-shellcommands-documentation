@@ -23,5 +23,5 @@ cssclass: customiseTitle
 > - [<small>2022-05-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1d39276283d572a689de25131c43b916551cda74): {{event_old_title}}.md: Remove incorrect content under 'Availability'.
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5bbc04d5721f6b3723fd5baade2975a596e799dc): Events, part 2.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_old_title%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bevent_old_title%7D%7D.md).
 > ^page-edit-history

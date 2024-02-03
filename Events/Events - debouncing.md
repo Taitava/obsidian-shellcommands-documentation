@@ -116,5 +116,5 @@ This mode is suitable for situations where no harm is caused by executing a shel
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1399ca5f52956bd6ba2b3202720d6422f270c088): Rename [[Caret moved in editor.md]] to [[Caret moves in editor.md]].
 > - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e854c7f77ae93e038265401a766595f870feac47): First version of [[Events - debouncing.md]].
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Events%20-%20debouncing.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Events/Events%20-%20debouncing.md).
 > ^page-edit-history

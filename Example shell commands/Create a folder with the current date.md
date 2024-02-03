@@ -19,5 +19,5 @@ These examples work on all operating systems.
 > - [<small>2021-11-24</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da2bc9e5eee499f12b6cc2c4952739652b999de1): Wrap variable note names between {{ and }}.
 > - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07f94b03e4e8a79f1269c1dab598b5e7f536b652): Example shell commands.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Create%20a%20folder%20with%20the%20current%20date.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Create%20a%20folder%20with%20the%20current%20date.md).
 > ^page-edit-history

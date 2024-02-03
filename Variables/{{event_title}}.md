@@ -28,5 +28,5 @@ cssclass: customiseTitle
 > - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e4c431cdcbfcff0c95963613c9466171a38e90dd): Variables: Add 'See also' sections with links to other variables.
 > - [<small>2022-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ca3ab49bb838e832ee435cb1427161cfa8c1444): Add event related variables.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_title%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bevent_title%7D%7D.md).
 > ^page-edit-history

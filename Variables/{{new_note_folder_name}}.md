@@ -25,5 +25,5 @@ This variable is handy e.g. when you execute shell commands that generate new fi
 > - [<small>2022-07-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5f492a6510449bdbf0a873382f08d7d7ef9863c3): 0.14.0 is released.
 > - [<small>2022-07-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/12b7600cbffc94290e9fe54476b395cb93a02e7f): New variables: {{new_note_folder_name}} and {{new_note_folder_path}}.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bnew_note_folder_name%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bnew_note_folder_name%7D%7D.md).
 > ^page-edit-history

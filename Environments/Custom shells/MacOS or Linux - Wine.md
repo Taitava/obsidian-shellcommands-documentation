@@ -17,5 +17,5 @@ aliases:
 > - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/MacOS%20or%20Linux%20-%20Wine.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Custom%20shells/MacOS%20or%20Linux%20-%20Wine.md).
 > ^page-edit-history

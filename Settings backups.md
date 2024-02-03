@@ -34,5 +34,5 @@ To restore a backup settings file, do:
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ff17d13c815a111e48ab5d2ced7a084fce0b280): Instructions to downgrade the plugin.
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/88c6d8c062984d73f9fb660fb804ed4e8e15df92): About baking up settings.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Settings%20backups.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Settings%20backups.md).
 > ^page-edit-history

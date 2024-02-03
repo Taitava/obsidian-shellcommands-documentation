@@ -38,5 +38,5 @@ This feature utilizes [JavaScript's `window.setInterval()` method](https://devel
 > - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5b806c587863e196b130ee859c05d9ac9ff0fae): Examples: Display a clock.
 > - [<small>2022-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/99dc8c4717fc8b85fd34ab2c632e61d1d08f28af): Events: Add more information about different events.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Events/Every%20n%20seconds.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Events/Every%20n%20seconds.md).
 > ^page-edit-history

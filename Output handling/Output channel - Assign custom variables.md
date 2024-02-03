@@ -123,5 +123,5 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > [!page-edit-history]- Page edit history: 2024-01-20 &#10132; 2024-01-20
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b15d62c0164dd1b8cc676a40a21e2aaf062704f): New output handler [[Output channel - Assign custom variables.md]].
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Assign%20custom%20variables.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Output%20channel%20-%20Assign%20custom%20variables.md).
 > ^page-edit-history

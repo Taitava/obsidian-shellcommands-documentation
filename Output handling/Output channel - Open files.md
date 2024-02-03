@@ -129,5 +129,5 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > - [<small>2022-02-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/275cedf318dbd5dac86a38341cbdff39d051973b): Open a file defined in the output: Add abilities to open a non-existing file and to open the file in a new pane.
 > - [<small>2022-02-17</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/de08ed9e9c01e8c184e498473dafc44cad9eb0e0): Output channel: Open a file defined in the output.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Open%20files.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Output%20channel%20-%20Open%20files.md).
 > ^page-edit-history

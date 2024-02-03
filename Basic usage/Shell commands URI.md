@@ -75,5 +75,5 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 > - [<small>2022-05-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/341e9f4cde907eafe165b724c28559df5f1ef68d): Shell commands URI: Mention Ctrl + clicking the copy button.
 > - [<small>2022-04-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1435534a8ba1bc862237cd5c067b5c0ce07b35c4): Shell commands URI.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Shell%20commands%20URI.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Basic%20usage/Shell%20commands%20URI.md).
 > ^page-edit-history

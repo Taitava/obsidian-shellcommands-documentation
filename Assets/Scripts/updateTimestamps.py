@@ -16,6 +16,7 @@ for root, subdirectories, fileNames in os.walk(".", topdown=True):
     for fileName in fileNames:
         if fileName not in excludeFiles and re.search(r".md$", fileName, re.IGNORECASE):
             filePath = os.path.join(root, fileName)
+            filePath = re.sub(r"^.[\\/]", "", filePath) # Remove an unnecessary .\ from the beginning of the path.
             try:
                 updateTimestamp(filePath)
                 countUpdatedFiles += 1

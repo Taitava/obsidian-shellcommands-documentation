@@ -37,5 +37,5 @@ An exit code (aka error code) is used to identify error situations programmatica
 > - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/366f1cecd4709d2da639b76fd2269e0f6d4a11ba): Fix a couple of links.
 > - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Ignoring%20errors.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Ignoring%20errors.md).
 > ^page-edit-history

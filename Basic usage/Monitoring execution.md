@@ -30,5 +30,5 @@ Usually, shell commands are quick to run, and it's only interesting to get a not
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/202411b0f08dacf29b0967f7e6e16ff3cde0aed3): Documentation for execution notification.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/Monitoring%20execution.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Basic%20usage/Monitoring%20execution.md).
 > ^page-edit-history

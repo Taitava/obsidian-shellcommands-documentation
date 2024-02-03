@@ -43,5 +43,5 @@ Write-Host("Size: ", [math]::Round((Get-Item {{file_path:absolute}}).length/1KB)
 > - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/db74fd2ed107c70fc30a73fa4f23fea2e5957eae): Mark certain features to be only available in the 0.10.0 beta test.
 > - [<small>2022-01-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3aa41de3fe5fbc68f915bb05dc3313ba598ce3a8): WIP: Example: Display file size and modification time on status bar.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Display%20file%20size%20and%20modification%20time%20on%20status%20bar.md).
 > ^page-edit-history

@@ -59,5 +59,5 @@ Now that you are aware of the `data.json` incompatibility issue, you can start t
 > [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2021-11-25
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3ff17d13c815a111e48ab5d2ced7a084fce0b280): Instructions to downgrade the plugin.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Upgrading%20%28and%20downgrading%29.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Upgrading%20%28and%20downgrading%29.md).
 > ^page-edit-history

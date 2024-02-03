@@ -55,5 +55,5 @@ No dashes `---` are included.
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/65637e77d4b209f81b215d1f2222bb138b7cbf0c): 0.18.0 is released.
 > - [<small>2023-01-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/265fbffa086a29cdabb125380c773b1060a682ee): New variables {{yaml_content}} and {{event_yaml_content}}.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Byaml_content%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Byaml_content%7D%7D.md).
 > ^page-edit-history

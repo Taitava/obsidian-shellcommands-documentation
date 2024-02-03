@@ -130,5 +130,5 @@ Example result for me:
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/6140e894cc01c13780f78f4a186f2d1fd4796368): [[Windows - MinGW-w64.md]]: Use MinGW-w64 specific screenshots.
 > - [<small>2023-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4a3ee0b869ed7bdcb420e867b1d0c7f769fbb4cb): Create [[Windows - MinGW-w64.md]] custom shell documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Custom%20shells/Windows%20-%20MinGW-w64.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Custom%20shells/Windows%20-%20MinGW-w64.md).
 > ^page-edit-history

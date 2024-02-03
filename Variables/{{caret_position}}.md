@@ -29,5 +29,5 @@ cssclass: customiseTitle
 > - [<small>2021-12-18</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/798838b1b921a0b1e832c95af7d60fcbc02eb448): Add some forgotten 0.9.0 history details.
 > - [<small>2021-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7bfb1a340d550b18e946b799907d8696bde818da): {{caret_position}} variable.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bcaret_position%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bcaret_position%7D%7D.md).
 > ^page-edit-history

@@ -23,5 +23,5 @@ These are just examples, and this plugin **does not** define them for you automa
 > - [<small>2021-12-07</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/60a3364db23295be148c50760cf03aab0b840aeb): #119: added example using the new caret_position variable
 > - [<small>2021-11-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/07f94b03e4e8a79f1269c1dab598b5e7f536b652): Example shell commands.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Example%20shell%20commands.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Example%20shell%20commands.md).
 > ^page-edit-history

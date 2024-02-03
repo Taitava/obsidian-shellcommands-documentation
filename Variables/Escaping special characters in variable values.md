@@ -70,5 +70,5 @@ I am not able to think about all the possibility use cases of this plugin. In th
 > - [<small>2021-11-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/72deca128a6c88e6ed8afaa14700609cc3670655): More topics about escaping and how to check the default shell.
 > - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Escaping%20special%20characters%20in%20variable%20values.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Escaping%20special%20characters%20in%20variable%20values.md).
 > ^page-edit-history

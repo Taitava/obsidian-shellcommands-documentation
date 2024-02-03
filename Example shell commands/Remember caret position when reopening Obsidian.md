@@ -48,5 +48,5 @@ You can change the `caret_position.txt` file name freely in the commands. For ex
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/bcc0e63a8382fdbe8c42242d3df28cbc4fe63d18): Shorten event names.
 > - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da3fab304cf1ecd9f7134fa969e4e6b3f8a9fa11): Add an example: Remember caret position when reopening Obsidian
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Example%20shell%20commands/Remember%20caret%20position%20when%20reopening%20Obsidian.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Remember%20caret%20position%20when%20reopening%20Obsidian.md).
 > ^page-edit-history

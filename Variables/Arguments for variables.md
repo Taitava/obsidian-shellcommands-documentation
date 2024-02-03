@@ -22,5 +22,5 @@ You cannot use a colon `:` in an argument that precedes the last argument, as in
 > - [<small>2021-11-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/f368a217fcc5484e3f078b598d6a2c3e2cbe35cb): Fix typos using WebStorm.
 > - [<small>2021-11-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2c3e9b2d8b625eb02dd1b6d8b709a5a4140c36f1): Arguments for variables.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Arguments%20for%20variables.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Arguments%20for%20variables.md).
 > ^page-edit-history

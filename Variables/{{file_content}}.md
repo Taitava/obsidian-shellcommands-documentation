@@ -20,5 +20,5 @@ cssclass: customiseTitle
 > - [<small>2022-09-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e1a6b6b5d9d7153a45d308923056a67a8737a2e6): 0.16.0 is released.
 > - [<small>2022-09-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/790d38b8cb8f9299abd93e2b6e3f39e114e46294): {{file_content}} and {{event_file_content}} variables.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bfile_content%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bfile_content%7D%7D.md).
 > ^page-edit-history

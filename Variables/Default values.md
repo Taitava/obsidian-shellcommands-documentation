@@ -74,5 +74,5 @@ Before a custom variable gets a value (for now, in SC version `0.12.0`, the only
 > - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
 > - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2d3e8929249fc0817a92b10ffe04b8b735d2cb97): 0.12.0: Default values for variables.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Default%20values.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Default%20values.md).
 > ^page-edit-history

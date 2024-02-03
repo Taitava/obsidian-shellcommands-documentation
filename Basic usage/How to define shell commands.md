@@ -70,5 +70,5 @@ In addition to the actual shell command text field, there are some other control
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/97a36489865125f8a23f18bb34649420564a2f8b): How to define shell commands: Fix a link.
 > - [<small>2021-11-25</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9873c4587a2b97c6a61a5cbfc2bb7ce55834ffda): Basic usage instructions.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Basic%20usage/How%20to%20define%20shell%20commands.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Basic%20usage/How%20to%20define%20shell%20commands.md).
 > ^page-edit-history

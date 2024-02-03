@@ -74,5 +74,5 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > - [<small>2022-01-30</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/db74fd2ed107c70fc30a73fa4f23fea2e5957eae): Mark certain features to be only available in the 0.10.0 beta test.
 > - [<small>2022-01-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/88f88ce46a22a9a7ae4ce3f93727dca1ed8b97bd): Output channel: Modal.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Output%20handling/Output%20channel%20-%20Ask%20after%20execution.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Output%20channel%20-%20Ask%20after%20execution.md).
 > ^page-edit-history

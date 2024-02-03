@@ -26,5 +26,5 @@ cssclass: customiseTitle
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/71d62712b8fcb4d75eb82e2c59461e991365805d): Event variables: Small fixes in descriptions.
 > - [<small>2022-05-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5bbc04d5721f6b3723fd5baade2975a596e799dc): Events, part 2.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Bevent_old_folder_path%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bevent_old_folder_path%7D%7D.md).
 > ^page-edit-history

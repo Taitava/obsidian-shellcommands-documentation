@@ -45,5 +45,5 @@ Because this feature is only meaningful in situations where vaults and settings 
 > - [<small>2021-10-31</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2dd3261379bc2817e7ea01b96872402ad7c3c4d1): Some quick plans for the documentation.
 > - [<small>2021-10-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/5693b00490180aded4d5da5f80cb1bcdafecba6c): Initial commit.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Operating%20system%20specific%20versions%20of%20shell%20commands.md).
 > ^page-edit-history

@@ -185,5 +185,5 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > - [<small>2022-04-09</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7b150874ec1ec2620b683cc44075bd8205e4e518): Prompts: Restructure target variable instructions and mention that the same variable cannot be used in multiple fields.
 > - [<small>2022-04-08</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/61658656e301113c3139c1b1dfe1653d0e4a0063): 0.12.0: Instructions for Prompts.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Preactions/Prompts.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Preactions/Prompts.md).
 > ^page-edit-history

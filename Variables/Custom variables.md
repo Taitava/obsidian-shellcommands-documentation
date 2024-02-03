@@ -109,5 +109,5 @@ From SC version `0.22.0` onwards, the plugin displays a notification balloon by 
 > - [<small>2022-04-15</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/df021e7305cee4944a440c4c16bf7b3a283dcd1f): Beta 0.12.0: Add notices.
 > - [<small>2022-04-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/91702a4b6edda4a90120067de22de23a26383240): Custom variables.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Custom%20variables.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Custom%20variables.md).
 > ^page-edit-history

@@ -51,5 +51,5 @@ From SC version `0.21.0` onwards, the plugin can detect if Obsidian has been ins
 > [!page-edit-history]- Page edit history: 2023-12-23 &#10132; 2023-12-23
 > - [<small>2023-12-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d586cb48e0b834224852c911bfda24b1d3168991): Create [[Flatpak installation.md]].
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Problems/Flatpak%20installation.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Problems/Flatpak%20installation.md).
 > ^page-edit-history

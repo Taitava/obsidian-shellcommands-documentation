@@ -1552,5 +1552,5 @@ The list was generated on 2021-12-04.
 > - [<small>2021-12-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/4177a0f7b3f3566af66a970bddef8a49ab823fc6): Autocomplete: Custom Ubuntu Bash list: Added a screenshot.
 > - [<small>2021-12-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ccb8b81af4026092d3e23b48e3c97bce35a706e9): Autocomplete: Custom list for Ubuntu Bash.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Autocomplete/Custom%20-%20Ubuntu%20Bash%20commands.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Autocomplete/Custom%20-%20Ubuntu%20Bash%20commands.md).
 > ^page-edit-history

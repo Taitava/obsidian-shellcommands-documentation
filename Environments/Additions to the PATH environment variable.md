@@ -156,5 +156,5 @@ In addition to the [[{{environment}}|{{!environment}}]] variable, all other [[Va
 > - [<small>2022-05-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ec4c6a61c51fc5c5a9c2ddb78469e671cffae9d1): 'PATH additions' settings: {{environment}} should be {{!environment}}.
 > - [<small>2022-05-01</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/abf803fdc91140d85f4acde361c90406f65c99f6): 'PATH additions' settings.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Environments/Additions%20to%20the%20PATH%20environment%20variable.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Environments/Additions%20to%20the%20PATH%20environment%20variable.md).
 > ^page-edit-history

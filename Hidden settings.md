@@ -51,5 +51,5 @@ There are a couple of settings that do not have a visible field in the settings 
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7537045e3408a0fa0a1f3b47a62907fc6e4f8ca3): Add annotations regarding 0.11.0-beta.1 test.
 > - [<small>2022-02-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/fabdd6cf143447380e2f28f92ee7752d169d2554): Create a page for Hidden settings.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Hidden%20settings.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Hidden%20settings.md).
 > ^page-edit-history

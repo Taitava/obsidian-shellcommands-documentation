@@ -25,5 +25,5 @@
 > - [<small>2023-01-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/99d77dc6a88c176903d870bdc5538c980cf92576): Pass variables to stdin.md: Stdin content is not escaped.
 > - [<small>2022-12-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c9c81dbfada887011827c82b9c6dcf60b962e4a3): Pass variables to stdin.md
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/Pass%20variables%20to%20stdin.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/Pass%20variables%20to%20stdin.md).
 > ^page-edit-history

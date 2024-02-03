@@ -86,5 +86,5 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 > - [<small>2021-12-18</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/798838b1b921a0b1e832c95af7d60fcbc02eb448): Add some forgotten 0.9.0 history details.
 > - [<small>2021-12-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/02310bd4b2e2938a2879d35b5276d5621c3f5c46): {{yaml_value}} variable.
 > 
-> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/./Variables/%7B%7Byaml_value%7D%7D.md).
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Byaml_value%7D%7D.md).
 > ^page-edit-history
