@@ -837,6 +837,41 @@
       "command_palette_availability": "disabled",
       "preactions": [],
       "variable_default_values": {}
+    },
+    {
+      "id": "vvda8c9kf4",
+      "platform_specific_commands": {
+        "default": "git checkout main > /dev/null\ngit branch --show-current",
+        "win32": "[Void]$(git checkout main)\ngit branch --show-current"
+      },
+      "shells": {},
+      "alias": "Git: Switch to branch \"main\"",
+      "icon": "git-branch",
+      "confirm_execution": true,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "status-bar",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": "91cpcnw8xb",
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
