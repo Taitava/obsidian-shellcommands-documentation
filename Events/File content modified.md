@@ -16,9 +16,9 @@ cssclass: customiseTitle
 > In case you happen to use e.g. [[{{event_yaml_value}}]] variable in your shell command, and you modify the YAML front matter section of the current note, this event might execute the shell command **before** Obsidian updates the YAML information, and so [[{{event_yaml_value}}]] will give an **outdated** value.
 
 > [!Warning] Warning: May cause frequent executions
-> While a user writes to - or otherwise edits - files in Obsidian, Obsidian saves the changes very often to the file system. This may cause shell commands using this event to be executed multiple times during a short time.
+> While a user writes to - or otherwise edits - files in Obsidian, Obsidian saves the changes very often to the file system. This may cause shell commands using this event to be executed multiple times during a short time. Also, external programs can edit multiple files at once, causing this event to trigger for every changed file.
 > 
-> **It is recommended not to execute any computationally heavy or long-running shell commands via this event.**
+> To prevent redundant executions, it's recommended to use [[Events - debouncing|debouncing]] with this event. A good debouncing mode for this event could be [[Events - debouncing#Mode Cooldown first, then execute|Cooldown first, then execute]].
 
 > [!Warning] Warning: May cause forever repeated executions
 > If this event is used to execute commands that modify files in the vault (either the shell command itself or the output channel it uses), it will likely cause an infinite loop, because the modifications made by the shell command trigger this event to execute the same shell command again.
