@@ -31,7 +31,7 @@ def updateTimestamp(filePath: str):
         gitCommitsMarkdown = parseCommitList(gitCommits)
     else:
         # Git did not find dates for the file, so the file is not in git yet.
-        raise UpdateTimestampException("Unable to generate timestamp for file '" + filePath + "' because it doesn't seem to be committed to git.")
+        raise UpdateTimestampException(filePath + ":\n    - Unable to generate a timestamp because the file doesn't seem to be committed to git.")
 
     # Read the file in memory
     try:
@@ -40,7 +40,7 @@ def updateTimestamp(filePath: str):
     except UnicodeDecodeError:
         # Something went wrong.
         # Cancel updating.
-        raise UpdateTimestampException("Unicode decoding failed for file '" + filePath + "'. Does it contain emojis? :-)")
+        raise UpdateTimestampException(filePath + ":\n    - Unicode decoding failed. Does the file contain emojis? :-)")
 
     # Generate timestamp message
     filePathUrlEncoded = urllib.parse.quote(filePath.replace("\\", "/"), safe="/")
