@@ -6,6 +6,7 @@ cssclass: customiseTitle
 > [!Success] Executed when
 > - A file's content is edited. The file must reside in the Obsidian vault.
 > - The change may be done by Obsidian, or by an external application.
+> - The file may be the currently focused file, or some other file in the vault.
 
 > [!Fail] Not executed when
 > - Any changes happen in `.obsidian` or any other folder starting with a dot `.`
