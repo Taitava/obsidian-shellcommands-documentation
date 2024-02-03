@@ -56,7 +56,9 @@ The Obsidian event that powers this feature is [`modify` on `vault` events](http
 # History
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The event was released. ([#218](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
 
-> [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2024-02-02
+> [!page-edit-history]- Page edit history: 2022-05-11 &#10132; 2024-02-03
+> - [<small>2024-02-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/cf515ff133396d89b8a365577e47dff6b7b894b7): [[File content modified.md]]: Mention debouncing in frequent executions warning.
+> - [<small>2024-02-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7984c975a239604b8940c8165d3727a5001645a6): [[File content modified.md]]: Emphasize that the modified file can be any file in the vault.
 > - [<small>2024-02-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/35079f682dcce7df20ec23c514d0a6c9d4da42a2): [[File content modified.md]]: An example for avoiding infinite modification loops.
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.
 > - [<small>2022-06-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/49efe1a5a719cb695cc0a4a96d05c10548298804): 0.13.0 is released.
