@@ -1,0 +1,15 @@
+div.table-col-drag-handle,
+div.table-row-drag-handle,
+div.table-col-btn,
+div.table-row-btn {
+    opacity: 100 !important;
+}
+
+div.table-col-drag-handle:hover,
+div.table-row-drag-handle:hover,
+div.table-col-btn:hover,
+div.table-row-btn:hover {
+    /* Highlight on hover, otherwise there's no visual change, at least in Obsidian 1.5.3. */
+    color: var(--text-normal) !important;
+    border: 1px solid var(--text-normal) !important;
+}
