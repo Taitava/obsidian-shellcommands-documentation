@@ -2,7 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Folder renamed
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `folder` | `folder-renamed` |
 ## Execution
 > [!Success] Executed when
 > - A folder has been renamed inside the Obsidian vault. The renaming needs to be done by Obsidian, otherwise this event won't notice it (see below).

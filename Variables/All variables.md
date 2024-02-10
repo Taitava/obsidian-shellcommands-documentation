@@ -35,25 +35,26 @@ This page contains a list of all `{{variables}}` that are built-in to the *Shell
 ## Event variables
 These variables are only available when a shell command is executed by a specific event that supports the variables.
 
-| Variable                      | Available during events                                                                                                                                                                                          |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[{{event_file_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_file_extension}}]]  | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_file_name}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_file_path}}]]       | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_file_uri}}]]        | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_folder_name}}]]     | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |
-| [[{{event_folder_path}}]]     | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |
-| [[{{event_note_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_old_file_name}}]]   | [[File renamed]]                                                                                                                                                                                                 |
-| [[{{event_old_file_path}}]]   | [[File moved]], [[File renamed]]                                                                                                                                                                                 |
-| [[{{event_old_folder_name}}]] | [[File moved]], [[Folder moved]]                                                                                                                                                                                 |
-| [[{{event_old_folder_path}}]] | [[File moved]], [[Folder moved]], [[Folder renamed]]                                                                                                                                                             |
-| [[{{event_old_title}}]]       | [[File renamed]]                                                                                                                                                                                                 |
-| [[{{event_tags}}]]            | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_title}}]]           | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_yaml_content}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                                                                                   |
-| [[{{event_yaml_value}}]]    | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]]                                       |                                                                                                                                                                                                                  |
+| Variable | Available during events |  |
+| ---- | ---- | ---- |
+| [[{{event_file_content}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_file_extension}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_file_name}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_file_path}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_file_uri}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_folder_name}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |  |
+| [[{{event_folder_path}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]],<br>[[Folder menu]], [[Folder created]], [[Folder deleted]], [[Folder moved]], [[Folder renamed]] |  |
+| [[{{event_note_content}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_old_file_name}}]] | [[File renamed]] |  |
+| [[{{event_old_file_path}}]] | [[File moved]], [[File renamed]] |  |
+| [[{{event_old_folder_name}}]] | [[File moved]], [[Folder moved]] |  |
+| [[{{event_old_folder_path}}]] | [[File moved]], [[Folder moved]], [[Folder renamed]] |  |
+| [[{{event_old_title}}]] | [[File renamed]] |  |
+| [[{{event_tags}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_title}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_type}}]] | All events |  |
+| [[{{event_yaml_content}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
+| [[{{event_yaml_value}}]] | [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]] |  |
 
 ## Special purpose variables
 

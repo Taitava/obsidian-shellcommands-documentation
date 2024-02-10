@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Folder moved
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `folder` | `folder-moved` |
 ## Execution
 > [!Success] Executed when
 > - A folder has been moved inside the Obsidian vault. The moving needs to be done by Obsidian, otherwise this event won't notice it (see below).

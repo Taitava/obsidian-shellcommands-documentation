@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: File deleted
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `file` | `file-deleted` |
 ## Execution
 > [!Success] Executed when
 > - A file has been deleted from the Obsidian vault.

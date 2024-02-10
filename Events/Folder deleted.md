@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Folder deleted
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `folder` | `folder-deleted` |
 ## Execution
 > [!Success] Executed when
 > - A folder has been deleted from the Obsidian vault.

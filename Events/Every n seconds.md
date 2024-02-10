@@ -2,7 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Every $n$ seconds
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `time` | `every-n-seconds` |
 ## Execution
 > [!Success] Executed when
 > - On a freely decidable frequency defined in seconds. One decimal is allowed, e.g. `0.1` would be `100` milliseconds, and `1.1` would be `1100` milliseconds. 

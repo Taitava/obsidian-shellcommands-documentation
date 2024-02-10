@@ -2,7 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Switching the active pane
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `workspace` | `active-leaf-switched` |
 ## Execution
 > [!Success] Executed when
 > - User switches between panes, including panes that are not files, e.g. Graph view.

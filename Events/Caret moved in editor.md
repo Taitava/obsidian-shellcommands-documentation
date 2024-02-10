@@ -9,7 +9,9 @@ I accidentally released some draft code for the _Caret moved in editor_ event in
 The documentation will be completed when the event is finally finished.
 
 # Event: Caret moves in editor
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `editor` | `caret-moved` |
 ## Execution
 > [!Success] Executed when
 > - #TODO: Add event conditions.

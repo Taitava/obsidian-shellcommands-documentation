@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Folder created
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `folder` | `folder-created` |
 ## Execution
 > [!Success] Executed when
 > - A new folder has been created in the Obsidian vault.

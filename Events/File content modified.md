@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: File content modified
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `file` | `file-content-modified` |
 ## Execution
 > [!Success] Executed when
 > - A file's content is edited. The file must reside in the Obsidian vault.

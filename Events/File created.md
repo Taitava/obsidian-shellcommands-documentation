@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: File created
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `file` | `file-created` |
 ## Execution
 > [!Success] Executed when
 > - A new file has been created in the Obsidian vault.

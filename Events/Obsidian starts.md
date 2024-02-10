@@ -2,7 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Obsidian starts
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `application` | `application-started` |
 ## Execution
 > [!Success] Executed when
 > - Obsidian has started (or restarted) and loaded a layout, i.e. when everything should be ready.

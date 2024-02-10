@@ -2,6 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: File moved
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `file` | `file-moved` |
 ## Execution
 > [!Success] Executed when
 > - A file has been moved inside the Obsidian vault. The moving needs to be done by Obsidian, otherwise this event won't notice it (see below).

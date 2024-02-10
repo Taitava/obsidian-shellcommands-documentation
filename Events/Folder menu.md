@@ -2,7 +2,9 @@
 cssclass: customiseTitle
 ---
 # Event: Folder menu
-
+| [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
+| ---- | --- |
+| `menu` | `folder-menu-item` |
 ## Execution
 > [!Success] Executed when
 > When a user opens a folder context menu in the side navigation pane, all shell commands that have enabled this event, will be shown in the menu. A shell command is executed when a user clicks the shell command in the context menu.
