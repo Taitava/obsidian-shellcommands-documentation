@@ -81,7 +81,7 @@ This mode is suitable in situations where something needs to be updated occasion
 This mode is suitable for situations where no harm is caused by executing a shell command twice in a short time (with a pause in-between), but where it's still reasonable to debounce execution occurrences to as few as possible.
 
 > [!Success] Ideal use case for _Execute, cooldown, execute again if needed_
-> When implementing a [Git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) like ability to see the latest change of the current line, one can use the (still under development) event [[Caret moves in editor]]. As the caret can move multiple times in a short period of time, debouncing is recommended, and this mode provides the best of both worlds for this use case:
+> When implementing a [Git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) like ability to see the latest change of the current line, one can use the (still under development) event [[Caret moved in editor]]. As the caret can move multiple times in a short period of time, debouncing is recommended, and this mode provides the best of both worlds for this use case:
 > - it reacts immediately to the first occurrence of caret movement, and
 > - it makes sure that if the caret keeps moving, the last occurrence (where caret moves the last time) will still get caught on and executed.
 >  
