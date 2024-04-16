@@ -24,7 +24,7 @@ aliases:
 
 ## Cooldown duration
 > [!Info] _Cooldown duration_ prevents subsequent executions from happening too close to each other
-> _Cooldown_ is a phase in the debouncing process, in which a shell command either:
+> _Cooldown_ is a phase in the debouncing process, during which a shell command either:
 > - has just finished executing, **or**
 > - is waiting for a delayed execution,
 > depending on the [[#Different debouncing modes|debouncing mode]].
