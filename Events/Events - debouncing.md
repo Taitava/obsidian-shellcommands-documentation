@@ -18,7 +18,7 @@ aliases:
 1. When you have [[How to define shell commands|created a shell command]] and are looking at it [[How to define shell commands#^shell-command-controls|in the settings]], click on the *Events* icon to open up an *extra options modal*:
     ![[Settings-modal-events-debouncing.png]]
 
-2. Look for the _Debouncing_ setting near the top of the modal, and select a debouncing mode. [[#Different debouncing modes|Information about different modes]].
+2. Look for the _Debouncing_ setting near the top of the modal, and select whether to execute **before** and/or **after** a *cooldown* phase. [[#Different debouncing modes|Information about different modes]].
 3. Define a _Cooldown duration_ in seconds.
     - One decimal is allowed, e.g. `0.1` would be `100` milliseconds, and `1.1` would be `1100` milliseconds. 
 
@@ -46,37 +46,37 @@ There are different modes for deciding in which order shell command _execution_ 
 >
 > | Mode | 1. Before cooldown | 2. During cooldown | 3. After cooldown |
 > | ---- | ---- | ---- | ---- |
-> | [[#Mode Execute immediately, then cooldown\|Execute immediately, then cooldown]] | Execute the shell command.<br>Discard subsequent executions. | After execution:<br>Discard subsequent executions. | Allow execution again. |
-> | [[#Mode Cooldown first, then execute\|Cooldown first, then execute]] | - | Delay execution.<br>Discard subsequent executions. | Execute the shell command.<br>Discard subsequent executions until execution finishes. |
-> | [[#Mode Execute, cooldown, execute again if needed\|Execute, cooldown, execute again if needed]] | Execute the shell command.<br>Postpone subsequent executions. | After execution:<br>Postpone subsequent executions. | If an event triggered again during phases 1 or 2, execute the shell command again.<br>Otherwise, second execution is not needed. If a second execution is performed, apply another cooldown phase after it, then execute again if needed, etc. |
+> | [[#Mode Execute before cooldown\|Execute before cooldown]] | Execute the shell command.<br>Discard subsequent executions. | After execution:<br>Discard subsequent executions. | Allow execution again. |
+> | [[#Mode Execute after cooldown\|Execute after cooldown]] | - | Delay execution.<br>Discard subsequent executions. | Execute the shell command.<br>Discard subsequent executions until execution finishes. |
+> | [[#Mode Execute before and after cooldown\|Execute before and after cooldown]] | Execute the shell command.<br>Postpone subsequent executions. | After execution:<br>Postpone subsequent executions. | If an event triggered again during phases 1 or 2, execute the shell command again.<br>Otherwise, second execution is not needed. If a second execution is performed, apply another cooldown phase after it, then execute again if needed, etc. |
 
-### Mode: Execute immediately, then cooldown
+### Mode: Execute before cooldown
 
 > [!Quote] From the *Shell commands* plugin's settings:
-> In this mode, the shell command is executed right-away, and <strong>subsequent executions are prevented</strong> for as long as the execution is in progress, <strong>plus</strong> the <em>Cooldown duration</em> after the execution.
+> When executing <em>Before cooldown</em>, the shell command is executed right-away, and <strong>subsequent executions are prevented</strong> for as long as the execution is in progress, <strong>plus</strong> the <em>Cooldown duration</em> after the execution.
 
 This mode is suitable in situations where something needs to be updated occasionally, but where it's not important to get the latest information.
 
 > [!Success] Ideal use case for _Execute immediately, then cooldown_
 > #TODO: Add a use case.
 
-### Mode: Cooldown first, then execute
+### Mode: Execute after cooldown
 
 > [!Quote] From the *Shell commands* plugin's settings:
-> In this mode, the shell command execution will be delayed by the <em>Cooldown duration</em>. <strong>Subsequent executions are prevented</strong> during the cooldown phase and while the execution is in progress.
+> When executing <em>After cooldown</em>, the shell command execution will be delayed by the <em>Cooldown duration</em>. <strong>Subsequent executions are prevented</strong> during the cooldown phase and while the execution is in progress.
 
 > [!Success] Ideal use case for _Cooldown first, then execute_
-> Committing changed files automatically to a version control system (such as [Git](https://git-scm.com)) is reasonable to be debounced so that the first occurrence of e.g. [[File content modified]] event does **not immediately** create a commit. Instead, it should start a waiting phase (cooldown) lasting for example 30 seconds. Otherwise, mass-editing multiple files (e.g. by renaming note files that have backlinks in other files), or editing a single file multiple times, could cause multiple commits to be made, if [[#Mode Execute immediately, then cooldown]] or [[#Mode Execute, cooldown, execute again if needed]] were used instead. So, [[#Mode Cooldown first, then execute|Cooldown first, then execute]] is a better choice here.
+> Committing changed files automatically to a version control system (such as [Git](https://git-scm.com)) is reasonable to be debounced so that the first occurrence of e.g. [[File content modified]] event does **not immediately** create a commit. Instead, it should start a waiting phase (cooldown) lasting for example 30 seconds. Otherwise, mass-editing multiple files (e.g. by renaming note files that have backlinks in other files), or editing a single file multiple times, could cause multiple commits to be made, if [[#Mode Execute before cooldown]] or [[#Mode Execute before and after cooldown]] were used instead. So, [[#Mode Execute after cooldown|Execute after cooldown]] is a better choice here.
 > 
 > [Real-life use case on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/319#discussion-4762076)
 
 > [!Warning] Exiting Obsidian cancels delayed executions
 > Please note that postponed executions will not be carried out, if Obsidian quits before they are launched. [If you wish the plugin to trigger pending executions when Obsidian quits, please start a new _Idea_ discussion on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
 
-### Mode: Execute, cooldown, execute again if needed
+### Mode: Execute before and after cooldown
 
 > [!Quote] From the *Shell commands* plugin's settings:
-> In this mode, the shell command is executed right-away, and <strong>subsequent executions are postponed</strong> for as long as the execution is in progress, <strong>plus</strong> the <em>Cooldown duration</em> after the execution. After the cooldown period ends, the shell command is possibly re-executed, if any subsequent executions were postponed.
+> When executing both <em>Before and After cooldown</em>, the shell command is executed right-away, and <strong>subsequent executions are postponed</strong> for as long as the execution is in progress, <strong>plus</strong> the <em>Cooldown duration</em> after the execution. After the cooldown period ends, the shell command is possibly re-executed, if any subsequent executions were postponed.
 
 This mode is suitable for situations where no harm is caused by executing a shell command twice in a short time (with a pause in-between), but where it's still reasonable to debounce execution occurrences to as few as possible.
 
