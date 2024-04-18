@@ -47,7 +47,7 @@ There are different modes for deciding in which order shell command _execution_ 
 > | Mode | 1. Before cooldown | 2. During cooldown | 3. After cooldown |
 > | ---- | ---- | ---- | ---- |
 > | [[#Mode Execute before cooldown\|Execute before cooldown]] | Execute the shell command.<br>Discard subsequent executions. | After execution:<br>Discard subsequent executions. | Allow execution again. |
-> | [[#Mode Execute after cooldown\|Execute after cooldown]] | - | Delay execution.<br>Discard subsequent executions. | Execute the shell command.<br>Discard subsequent executions until execution finishes. |
+> | [[#Mode Execute after cooldown\|Execute after cooldown]] | - | Delay execution.<br>Discard subsequent executions. | Execute the shell command.<br>Subsequent events during execution will be postponed to start another cooldown + execution process afterward. |
 > | [[#Mode Execute before and after cooldown\|Execute before and after cooldown]] | Execute the shell command.<br>Postpone subsequent executions. | After execution:<br>Postpone subsequent executions. | If an event triggered again during phases 1 or 2, execute the shell command again.<br>Otherwise, second execution is not needed. If a second execution is performed, apply another cooldown phase after it, then execute again if needed, etc. |
 
 ### Mode: Execute before cooldown
@@ -63,7 +63,7 @@ This mode is suitable in situations where something needs to be updated occasion
 ### Mode: Execute after cooldown
 
 > [!Quote] From the *Shell commands* plugin's settings:
-> When executing <em>After cooldown</em>, the shell command execution will be delayed by the <em>Cooldown duration</em>. <strong>Subsequent executions are prevented</strong> during the cooldown phase and while the execution is in progress.
+> When executing <em>After cooldown</em>, the shell command execution will be delayed by the <em>Cooldown duration</em>. <strong>Subsequent executions are prevented</strong> during the cooldown phase, or <strong>postponed</strong> during the execution phase.
 
 > [!Success] Ideal use case for _Cooldown first, then execute_
 > Committing changed files automatically to a version control system (such as [Git](https://git-scm.com)) is reasonable to be debounced so that the first occurrence of e.g. [[File content modified]] event does **not immediately** create a commit. Instead, it should start a waiting phase (cooldown) lasting for example 30 seconds. Otherwise, mass-editing multiple files (e.g. by renaming note files that have backlinks in other files), or editing a single file multiple times, could cause multiple commits to be made, if [[#Mode Execute before cooldown]] or [[#Mode Execute before and after cooldown]] were used instead. So, [[#Mode Execute after cooldown|Execute after cooldown]] is a better choice here.
