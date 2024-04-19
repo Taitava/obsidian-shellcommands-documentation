@@ -38,6 +38,16 @@ aliases:
 > Shell\;command\;execution\;duration + Cooldown\;duration = Debounce\;total\;duration\;
 > $$
 
+### Cooldown can be prolonged
+Below the _Cooldown duration_ setting, there is another setting called _Prolong cooldown_. If turned on, then each discarded or postponed event occurrence that happens **during a cooldown phase** will cause the cooldown to **start over**. This prolongs the phase (during which shell command execution is postponed or discarded) for as long as events keep occurring.
+
+> [!Success] Ideal use case for cooldown prolonging
+> Prolonging is ideal for example when editing files triggers automatic backup or synchronization. These processes are only wanted to be executed after all edits are done.
+
+> [!Warning] When cooldown prolonging is not beneficial
+> - Prolonging is not desired when results are needed quickly, and when multiple executions (even unnecessary ones) do no harm.
+> - For example, a `git lens` command that outputs the latest [Git](https://git-scm.com) commit time, message and author, is expected to be executed shortly after moving the caret in editor, so _Prolong cooldown_ should be turned off.
+
 ## Different debouncing modes
 
 There are different modes for deciding in which order shell command _execution_ and _cooldown_ should happen, each having their own ideal use cases.
