@@ -559,6 +559,53 @@
       }
     },
     {
+      "id": "n2py3h2at4",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": " get-clipboard -Format image\n $img = get-clipboard -format image\n $img.save(\"{{event_file_path:absolute}}\")\n# Copied 2022-12-05 from https://stackoverflow.com/a/55226209/2754026\n# Only works with PowerShell 5, not with newer versions!"
+      },
+      "shells": {
+        "win32": "PowerShell.exe"
+      },
+      "alias": "Paste image to replace",
+      "icon": "image-off",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {
+        "file-menu": {
+          "enabled": true
+        }
+      },
+      "command_palette_availability": "disabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": false,
+          "prompt_id": "k2jniuruaf"
+        }
+      ],
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "modal",
+          "convert_ansi_code": true
+        }
+      }
+    },
+    {
       "id": "95rhxothbj",
       "platform_specific_commands": {
         "default": "python3 Assets/Scripts/updateFooters.py"
