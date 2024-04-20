@@ -1,6 +1,7 @@
 ---
 aliases:
   - Event debouncing
+  - debouncing
 ---
 
 > [!Warning] This feature is only available in a beta test
