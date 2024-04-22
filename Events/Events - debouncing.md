@@ -79,7 +79,8 @@ This mode is suitable in situations where something needs to be updated occasion
 > [!Success] Ideal use case for _Cooldown first, then execute_
 > Committing changed files automatically to a version control system (such as [Git](https://git-scm.com)) is reasonable to be debounced so that the first occurrence of e.g. [[File content modified]] event does **not immediately** create a commit. Instead, it should start a waiting phase (cooldown) lasting for example 30 seconds. Otherwise, mass-editing multiple files (e.g. by renaming note files that have backlinks in other files), or editing a single file multiple times, could cause multiple commits to be made, if [[#Mode Execute before cooldown|Execute before cooldown]] or [[#Mode Execute before and after cooldown|Execute before and after cooldown]] were used instead. So, [[#Mode Execute after cooldown|Execute after cooldown]] is a better choice here.
 > 
-> [Real-life use case on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/319#discussion-4762076)
+> - [Real-life use case on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/319#discussion-4762076)
+> - Example: [[Synchronize vault's files using Git]]
 
 > [!Warning] Exiting Obsidian cancels delayed executions
 > Please note that postponed executions will not be carried out, if Obsidian quits before they are launched. [If you wish the plugin to trigger pending executions when Obsidian quits, please start a new _Idea_ discussion on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas)
