@@ -4,6 +4,10 @@ cssclasses:
 aliases:
   - "{{event_type:category}}"
 ---
+> [!Warning] This feature is only available in a beta test
+> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
+> %% #TODO: Remove this annotation when the final version is released. %%
+
 # Variable: `{{event_type}}` or `{{event_type:category}}`
 > [!Quote] {{event_type}} described in the *Shell commands* plugin's settings
 > Tells which event was triggered.
