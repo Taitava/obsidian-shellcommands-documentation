@@ -8,8 +8,9 @@ cssclasses:
 | `editor` | `caret-moved` |
 ## Execution
 > [!Success] Executed when
-> - The text caret (sometimes called as _cursor_) moves in an editor.
->     - Including [canvas](https://obsidian.md/canvas) content editor.
+> - User moves a text caret (sometimes called as _cursor_) in an editor.
+> - Caret is moved programmatically, e.g. when using the [[Output channel - Open files|Open files]] output handler to place the caret to a specific location.
+> - Also works in [canvas](https://obsidian.md/canvas) content editor.
 
 > [!Fail] Not executed when
 > - Caret moves in file name field.
