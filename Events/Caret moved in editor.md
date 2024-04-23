@@ -14,6 +14,9 @@ cssclasses:
 > [!Fail] Not executed when
 > - Caret moves in file name field.
 
+> [!Warning] Warning: May cause frequent executions
+> Caret movement can cause repeated shell command executions in a very short time. To prevent redundant executions, it's recommended to use [[Events - debouncing|debouncing]] with this event. A good debouncing mode could be [[Events - debouncing#Mode Execute after cooldown|Execute after cooldown]].
+
 ## Line or column changes
 
 The event can be configured to only execute a shell command...
