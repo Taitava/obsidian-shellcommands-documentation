@@ -38,7 +38,8 @@ The Obsidian event that powers this feature is [`editor-menu` on `workspace` eve
 - [0.10.0 - 2022-02-06](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0100---2022-02-06): The event was released. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).
 
 
-> [!page-edit-history]- Page edit history: 2022-01-01 &#10132; 2023-03-12
+> [!page-edit-history]- Page edit history: 2022-01-01 &#10132; 2024-02-10
+> - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0ef4d4c717223599d69d32a92845bef694925026): Documentation for [[{{event_type}}]] variable.
 > - [<small>2023-03-12</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/100c87e8b6aade32c84dd8416cd06ce010118711): Menu events: Add a note about Obsidian's "Native menus" setting.
 > - [<small>2023-01-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/d920e787236965331f1b1fc7d1341a86df53cbd3): 0.18.1 history records.
 > - [<small>2022-12-11</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/10ffc392aaf12df9cc211fb05030d43bcb772aad): Change ## History to # History on all pages.

@@ -29,3 +29,10 @@ The vault has the following features:
     - If wanted, `git push` could be extracted to a separate shell command and executed e.g. every 10 minutes and every time Obsidian quits.
      - **Note that events are disabled by default in the vault.** This is to ensure you have the opportunity to inspect the shell commands before they are executed. After inspecting, you can [[Events - general principles#See which events are currently enabled|read this to know how to enable events]].
  - To make `git push` work, the repository needs to be forked in GitHub, as only I can push to the original repository.
+
+# History
+> [!page-edit-history]- Page edit history: 2024-04-20 &#10132; 2024-04-20
+> - [<small>2024-04-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/85d8f71d01aaeeefc39de8dce892e119d7da297e): Example: [[Synchronize vault's files using Git.md]].
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Example%20shell%20commands/Synchronize%20vault%27s%20files%20using%20Git.md).
+> ^page-edit-history

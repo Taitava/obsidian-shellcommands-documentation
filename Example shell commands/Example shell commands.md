@@ -16,7 +16,8 @@ These are just examples, and this plugin **does not** define them for you automa
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2022-03-05
+> [!page-edit-history]- Page edit history: 2021-11-19 &#10132; 2024-04-20
+> - [<small>2024-04-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/85d8f71d01aaeeefc39de8dce892e119d7da297e): Example: [[Synchronize vault's files using Git.md]].
 > - [<small>2022-03-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/da3fab304cf1ecd9f7134fa969e4e6b3f8a9fa11): Add an example: Remember caret position when reopening Obsidian
 > - [<small>2022-01-29</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e5b806c587863e196b130ee859c05d9ac9ff0fae): Examples: Display a clock.
 > - [<small>2022-01-04</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3aa41de3fe5fbc68f915bb05dc3313ba598ce3a8): WIP: Example: Display file size and modification time on status bar.
