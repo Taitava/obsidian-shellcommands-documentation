@@ -305,16 +305,7 @@
           "prompt_id": "4huy5mwqf8"
         }
       ],
-      "variable_default_values": {
-        "euxjrqgpyh": {
-          "type": "value",
-          "value": "0..0"
-        },
-        "fx1gavqiys": {
-          "type": "value",
-          "value": "{{date:YYYY-MM-DD}}"
-        }
-      },
+      "variable_default_values": {},
       "icon": null,
       "id": "30",
       "output_wrappers": {
@@ -1084,7 +1075,10 @@
       "id": "fx1gavqiys",
       "name": "release_date",
       "description": "Used in replace-todo-dates.py",
-      "default_value": null
+      "default_value": {
+        "type": "value",
+        "value": "{{date:YYYY-MM-DD}}"
+      }
     },
     {
       "id": "yvz02tniok",
