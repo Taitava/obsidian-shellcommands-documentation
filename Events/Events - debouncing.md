@@ -3,11 +3,6 @@ aliases:
   - Event debouncing
   - debouncing
 ---
-
-> [!Warning] This feature is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 > [!Info] About debouncing
 > Certain events may trigger a shell command's execution so often that it's desirable to limit how often events can execute the shell command. This is called [_debouncing_](http://unscriptable.com/2009/03/20/debouncing-javascript-methods/).
 > - Debouncing prevents certain events from starting a shell command's execution if the command is already executing, is about to be executed, or has finished executing a short time ago. A _cooldown_ time is used to define for how long subsequent executions are prevented before or after a shell command's execution.
@@ -121,10 +116,15 @@ This mode is suitable for situations where no harm is caused by executing a shel
 > Note that if a shell command is executed by any of the means listed above, those executions are not seen by the debouncing mechanism, and so they will not prevent any event from performing a simultaneous execution. [If you wish this to be changed, please start a new _Idea_ discussion on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Support for debouncing was released. ([#380](https://github.com/Taitava/obsidian-shellcommands/issues/380)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): Support for debouncing was released. ([#380](https://github.com/Taitava/obsidian-shellcommands/issues/380)).
 
 
-> [!page-edit-history]- Page edit history: 2024-01-14 &#10132; 2024-01-20
+> [!page-edit-history]- Page edit history: 2024-01-14 &#10132; 2024-04-22
+> - [<small>2024-04-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/8d05a01ba0191a25d1c01536f8478105f65a3f26): [[Events - debouncing.md]]: Add a link to an example [[Synchronize vault's files using Git.md]].
+> - [<small>2024-04-19</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/613f5e40a7fd80e72157ae63334954b9ade1d43b): [[Events - debouncing.md]]: Information about _Prolong cooldown_.
+> - [<small>2024-04-18</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9ec94b156f5cfb9cc5ca9bd81010be797c20d608): [[Events - debouncing.md]]: Change "Execute after cooldown" description.
+> - [<small>2024-04-16</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/9de13888a6eec582a73b6eda9bae5a27adee1195): [[Events - debouncing.md]]: Debouncing modes' terminology has changed.
+> - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/15ca166abf48b17bdb6a8a3f4d4cd6142cb8d9e3): Revert "Rename [[Caret moved in editor.md]] to [[Caret moves in editor.md]]."
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1399ca5f52956bd6ba2b3202720d6422f270c088): Rename [[Caret moved in editor.md]] to [[Caret moves in editor.md]].
 > - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e854c7f77ae93e038265401a766595f870feac47): First version of [[Events - debouncing.md]].
 > 

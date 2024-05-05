@@ -2,11 +2,6 @@
 cssclasses:
   - customiseTitle
 ---
-
-> [!Warning] This variable is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 # Variable: `{{shell_commands_plugin_version:plugin}}`, `{{shell_commands_plugin_version:plugin:major|minor|patch}}`, `{{shell_commands_plugin_version:settings}}`, or `{{shell_commands_plugin_version:settings:major|minor|patch}}`
 > [!Quote] {{shell_commands_plugin_version}} described in the *Shell commands* plugin's settings
 > Gives the plugin's version or settings structure version.
@@ -42,7 +37,7 @@ cssclasses:
 - [[{{obsidian_api_version}}]]
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was promoted, so it doesn't require debug mode anymore. ([#387](https://github.com/Taitava/obsidian-shellcommands/issues/387)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): The variable was promoted, so it doesn't require debug mode anymore. ([#387](https://github.com/Taitava/obsidian-shellcommands/issues/387)).
     - It was also renamed from `{{shell_commands_plugin:plugin-version}}`/`{{shell_commands_plugin:settings-version}}` to `{{shell_commands_plugin_version:plugin}}`/`{{shell_commands_plugin_version:settings}}`.
     - It's now also possible to get just a part of the version by a new argument `:major` / `:minor` / `:patch`.
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): The variable became available in debug mode only by the name `{{shell_commands_plugin:plugin-version}}`/`{{shell_commands_plugin:settings-version}}` ([#341](https://github.com/Taitava/obsidian-shellcommands/issues/341)).

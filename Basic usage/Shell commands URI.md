@@ -63,7 +63,7 @@ I'm not going into huge details on how to use the Obsidian Advanced URI plugin h
 > - **Shell commands URI does not support opening a specific file before executing a shell command**, which is [supported by Obsidian Advanced URI](https://vinzent03.github.io/obsidian-advanced-uri/actions/navigation). This support might be added to Shell commands URI later.
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Changing custom variable values via Shell commands URI now [[Custom variables#Show notifications when values change|displays a notification balloon (configurable)]]. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): Changing custom variable values via Shell commands URI now [[Custom variables#Show notifications when values change|displays a notification balloon (configurable)]]. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): The support for shell command URI was released. ([#202](https://github.com/Taitava/obsidian-shellcommands/issues/202)).
 
 > [!page-edit-history]- Page edit history: 2022-04-30 &#10132; 2024-01-20

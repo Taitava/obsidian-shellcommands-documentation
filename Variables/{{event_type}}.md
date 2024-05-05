@@ -65,4 +65,10 @@ The variable has two modes:
 > In all events.
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was released. ([#394](https://github.com/Taitava/obsidian-shellcommands/issues/394)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): The variable was released. ([#394](https://github.com/Taitava/obsidian-shellcommands/issues/394)).
+
+> [!page-edit-history]- Page edit history: 2024-02-10 &#10132; 2024-02-10
+> - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0ef4d4c717223599d69d32a92845bef694925026): Documentation for [[{{event_type}}]] variable.
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Bevent_type%7D%7D.md).
+> ^page-edit-history

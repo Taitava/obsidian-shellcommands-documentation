@@ -95,7 +95,9 @@ From SC version `0.22.0` onwards, the plugin displays a notification balloon by 
   - _Via URI: Notify_ / _Via output assignment: Notify_
   - _Via URI: Don't notify_ / _Via output assignment: Don't notify_
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): [[#Monitor the custom variable values|Custom variables view]] can now be opened via a ribbon icon in the left sidebar of Obsidian. ([#386](https://github.com/Taitava/obsidian-shellcommands/issues/386)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05):
+    -  A new output channel [[Output channel - Assign custom variables|Assign custom variables]] can now be used to set values to custom variables. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
+    - [[#Monitor the custom variable values|Custom variables view]] can now be opened via a ribbon icon in the left sidebar of Obsidian. ([#386](https://github.com/Taitava/obsidian-shellcommands/issues/386)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was released. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
 
 > [!page-edit-history]- Page edit history: 2022-04-11 &#10132; 2024-01-21
