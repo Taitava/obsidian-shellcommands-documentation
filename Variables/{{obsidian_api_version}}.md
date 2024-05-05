@@ -2,11 +2,6 @@
 cssclasses:
   - customiseTitle
 ---
-
-> [!Warning] This variable is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 # Variable: `{{obsidian_api_version}}` or `{{obsidian_api_version:major|minor|patch}}`
 > [!Quote] {{obsidian_api_version}} described in the *Shell commands* plugin's settings
 > Gives Obsidian's API version, which follows the release cycle of the desktop application.
@@ -58,7 +53,7 @@ cssclasses:
 - [[{{shell_commands_plugin_version}}]]
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was promoted, so it doesn't require debug mode anymore. ([#387](https://github.com/Taitava/obsidian-shellcommands/issues/387)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): The variable was promoted, so it doesn't require debug mode anymore. ([#387](https://github.com/Taitava/obsidian-shellcommands/issues/387)).
     - It was also renamed from `{{obsidian_api:version}}` to `{{obsidian_api_version}}`.
     - It's now also possible to get just a part of the version by a new argument `:major` / `:minor` / `:patch`.
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): The variable became available in debug mode only by the name `{{obsidian_api:version}}` ([#341](https://github.com/Taitava/obsidian-shellcommands/issues/341)).

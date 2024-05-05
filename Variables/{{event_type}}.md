@@ -4,10 +4,6 @@ cssclasses:
 aliases:
   - "{{event_type:category}}"
 ---
-> [!Warning] This feature is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 # Variable: `{{event_type}}` or `{{event_type:category}}`
 > [!Quote] {{event_type}} described in the *Shell commands* plugin's settings
 > Tells which event was triggered.
@@ -69,7 +65,7 @@ The variable has two modes:
 > In all events.
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The variable was released. ([#394](https://github.com/Taitava/obsidian-shellcommands/issues/394)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): The variable was released. ([#394](https://github.com/Taitava/obsidian-shellcommands/issues/394)).
 
 > [!page-edit-history]- Page edit history: 2024-02-10 &#10132; 2024-02-10
 > - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0ef4d4c717223599d69d32a92845bef694925026): Documentation for [[{{event_type}}]] variable.

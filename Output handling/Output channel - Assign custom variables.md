@@ -4,11 +4,6 @@ aliases:
 cssclasses:
   - customiseTitle
 ---
-
-> [!Warning] This feature is only available in a beta test  
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 # Output channel: Assign custom variables
 
 > [!Info]
@@ -118,7 +113,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > Then again, if the [[Realtime output handling#Wait until finished|wait until finished]] mode is used, the shell command must output only a single JSON object. Of course, that object can contain multiple custom variable assignments.
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The output channel was released. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): The output channel was released. ([#382](https://github.com/Taitava/obsidian-shellcommands/issues/382)).
 
 > [!page-edit-history]- Page edit history: 2024-01-20 &#10132; 2024-01-20
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b15d62c0164dd1b8cc676a40a21e2aaf062704f): New output handler [[Output channel - Assign custom variables.md]].

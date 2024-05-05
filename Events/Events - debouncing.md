@@ -3,11 +3,6 @@ aliases:
   - Event debouncing
   - debouncing
 ---
-
-> [!Warning] This feature is only available in a beta test
-> - [Participate in the test](https://github.com/Taitava/obsidian-shellcommands/discussions/391).
-> %% #TODO: Remove this annotation when the final version is released. %%
-
 > [!Info] About debouncing
 > Certain events may trigger a shell command's execution so often that it's desirable to limit how often events can execute the shell command. This is called [_debouncing_](http://unscriptable.com/2009/03/20/debouncing-javascript-methods/).
 > - Debouncing prevents certain events from starting a shell command's execution if the command is already executing, is about to be executed, or has finished executing a short time ago. A _cooldown_ time is used to define for how long subsequent executions are prevented before or after a shell command's execution.
@@ -121,7 +116,7 @@ This mode is suitable for situations where no harm is caused by executing a shel
 > Note that if a shell command is executed by any of the means listed above, those executions are not seen by the debouncing mechanism, and so they will not prevent any event from performing a simultaneous execution. [If you wish this to be changed, please start a new _Idea_ discussion on GitHub](https://github.com/Taitava/obsidian-shellcommands/discussions/categories/ideas).
 
 # History
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Support for debouncing was released. ([#380](https://github.com/Taitava/obsidian-shellcommands/issues/380)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): Support for debouncing was released. ([#380](https://github.com/Taitava/obsidian-shellcommands/issues/380)).
 
 
 > [!page-edit-history]- Page edit history: 2024-01-14 &#10132; 2024-04-22
