@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.21.0",
+  "settings_version": "0.22.0",
   "debug": true,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -59,7 +59,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "alias": "Git Bash",
@@ -95,7 +97,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "alias": "Terminal in test suite folder (Linux) (No need to test)",
@@ -129,7 +133,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "alias": "Git pull",
@@ -163,7 +169,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "alias": "Terminal in plugin folder (Linux) (No need to test)",
@@ -197,7 +205,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -231,7 +241,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -270,7 +282,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -320,7 +334,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -358,7 +374,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -396,7 +414,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -434,7 +454,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "platform_specific_commands": {
@@ -468,7 +490,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "cuepyks12f",
@@ -509,7 +533,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "n2py3h2at3",
@@ -556,7 +582,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "n2py3h2at4",
@@ -603,7 +631,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "95rhxothbj",
@@ -637,7 +667,9 @@
           "handler": "modal",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "9fbeydy9mz",
@@ -683,7 +715,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "qglyfz5k0m",
@@ -720,7 +754,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "qa4k3a5nl6",
@@ -759,7 +795,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "gx8cszcfck",
@@ -794,7 +832,9 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "h1sxcmh4xt",
@@ -841,7 +881,9 @@
           "type": "value",
           "value": "{{file_path:relative}}"
         }
-      }
+      },
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "2i8ah219iy",
@@ -883,7 +925,9 @@
       },
       "command_palette_availability": "disabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "execution_notification_mode": null,
+      "debounce": null
     },
     {
       "id": "vvda8c9kf4",
@@ -918,7 +962,9 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "execution_notification_mode": null,
+      "debounce": null
     }
   ],
   "prompts": [
@@ -1062,6 +1108,10 @@
       "default_value": null
     }
   ],
+  "custom_variables_notify_changes_via": {
+    "obsidian_uri": true,
+    "output_assignment": true
+  },
   "custom_shells": [],
   "output_wrappers": [
     {
