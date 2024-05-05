@@ -1,6 +1,6 @@
 {
   "settings_version": "0.22.0",
-  "debug": true,
+  "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
@@ -1010,7 +1010,7 @@
         {
           "label": "Obsidian version",
           "description": "",
-          "default_value": "{{obsidian_api:version}}",
+          "default_value": "{{obsidian_api_version}}",
           "target_variable_id": "yvz02tniok",
           "required": true,
           "type": "single-line-text"
@@ -1075,7 +1075,10 @@
       "id": "euxjrqgpyh",
       "name": "sc_version",
       "description": "Used in replace-todo-dates.py",
-      "default_value": null
+      "default_value": {
+        "type": "value",
+        "value": "{{shell_commands_plugin_version:plugin}}"
+      }
     },
     {
       "id": "fx1gavqiys",
