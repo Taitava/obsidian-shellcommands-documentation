@@ -1,6 +1,6 @@
 ## #TODO
 > [!Bug] This documentation page is under construction.
-
+> Meanwhile, you can read about [PowerShell on Wikipedia](https://en.wikipedia.org/wiki/PowerShell).
 # PowerShell Core
 
 # PowerShell 5

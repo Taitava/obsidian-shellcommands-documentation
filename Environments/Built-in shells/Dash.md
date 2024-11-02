@@ -1,6 +1,6 @@
 ## #TODO
 > [!Bug] This documentation page is under construction.
-
+> Meanwhile, you can read about [Dash on Wikipedia](https://en.wikipedia.org/wiki/Almquist_shell#dash).
 # History
 
 

@@ -1,6 +1,6 @@
 ## #TODO
 > [!Bug] This documentation page is under construction.
-
+> Meanwhile, you can read about [Bash on Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 # History
 
 
