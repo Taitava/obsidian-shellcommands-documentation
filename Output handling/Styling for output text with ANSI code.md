@@ -38,3 +38,10 @@ With text styling disabled, the error message is much harder to read.
 
 # History
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): Support for ANSI code handling was created ([#329](https://github.com/Taitava/obsidian-shellcommands/issues/329)).
+
+
+> [!page-edit-history]- Page edit history: 2024-11-02 &#10132; 2024-11-02
+> - [<small>2024-11-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/75e81d2ca3fdb5a918f93532900fdffd8edc0bf6): Create page [[Styling for output text with ANSI code.md]].
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Output%20handling/Styling%20for%20output%20text%20with%20ANSI%20code.md).
+> ^page-edit-history

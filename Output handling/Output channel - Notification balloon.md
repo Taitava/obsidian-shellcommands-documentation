@@ -50,7 +50,9 @@ If you define your shell command's [[Realtime output handling|output to be handl
 - [0.5.1 - 2021-10-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#051---2021-10-09): Error balloon: Fixed exit code being sometimes null. ([#67](https://github.com/Taitava/obsidian-shellcommands/issues/67)).
 - [0.5.0 - 2021-10-02](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#050---2021-10-02): The output channel was released. ([#34](https://github.com/Taitava/obsidian-shellcommands/issues/34)).
 
-> [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2022-11-26
+> [!page-edit-history]- Page edit history: 2021-11-25 &#10132; 2024-11-02
+> - [<small>2024-11-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/15fd0a3a71ae4691aa7b183e1214b3963693fa42): [[Output channel - Notification balloon.md]]: Forgot to add a history record.
+> - [<small>2024-11-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/1faebb9e5cdab82bee3bf0346a84c489f8bf907b): [[Output channel - Notification balloon.md]]: Add information about monospace formatting.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c96937ed11df76038408f3b8e89529e6732878fc): 0.17.0 is released.
 > - [<small>2022-11-26</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/51befca61156a26873f502966d42de2d98b382fe): 'Ask after execution' and 'Notification balloon': Mention an icon that can be used to terminate processes.
 > - [<small>2022-11-05</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/ba41cfb111b3cfd904f82df2746ef4689d9abba3): Realtime output handling.
