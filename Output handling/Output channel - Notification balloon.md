@@ -13,9 +13,21 @@ cssclass: customiseTitle
  You can identify an *error balloon* by the brackets `[` `]` preceding the output message. The brackets indicate the exit code (aka error number) that the shell command returned at the end, e.g. *0* in the image above. A *notification balloon* does not have the brackets nor an exit code.
  
  **Good for**: Short output that can be discarded after a short period of time. Suits for  a small amount of multi line output, too.
- 
- You can customize for how long *notification balloons* and *error balloons* are visible in the plugin's settings panel (in *Output* tab):
- ![[Settings-main-output-tab.png]]
+
+# Notification settings
+
+Global settings for notifications created from all shell commands can be configured in the plugin's main settings panel's _Output_ tab:
+
+  ![[Settings-main-output-tab.png]]
+
+## Notification durations
+You can customize for how long *notification balloons* and *error balloons* are visible in the plugin's settings panel.
+
+These durations affect both messages originating from shell command execution, and also the plugin's own messages.
+
+## Monospace formatting
+
+Outputted text from shell commands can be formatted using a monospace font that has an equal width for every character. It might be good for short, technical output or error messages, but not so readable for long natural texts. This is controlled by the _Outputting to Notification/error balloon uses monospace formatting_ setting.
 
 # Differences in *realtime* mode  
   
