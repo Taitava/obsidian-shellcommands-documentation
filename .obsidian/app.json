@@ -31,5 +31,6 @@
   "communityPluginSortOrder": "download",
   "showLineNumber": true,
   "tabSize": 4,
-  "useTab": false
+  "useTab": false,
+  "propertiesInDocument": "source"
 }
