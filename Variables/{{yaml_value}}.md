@@ -38,7 +38,7 @@ tags:
 First tag: `{{yaml_value:tags.0}}` gives *first-tag*.
 Second tag: `{{yaml_value:tags.1}}` gives *second-tag*.
 So lists are 0-indexed!
-**Note that for [Obsidian tags](https://help.obsidian.md/How+to/Working+with+tags), you cannot access inline tags with this variable - only tags that are defined in the YAML frontmatter.**
+**Note that for [Obsidian tags](https://help.obsidian.md/How+to/Working+with+tags), you cannot access inline tags with this variable - only tags that are defined in the YAML frontmatter.** The [[{{tags}}]] variable can be used to read all tags.
 
 ### Also negative indexes are supported
 Last tag: `{{yaml_value:tags.-1}}` gives *second-tag*.
