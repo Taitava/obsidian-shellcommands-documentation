@@ -17,7 +17,7 @@
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
-  "outline": false,
+  "outline": true,
   "word-count": false,
   "slides": false,
   "audio-recorder": false,
