@@ -16,6 +16,8 @@ cssclass: customiseTitle
 
 ## See also
 - [[{{yaml_value}}]]
+- [[{{yaml_values}}]]
+- [[{{event_yaml_values}}]]
 
 # History
 - [0.12.1 - 2022-05-16](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0121---2022-05-16): Fixed a bug that caused a wrong error message to be displayed when the desired YAML property was not found. The bug appeared in version `0.12.0` when support for [[default values]] was implemented. ([#220](https://github.com/Taitava/obsidian-shellcommands/issues/220)).
