@@ -5,6 +5,10 @@ cssclass: customiseTitle
 > [!Quote] {{event_yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the event related file's frontmatter. Takes a property name as an argument. You can access nested properties with dot notation: property1.property2
 
+![[{{yaml_value}}#Using dot notation to access nested properties]]
+
+![[{{yaml_value}}#Accessing list values with numeric indexes]]
+
 ## Availability
 > [!Warning] Only available:
 > - In events: [[File menu]], [[File created]], [[File content modified]], [[File deleted]], [[File moved]], [[File renamed]].
