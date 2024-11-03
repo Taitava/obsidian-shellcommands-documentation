@@ -1,7 +1,7 @@
 ---
 cssclass: customiseTitle
 ---
-# Variable: `{{yaml_value}}`
+# Variable: `{{yaml_value:property}}`
 > [!Quote] {{yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the current file's frontmatter. Give a property name as an argument. You can access nested properties with dot notation: property1.property2
 
