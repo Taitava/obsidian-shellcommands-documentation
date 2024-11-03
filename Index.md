@@ -52,6 +52,7 @@ You will probably not need to look at these features in the beginning. These mig
 - [[Ignoring errors]]
 - [[Output wrappers|Wrapping output with surrounding text]]
 - [[Realtime output handling]]
+- [[Styling for output text with ANSI code]]
 
 ### Preactions
 Actions that are performed before executing a shell command, i.e. preparations.
@@ -100,7 +101,8 @@ Also, some screenshots may be from older versions of SC, in case no significant 
 # History
 
 
-> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2024-01-14
+> [!page-edit-history]- Page edit history: 2021-10-03 &#10132; 2024-11-02
+> - [<small>2024-11-02</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/75e81d2ca3fdb5a918f93532900fdffd8edc0bf6): Create page [[Styling for output text with ANSI code.md]].
 > - [<small>2024-01-14</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/e854c7f77ae93e038265401a766595f870feac47): First version of [[Events - debouncing.md]].
 > - [<small>2023-03-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/95767b52f215e02a5e0f2be13bcc092ca7a2d8ae): Index.md: Add a link to [[Custom shells]].
 > - [<small>2023-02-28</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/7c25de016fcfca074a5743207377e6730e6a58f9): Change word "Macintosh" to "macOS".
