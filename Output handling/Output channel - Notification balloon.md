@@ -29,6 +29,8 @@ These durations affect both messages originating from shell command execution, a
 
 Outputted text from shell commands can be formatted using a monospace font that has an equal width for every character. It might be good for short, technical output or error messages, but not so readable for long natural texts. This is controlled by the _Outputting to Notification/error balloon uses monospace formatting_ setting.
 
+This feature uses _Monospace font_ defined in Obsidian's settings: _Appearance_ -> _Monospace font_. If you have the _Shell commands_ plugin's settings pane and the _Output_ tab open, you can take a shortcut to the monospace font setting by clicking the icon with tooltip _Manage Obsidian's Monospace font_.
+
 # Differences in *realtime* mode  
   
 If you define your shell command's [[Realtime output handling|output to be handled in realtime mode]], the output might show up a bit differently than in [[Realtime output handling#Wait until finished|wait until finished]] mode.  
@@ -43,6 +45,7 @@ If you define your shell command's [[Realtime output handling|output to be handl
 > ^differences-in-realtime
 
 # History
+- #TODO: Add a date [0.23.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Monospace formatting now uses the _Monospace font_ defined in Obsidian's settings. ([#431](https://github.com/Taitava/obsidian-shellcommands/issues/431)).
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): Notifications have monospace formatting now. ([#329](https://github.com/Taitava/obsidian-shellcommands/issues/329)).
 - [0.17.0 - 2022-11-26](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0170---2022-11-26):
 	- The output channel can now handle output in [[Realtime output handling|realtime mode]], too. ([#275](https://github.com/Taitava/obsidian-shellcommands/issues/275)).
