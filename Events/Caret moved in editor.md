@@ -37,8 +37,8 @@ This event does not provide additional event specific variables, but all [[All v
 This event is powered by a [custom CodeMirror extension](https://github.com/Taitava/obsidian-shellcommands/blob/96e7656a48dc5ca3bcaad7cfca052c39b4ac7252/src/events/SC_Event_CaretMoved.ts#L37-L69).
 
 # History
-- #TODO: Add a date [0.23.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The event was **finally** released. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
-- #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Added information to the event's settings that it does not work. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
+- [0.23.0 - 2024-11-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0230---2024-11-09): The event was **finally** released. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
+- [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): Added information to the event's settings that it does not work. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): Incomplete code of the event was accidentally released. The event does not work yet. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 
 > [!page-edit-history]- Page edit history: 2023-06-25 &#10132; 2024-02-10

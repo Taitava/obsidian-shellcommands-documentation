@@ -25,4 +25,4 @@ cssclass: customiseTitle
 - [[{{event_yaml_values}}]]
 
 # History
-- #TODO: Add a date [0.23.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): The variable was released. ([#424](https://github.com/Taitava/obsidian-shellcommands/issues/424)).
+- [0.23.0 - 2024-11-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0230---2024-11-09): The variable was released. ([#424](https://github.com/Taitava/obsidian-shellcommands/issues/424)).

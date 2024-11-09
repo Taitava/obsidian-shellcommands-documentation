@@ -165,7 +165,7 @@ Create a file in `.obsidian/snippets` folder. Name the file for example `prompts
 > (The `div` keyword can be removed, it's just there to indicate that the modal element is an HTML `<div>` element.)
 
 # History
-- #TODO: Add a date [0.23.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Fixed a bug that caused prompts not to work in certain situations on Obsidian 1.7.2 and newer. ([#433](https://github.com/Taitava/obsidian-shellcommands/issues/433)).
+- [0.23.0 - 2024-11-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0230---2024-11-09): Fixed a bug that caused prompts not to work in certain situations on Obsidian 1.7.2 and newer. ([#433](https://github.com/Taitava/obsidian-shellcommands/issues/433)).
 - [0.21.0 - 2023-12-30](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0210---2023-12-30): New field types in addition to the original single line text: multiline text, toggle, dropdown menu and password. ([#365](https://github.com/Taitava/obsidian-shellcommands/issues/365)).
 - [0.13.0 - 2022-06-28](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0130---2022-06-28): Hitting the `Enter` key in the prompt modal now closes it and executes the shell command. ([#216](https://github.com/Taitava/obsidian-shellcommands/issues/216)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for prompts was released. ([#37](https://github.com/Taitava/obsidian-shellcommands/issues/37)).
