@@ -101,7 +101,8 @@ From SC version `0.22.0` onwards, the plugin displays a notification balloon by 
     - [[#Monitor the custom variable values|Custom variables view]] can now be opened via a ribbon icon in the left sidebar of Obsidian. ([#386](https://github.com/Taitava/obsidian-shellcommands/issues/386)).
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): The support for custom variables was released. ([#159](https://github.com/Taitava/obsidian-shellcommands/issues/159)).
 
-> [!page-edit-history]- Page edit history: 2022-04-11 &#10132; 2024-01-21
+> [!page-edit-history]- Page edit history: 2022-04-11 &#10132; 2024-11-06
+> - [<small>2024-11-06</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/eae52ed041606c79bf06cfc5bb4fe3bfb77fef5b): [[Prompts]] and [[Custom variables]]: Mention a bug fix.
 > - [<small>2024-01-21</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/233fb638fcc6bcdc5ce0a25a3fc461805df43f86): [[Custom variables.md]]: Information about a ribbon icon for the _Custom variables_ pane.
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/b01077427009d4cf1d32f7556cd2f8343ac50a1e): [[Custom variables.md]]: Default values can nowadays be configured globally, too.
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/3b15d62c0164dd1b8cc676a40a21e2aaf062704f): New output handler [[Output channel - Assign custom variables.md]].

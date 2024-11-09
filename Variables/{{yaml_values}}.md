@@ -105,3 +105,10 @@ As is the case with [[{{tags}}]] variable, also any special characters in the `s
 
 # History
 - [0.23.0 - 2024-11-09](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0230---2024-11-09): The variable was released. ([#424](https://github.com/Taitava/obsidian-shellcommands/issues/424)).
+
+
+> [!page-edit-history]- Page edit history: 2024-11-03 &#10132; 2024-11-03
+> - [<small>2024-11-03</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/2eaa0dd425ed6b1a993f417c5d278accdfaac01f): Pages for [[{{yaml_values}}]] and [[{{event_yaml_values}}]].
+> 
+> [<small>See this list of commits on GitHub</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commits/main/Variables/%7B%7Byaml_values%7D%7D.md).
+> ^page-edit-history

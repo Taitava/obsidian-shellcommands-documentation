@@ -41,7 +41,10 @@ This event is powered by a [custom CodeMirror extension](https://github.com/Tait
 - [0.22.0 - 2024-05-05](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0220---2024-05-05): Added information to the event's settings that it does not work. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): Incomplete code of the event was accidentally released. The event does not work yet. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 
-> [!page-edit-history]- Page edit history: 2023-06-25 &#10132; 2024-02-10
+> [!page-edit-history]- Page edit history: 2023-06-25 &#10132; 2024-04-23
+> - [<small>2024-04-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/24d52a33d8275c544f254df3cdbcf862cf300b37): [[Caret moved in editor.md]]: The event is also triggered by programmatic caret moving.
+> - [<small>2024-04-23</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/19a55d968da3ff1c3bbddb53e1118df2c9da34fe): [[Caret moved in editor.md]]: Recommend using debouncing.
+> - [<small>2024-04-22</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/c2160d9de5f2993a0a78b3df8191475d3fb8193b): Shallow documentation for [[Caret moved in editor.md]].
 > - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/0ef4d4c717223599d69d32a92845bef694925026): Documentation for [[{{event_type}}]] variable.
 > - [<small>2024-02-10</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/15ca166abf48b17bdb6a8a3f4d4cd6142cb8d9e3): Revert "Rename [[Caret moved in editor.md]] to [[Caret moves in editor.md]]."
 > - [<small>2024-01-20</small>](https://github.com/Taitava/obsidian-shellcommands-documentation/commit/26d8f10feea73020c6108d632b8581e2f9e40c4e): [[Caret moves in editor.md]]: Add a draft structure.
