@@ -1,7 +1,7 @@
 ---
 cssclass: customiseTitle
 ---
-# Variable: `{{yaml_value}}`
+# Variable: `{{yaml_value:property}}`
 > [!Quote] {{yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the current file's frontmatter. Give a property name as an argument. You can access nested properties with dot notation: property1.property2
 
@@ -38,7 +38,7 @@ tags:
 First tag: `{{yaml_value:tags.0}}` gives *first-tag*.
 Second tag: `{{yaml_value:tags.1}}` gives *second-tag*.
 So lists are 0-indexed!
-**Note that for [Obsidian tags](https://help.obsidian.md/How+to/Working+with+tags), you cannot access inline tags with this variable - only tags that are defined in the YAML frontmatter.**
+**Note that for [Obsidian tags](https://help.obsidian.md/How+to/Working+with+tags), you cannot access inline tags with this variable - only tags that are defined in the YAML frontmatter.** The [[{{tags}}]] variable can be used to read all tags.
 
 ### Also negative indexes are supported
 Last tag: `{{yaml_value:tags.-1}}` gives *second-tag*.
@@ -64,7 +64,9 @@ The `length` property comes from the Obsidian API, it's not any kind of custom f
 > - Also, the given YAML property must exist in the file's frontmatter.
 
 ## See also
+- [[{{yaml_values}}]]
 - [[{{event_yaml_value}}]]
+- [[{{event_yaml_values}}]]
 
 # History
 - [0.12.0 - 2022-05-07](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0120---2022-05-07): Fixed a crash when the argument was empty. The bug appeared in version `0.10.0` at the same time when variable `{{event_yaml_value}}` was released. ([#181](https://github.com/Taitava/obsidian-shellcommands/issues/181)).

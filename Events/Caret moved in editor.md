@@ -2,35 +2,42 @@
 cssclasses:
   - customiseTitle
 ---
-# Whoops - this event doesn't work yet!
-
-I accidentally released some draft code for the _Caret moved in editor_ event in `0.20.0`.  Enabling the event does nothing.
-
-The documentation will be completed when the event is finally finished.
-
-# Event: Caret moves in editor
+# Event: Caret moved in editor
 | [[{{event_type}}\|{{event_type:category}}]] | [[{{event_type}}]] |
 | ---- | --- |
 | `editor` | `caret-moved` |
 ## Execution
 > [!Success] Executed when
-> - #TODO: Add event conditions.
+> - User moves a text caret (sometimes called as _cursor_) in an editor.
+> - Caret is moved programmatically, e.g. when using the [[Output channel - Open files|Open files]] output handler to place the caret to a specific location.
+> - Also works in [canvas](https://obsidian.md/canvas) content editor.
 
 > [!Fail] Not executed when
-> - #TODO: Add event conditions OR remove this callout.
+> - Caret moves in file name field.
+
+> [!Warning] Warning: May cause frequent executions
+> Caret movement can cause repeated shell command executions in a very short time. To prevent redundant executions, it's recommended to use [[Events - debouncing|debouncing]] with this event. A good debouncing mode could be [[Events - debouncing#Mode Execute after cooldown|Execute after cooldown]].
+
+## Line or column changes
+
+The event can be configured to only execute a shell command...
+ - ... only when a line changes.
+ - ... only when a column changes.
+ - ... in both cases.
+![[Settings-modal-events-Caret-moved-in-editor.png]]
 
 ## Variables
 
 This event does not provide additional event specific variables, but all [[All variables#Normal variables|normal variables]] are available.
 
 ## Examples
-- [[]] #TODO: Add an example.
+- [[]] #TODO: Add a git lens example.
 
 ## Based on
-The Obsidian event that powers this feature is [`EVENT NAME HERE` on `workspace` events](https://github.com/obsidianmd/obsidian-api/blob/763a243b4ec295c9c460560e9b227c8f18d8199b/obsidian.d.ts). #TODO: Add event name and exact Obsidian API URL.
+This event is powered by a [custom CodeMirror extension](https://github.com/Taitava/obsidian-shellcommands/blob/96e7656a48dc5ca3bcaad7cfca052c39b4ac7252/src/events/SC_Event_CaretMoved.ts#L37-L69).
 
 # History
-%%- #TODO: Add a date [0.0.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The event was released. ([#123](https://github.com/Taitava/obsidian-shellcommands/issues/123)).%%
+- #TODO: Add a date [0.23.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2022--): The event was **finally** released. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 - #TODO: Add a date [0.22.0 - 2024--](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#00---2024--): Added information to the event's settings that it does not work. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 - [0.20.0 - 2023-06-25](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0200---2023-06-25): Incomplete code of the event was accidentally released. The event does not work yet. ([#345](https://github.com/Taitava/obsidian-shellcommands/issues/345)).
 

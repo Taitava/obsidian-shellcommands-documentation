@@ -1,9 +1,13 @@
 ---
 cssclass: customiseTitle
 ---
-# Variable: `{{event_yaml_value}}`
+# Variable: `{{event_yaml_value:property}}`
 > [!Quote] {{event_yaml_value}} described in the *Shell commands* plugin's settings
 > Reads a single value from the event related file's frontmatter. Takes a property name as an argument. You can access nested properties with dot notation: property1.property2
+
+![[{{yaml_value}}#Using dot notation to access nested properties]]
+
+![[{{yaml_value}}#Accessing list values with numeric indexes]]
 
 ## Availability
 > [!Warning] Only available:
@@ -12,6 +16,8 @@ cssclass: customiseTitle
 
 ## See also
 - [[{{yaml_value}}]]
+- [[{{yaml_values}}]]
+- [[{{event_yaml_values}}]]
 
 # History
 - [0.12.1 - 2022-05-16](https://github.com/Taitava/obsidian-shellcommands/blob/main/CHANGELOG.md#0121---2022-05-16): Fixed a bug that caused a wrong error message to be displayed when the desired YAML property was not found. The bug appeared in version `0.12.0` when support for [[default values]] was implemented. ([#220](https://github.com/Taitava/obsidian-shellcommands/issues/220)).

@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.22.0",
+  "settings_version": "0.23.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -462,7 +462,7 @@
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {},
-      "icon": "clock",
+      "icon": "lucide-clock",
       "id": "34",
       "output_wrappers": {
         "stdout": null,
@@ -493,7 +493,7 @@
       },
       "shells": {},
       "alias": "New image folder",
-      "icon": "folder-plus",
+      "icon": "lucide-folder-plus",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_wrappers": {
@@ -538,7 +538,7 @@
         "win32": "PowerShell.exe"
       },
       "alias": "Paste image to file",
-      "icon": "image",
+      "icon": "lucide-image",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_wrappers": {
@@ -587,7 +587,7 @@
         "win32": "PowerShell.exe"
       },
       "alias": "Paste image to replace",
-      "icon": "image-off",
+      "icon": "lucide-image-off",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_wrappers": {
@@ -633,7 +633,7 @@
       },
       "shells": {},
       "alias": "Update all notes' footers",
-      "icon": "clock",
+      "icon": "lucide-clock",
       "confirm_execution": true,
       "ignore_error_codes": [],
       "output_wrappers": {
@@ -670,7 +670,7 @@
       },
       "shells": {},
       "alias": "Insert history record",
-      "icon": "list",
+      "icon": "lucide-list",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_wrappers": {
@@ -720,7 +720,7 @@
         "win32": "pwsh.exe"
       },
       "alias": "Open current file in WebStorm",
-      "icon": "edit",
+      "icon": "lucide-edit",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -757,7 +757,7 @@
       },
       "shells": {},
       "alias": "Open {{!event_file_name}} in WebStorm",
-      "icon": "edit",
+      "icon": "lucide-edit",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -798,7 +798,7 @@
       },
       "shells": {},
       "alias": "Open a list of callout types in web browser",
-      "icon": "globe",
+      "icon": "lucide-globe",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -835,7 +835,7 @@
       },
       "shells": {},
       "alias": "Open the note in Obsidian Publish",
-      "icon": "paper-plane",
+      "icon": "lucide-send",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -877,13 +877,55 @@
       "debounce": null
     },
     {
+      "id": "1lo3kcvv5v",
+      "platform_specific_commands": {
+        "default": "",
+        "win32": "[Reflection.Assembly]::LoadWithPartialName(\"System.Web\") | Out-Null\n$filePathWithBackslashes = \"{{event_file_path:relative}}\"\n$encodedFilePathWithBackslashes = [System.Web.HttpUtility]::UrlEncode($filePathWithBackslashes)\n$encodedFilePathWithSlashes = $encodedFilePathWithBackslashes -replace '%5c', '/'\nWrite-Host -NoNewLine \"https://publish.obsidian.md/shellcommands/$encodedFilePathWithSlashes\""
+      },
+      "shells": {},
+      "alias": "Copy the note's Obsidian Publish URL",
+      "icon": "lucide-send",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "clipboard",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {
+        "{{event_file_path}}": {
+          "type": "value",
+          "value": "{{file_path:relative}}"
+        }
+      }
+    },
+    {
       "id": "2i8ah219iy",
       "platform_specific_commands": {
         "default": "git branch --show-current"
       },
       "shells": {},
       "alias": "Git: Show branch",
-      "icon": "git-branch",
+      "icon": "lucide-git-branch",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -928,7 +970,7 @@
       },
       "shells": {},
       "alias": "Git: Switch to branch \"main\"",
-      "icon": "git-branch",
+      "icon": "lucide-git-branch",
       "confirm_execution": true,
       "ignore_error_codes": [],
       "input_contents": {
